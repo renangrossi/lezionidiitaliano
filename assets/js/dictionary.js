@@ -22,7 +22,7 @@
       link.textContent = "";
       var icon = link.querySelector("svg");
       if (icon) link.appendChild(icon);
-      link.appendChild(document.createTextNode(raw ? "Look up “" + raw + "”" : "Look up"));
+      link.appendChild(document.createTextNode(raw ? "Consulta “" + raw + "”" : "Consulta"));
     });
   }
 

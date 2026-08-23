@@ -25,12 +25,12 @@
   var activeIndex = -1;
 
   var TYPE_LABEL = {
-    level: "CEFR Level",
-    lesson: "Interactive Lesson",
-    grammar: "Grammar Topic",
-    booklet: "Grammar Booklet",
-    exercise: "Exercise / Text",
-    mock: "Mock Exam",
+    level: "Livello QCER",
+    lesson: "Lezione Interattiva",
+    grammar: "Argomento Grammaticale",
+    booklet: "Dispensa di Grammatica",
+    exercise: "Esercizio / Testo",
+    mock: "Esame Simulato",
     extra: "Extra",
   };
 
@@ -49,9 +49,9 @@
         indexData = [];
         if (window.console) console.error("Search index failed to load", err);
         resultsBox.innerHTML =
-          '<p class="search-modal__hint">Search couldn\u2019t load its index. If you\u2019re viewing this page as a local file ' +
-          "(a URL starting with <code>file://</code>), that's expected \u2014 browsers block that kind of request for local files. " +
-          "Run a local server (e.g. <code>python3 -m http.server</code> in the site folder) or view the deployed site instead.</p>";
+          '<p class="search-modal__hint">Impossibile caricare l\u2019indice di ricerca. Se stai visualizzando questa pagina come file locale ' +
+          "(un indirizzo che inizia con <code>file://</code>), \u00e8 normale \u2014 i browser bloccano questo tipo di richiesta per i file locali. " +
+          "Avvia un server locale (es. <code>python3 -m http.server</code> nella cartella del sito) oppure visita il sito online.</p>";
         return [];
       });
     return indexPromise;
@@ -83,7 +83,7 @@
   function runSearch(query) {
     var q = norm(query).trim();
     if (q.length < 2) {
-      resultsBox.innerHTML = '<p class="search-modal__hint">Type at least 2 characters to search across every level, lesson, grammar topic, exercise and mock exam.</p>';
+      resultsBox.innerHTML = '<p class="search-modal__hint">Digita almeno 2 caratteri per cercare in ogni livello, lezione, argomento grammaticale, esercizio ed esame simulato.</p>';
       activeIndex = -1;
       return;
     }
@@ -100,7 +100,7 @@
       .slice(0, 40);
 
     if (!scored.length) {
-      resultsBox.innerHTML = '<p class="search-modal__hint">No results for &ldquo;' + escapeHtml(query) + '&rdquo;. Try a different word, or browse by level in the navigation.</p>';
+      resultsBox.innerHTML = '<p class="search-modal__hint">Nessun risultato per &ldquo;' + escapeHtml(query) + '&rdquo;. Prova con un\'altra parola, oppure sfoglia i livelli nel menu.</p>';
       activeIndex = -1;
       return;
     }

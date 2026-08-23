@@ -51,22 +51,22 @@ def build(level_code, level_slug):
         sections.append(topic_section(lesson))
         toc_links.append(f'<a href="#{entry["slug"]}">{lesson["title"]}</a>')
 
-    title = f"{level_code} Test Yourself — Mixed Review — Renan the Teacher"
-    description = f"Every {level_code} grammar topic in one mixed review, with instant feedback on every question."
+    title = f"Mettiti alla Prova: {level_code} — Ripasso Misto — Renan the Teacher"
+    description = f"Ogni argomento grammaticale di {level_code} in un ripasso misto, con correzione immediata per ogni domanda."
     breadcrumb = (
         f'<li><a href="{REL}index.html">Home</a></li>'
-        f'<li aria-current="page">Levels</li>'
+        f'<li aria-current="page">Livelli</li>'
         f'<li><a href="../{level_slug}.html">{level_code}</a></li>'
-        f'<li aria-current="page">Test Yourself</li>'
+        f'<li aria-current="page">Mettiti alla Prova</li>'
     )
 
     page_header = f"""<div class="page-header">
         {site_chrome.STARS_ROW}
         <div class="page-header__inner">
             <div class="page-header__text">
-                <p class="eyebrow hero__eyebrow">{level_code} &middot; Mixed Review</p>
-                <h1>Test Yourself: {level_code}</h1>
-                <p class="page-header__lede">Every exercise from every {level_code} lesson, gathered on one page. Work through as much as you like, in any order.</p>
+                <p class="eyebrow hero__eyebrow">{level_code} &middot; Ripasso Misto</p>
+                <h1>Mettiti alla Prova: {level_code}</h1>
+                <p class="page-header__lede">Tutti gli esercizi di ogni lezione {level_code}, raccolti in un'unica pagina. Esercitati quanto vuoi, nell'ordine che preferisci.</p>
             </div>
         </div>
     </div>"""
