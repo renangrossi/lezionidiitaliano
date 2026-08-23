@@ -1,7 +1,7 @@
 """
 Shared page chrome (head/header/nav/search-overlay/footer) for every page
 on the Italian course. This is the sister module to the English course's
-scripts/site_chrome.py, adapted in three structural ways beyond the
+scripts/site_chrome.py, adapted in four structural ways beyond the
 obvious rebrand:
 
   1. No AI Teacher panel/button — omitted sitewide (needs a Cloudflare
@@ -16,6 +16,12 @@ obvious rebrand:
      risk (nine places to update if the brand or nav ever changes) —
      here every page is generated, so there is exactly one copy of the
      chrome markup, in this file.
+  4. The interface language is Italian (lang="it"): every piece of site
+     chrome — nav, buttons, search, the dictionary widget, the footer —
+     is in Italian, since this is now a fully localized Italian product,
+     not an English shell around Italian lesson content. Only the
+     lesson/exercise *content* itself stays bilingual where that's
+     pedagogically the point (see curriculum_source/*.py).
 
 REL is the relative path prefix from the generated file back to the repo
 root, e.g. "" for top-level pages, "levels/" for levels/{level}.html, and
@@ -23,12 +29,12 @@ root, e.g. "" for top-level pages, "levels/" for levels/{level}.html, and
 """
 
 LEVELS = [
-    ("A1", "Beginner", "a1"),
-    ("A2", "Elementary", "a2"),
-    ("B1", "Intermediate", "b1"),
-    ("B2", "Upper Intermediate", "b2"),
-    ("C1", "Advanced", "c1"),
-    ("C2", "Proficient", "c2"),
+    ("A1", "Principiante", "a1"),
+    ("A2", "Elementare", "a2"),
+    ("B1", "Intermedio", "b1"),
+    ("B2", "Intermedio Superiore", "b2"),
+    ("C1", "Avanzato", "c1"),
+    ("C2", "Padronanza", "c2"),
 ]
 
 BRAND_MARK_SVG = (
@@ -59,14 +65,14 @@ def nav_levels_html(rel, active_level_code):
 def head(rel, title, description, extra_css=None):
     extra = "".join(f'<link rel="stylesheet" href="{rel}assets/css/{c}.css">' for c in (extra_css or []))
     return f"""<!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title}</title>
 <meta name="description" content="{description}">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Renan the Teacher — Italian Academy">
+<meta property="og:site_name" content="Renan the Teacher — Accademia di Italiano">
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{description}">
 <meta name="twitter:card" content="summary">
@@ -90,7 +96,7 @@ def head(rel, title, description, extra_css=None):
 
 def header(rel, active_level_code, breadcrumb_html=None, active_top=None):
     breadcrumb = (
-        f"""<nav class="breadcrumbs" aria-label="Breadcrumb">
+        f"""<nav class="breadcrumbs" aria-label="Percorso di navigazione">
         <ol>
         {breadcrumb_html}
         </ol>
@@ -104,57 +110,57 @@ def header(rel, active_level_code, breadcrumb_html=None, active_top=None):
         return f'<li><a href="{rel}{href_suffix}"{current}>{label}</a></li>'
 
     return f"""<body class="" data-level-code="{active_level_code or ''}">
-    <a class="skip-link" href="#main-content">Skip to content</a>
+    <a class="skip-link" href="#main-content">Vai al contenuto</a>
     <header class="site-header">
         <div class="site-header__bar">
             <a class="brand" href="{rel}index.html">
                 {BRAND_MARK_SVG}
                 <span class="brand__text">
                     <span class="brand__name">Renan the Teacher</span>
-                    <span class="brand__tagline">Italian Language Academy</span>
+                    <span class="brand__tagline">Accademia di Italiano</span>
                 </span>
             </a>
-            <nav class="primary-nav" id="primary-nav" role="navigation" aria-label="Main navigation">
+            <nav class="primary-nav" id="primary-nav" role="navigation" aria-label="Navigazione principale">
                 <ul class="primary-nav__list">
                 {top("Home", "index.html", "home")}
-                {top("Grammar", "index.html#grammar", "grammar")}
+                {top("Grammatica", "index.html#grammar", "grammar")}
                 <li class="nav-drop">
                     <button type="button" class="nav-drop__toggle" aria-haspopup="true" aria-expanded="false">
-                        Levels <span class="nav-drop__caret" aria-hidden="true"></span>
+                        Livelli <span class="nav-drop__caret" aria-hidden="true"></span>
                     </button>
                     <ul class="nav-drop__menu" role="menu">
                     {nav_levels_html(rel, active_level_code)}
                     </ul>
                 </li>
-                {top("Exercises", "exercises.html", "exercises")}
-                {top("Simulated Exams", "simulated-exams.html", "exams")}
-                {top("Extras", "extras.html", "extras")}
-                {top("Dictionary", "dictionary.html", "dictionary")}
+                {top("Esercizi", "exercises.html", "exercises")}
+                {top("Esami Simulati", "simulated-exams.html", "exams")}
+                {top("Extra", "extras.html", "extras")}
+                {top("Dizionario", "dictionary.html", "dictionary")}
                 </ul>
             </nav>
             <div class="nav-utility">
-                <button type="button" class="theme-toggle" data-search-toggle aria-label="Search the site" aria-haspopup="dialog">
+                <button type="button" class="theme-toggle" data-search-toggle aria-label="Cerca nel sito" aria-haspopup="dialog">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
                 </button>
-                <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch to dark mode">
+                <button type="button" class="theme-toggle" data-theme-toggle aria-label="Passa alla modalità scura">
                     <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
                     <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5Z"/></svg>
                 </button>
-                <button type="button" class="nav-toggle" data-nav-toggle aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+                <button type="button" class="nav-toggle" data-nav-toggle aria-label="Apri il menu" aria-expanded="false" aria-controls="primary-nav">
                     <span class="nav-toggle__icon"></span>
                 </button>
             </div>
         </div>
     </header>
     <div class="search-overlay" data-search-overlay hidden>
-        <div class="search-modal" role="dialog" aria-modal="true" aria-label="Site search" data-index-src="{rel}assets/data/search-index.json">
+        <div class="search-modal" role="dialog" aria-modal="true" aria-label="Ricerca nel sito" data-index-src="{rel}assets/data/search-index.json">
             <div class="search-modal__bar">
                 <svg class="search-modal__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-                <input type="search" class="search-modal__input" data-search-input placeholder="Search lessons, grammar, vocabulary, exercises&hellip;" aria-label="Search">
-                <button type="button" class="search-modal__close" data-search-close aria-label="Close search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="M6 6l12 12"/></svg></button>
+                <input type="search" class="search-modal__input" data-search-input placeholder="Cerca lezioni, grammatica, vocabolario, esercizi&hellip;" aria-label="Cerca">
+                <button type="button" class="search-modal__close" data-search-close aria-label="Chiudi la ricerca"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="M6 6l12 12"/></svg></button>
             </div>
             <div class="search-modal__results" data-search-results>
-                <p class="search-modal__hint">Type at least 2 characters to search across every level, lesson, grammar topic and exercise.</p>
+                <p class="search-modal__hint">Digita almeno 2 caratteri per cercare in ogni livello, lezione, argomento grammaticale ed esercizio.</p>
             </div>
         </div>
     </div>
@@ -164,16 +170,16 @@ def header(rel, active_level_code, breadcrumb_html=None, active_top=None):
 
 def footer(rel, extra_scripts=None):
     extra = "".join(f'<script src="{rel}assets/js/{s}"></script>' for s in (extra_scripts or []))
-    return f"""<button type="button" class="dict-widget-toggle" data-dict-widget-toggle aria-label="Open quick dictionary" aria-expanded="false" aria-haspopup="dialog">
+    return f"""<button type="button" class="dict-widget-toggle" data-dict-widget-toggle aria-label="Apri il dizionario rapido" aria-expanded="false" aria-haspopup="dialog">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg>
     </button>
     <div class="dict-widget-panel" data-dict-widget-panel hidden>
         <div class="dict-widget__bar">
-            <input type="text" data-dict-widget-input placeholder="Look up an Italian word…" aria-label="Look up an Italian word">
-            <button type="button" class="dict-widget__close" data-dict-widget-close aria-label="Close dictionary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="M6 6l12 12"/></svg></button>
+            <input type="text" data-dict-widget-input placeholder="Cerca una parola italiana…" aria-label="Cerca una parola italiana">
+            <button type="button" class="dict-widget__close" data-dict-widget-close aria-label="Chiudi il dizionario"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="M6 6l12 12"/></svg></button>
         </div>
         <div class="dict-widget__result" data-dict-widget-result>
-            <p class="dict-widget__hint">Type an Italian word to see its meaning without leaving this page.</p>
+            <p class="dict-widget__hint">Digita una parola italiana per vederne il significato senza lasciare questa pagina.</p>
         </div>
         <div class="dict-widget__links" data-dict-widget-links></div>
     </div>
@@ -185,48 +191,48 @@ def footer(rel, extra_scripts=None):
                     {BRAND_MARK_SVG}
                     <span class="brand__text">
                         <span class="brand__name">Renan the Teacher</span>
-                        <span class="brand__tagline">Italian Language Academy</span>
+                        <span class="brand__tagline">Accademia di Italiano</span>
                     </span>
                 </a>
-                <p class="site-footer__blurb">A CEFR-aligned Italian course built one honest, carefully-checked lesson at a time &mdash; from your first &ldquo;ciao&rdquo; to real fluency.</p>
+                <p class="site-footer__blurb">Un corso d'italiano allineato al QCER, costruito una lezione onesta e curata alla volta &mdash; dal tuo primo &ldquo;ciao&rdquo; alla vera fluidità.</p>
             </div>
             <div class="footer-col">
-                <h4>Levels</h4>
+                <h4>Livelli</h4>
                 <ul>
-                    <li><a href="{rel}levels/a1.html">A1 &mdash; Beginner</a></li>
-                    <li><a href="{rel}levels/a2.html">A2 &mdash; Elementary</a></li>
-                    <li><a href="{rel}levels/b1.html">B1 &mdash; Intermediate</a></li>
-                    <li><a href="{rel}levels/b2.html">B2 &mdash; Upper Intermediate</a></li>
-                    <li><a href="{rel}levels/c1.html">C1 &mdash; Advanced</a></li>
-                    <li><a href="{rel}levels/c2.html">C2 &mdash; Proficient</a></li>
+                    <li><a href="{rel}levels/a1.html">A1 &mdash; Principiante</a></li>
+                    <li><a href="{rel}levels/a2.html">A2 &mdash; Elementare</a></li>
+                    <li><a href="{rel}levels/b1.html">B1 &mdash; Intermedio</a></li>
+                    <li><a href="{rel}levels/b2.html">B2 &mdash; Intermedio Superiore</a></li>
+                    <li><a href="{rel}levels/c1.html">C1 &mdash; Avanzato</a></li>
+                    <li><a href="{rel}levels/c2.html">C2 &mdash; Padronanza</a></li>
                 </ul>
             </div>
             <div class="footer-col">
-                <h4>Practice</h4>
+                <h4>Esercitati</h4>
                 <ul>
-                    <li><a href="{rel}index.html#grammar">Grammar Roadmap</a></li>
-                    <li><a href="{rel}exercises.html">Reading &amp; Exercises</a></li>
-                    <li><a href="{rel}simulated-exams.html">Simulated Exams</a></li>
-                    <li><a href="{rel}dictionary.html">Dictionary &amp; Reference</a></li>
-                    <li><a href="{rel}irregular-verbs.html">Irregular Verbs</a></li>
-                    <li><a href="{rel}extras.html">Extras</a></li>
+                    <li><a href="{rel}index.html#grammar">Percorso di Grammatica</a></li>
+                    <li><a href="{rel}exercises.html">Lettura ed Esercizi</a></li>
+                    <li><a href="{rel}simulated-exams.html">Esami Simulati</a></li>
+                    <li><a href="{rel}dictionary.html">Dizionario e Riferimenti</a></li>
+                    <li><a href="{rel}irregular-verbs.html">Verbi Irregolari</a></li>
+                    <li><a href="{rel}extras.html">Extra</a></li>
                 </ul>
             </div>
             <div class="footer-col">
-                <h4>Your Progress</h4>
+                <h4>I Tuoi Progressi</h4>
                 <ul>
-                    <li><a href="{rel}placement-test.html">Placement Test</a></li>
-                    <li><a href="{rel}progress.html">My Progress</a></li>
-                    <li><a href="{rel}today-review.html">Today's Review</a></li>
-                    <li><a href="{rel}index.html#about-cefr">What is the CEFR?</a></li>
+                    <li><a href="{rel}placement-test.html">Test di Livello</a></li>
+                    <li><a href="{rel}progress.html">I Miei Progressi</a></li>
+                    <li><a href="{rel}today-review.html">Ripasso di Oggi</a></li>
+                    <li><a href="{rel}index.html#about-cefr">Cos'è il QCER?</a></li>
                 </ul>
             </div>
         </div>
         <div class="site-footer__bottom">
-            <p>&copy; 2026 Renan the Teacher &mdash; Italian Course. All rights reserved.</p>
+            <p>&copy; 2026 Renan the Teacher &mdash; Corso d'Italiano. Tutti i diritti riservati.</p>
         </div>
     </footer>
-    <button type="button" class="back-to-top back-to-top--with-dict" data-back-to-top aria-label="Back to top">
+    <button type="button" class="back-to-top back-to-top--with-dict" data-back-to-top aria-label="Torna su">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
     </button>
     <script src="{rel}assets/js/main.js"></script>

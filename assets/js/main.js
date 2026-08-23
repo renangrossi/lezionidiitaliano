@@ -30,7 +30,7 @@
       }
       toggle.setAttribute(
         "aria-label",
-        next === "dark" ? "Switch to light mode" : "Switch to dark mode"
+        next === "dark" ? "Passa alla modalità chiara" : "Passa alla modalità scura"
       );
     });
   }

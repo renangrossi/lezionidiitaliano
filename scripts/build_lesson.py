@@ -5,6 +5,12 @@ following the same section structure as the English course's lesson pages
 (Objectives -> Explanation -> Rules -> Examples -> Common Mistakes -> Practice
 -> Summary -> Related), using the shared chrome from site_chrome.py.
 
+All structural UI text (section headings, eyebrows, buttons, badges) is in
+Italian — see site_chrome.py's header comment for why. The lesson content
+itself (objectives/explanation/rules/examples/mistakes/summary, read from
+curriculum/*.json) is untouched here; whatever language it was authored in
+is what's rendered.
+
 Usage:
     python3 scripts/build_lesson.py curriculum/b1/imperfetto.json
     python3 scripts/build_lesson.py curriculum/*/*.json   # build everything
@@ -31,7 +37,7 @@ def page_header(lesson, lesson_no, lesson_count):
         {site_chrome.STARS_ROW}
         <div class="page-header__inner">
             <div class="page-header__text">
-                <p class="eyebrow hero__eyebrow">{lesson['level']} &middot; Lesson {lesson_no} of {lesson_count}</p>
+                <p class="eyebrow hero__eyebrow">{lesson['level']} &middot; Lezione {lesson_no} di {lesson_count}</p>
                 <h1>{esc(lesson['title'])}</h1>
                 <p class="page-header__lede">{esc(lesson['subtitle'])}</p>
             </div>
@@ -41,12 +47,12 @@ def page_header(lesson, lesson_no, lesson_count):
 
 def toc(present_ids):
     labels = {
-        "objectives": "Objectives", "explanation": "Explanation", "rules": "Rules",
-        "examples": "Examples", "mistakes": "Common Mistakes", "practice": "Practice",
-        "summary": "Summary",
+        "objectives": "Obiettivi", "explanation": "Spiegazione", "rules": "Regole",
+        "examples": "Esempi", "mistakes": "Errori Comuni", "practice": "Pratica",
+        "summary": "Riepilogo",
     }
     links = "".join(f'<a href="#{a}">{labels[a]}</a>' for a in labels if a in present_ids)
-    links += '<a href="#related">Related</a>'
+    links += '<a href="#related">Continua</a>'
     return f'<div class="level-toc"><div class="level-toc__inner">{links}</div></div>'
 
 
@@ -55,11 +61,11 @@ def objectives_section(lesson):
     return f"""<section id="objectives" class="section section--tight" aria-labelledby="obj-heading">
         <div class="section__inner split">
             <div>
-                <p class="eyebrow">Introduction</p>
+                <p class="eyebrow">Introduzione</p>
                 <p style="font-size:var(--step-0);color:var(--color-text-muted);max-width:56ch;">{esc(lesson['content']['intro'])}</p>
             </div>
             <div class="card card--feature">
-                <h2 id="obj-heading" style="font-size:var(--step-0);">By the end of this lesson you can&hellip;</h2>
+                <h2 id="obj-heading" style="font-size:var(--step-0);">Al termine di questa lezione saprai&hellip;</h2>
                 <ul class="objectives-list">{items}</ul>
             </div>
         </div>
@@ -69,7 +75,7 @@ def objectives_section(lesson):
 def explanation_section(lesson):
     c = lesson["content"]
     explanation = c.get("explanation")
-    register = f'<div class="notice mt-lg"><strong>Register</strong><p>{esc(c["registerNote"])}</p></div>' if c.get("registerNote") else ""
+    register = f'<div class="notice mt-lg"><strong>Registro</strong><p>{esc(c["registerNote"])}</p></div>' if c.get("registerNote") else ""
     if not explanation and not register:
         return ""
     if explanation:
@@ -79,8 +85,8 @@ def explanation_section(lesson):
         body = ""
     return f"""<section id="explanation" class="section section--surface" aria-labelledby="exp-heading">
         <div class="section__inner section__inner--narrow">
-            <p class="eyebrow">Explanation</p>
-            <h2 id="exp-heading" class="visually-hidden">Explanation</h2>
+            <p class="eyebrow">Spiegazione</p>
+            <h2 id="exp-heading" class="visually-hidden">Spiegazione</h2>
             {body}
             {register}
         </div>
@@ -97,8 +103,8 @@ def rules_section(lesson):
     layout_close = "</div>" if table_html else ""
     return f"""<section id="rules" class="section section--tight" aria-labelledby="rules-heading">
         <div class="section__inner">
-            <p class="eyebrow">Grammar Rules</p>
-            <h2 id="rules-heading">The Rules</h2>
+            <p class="eyebrow">Regole Grammaticali</p>
+            <h2 id="rules-heading">Le Regole</h2>
             {layout_open}
             {blocks}
             {table_html}
@@ -114,8 +120,8 @@ def examples_section(lesson):
     )
     return f"""<section id="examples" class="section section--surface" aria-labelledby="ex-heading">
         <div class="section__inner">
-            <p class="eyebrow">Examples</p>
-            <h2 id="ex-heading">See It in Action</h2>
+            <p class="eyebrow">Esempi</p>
+            <h2 id="ex-heading">Vediamola in Pratica</h2>
             <ul class="examples-list examples-list--bilingual">{items}</ul>
         </div>
     </section>"""
@@ -126,16 +132,16 @@ def mistakes_section(lesson):
         return ""
     cards = "".join(
         f"""<div class="mistake-card">
-            <p class="mistake-card__wrong"><span class="badge badge--pdf" style="margin-right:.5em;">Avoid</span>{esc(m['wrong'])}</p>
-            <p class="mistake-card__right"><span class="badge badge--doc" style="margin-right:.5em;">Use instead</span>{esc(m['right'])}</p>
+            <p class="mistake-card__wrong"><span class="badge badge--pdf" style="margin-right:.5em;">Evita</span>{esc(m['wrong'])}</p>
+            <p class="mistake-card__right"><span class="badge badge--doc" style="margin-right:.5em;">Usa invece</span>{esc(m['right'])}</p>
             <p class="mistake-card__why">{esc(m['why'])}</p>
         </div>"""
         for m in lesson["content"]["commonMistakes"]
     )
     return f"""<section id="mistakes" class="section section--tight" aria-labelledby="mist-heading">
         <div class="section__inner">
-            <p class="eyebrow">Common Mistakes</p>
-            <h2 id="mist-heading">Watch Out For</h2>
+            <p class="eyebrow">Errori Comuni</p>
+            <h2 id="mist-heading">Attenzione a</h2>
             <div class="mistakes-grid">{cards}</div>
         </div>
     </section>"""
@@ -148,9 +154,9 @@ def practice_section(lesson):
     )
     return f"""<section id="practice" class="section section--surface" aria-labelledby="practice-heading">
         <div class="section__inner">
-            <p class="eyebrow">Interactive Exercises</p>
-            <h2 id="practice-heading">Practice</h2>
-            <p style="color:var(--color-text-muted);margin-bottom:var(--space-md);max-width:60ch;">Complete each exercise, then click <strong>Submit</strong> to see your score and an explanation for every answer.</p>
+            <p class="eyebrow">Esercizi Interattivi</p>
+            <h2 id="practice-heading">Pratica</h2>
+            <p style="color:var(--color-text-muted);margin-bottom:var(--space-md);max-width:60ch;">Completa ogni esercizio, poi clicca su <strong>Invia</strong> per vedere il tuo punteggio e una spiegazione per ogni risposta.</p>
             {blocks}
         </div>
     </section>"""
@@ -160,8 +166,8 @@ def summary_section(lesson):
     items = "".join(f"<li>{esc(s)}</li>" for s in lesson["summary"])
     return f"""<section id="summary" class="section section--tight" aria-labelledby="sum-heading">
         <div class="section__inner section__inner--narrow">
-            <p class="eyebrow">Summary</p>
-            <h2 id="sum-heading">Review</h2>
+            <p class="eyebrow">Riepilogo</p>
+            <h2 id="sum-heading">Ripasso</h2>
             <ul class="summary-list">{items}</ul>
         </div>
     </section>"""
@@ -169,20 +175,20 @@ def summary_section(lesson):
 
 def related_section(lesson, level_slug, prev_lesson, next_lesson):
     prev_link = (
-        f'<a class="btn btn--ghost" href="{prev_lesson["slug"]}.html">{site_chrome.ARROW_SVG} Previous: {esc(prev_lesson["title"])}</a>'
+        f'<a class="btn btn--ghost" href="{prev_lesson["slug"]}.html">{site_chrome.ARROW_SVG} Precedente: {esc(prev_lesson["title"])}</a>'
         if prev_lesson else ""
     )
     next_link = (
-        f'<a class="btn btn--accent" href="{next_lesson["slug"]}.html">Next: {esc(next_lesson["title"])} {site_chrome.ARROW_SVG}</a>'
+        f'<a class="btn btn--accent" href="{next_lesson["slug"]}.html">Successivo: {esc(next_lesson["title"])} {site_chrome.ARROW_SVG}</a>'
         if next_lesson else ""
     )
     return f"""<section id="related" class="section section--surface" aria-labelledby="rel-heading">
         <div class="section__inner">
-            <p class="eyebrow">Keep Going</p>
-            <h2 id="rel-heading">Continue Your Path</h2>
+            <p class="eyebrow">Continua così</p>
+            <h2 id="rel-heading">Prosegui il Tuo Percorso</h2>
             <div class="lesson-nav">
                 {prev_link}
-                <a class="btn btn--ghost" href="../{level_slug}.html">Back to {lesson['level']}</a>
+                <a class="btn btn--ghost" href="../{level_slug}.html">Torna a {lesson['level']}</a>
                 {next_link}
             </div>
         </div>
@@ -195,11 +201,11 @@ def build(lesson_path: Path):
     prefix = level_slug + "-"
     lesson_slug = lesson["id"][len(prefix):] if lesson["id"].startswith(prefix) else lesson["id"]
 
-    title = f"{lesson['title']} — {lesson['level']} Italian Grammar — Renan the Teacher"
+    title = f"{lesson['title']} — Grammatica Italiana {lesson['level']} — Renan the Teacher"
     description = f"{lesson['title']}: {lesson['subtitle']}"[:300]
     breadcrumb = (
         f'<li><a href="{REL}index.html">Home</a></li>'
-        f'<li aria-current="page">Levels</li>'
+        f'<li aria-current="page">Livelli</li>'
         f'<li><a href="../{level_slug}.html">{lesson["level"]}</a></li>'
         f'<li aria-current="page">{esc(lesson["title"])}</li>'
     )

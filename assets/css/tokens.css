@@ -1,60 +1,68 @@
 /* =======================================================================
    DESIGN TOKENS
-   Renan the Teacher — Italian Academy
+   Renan the Teacher — Accademia di Italiano
    A single source of truth for color, type, spacing and motion.
    Every other stylesheet should read from these variables rather than
    hard-coding values, so the whole design system can be tuned from here.
 
-   This is the sister stylesheet to the English course's tokens.css: the
-   token *names* (navy/burgundy/forest/gold/parchment/ink) are kept as a
-   stable internal vocabulary so components.css, layout.css, dark-mode.css
-   and search.css need no structural changes — only the hex values below
-   changed, to a warm Mediterranean "terracotta & olive" palette in place
-   of the English site's navy/burgundy/gold Americana one. Read each
-   variable by its *role* (primary/accent/secondary-accent/ornament), not
-   by its historical color-family name.
+   Palette v2 — Italian-flag-inspired (verde / bianco / rosso), replacing
+   the original terracotta/Adriatic-blue "piazza" palette. The token
+   *names* (navy/burgundy/forest/gold/parchment/ink) are kept as a stable
+   internal vocabulary — components.css, layout.css, dark-mode.css and
+   search.css need no structural changes, only the hex values below
+   changed. Read each variable by its *role*, not its historical
+   color-family name: "navy" now holds a deep bottle green (surfaces/
+   authority), "burgundy" now holds a brighter mid green (the dominant
+   accent — links, buttons, eyebrows), and "cotto-red"/danger now hold
+   Italian red, used more sparingly as the secondary accent (structural
+   rule lines, star icons, the "avoid" mistake badge, error states) —
+   deliberately not a 50/50 green-red split, to avoid an aggressive
+   "flag" look. Every text/background pairing below was checked against
+   WCAG AA (4.5:1 body text, 3:1 large text/UI) — see the contrast notes
+   next to each semantic role.
    ======================================================================= */
 
 :root {
   /* ---- Brand palette --------------------------------------------------
-     Deep Adriatic ink-blue (authority), terracotta/cotto (accent, like a
-     sun-baked roof tile), olive (secondary accent, like a Tuscan grove),
-     warm ochre-gold (ornament, focus ring) and travertine/parchment
-     (paper, marble). Kept restrained: terracotta and gold are accents,
-     not fields. */
-  --navy-900: #12232f;
-  --navy-800: #182f3d;
-  --navy-700: #1f3b4d;
-  --navy-600: #2c4f63;
+     Deep bottle green (authority/surfaces), a brighter leaf green (the
+     dominant accent), a muted sage-olive (secondary highlight, used
+     sparingly), warm gold (ornament, focus ring) and clean off-white
+     neutrals (paper/surface). Italian red is reserved for the
+     structural/attention role below, not blended into every surface. */
+  --navy-900: #0a2e1c;
+  --navy-800: #0e3a24;
+  --navy-700: #15492e;
+  --navy-600: #1f5c3a;
 
-  --burgundy-700: #9a3a1c;
-  --burgundy-600: #bc4f26;
-  --burgundy-500: #d06736;
+  --burgundy-700: #155c34;
+  --burgundy-600: #1f7d47;
+  --burgundy-500: #339e63;
 
-  --forest-700: #33421f;
-  --forest-600: #445829;
+  --forest-700: #3f6b3a;
+  --forest-600: #4f7d47;
 
-  --gold-600: #ab7d2c;
-  --gold-500: #c6963e;
-  --gold-300: #e6c684;
+  --gold-600: #a9822c;
+  --gold-500: #c49a3f;
+  --gold-300: #e2c583;
 
-  /* "Cotto" red — a saturated terracotta-roof red used for structural
-     accents (rule lines, dividers, focus flourishes) distinct from the
-     burgundy brand accent used on buttons/links/eyebrows. */
-  --cotto-red: #b5451f;
-  --cotto-red-dim: #8f371a;
+  /* Italian red — used deliberately sparingly, as the secondary/
+     structural accent (rule lines, star icons, the "avoid" mistake
+     badge, danger/error states), never as the dominant interactive
+     color (that role belongs to --color-accent, above, in green). */
+  --cotto-red: #c8102e;
+  --cotto-red-dim: #9c0d24;
 
   --walnut-800: #3a2c22;
   --walnut-600: #5a4536;
 
-  --parchment-100: #fbf7ef;
-  --parchment-200: #f4ecdc;
-  --parchment-300: #ecdfc4;
-  --ivory-50: #fffdf8;
+  --parchment-100: #f7f8f5;
+  --parchment-200: #eef0ea;
+  --parchment-300: #dfe3d8;
+  --ivory-50: #fffefb;
 
-  --ink-900: #211a12;
-  --ink-700: #3d332a;
-  --ink-500: #6c6153;
+  --ink-900: #14201a;
+  --ink-700: #33443a;
+  --ink-500: #5c6d61;
 
   /* ---- Semantic color roles (light theme default) ---------------------
      Components should reference these, not the raw palette above, so
@@ -90,11 +98,15 @@
   color-scheme: light;
 
   /* Dedicated feedback colors for exercises — tuned for visibility at
-     low tint percentages, independent of the brand accent colors. */
-  --color-success: #2f7a52;
-  --color-success-bg: #e3f2e8;
-  --color-danger: #b3323f;
-  --color-danger-bg: #fbe9ea;
+     low tint percentages, independent of the brand accent colors.
+     Success reuses the green identity; danger reuses Italian red —
+     both a deliberate, legible echo of the flag palette, not a
+     coincidence. Contrast-checked: success 4.6:1, danger 6:1 on their
+     own light backgrounds. */
+  --color-success: #1f7a4d;
+  --color-success-bg: #e2f3e8;
+  --color-danger: #a8283a;
+  --color-danger-bg: #fbeaec;
 
   /* ---- Typography -------------------------------------------------- */
   --font-display: "Fraunces", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
@@ -140,9 +152,9 @@
   --border-hairline: 1px solid var(--color-border);
   --border-gold: 1px solid var(--color-border-strong);
 
-  --shadow-sm: 0 1px 2px rgba(120, 60, 20, 0.10);
-  --shadow-md: 0 6px 20px -8px rgba(120, 60, 20, 0.28);
-  --shadow-lg: 0 18px 45px -18px rgba(120, 60, 20, 0.38);
+  --shadow-sm: 0 1px 2px rgba(10, 46, 28, 0.10);
+  --shadow-md: 0 6px 20px -8px rgba(10, 46, 28, 0.28);
+  --shadow-lg: 0 18px 45px -18px rgba(10, 46, 28, 0.38);
   --shadow-inset-rule: inset 0 1px 0 rgba(255, 255, 255, 0.4);
 
   /* ---- Motion --------------------------------------------------------

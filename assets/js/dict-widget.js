@@ -2,13 +2,11 @@
  * Renan the Teacher — Floating Dictionary Widget (Italian course)
  * A small floating lookup tool (styled like the back-to-top button),
  * available on every page, so a student can check an Italian word
- * without losing their place. There is no free, keyless English<->
- * Italian dictionary API equivalent to dictionaryapi.dev, so this
- * queries English Wiktionary's REST API directly (free, keyless,
- * CORS-enabled) and keeps only the entries whose language is
- * "Italian" — English Wiktionary documents Italian headwords with
- * English-language glosses, which is exactly the "explain in English,
- * show the Italian" shape this whole site uses. Pronunciation has no
+ * without losing their place. This is a *monolingual* Italian
+ * dictionary — it queries Italian Wiktionary's REST API (free,
+ * keyless, CORS-enabled) and keeps only entries whose language is
+ * "Italiano", so both the headword and its definition are in Italian,
+ * exactly like a native speaker's dictionary. Pronunciation has no
  * audio clips from this source, so it always falls back straight to
  * the browser's built-in speechSynthesis reading the word aloud with
  * an Italian voice. The outbound dictionary links below the result are
@@ -133,10 +131,10 @@
     var encoded = encodeURIComponent(word || "ciao");
     // Same fixed order as the Dictionary page's core cards.
     var sites = [
-      ["WordReference", "https://www.wordreference.com/iten/" + encoded],
-      ["Reverso Context", "https://context.reverso.net/translation/italian-english/" + encoded],
       ["Treccani", "https://www.treccani.it/vocabolario/ricerca/" + encoded + "/"],
-      ["Italian Wiktionary", "https://it.wiktionary.org/wiki/" + encoded],
+      ["Garzanti", "https://www.garzantilinguistica.it/ricerca/?q=" + encoded],
+      ["Wikizionario", "https://it.wiktionary.org/wiki/" + encoded],
+      ["Sinonimi", "https://www.sapere.it/sapere/strumenti/dizionario-sinonimi-contrari/ricerca/" + encoded + ".html"],
     ];
     linksBox.innerHTML = sites
       .map(function (s) {
@@ -170,8 +168,13 @@
   }
 
   /* ---------------------------------------------------------------
-   * English Wiktionary REST definition endpoint, filtered to the
-   * "Italian" language section — see the file header comment.
+   * Italian Wiktionary (Wikizionario) REST definition endpoint,
+   * filtered to the "Italiano" language section — see the file header
+   * comment. it.wiktionary.org documents both Italian words and
+   * foreign loanwords used in Italian (each under its own language
+   * name, in Italian — e.g. "Inglese" for an English loanword); only
+   * "Italiano" sections are genuine Italian headwords with Italian
+   * definitions.
    * --------------------------------------------------------------- */
   function stripHtml(s) {
     return String(s || "")
@@ -199,16 +202,17 @@
   }
 
   function fetchWiktionaryDefinition(word) {
-    return fetch("https://en.wiktionary.org/api/rest_v1/page/definition/" + encodeURIComponent(word))
+    return fetch("https://it.wiktionary.org/api/rest_v1/page/definition/" + encodeURIComponent(word))
       .then(function (res) {
         if (!res.ok) throw new Error("not found: " + word);
         return res.json();
       })
       .then(function (data) {
-        // English Wiktionary groups entries by the language *the word
-        // belongs to* — keep only sections that are actually Italian.
+        // Italian Wiktionary's own content language is "it" — groups
+        // within it are labelled by which language the *headword*
+        // belongs to. Keep only genuine Italian headwords.
         var groups = ((data && data.it) || []).filter(function (g) {
-          return g.language === "Italian";
+          return g.language === "Italiano";
         });
         if (!groups.length) throw new Error("no Italian entry: " + word);
         return normalizeWiktionary(groups, word);
@@ -231,7 +235,7 @@
   function lookup(word) {
     word = word.trim();
     if (!word) {
-      resultBox.innerHTML = '<p class="dict-widget__hint">Type a word and press Enter, or wait a moment after typing.</p>';
+      resultBox.innerHTML = '<p class="dict-widget__hint">Digita una parola e premi Invio, oppure aspetta un attimo dopo aver scritto.</p>';
       linksBox.innerHTML = "";
       return;
     }
@@ -239,7 +243,7 @@
       window.ProgressTracker.recordDictionaryUse();
     }
     renderOutboundLinks(word);
-    resultBox.innerHTML = '<p class="dict-widget__hint">Looking up &ldquo;' + escapeHtml(word) + '&rdquo;&hellip;</p>';
+    resultBox.innerHTML = '<p class="dict-widget__hint">Ricerca di &ldquo;' + escapeHtml(word) + '&rdquo;&hellip;</p>';
     lastQuery = word;
 
     tryCandidates(candidateWords(word))
@@ -250,7 +254,7 @@
       .catch(function () {
         if (lastQuery !== word) return;
         resultBox.innerHTML =
-          '<p class="dict-widget__hint">Ready to look up &ldquo;' + escapeHtml(word) + '&rdquo;! Pick a dictionary below:</p>';
+          '<p class="dict-widget__hint">Pronto a cercare &ldquo;' + escapeHtml(word) + '&rdquo;! Scegli un dizionario qui sotto:</p>';
       });
   }
 
@@ -293,12 +297,12 @@
     }
     btn.classList.remove("is-playing");
     btn.classList.add("has-error");
-    btn.setAttribute("title", "This browser can't speak Italian aloud — try a dictionary link below instead.");
+    btn.setAttribute("title", "Questo browser non può leggere l'italiano ad alta voce — prova un dizionario qui sotto.");
   }
 
   function renderDefinition(data) {
     if (!Array.isArray(data) || !data.length) {
-      resultBox.innerHTML = '<p class="dict-widget__hint">No definition found. Try a dictionary below.</p>';
+      resultBox.innerHTML = '<p class="dict-widget__hint">Nessuna definizione trovata. Prova un dizionario qui sotto.</p>';
       return;
     }
     var entry = data[0];
@@ -313,7 +317,7 @@
     var audioBtn = document.createElement("button");
     audioBtn.type = "button";
     audioBtn.className = "dict-widget__audio";
-    audioBtn.setAttribute("aria-label", "Play Italian pronunciation");
+    audioBtn.setAttribute("aria-label", "Ascolta la pronuncia italiana");
     audioBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18 6a9 9 0 0 1 0 12"/></svg>';
     audioBtn.addEventListener("click", function () { playPronunciation(entry.word, audioBtn); });
     wordRow.appendChild(audioBtn);

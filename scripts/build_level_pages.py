@@ -19,146 +19,146 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 REL = "../"
 
 LEVEL_META = {
-    "A1": ("Beginner", "Basic phrases and everyday expressions for immediate needs — greetings, gender, essere/avere, the present tense."),
-    "A2": ("Elementary", "Simple, direct exchanges on familiar topics — irregular verbs, the passato prossimo, reflexive verbs, comparatives."),
-    "B1": ("Intermediate", "Independent, everyday Italian — the imperfetto, indirect and combined pronouns, the future, conditional and imperative."),
-    "B2": ("Upper Intermediate", "Fluent, spontaneous interaction — the subjunctive, hypothetical sentences, reported speech, the passive voice."),
-    "C1": ("Advanced", "Flexible, effective language for professional and academic life — the full subjunctive system, gerund, register and connectors."),
-    "C2": ("Proficient", "Precise, nuanced command of Italian — complex syntax, literary register, lexical nuance, and Italy's real linguistic variety."),
+    "A1": ("Principiante", "Frasi di base ed espressioni quotidiane per i bisogni immediati — saluti, genere, essere/avere, il presente indicativo."),
+    "A2": ("Elementare", "Scambi semplici e diretti su argomenti familiari — verbi irregolari, il passato prossimo, i verbi riflessivi, i comparativi."),
+    "B1": ("Intermedio", "Italiano quotidiano e autonomo — l'imperfetto, i pronomi indiretti e combinati, il futuro, il condizionale e l'imperativo."),
+    "B2": ("Intermedio Superiore", "Interazione fluente e spontanea — il congiuntivo, il periodo ipotetico, il discorso indiretto, la forma passiva."),
+    "C1": ("Avanzato", "Un uso della lingua flessibile ed efficace per la vita professionale e accademica — il sistema completo del congiuntivo, il gerundio, registro e connettivi."),
+    "C2": ("Padronanza", "Padronanza precisa e sfumata dell'italiano — sintassi complessa, registro letterario, sfumature lessicali e la vera varietà linguistica dell'Italia."),
 }
 
 # Two compact vocabulary themes per level: (theme_title, [ (word, part_of_speech, meaning, italian_example, english_gloss), ... ])
 VOCAB = {
     "A1": [
-        ("La Famiglia (Family)", [
-            ("la madre / la mamma", "noun", "mother / mom", "Mia madre lavora in ospedale.", "My mother works at a hospital."),
-            ("il padre / il papà", "noun", "father / dad", "Mio padre cucina molto bene.", "My father cooks very well."),
-            ("il fratello", "noun", "brother", "Ho un fratello più grande.", "I have an older brother."),
-            ("la sorella", "noun", "sister", "Mia sorella vive a Torino.", "My sister lives in Turin."),
-            ("i nonni", "noun", "grandparents", "I miei nonni abitano in campagna.", "My grandparents live in the countryside."),
-            ("il/la figlio/a", "noun", "son / daughter", "Hanno due figli.", "They have two children."),
-            ("marito / moglie", "noun", "husband / wife", "Mio marito è insegnante.", "My husband is a teacher."),
-            ("sposato/a", "adjective", "married", "Sei sposata?", "Are you married?"),
+        ("La Famiglia", [
+            ("la madre / la mamma", "sostantivo", "mother / mom", "Mia madre lavora in ospedale.", "My mother works at a hospital."),
+            ("il padre / il papà", "sostantivo", "father / dad", "Mio padre cucina molto bene.", "My father cooks very well."),
+            ("il fratello", "sostantivo", "brother", "Ho un fratello più grande.", "I have an older brother."),
+            ("la sorella", "sostantivo", "sister", "Mia sorella vive a Torino.", "My sister lives in Turin."),
+            ("i nonni", "sostantivo", "grandparents", "I miei nonni abitano in campagna.", "My grandparents live in the countryside."),
+            ("il/la figlio/a", "sostantivo", "son / daughter", "Hanno due figli.", "They have two children."),
+            ("marito / moglie", "sostantivo", "husband / wife", "Mio marito è insegnante.", "My husband is a teacher."),
+            ("sposato/a", "aggettivo", "married", "Sei sposata?", "Are you married?"),
         ]),
-        ("Il Cibo di Tutti i Giorni (Everyday Food)", [
-            ("il pane", "noun", "bread", "Compro il pane ogni mattina.", "I buy bread every morning."),
-            ("l'acqua", "noun", "water", "Vorrei un bicchiere d'acqua.", "I'd like a glass of water."),
-            ("la frutta", "noun", "fruit", "Mangio frutta ogni giorno.", "I eat fruit every day."),
-            ("la verdura", "noun", "vegetables", "Non mi piace la verdura cotta.", "I don't like cooked vegetables."),
-            ("il formaggio", "noun", "cheese", "Il parmigiano è un formaggio famoso.", "Parmesan is a famous cheese."),
-            ("la carne", "noun", "meat", "Non mangio carne il venerdì.", "I don't eat meat on Fridays."),
-            ("dolce / salato", "adjective", "sweet / salty", "Preferisco il salato al dolce.", "I prefer savory to sweet."),
-            ("avere fame / sete", "expression", "to be hungry / thirsty", "Ho fame, mangiamo?", "I'm hungry, shall we eat?"),
+        ("Il Cibo di Tutti i Giorni", [
+            ("il pane", "sostantivo", "bread", "Compro il pane ogni mattina.", "I buy bread every morning."),
+            ("l'acqua", "sostantivo", "water", "Vorrei un bicchiere d'acqua.", "I'd like a glass of water."),
+            ("la frutta", "sostantivo", "fruit", "Mangio frutta ogni giorno.", "I eat fruit every day."),
+            ("la verdura", "sostantivo", "vegetables", "Non mi piace la verdura cotta.", "I don't like cooked vegetables."),
+            ("il formaggio", "sostantivo", "cheese", "Il parmigiano è un formaggio famoso.", "Parmesan is a famous cheese."),
+            ("la carne", "sostantivo", "meat", "Non mangio carne il venerdì.", "I don't eat meat on Fridays."),
+            ("dolce / salato", "aggettivo", "sweet / salty", "Preferisco il salato al dolce.", "I prefer savory to sweet."),
+            ("avere fame / sete", "espressione", "to be hungry / thirsty", "Ho fame, mangiamo?", "I'm hungry, shall we eat?"),
         ]),
     ],
     "A2": [
-        ("Viaggi (Travel)", [
-            ("l'aeroporto", "noun", "airport", "Siamo arrivati in aeroporto in anticipo.", "We arrived at the airport early."),
-            ("il biglietto", "noun", "ticket", "Ho comprato due biglietti per Roma.", "I bought two tickets to Rome."),
-            ("la valigia", "noun", "suitcase", "La mia valigia è troppo pesante.", "My suitcase is too heavy."),
-            ("il volo", "noun", "flight", "Il volo è stato cancellato.", "The flight was cancelled."),
-            ("prenotare", "verb", "to book", "Ho prenotato l'albergo online.", "I booked the hotel online."),
-            ("partire / arrivare", "verb", "to leave / to arrive", "Il treno parte alle nove.", "The train leaves at nine."),
-            ("il passaporto", "noun", "passport", "Non dimenticare il passaporto!", "Don't forget your passport!"),
-            ("la meta", "noun", "destination", "Napoli è la nostra prossima meta.", "Naples is our next destination."),
+        ("Viaggi", [
+            ("l'aeroporto", "sostantivo", "airport", "Siamo arrivati in aeroporto in anticipo.", "We arrived at the airport early."),
+            ("il biglietto", "sostantivo", "ticket", "Ho comprato due biglietti per Roma.", "I bought two tickets to Rome."),
+            ("la valigia", "sostantivo", "suitcase", "La mia valigia è troppo pesante.", "My suitcase is too heavy."),
+            ("il volo", "sostantivo", "flight", "Il volo è stato cancellato.", "The flight was cancelled."),
+            ("prenotare", "verbo", "to book", "Ho prenotato l'albergo online.", "I booked the hotel online."),
+            ("partire / arrivare", "verbo", "to leave / to arrive", "Il treno parte alle nove.", "The train leaves at nine."),
+            ("il passaporto", "sostantivo", "passport", "Non dimenticare il passaporto!", "Don't forget your passport!"),
+            ("la meta", "sostantivo", "destination", "Napoli è la nostra prossima meta.", "Naples is our next destination."),
         ]),
-        ("Al Ristorante (At the Restaurant)", [
-            ("il menù", "noun", "menu", "Posso vedere il menù, per favore?", "Can I see the menu, please?"),
-            ("il conto", "noun", "the bill", "Il conto, per favore.", "The bill, please."),
-            ("prenotare un tavolo", "expression", "to book a table", "Ho prenotato un tavolo per due.", "I booked a table for two."),
-            ("il cameriere / la cameriera", "noun", "waiter / waitress", "Il cameriere è molto gentile.", "The waiter is very kind."),
-            ("consigliare", "verb", "to recommend", "Cosa mi consiglia?", "What do you recommend?"),
-            ("il primo / il secondo", "noun", "first / second course", "Come primo prendo la pasta.", "For my first course I'll have pasta."),
-            ("il contorno", "noun", "side dish", "Come contorno vorrei insalata.", "As a side I'd like salad."),
-            ("il conto è sbagliato", "expression", "the bill is wrong", "Scusi, credo che il conto sia sbagliato.", "Excuse me, I think the bill is wrong."),
+        ("Al Ristorante", [
+            ("il menù", "sostantivo", "menu", "Posso vedere il menù, per favore?", "Can I see the menu, please?"),
+            ("il conto", "sostantivo", "the bill", "Il conto, per favore.", "The bill, please."),
+            ("prenotare un tavolo", "espressione", "to book a table", "Ho prenotato un tavolo per due.", "I booked a table for two."),
+            ("il cameriere / la cameriera", "sostantivo", "waiter / waitress", "Il cameriere è molto gentile.", "The waiter is very kind."),
+            ("consigliare", "verbo", "to recommend", "Cosa mi consiglia?", "What do you recommend?"),
+            ("il primo / il secondo", "sostantivo", "first / second course", "Come primo prendo la pasta.", "For my first course I'll have pasta."),
+            ("il contorno", "sostantivo", "side dish", "Come contorno vorrei insalata.", "As a side I'd like salad."),
+            ("il conto è sbagliato", "espressione", "the bill is wrong", "Scusi, credo che il conto sia sbagliato.", "Excuse me, I think the bill is wrong."),
         ]),
     ],
     "B1": [
-        ("Il Lavoro (Work)", [
-            ("il colloquio", "noun", "job interview", "Ho un colloquio domani mattina.", "I have a job interview tomorrow morning."),
-            ("assumere", "verb", "to hire", "L'azienda ha assunto tre persone.", "The company hired three people."),
-            ("licenziare / licenziarsi", "verb", "to fire / to quit", "Si è licenziato dopo dieci anni.", "He quit after ten years."),
-            ("lo stipendio", "noun", "salary", "Lo stipendio è aumentato quest'anno.", "My salary went up this year."),
-            ("la scadenza", "noun", "deadline", "La scadenza del progetto è venerdì.", "The project deadline is Friday."),
-            ("il collega", "noun", "colleague", "I miei colleghi sono molto simpatici.", "My colleagues are very nice."),
-            ("fare straordinari", "expression", "to work overtime", "Ho fatto straordinari tutta la settimana.", "I worked overtime all week."),
-            ("la carriera", "noun", "career", "Vuole fare carriera in questo settore.", "She wants to advance her career in this field."),
+        ("Il Lavoro", [
+            ("il colloquio", "sostantivo", "job interview", "Ho un colloquio domani mattina.", "I have a job interview tomorrow morning."),
+            ("assumere", "verbo", "to hire", "L'azienda ha assunto tre persone.", "The company hired three people."),
+            ("licenziare / licenziarsi", "verbo", "to fire / to quit", "Si è licenziato dopo dieci anni.", "He quit after ten years."),
+            ("lo stipendio", "sostantivo", "salary", "Lo stipendio è aumentato quest'anno.", "My salary went up this year."),
+            ("la scadenza", "sostantivo", "deadline", "La scadenza del progetto è venerdì.", "The project deadline is Friday."),
+            ("il collega", "sostantivo", "colleague", "I miei colleghi sono molto simpatici.", "My colleagues are very nice."),
+            ("fare straordinari", "espressione", "to work overtime", "Ho fatto straordinari tutta la settimana.", "I worked overtime all week."),
+            ("la carriera", "sostantivo", "career", "Vuole fare carriera in questo settore.", "She wants to advance her career in this field."),
         ]),
-        ("La Salute (Health)", [
-            ("il medico / il dottore", "noun", "doctor", "Devo andare dal medico oggi.", "I have to go to the doctor today."),
-            ("la febbre", "noun", "fever", "Ho la febbre da ieri sera.", "I've had a fever since last night."),
-            ("il mal di testa", "noun", "headache", "Ho un forte mal di testa.", "I have a bad headache."),
-            ("la ricetta", "noun", "prescription", "Il medico mi ha dato una ricetta.", "The doctor gave me a prescription."),
-            ("guarire", "verb", "to recover, heal", "Spero di guarire presto.", "I hope to recover soon."),
-            ("il pronto soccorso", "noun", "emergency room", "Siamo andati al pronto soccorso.", "We went to the emergency room."),
-            ("fare male", "expression", "to hurt", "Mi fa male la schiena.", "My back hurts."),
-            ("la farmacia", "noun", "pharmacy", "La farmacia è aperta fino a tardi.", "The pharmacy is open until late."),
+        ("La Salute", [
+            ("il medico / il dottore", "sostantivo", "doctor", "Devo andare dal medico oggi.", "I have to go to the doctor today."),
+            ("la febbre", "sostantivo", "fever", "Ho la febbre da ieri sera.", "I've had a fever since last night."),
+            ("il mal di testa", "sostantivo", "headache", "Ho un forte mal di testa.", "I have a bad headache."),
+            ("la ricetta", "sostantivo", "prescription", "Il medico mi ha dato una ricetta.", "The doctor gave me a prescription."),
+            ("guarire", "verbo", "to recover, heal", "Spero di guarire presto.", "I hope to recover soon."),
+            ("il pronto soccorso", "sostantivo", "emergency room", "Siamo andati al pronto soccorso.", "We went to the emergency room."),
+            ("fare male", "espressione", "to hurt", "Mi fa male la schiena.", "My back hurts."),
+            ("la farmacia", "sostantivo", "pharmacy", "La farmacia è aperta fino a tardi.", "The pharmacy is open until late."),
         ]),
     ],
     "B2": [
-        ("I Media (Media)", [
-            ("la notizia", "noun", "news item", "Questa notizia mi ha sorpreso.", "This news surprised me."),
-            ("il quotidiano", "noun", "daily newspaper", "Leggo il quotidiano ogni mattina.", "I read the daily paper every morning."),
-            ("l'opinione pubblica", "noun", "public opinion", "L'opinione pubblica è divisa.", "Public opinion is divided."),
-            ("diffondere", "verb", "to spread, broadcast", "La notizia si è diffusa rapidamente.", "The news spread quickly."),
-            ("la fonte", "noun", "source", "Bisogna verificare la fonte.", "You need to verify the source."),
-            ("i social media", "noun", "social media", "I social media influenzano l'opinione pubblica.", "Social media influences public opinion."),
-            ("un articolo di approfondimento", "expression", "an in-depth article", "Ho letto un ottimo articolo di approfondimento.", "I read an excellent in-depth article."),
-            ("l'attendibilità", "noun", "reliability, credibility", "Bisogna valutare l'attendibilità della fonte.", "You have to assess the source's reliability."),
+        ("I Media", [
+            ("la notizia", "sostantivo", "news item", "Questa notizia mi ha sorpreso.", "This news surprised me."),
+            ("il quotidiano", "sostantivo", "daily newspaper", "Leggo il quotidiano ogni mattina.", "I read the daily paper every morning."),
+            ("l'opinione pubblica", "sostantivo", "public opinion", "L'opinione pubblica è divisa.", "Public opinion is divided."),
+            ("diffondere", "verbo", "to spread, broadcast", "La notizia si è diffusa rapidamente.", "The news spread quickly."),
+            ("la fonte", "sostantivo", "source", "Bisogna verificare la fonte.", "You need to verify the source."),
+            ("i social media", "sostantivo", "social media", "I social media influenzano l'opinione pubblica.", "Social media influences public opinion."),
+            ("un articolo di approfondimento", "espressione", "an in-depth article", "Ho letto un ottimo articolo di approfondimento.", "I read an excellent in-depth article."),
+            ("l'attendibilità", "sostantivo", "reliability, credibility", "Bisogna valutare l'attendibilità della fonte.", "You have to assess the source's reliability."),
         ]),
-        ("L'Ambiente (Environment)", [
-            ("il riscaldamento globale", "noun", "global warming", "Il riscaldamento globale preoccupa gli scienziati.", "Global warming worries scientists."),
-            ("sostenibile", "adjective", "sustainable", "Cerchiamo soluzioni più sostenibili.", "We're looking for more sustainable solutions."),
-            ("le energie rinnovabili", "noun", "renewable energy", "Investono nelle energie rinnovabili.", "They're investing in renewable energy."),
-            ("l'inquinamento", "noun", "pollution", "L'inquinamento dell'aria è un problema serio.", "Air pollution is a serious problem."),
-            ("ridurre", "verb", "to reduce", "Dobbiamo ridurre i rifiuti.", "We need to reduce waste."),
-            ("il riciclaggio", "noun", "recycling", "Il riciclaggio è obbligatorio qui.", "Recycling is mandatory here."),
-            ("l'impronta ecologica", "expression", "ecological footprint", "Vuole ridurre la sua impronta ecologica.", "She wants to reduce her ecological footprint."),
-            ("tutelare l'ambiente", "expression", "to protect the environment", "Le nuove leggi tutelano l'ambiente.", "The new laws protect the environment."),
+        ("L'Ambiente", [
+            ("il riscaldamento globale", "sostantivo", "global warming", "Il riscaldamento globale preoccupa gli scienziati.", "Global warming worries scientists."),
+            ("sostenibile", "aggettivo", "sustainable", "Cerchiamo soluzioni più sostenibili.", "We're looking for more sustainable solutions."),
+            ("le energie rinnovabili", "sostantivo", "renewable energy", "Investono nelle energie rinnovabili.", "They're investing in renewable energy."),
+            ("l'inquinamento", "sostantivo", "pollution", "L'inquinamento dell'aria è un problema serio.", "Air pollution is a serious problem."),
+            ("ridurre", "verbo", "to reduce", "Dobbiamo ridurre i rifiuti.", "We need to reduce waste."),
+            ("il riciclaggio", "sostantivo", "recycling", "Il riciclaggio è obbligatorio qui.", "Recycling is mandatory here."),
+            ("l'impronta ecologica", "espressione", "ecological footprint", "Vuole ridurre la sua impronta ecologica.", "She wants to reduce her ecological footprint."),
+            ("tutelare l'ambiente", "espressione", "to protect the environment", "Le nuove leggi tutelano l'ambiente.", "The new laws protect the environment."),
         ]),
     ],
     "C1": [
-        ("Espressioni Idiomatiche (Idiomatic Expressions)", [
-            ("in bocca al lupo", "expression", "good luck (lit. \"in the wolf's mouth\")", "In bocca al lupo per l'esame!", "Good luck on the exam!"),
-            ("avere le mani in pasta", "expression", "to be involved/have connections", "Ha le mani in pasta in molti settori.", "He has fingers in many pies."),
-            ("prendere due piccioni con una fava", "expression", "to kill two birds with one stone", "Così prendiamo due piccioni con una fava.", "That way we kill two birds with one stone."),
-            ("essere al verde", "expression", "to be broke", "Non posso uscire, sono al verde.", "I can't go out, I'm broke."),
-            ("fare orecchie da mercante", "expression", "to turn a deaf ear", "Fa sempre orecchie da mercante.", "He always turns a deaf ear."),
-            ("rompere il ghiaccio", "expression", "to break the ice", "Una battuta può rompere il ghiaccio.", "A joke can break the ice."),
-            ("avere la testa fra le nuvole", "expression", "to have one's head in the clouds", "Oggi ha proprio la testa fra le nuvole.", "He really has his head in the clouds today."),
-            ("essere un pesce fuor d'acqua", "expression", "to be a fish out of water", "In quell'ambiente mi sentivo un pesce fuor d'acqua.", "I felt like a fish out of water in that environment."),
+        ("Espressioni Idiomatiche", [
+            ("in bocca al lupo", "espressione", "good luck (lit. \"in the wolf's mouth\")", "In bocca al lupo per l'esame!", "Good luck on the exam!"),
+            ("avere le mani in pasta", "espressione", "to be involved/have connections", "Ha le mani in pasta in molti settori.", "He has fingers in many pies."),
+            ("prendere due piccioni con una fava", "espressione", "to kill two birds with one stone", "Così prendiamo due piccioni con una fava.", "That way we kill two birds with one stone."),
+            ("essere al verde", "espressione", "to be broke", "Non posso uscire, sono al verde.", "I can't go out, I'm broke."),
+            ("fare orecchie da mercante", "espressione", "to turn a deaf ear", "Fa sempre orecchie da mercante.", "He always turns a deaf ear."),
+            ("rompere il ghiaccio", "espressione", "to break the ice", "Una battuta può rompere il ghiaccio.", "A joke can break the ice."),
+            ("avere la testa fra le nuvole", "espressione", "to have one's head in the clouds", "Oggi ha proprio la testa fra le nuvole.", "He really has his head in the clouds today."),
+            ("essere un pesce fuor d'acqua", "espressione", "to be a fish out of water", "In quell'ambiente mi sentivo un pesce fuor d'acqua.", "I felt like a fish out of water in that environment."),
         ]),
-        ("Registro Professionale (Professional Register)", [
-            ("il quadro normativo", "noun", "regulatory framework", "Il quadro normativo è cambiato di recente.", "The regulatory framework recently changed."),
-            ("in merito a", "expression", "regarding, concerning", "In merito alla Sua richiesta...", "Regarding your request..."),
-            ("prendere atto di", "expression", "to take note of", "Prendiamo atto delle Sue osservazioni.", "We take note of your observations."),
-            ("conformemente a", "expression", "in accordance with", "Conformemente alla normativa vigente...", "In accordance with current regulations..."),
-            ("l'interlocutore", "noun", "the other party (in a discussion)", "Il nostro interlocutore ha proposto un'alternativa.", "The other party proposed an alternative."),
-            ("il riscontro", "noun", "feedback, response", "Attendiamo un Suo riscontro.", "We await your response."),
-            ("in allegato", "expression", "attached, enclosed", "In allegato trova il documento richiesto.", "Please find the requested document attached."),
-            ("porgere distinti saluti", "expression", "to extend best regards (formal closing)", "Porgo distinti saluti.", "Best regards."),
+        ("Registro Professionale", [
+            ("il quadro normativo", "sostantivo", "regulatory framework", "Il quadro normativo è cambiato di recente.", "The regulatory framework recently changed."),
+            ("in merito a", "espressione", "regarding, concerning", "In merito alla Sua richiesta...", "Regarding your request..."),
+            ("prendere atto di", "espressione", "to take note of", "Prendiamo atto delle Sue osservazioni.", "We take note of your observations."),
+            ("conformemente a", "espressione", "in accordance with", "Conformemente alla normativa vigente...", "In accordance with current regulations..."),
+            ("l'interlocutore", "sostantivo", "the other party (in a discussion)", "Il nostro interlocutore ha proposto un'alternativa.", "The other party proposed an alternative."),
+            ("il riscontro", "sostantivo", "feedback, response", "Attendiamo un Suo riscontro.", "We await your response."),
+            ("in allegato", "espressione", "attached, enclosed", "In allegato trova il documento richiesto.", "Please find the requested document attached."),
+            ("porgere distinti saluti", "espressione", "to extend best regards (formal closing)", "Porgo distinti saluti.", "Best regards."),
         ]),
     ],
     "C2": [
-        ("Sfumature Astratte (Abstract Nuance)", [
-            ("l'ambivalenza", "noun", "ambivalence", "Prova una certa ambivalenza verso la decisione.", "He feels a certain ambivalence toward the decision."),
-            ("il paradosso", "noun", "paradox", "È un vero paradosso della modernità.", "It's a real paradox of modernity."),
-            ("intrinseco", "adjective", "intrinsic", "Il valore intrinseco dell'opera è indiscutibile.", "The work's intrinsic value is undeniable."),
-            ("la sfumatura", "noun", "nuance, shade of meaning", "Ogni parola ha le sue sfumature.", "Every word has its nuances."),
-            ("l'incongruenza", "noun", "inconsistency", "C'è un'incongruenza nel suo ragionamento.", "There's an inconsistency in his reasoning."),
-            ("preminente", "adjective", "preeminent, foremost", "È una figura preminente nel suo campo.", "He's a preeminent figure in his field."),
-            ("il retaggio", "noun", "legacy, heritage", "Il retaggio culturale della città è immenso.", "The city's cultural legacy is immense."),
-            ("emblematico", "adjective", "emblematic", "È un caso emblematico del problema.", "It's an emblematic case of the problem."),
+        ("Sfumature Astratte", [
+            ("l'ambivalenza", "sostantivo", "ambivalence", "Prova una certa ambivalenza verso la decisione.", "He feels a certain ambivalence toward the decision."),
+            ("il paradosso", "sostantivo", "paradox", "È un vero paradosso della modernità.", "It's a real paradox of modernity."),
+            ("intrinseco", "aggettivo", "intrinsic", "Il valore intrinseco dell'opera è indiscutibile.", "The work's intrinsic value is undeniable."),
+            ("la sfumatura", "sostantivo", "nuance, shade of meaning", "Ogni parola ha le sue sfumature.", "Every word has its nuances."),
+            ("l'incongruenza", "sostantivo", "inconsistency", "C'è un'incongruenza nel suo ragionamento.", "There's an inconsistency in his reasoning."),
+            ("preminente", "aggettivo", "preeminent, foremost", "È una figura preminente nel suo campo.", "He's a preeminent figure in his field."),
+            ("il retaggio", "sostantivo", "legacy, heritage", "Il retaggio culturale della città è immenso.", "The city's cultural legacy is immense."),
+            ("emblematico", "aggettivo", "emblematic", "È un caso emblematico del problema.", "It's an emblematic case of the problem."),
         ]),
-        ("Il Linguaggio Letterario (Literary Language)", [
-            ("l'ordito", "noun", "the underlying structure/plot (lit. \"weft\")", "L'ordito narrativo è complesso.", "The narrative structure is complex."),
-            ("evocare", "verb", "to evoke", "Il testo evoca immagini vivide.", "The text evokes vivid images."),
-            ("la metafora", "noun", "metaphor", "Usa spesso metafore marine.", "He often uses sea metaphors."),
-            ("il registro", "noun", "register (of language)", "Il registro cambia da capitolo a capitolo.", "The register shifts from chapter to chapter."),
-            ("malinconico", "adjective", "melancholic", "Il finale ha un tono malinconico.", "The ending has a melancholic tone."),
-            ("la prosa", "noun", "prose", "La sua prosa è densa e precisa.", "Her prose is dense and precise."),
-            ("l'incipit", "noun", "the opening lines (of a text)", "L'incipit del romanzo è memorabile.", "The novel's opening lines are memorable."),
-            ("permeare", "verb", "to permeate", "Un senso di nostalgia permea tutto il libro.", "A sense of nostalgia permeates the whole book."),
+        ("Il Linguaggio Letterario", [
+            ("l'ordito", "sostantivo", "the underlying structure/plot (lit. \"weft\")", "L'ordito narrativo è complesso.", "The narrative structure is complex."),
+            ("evocare", "verbo", "to evoke", "Il testo evoca immagini vivide.", "The text evokes vivid images."),
+            ("la metafora", "sostantivo", "metaphor", "Usa spesso metafore marine.", "He often uses sea metaphors."),
+            ("il registro", "sostantivo", "register (of language)", "Il registro cambia da capitolo a capitolo.", "The register shifts from chapter to chapter."),
+            ("malinconico", "aggettivo", "melancholic", "Il finale ha un tono malinconico.", "The ending has a melancholic tone."),
+            ("la prosa", "sostantivo", "prose", "La sua prosa è densa e precisa.", "Her prose is dense and precise."),
+            ("l'incipit", "sostantivo", "the opening lines (of a text)", "L'incipit del romanzo è memorabile.", "The novel's opening lines are memorable."),
+            ("permeare", "verbo", "to permeate", "Un senso di nostalgia permea tutto il libro.", "A sense of nostalgia permeates the whole book."),
         ]),
     ],
 }
@@ -183,21 +183,21 @@ LISTENING = {
 }
 
 WRITING = {
-    "A1": "Write 5-6 simple sentences introducing yourself: your name, where you're from, your age, your family, and one thing you like. Use essere, avere, and the present tense of at least two regular verbs.",
-    "A2": "Write a short paragraph (6-8 sentences) about your last vacation, using the passato prossimo. Mention where you went, what you did, and how you felt — try to use at least one essere verb and one avere verb.",
-    "B1": "Write a short narrative (8-10 sentences) about something unexpected that happened to you. Use both the passato prossimo and the imperfetto — remember, the imperfetto sets the scene, the passato prossimo moves the story forward.",
-    "B2": "Write a short opinion paragraph (10-12 sentences) about a topic you care about (technology, the environment, remote work...). Use at least two subjunctive triggers (penso che, è importante che, dubito che) and one hypothetical sentence.",
-    "C1": "Write a formal email (10-12 sentences) requesting information from a company or institution. Use appropriate formal register throughout, at least one advanced connector (tuttavia, dato che, di conseguenza), and a proper formal opening and closing.",
-    "C2": "Write a short argumentative paragraph (12-15 sentences) taking a position on a debated topic. Structure it with a clear thesis, a concession to the opposing view (è vero che...), and a rebuttal (tuttavia...). Aim for varied, cohesive sentence structure — avoid repeating the same noun phrase twice in a row.",
+    "A1": "Scrivi 5-6 frasi semplici per presentarti: il tuo nome, da dove vieni, la tua età, la tua famiglia e una cosa che ti piace. Usa essere, avere e il presente indicativo di almeno due verbi regolari.",
+    "A2": "Scrivi un breve paragrafo (6-8 frasi) sulla tua ultima vacanza, usando il passato prossimo. Racconta dove sei andato/a, cosa hai fatto e come ti sei sentito/a — cerca di usare almeno un verbo con essere e uno con avere.",
+    "B1": "Scrivi un breve racconto (8-10 frasi) su qualcosa di inaspettato che ti è successo. Usa sia il passato prossimo sia l'imperfetto — ricorda: l'imperfetto descrive lo sfondo, il passato prossimo fa avanzare la storia.",
+    "B2": "Scrivi un breve paragrafo di opinione (10-12 frasi) su un argomento che ti sta a cuore (la tecnologia, l'ambiente, il lavoro da remoto...). Usa almeno due espressioni che richiedono il congiuntivo (penso che, è importante che, dubito che) e una frase ipotetica.",
+    "C1": "Scrivi un'email formale (10-12 frasi) per richiedere informazioni a un'azienda o a un'istituzione. Mantieni un registro formale coerente, usa almeno un connettivo avanzato (tuttavia, dato che, di conseguenza) e un'apertura e una chiusura formali appropriate.",
+    "C2": "Scrivi un breve paragrafo argomentativo (12-15 frasi) prendendo posizione su un tema dibattuto. Struttúralo con una tesi chiara, una concessione al punto di vista opposto (è vero che...) e una confutazione (tuttavia...). Punta a una struttura delle frasi varia e coesa — evita di ripetere lo stesso sintagma nominale due volte di seguito.",
 }
 
 SPEAKING = {
-    "A1": ["Describe yourself in one minute: name, age, nationality, family, and what you do.", "Ask a partner three questions using question words (dove, quando, come, perché)."],
-    "A2": ["Tell a partner about your typical week using frequency adverbs (sempre, spesso, a volte).", "Describe your last vacation using the passato prossimo."],
-    "B1": ["Discuss what you would do if you won the lottery, using the condizionale.", "Give a partner directions and instructions using the imperative, both informal and formal."],
-    "B2": ["Debate a current issue with a partner, using subjunctive triggers to express opinion and doubt.", "Describe a hypothetical situation (\"If I could change one thing about my city...\") using the periodo ipotetico."],
-    "C1": ["Give a short persuasive talk (2 minutes) on a topic of your choice, using advanced connectors.", "Role-play a formal complaint and its polite, hedged response."],
-    "C2": ["Debate a nuanced topic, deliberately using hedging expressions (sembra che, non sono del tutto d'accordo) to soften your claims.", "Summarize a short article or news story aloud in under a minute, using your own words."],
+    "A1": ["Descriviti in un minuto: nome, età, nazionalità, famiglia e cosa fai.", "Fai tre domande a un compagno usando le parole interrogative (dove, quando, come, perché)."],
+    "A2": ["Racconta a un compagno la tua settimana tipo usando gli avverbi di frequenza (sempre, spesso, a volte).", "Descrivi la tua ultima vacanza usando il passato prossimo."],
+    "B1": ["Parla di cosa faresti se vincessi alla lotteria, usando il condizionale.", "Dai indicazioni e istruzioni a un compagno usando l'imperativo, sia informale sia formale."],
+    "B2": ["Discuti un tema d'attualità con un compagno, usando espressioni che richiedono il congiuntivo per esprimere opinione e dubbio.", "Descrivi una situazione ipotetica (\"Se potessi cambiare una cosa della mia città...\") usando il periodo ipotetico."],
+    "C1": ["Fai un breve discorso persuasivo (2 minuti) su un argomento a tua scelta, usando connettivi avanzati.", "Simula un reclamo formale e la sua risposta educata e attenuata."],
+    "C2": ["Discuti un tema complesso, usando deliberatamente espressioni di attenuazione (sembra che, non sono del tutto d'accordo) per ammorbidire le tue affermazioni.", "Riassumi ad alta voce un breve articolo o una notizia in meno di un minuto, usando parole tue."],
 }
 
 
@@ -232,17 +232,17 @@ def vocab_section(level_code):
         for i, (w, pos, meaning, it_ex, en_ex) in enumerate(words[:4]):
             items.append({
                 "id": f"{level_code.lower()}v{ti}i{i}",
-                "prompt": f"Which word means “{meaning}”?",
+                "prompt": f"Quale parola significa «{meaning}»?",
                 "options": opts if w in opts else opts + [w],
                 "answerIndex": (opts if w in opts else opts + [w]).index(w),
-                "explanation": f"{w} means {meaning}.",
+                "explanation": f"{w} significa {meaning}.",
             })
-        ex_block = {"id": f"{level_code.lower()}-vocab-{ti}-mc", "type": "multiple-choice", "title": "Match the Meaning", "items": items}
+        ex_block = {"id": f"{level_code.lower()}-vocab-{ti}-mc", "type": "multiple-choice", "title": "Abbina il Significato", "items": items}
         blocks.append(f"""<div class="card" style="margin-bottom:var(--space-lg);">
             <h3>{esc(theme_title)}</h3>
             <div class="table-scroll">
                 <table class="ref-table">
-                    <thead><tr><th>Word</th><th>Type</th><th>Meaning</th><th>Example</th></tr></thead>
+                    <thead><tr><th>Parola</th><th>Tipo</th><th>Significato</th><th>Esempio</th></tr></thead>
                     <tbody>{rows}</tbody>
                 </table>
             </div>
@@ -252,8 +252,8 @@ def vocab_section(level_code):
         <div class="section__inner">
             <div class="section__head">
                 <p class="eyebrow">{level_code}</p>
-                <h2 id="vocabulary-heading">Vocabulary</h2>
-                <p>Themed word groups for real situations, each with example sentences and a quick check.</p>
+                <h2 id="vocabulary-heading">Vocabolario</h2>
+                <p>Gruppi di parole per argomento, per situazioni reali, ognuno con frasi di esempio e una verifica rapida.</p>
             </div>
             {"".join(blocks)}
         </div>
@@ -263,16 +263,16 @@ def vocab_section(level_code):
 def reading_section(level_code):
     title, passage = READING[level_code]
     ex = {
-        "id": f"{level_code.lower()}-reading-mc", "type": "true-false", "title": "Comprehension Check",
-        "instructions": "Based on the passage above, mark each statement true or false.",
+        "id": f"{level_code.lower()}-reading-mc", "type": "true-false", "title": "Verifica di Comprensione",
+        "instructions": "In base al brano qui sopra, indica se ogni affermazione è vera o falsa.",
         "items": [
-            {"id": f"{level_code.lower()}rd1", "statement": "The passage is written in the first person.", "answer": True, "explanation": "The narrator speaks about their own experience using io-forms."},
+            {"id": f"{level_code.lower()}rd1", "statement": "Il brano è scritto in prima persona.", "answer": True, "explanation": "Chi narra parla della propria esperienza usando le forme della prima persona (io)."},
         ],
     }
     return f"""<section id="reading" class="section section--surface" aria-labelledby="reading-heading">
         <div class="section__inner">
             <div class="section__head">
-                <p class="eyebrow">{level_code} &middot; Reading</p>
+                <p class="eyebrow">{level_code} &middot; Lettura</p>
                 <h2 id="reading-heading">{esc(title)}</h2>
             </div>
             <div class="card"><div class="prose">{passage}</div></div>
@@ -286,9 +286,9 @@ def listening_section(level_code):
     return f"""<section id="listening" class="section section--tight" aria-labelledby="listening-heading">
         <div class="section__inner">
             <div class="section__head">
-                <p class="eyebrow">{level_code} &middot; Listening (script)</p>
+                <p class="eyebrow">{level_code} &middot; Ascolto (trascrizione)</p>
                 <h2 id="listening-heading">{esc(title)}</h2>
-                <p>No audio recording yet &mdash; read this exchange as a listening-style dialogue and imagine the pacing of real speech.</p>
+                <p>Non c'è ancora una registrazione audio &mdash; leggi questo scambio come un dialogo in stile ascolto e immagina il ritmo del parlato reale.</p>
             </div>
             <div class="card"><div class="prose">{script}</div></div>
         </div>
@@ -301,13 +301,13 @@ def writing_speaking_section(level_code):
     return f"""<section id="writing" class="section section--surface" aria-labelledby="writing-heading">
         <div class="section__inner split">
             <div>
-                <p class="eyebrow">{level_code} &middot; Writing</p>
-                <h2 id="writing-heading">Guided Writing Task</h2>
+                <p class="eyebrow">{level_code} &middot; Scrittura</p>
+                <h2 id="writing-heading">Attività di Scrittura Guidata</h2>
                 <p style="max-width:56ch;">{esc(prompt)}</p>
             </div>
             <div class="card card--feature" id="speaking">
-                <p class="eyebrow">{level_code} &middot; Speaking</p>
-                <h3 style="font-size:var(--step-0);">Conversation Prompts</h3>
+                <p class="eyebrow">{level_code} &middot; Parlato</p>
+                <h3 style="font-size:var(--step-0);">Spunti di Conversazione</h3>
                 <ul class="summary-list">{speaking_items}</ul>
             </div>
         </div>
@@ -321,32 +321,32 @@ def build(level_code, level_slug):
     index = json.loads((REPO_ROOT / "curriculum" / "index.json").read_text(encoding="utf-8"))
     overview = index["levels"][level_code]["overview"]
 
-    title = f"{level_code} — {name} — Renan the Teacher Italian Course"
+    title = f"{level_code} — {name} — Corso d'Italiano di Renan the Teacher"
     description = f"{level_code} {name}: {blurb}"[:300]
     breadcrumb = (
         f'<li><a href="{REL}index.html">Home</a></li>'
-        f'<li aria-current="page">Levels</li>'
+        f'<li aria-current="page">Livelli</li>'
         f'<li aria-current="page">{level_code} {name}</li>'
     )
     page_header = f"""<div class="page-header">
         {site_chrome.STARS_ROW}
         <div class="page-header__inner">
             <div class="page-header__text">
-                <p class="eyebrow hero__eyebrow">Let's learn</p>
+                <p class="eyebrow hero__eyebrow">Impariamo</p>
                 <h1>{level_code} &mdash; {esc(name)}</h1>
                 <p class="page-header__lede">{esc(blurb)}</p>
             </div>
         </div>
     </div>"""
     toc = ('<div class="level-toc" data-scrollspy><div class="level-toc__inner">'
-           '<a href="#lessons">Lessons</a><a href="#test-yourself">Test Yourself</a>'
-           '<a href="#vocabulary">Vocabulary</a><a href="#reading">Reading</a>'
-           '<a href="#listening">Listening</a><a href="#writing">Writing</a>'
-           '<a href="#speaking">Speaking</a></div></div>')
+           '<a href="#lessons">Lezioni</a><a href="#test-yourself">Mettiti alla Prova</a>'
+           '<a href="#vocabulary">Vocabolario</a><a href="#reading">Lettura</a>'
+           '<a href="#listening">Ascolto</a><a href="#writing">Scrittura</a>'
+           '<a href="#speaking">Parlato</a></div></div>')
 
     overview_section = f"""<section class="section section--tight" aria-labelledby="overview-heading">
         <div class="section__inner">
-            <h2 id="overview-heading" class="visually-hidden">Overview</h2>
+            <h2 id="overview-heading" class="visually-hidden">Panoramica</h2>
             <p style="max-width:62ch;font-size:var(--step-0);color:var(--color-text-muted);">{esc(overview)}</p>
         </div>
     </section>"""
@@ -355,8 +355,8 @@ def build(level_code, level_slug):
         <div class="section__inner">
             <div class="section__head">
                 <p class="eyebrow">{level_code}</p>
-                <h2 id="grammar-heading">Lessons</h2>
-                <p>{len(nav_list)} lessons, in order &mdash; each one builds on the one before it.</p>
+                <h2 id="grammar-heading">Lezioni</h2>
+                <p>{len(nav_list)} lezioni, in ordine &mdash; ognuna si basa sulla precedente.</p>
             </div>
             <div class="grid">{lesson_cards(level_slug, nav_list)}</div>
         </div>
@@ -366,10 +366,10 @@ def build(level_code, level_slug):
         <div class="section__inner">
             <div class="section__head">
                 <p class="eyebrow">{level_code}</p>
-                <h2 id="ty-heading">Test Yourself</h2>
-                <p>A single, comprehensive review covering every {level_code} grammar topic &mdash; every exercise from every lesson, mixed together.</p>
+                <h2 id="ty-heading">Mettiti alla Prova</h2>
+                <p>Un ripasso unico e completo di ogni argomento grammaticale di {level_code} &mdash; tutti gli esercizi di tutte le lezioni, mescolati insieme.</p>
             </div>
-            <a class="btn btn--accent" href="{level_slug}/test-yourself.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="15" r="6"/><path d="m9 10-3-7"/><path d="m15 10 3-7"/><path d="M9.5 15.5 12 17l2.5-1.5"/></svg>Start the test</a>
+            <a class="btn btn--accent" href="{level_slug}/test-yourself.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="15" r="6"/><path d="m9 10-3-7"/><path d="m15 10 3-7"/><path d="M9.5 15.5 12 17l2.5-1.5"/></svg>Inizia il test</a>
         </div>
     </section>"""
 
