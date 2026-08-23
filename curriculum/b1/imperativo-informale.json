@@ -1,0 +1,169 @@
+{
+  "id": "b1-imperativo-informale",
+  "level": "B1",
+  "unit": "1",
+  "order": 7,
+  "skill": "grammar",
+  "strand": "imperative",
+  "title": "L'Imperativo Informale",
+  "subtitle": "Giving commands and instructions with tu, noi, voi.",
+  "objectives": [
+    "Form the informal imperative for tu, noi, voi",
+    "Form the negative tu imperative correctly",
+    "Attach object and reflexive pronouns to the informal imperative"
+  ],
+  "content": {
+    "intro": "The informal imperative is how you give instructions, make suggestions, or issue commands to someone you'd address with tu — a friend, a child, someone your own age.",
+    "explanation": "<p>The tu and voi imperative forms match the present tense exactly for -ere and -ire verbs, but -are verbs change their tu ending from -i to -a. The noi form (\"let's...\") is identical to the noi present tense in every conjugation. The negative tu form is special: <strong>non + infinitive</strong>, not the expected non + imperative.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Imperativo informale — parlare, prendere, aprire</caption><thead><tr><th>Subject</th><th>parlare</th><th>prendere</th><th>aprire</th></tr></thead><tbody><tr><td>(tu)</td><td>parla!</td><td>prendi!</td><td>apri!</td></tr><tr><td>(noi)</td><td>parliamo!</td><td>prendiamo!</td><td>apriamo!</td></tr><tr><td>(voi)</td><td>parlate!</td><td>prendete!</td><td>aprite!</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Negative tu — non + infinitive",
+        "body": "<p><em>Non parlare!</em> (Don't speak!) — not \"non parla\". Noi and voi simply add non before the normal form: <em>Non parliamo. Non parlate.</em></p>"
+      },
+      {
+        "heading": "b) Pronouns attach to the end",
+        "body": "<p><em>Aiutami!</em> (Help me!) <em>Chiamalo!</em> (Call him!) <em>Alzati!</em> (Get up! — reflexive) In the negative, they can attach to the infinitive instead: <em>Non aiutarmi!</em> / <em>Non mi aiutare!</em></p>"
+      },
+      {
+        "heading": "c) Irregular tu imperatives",
+        "body": "<p><em>andare &rarr; va'/vai, dare &rarr; da'/dai, fare &rarr; fa'/fai, stare &rarr; sta'/stai, dire &rarr; di'</em> — short, apostrophized forms, both versions correct.</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Ascolta bene!",
+        "en": "Listen carefully!"
+      },
+      {
+        "it": "Non toccare quello!",
+        "en": "Don't touch that!"
+      },
+      {
+        "it": "Andiamo al cinema stasera!",
+        "en": "Let's go to the movies tonight!"
+      },
+      {
+        "it": "Chiamami quando arrivi.",
+        "en": "Call me when you arrive."
+      },
+      {
+        "it": "Ragazzi, fate silenzio!",
+        "en": "Guys, be quiet!"
+      },
+      {
+        "it": "Non ti preoccupare, andrà tutto bene.",
+        "en": "Don't worry, everything will be fine."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Non parla!",
+        "right": "Non parlare!",
+        "why": "The negative tu imperative uses non + infinitive, not the affirmative imperative form with non added."
+      },
+      {
+        "wrong": "Mi aiuta!",
+        "right": "Aiutami!",
+        "why": "Pronouns attach to the end of the informal imperative form, not before it as with a conjugated verb."
+      },
+      {
+        "wrong": "Parlate! (addressing one friend)",
+        "right": "Parla!",
+        "why": "Voi is plural — addressing a single friend needs the tu form, parla."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1ii-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "b1ii1",
+          "prompt": "___ (Ascoltare - tu) con attenzione!",
+          "answers": [
+            [
+              "Ascolta"
+            ]
+          ],
+          "explanation": "-are verbs change the tu ending to -a in the imperative.",
+          "options": [
+            "Ascolta",
+            "Ascolti",
+            "Ascoltare"
+          ]
+        },
+        {
+          "id": "b1ii2",
+          "prompt": "___ (Non parlare - tu) così forte!",
+          "answers": [
+            [
+              "Non parlare"
+            ]
+          ],
+          "explanation": "Negative tu imperative = non + infinitive.",
+          "options": [
+            "Non parlare",
+            "Non parla",
+            "Non parli"
+          ]
+        },
+        {
+          "id": "b1ii3",
+          "prompt": "Ragazzi, ___ (fare) silenzio!",
+          "answers": [
+            [
+              "fate"
+            ]
+          ],
+          "explanation": "Voi imperative of fare matches its present tense: fate.",
+          "options": [
+            "fate",
+            "fai",
+            "facciamo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1ii-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Command",
+      "items": [
+        {
+          "id": "b1ii4",
+          "prompt": "\"Call me!\" (informal)",
+          "options": [
+            "Mi chiama!",
+            "Chiamami!",
+            "Chiama mi!"
+          ],
+          "answerIndex": 1,
+          "explanation": "Pronouns attach directly to the end of the imperative verb."
+        }
+      ]
+    },
+    {
+      "id": "b1ii-correction",
+      "type": "correction",
+      "title": "Correct the Mistakes",
+      "items": [
+        {
+          "id": "b1ii5",
+          "incorrect": "Non tocca quello!",
+          "answer": [
+            "Non toccare quello!"
+          ],
+          "explanation": "Negative tu imperative needs the infinitive, not the present tense form."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Tu imperative: -are verbs use -a; -ere/-ire verbs match the present tense tu form.",
+    "Negative tu imperative is always non + infinitive — a genuine exception, not the affirmative + non.",
+    "Object and reflexive pronouns attach to the end of the imperative verb (Aiutami!, Alzati!)."
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": "b1-ci-e-ne",
+  "level": "B1",
+  "unit": "1",
+  "order": 10,
+  "skill": "grammar",
+  "strand": "particles",
+  "title": "Ci e Ne",
+  "subtitle": "Two small particles that replace a place, a topic, or a quantity.",
+  "objectives": [
+    "Use ci to replace a place or a topic introduced by a, in, su",
+    "Use ne to replace a quantity or a topic introduced by di",
+    "Place ci and ne correctly relative to the verb"
+  ],
+  "content": {
+    "intro": "You already met ci inside c'è/ci sono — now meet its full range, alongside its partner particle ne, both of which let you avoid repeating a place, topic, or quantity you've already mentioned.",
+    "explanation": "<p><strong>Ci</strong> replaces a place (\"there\") or a phrase introduced by a/in/su: <em>Vai a Roma? Sì, ci vado domani.</em> (Are you going to Rome? Yes, I'm going [there] tomorrow.) <strong>Ne</strong> replaces a quantity, or a phrase introduced by di: <em>Quanti libri hai? Ne ho tre.</em> (How many books do you have? I have three [of them].)</p>",
+    "rules": [
+      {
+        "heading": "a) Ci — place and topic (a/in/su)",
+        "body": "<ul><li>Place: <em>Sei mai stato in Sicilia? Sì, ci sono stato l'anno scorso.</em></li><li>Topic (pensare a): <em>Pensi al tuo futuro? Sì, ci penso spesso.</em></li></ul>"
+      },
+      {
+        "heading": "b) Ne — quantity and topic (di)",
+        "body": "<ul><li>Quantity: <em>Vuoi del vino? Sì, ne vorrei un po'.</em></li><li>Topic (parlare di): <em>Parli di politica? Non ne parlo mai.</em></li></ul>"
+      },
+      {
+        "heading": "c) Position",
+        "body": "<p>Both go before a conjugated verb, or attach to an infinitive: <em>Ci vado. / Voglio andarci.</em> With a number/quantity + passato prossimo, the participle agrees with ne's quantity: <em>Quante mele hai comprato? Ne ho comprate cinque.</em></p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Vai spesso in palestra? Sì, ci vado tre volte a settimana.",
+        "en": "Do you go to the gym often? Yes, I go [there] three times a week."
+      },
+      {
+        "it": "Quanti fratelli hai? Ne ho due.",
+        "en": "How many siblings do you have? I have two [of them]."
+      },
+      {
+        "it": "Credi in questo progetto? Sì, ci credo davvero.",
+        "en": "Do you believe in this project? Yes, I really believe in it."
+      },
+      {
+        "it": "Vuoi ancora del caffè? No grazie, non ne voglio più.",
+        "en": "Do you want more coffee? No thanks, I don't want any more [of it]."
+      },
+      {
+        "it": "Ne ho parlato con il mio capo.",
+        "en": "I talked about it with my boss."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Vado ci domani.",
+        "right": "Ci vado domani.",
+        "why": "Ci goes before the conjugated verb, exactly like other object pronouns — not after it."
+      },
+      {
+        "wrong": "Ho comprato cinque.",
+        "right": "Ne ho comprate cinque.",
+        "why": "A bare number needs ne to stand in for \"of them\" — Italian can't drop the quantity's referent the way casual English sometimes does."
+      },
+      {
+        "wrong": "Ne ho comprato cinque mele. (both ne and the noun)",
+        "right": "Ho comprato cinque mele. / Ne ho comprate cinque.",
+        "why": "Ne replaces the noun — using both ne and the noun together in the same clause is redundant."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1cn-fill",
+      "type": "fill-blank",
+      "title": "Ci or Ne?",
+      "items": [
+        {
+          "id": "b1cn1",
+          "prompt": "Vai in Italia quest'estate? Sì, ___ vado ad agosto.",
+          "answers": [
+            [
+              "ci"
+            ]
+          ],
+          "explanation": "Replacing a place (in Italia) → ci.",
+          "options": [
+            "ci",
+            "ne",
+            "lo"
+          ]
+        },
+        {
+          "id": "b1cn2",
+          "prompt": "Quanti anni hai? ___ ho ventotto.",
+          "answers": [
+            [
+              "Ne"
+            ]
+          ],
+          "explanation": "Replacing a quantity (anni) → ne.",
+          "options": [
+            "Ne",
+            "Ci",
+            "Li"
+          ]
+        },
+        {
+          "id": "b1cn3",
+          "prompt": "Pensi spesso al futuro? Sì, ___ penso ogni giorno.",
+          "answers": [
+            [
+              "ci"
+            ]
+          ],
+          "explanation": "Pensare a → ci.",
+          "options": [
+            "ci",
+            "ne",
+            "gli"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1cn-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Particle",
+      "items": [
+        {
+          "id": "b1cn4",
+          "prompt": "\"Do you want some water?\" — \"Yes, I want a little [of it].\"",
+          "options": [
+            "Sì, ci voglio un po'.",
+            "Sì, ne voglio un po'.",
+            "Sì, lo voglio un po'."
+          ],
+          "answerIndex": 1,
+          "explanation": "A quantity of water → ne."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Ci replaces a place or a topic introduced by a/in/su.",
+    "Ne replaces a quantity or a topic introduced by di.",
+    "Both go before the conjugated verb; ne with a number forces participle agreement in the passato prossimo."
+  ]
+}

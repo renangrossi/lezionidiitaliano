@@ -1,0 +1,150 @@
+{
+  "id": "b2-congiuntivo-presente",
+  "level": "B2",
+  "unit": "1",
+  "order": 2,
+  "skill": "grammar",
+  "strand": "subjunctive",
+  "title": "Il Congiuntivo Presente: Formazione",
+  "subtitle": "The mood of opinion, doubt and wish — how to build it.",
+  "objectives": [
+    "Conjugate regular verbs in the congiuntivo presente",
+    "Recognize that the tu/lui/lei forms are identical, requiring the subject pronoun for clarity",
+    "Recognize common irregular subjunctive stems: essere, avere, andare, fare"
+  ],
+  "content": {
+    "intro": "The subjunctive isn't a tense but a mood — it signals that what follows is an opinion, a wish, a doubt, or something not presented as objective fact, rather than a straightforward statement.",
+    "explanation": "<p>Formed from the io form of the present indicative (drop the -o, add the subjunctive endings). Almost every verb that's irregular in the present indicative keeps that same irregular stem in the subjunctive. One quirk worth knowing early: <strong>io, tu, and lui/lei all share the identical ending</strong>, so the subject pronoun is often needed to avoid ambiguity, breaking Italian's usual pro-drop habit.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Congiuntivo presente — parlare, prendere, dormire</caption><thead><tr><th>Subject</th><th>parlare</th><th>prendere</th><th>dormire</th></tr></thead><tbody><tr><td>io</td><td>parli</td><td>prenda</td><td>dorma</td></tr><tr><td>tu</td><td>parli</td><td>prenda</td><td>dorma</td></tr><tr><td>lui/lei</td><td>parli</td><td>prenda</td><td>dorma</td></tr><tr><td>noi</td><td>parliamo</td><td>prendiamo</td><td>dormiamo</td></tr><tr><td>voi</td><td>parliate</td><td>prendiate</td><td>dormiate</td></tr><tr><td>loro</td><td>parlino</td><td>prendano</td><td>dormano</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Regular endings",
+        "body": "<p>-are verbs: -i, -i, -i, -iamo, -iate, -ino. -ere/-ire verbs: -a, -a, -a, -iamo, -iate, -ano.</p>"
+      },
+      {
+        "heading": "b) Common irregular stems",
+        "body": "<p><em>essere → sia, sia, sia, siamo, siate, siano; avere → abbia...; andare → vada...; fare → faccia...; potere → possa...; dovere → debba...; volere → voglia...; venire → venga...</em></p>"
+      },
+      {
+        "heading": "c) When it's triggered",
+        "body": "<p>Almost always inside a subordinate clause introduced by <em>che</em>, after a main clause expressing opinion, doubt, emotion, or will — covered in detail in the next lesson.</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Penso che lui abbia ragione.",
+        "en": "I think he's right."
+      },
+      {
+        "it": "Spero che tu stia bene.",
+        "en": "I hope you're well."
+      },
+      {
+        "it": "Credo che sia una buona idea.",
+        "en": "I believe it's a good idea."
+      },
+      {
+        "it": "È importante che voi arriviate in orario.",
+        "en": "It's important that you arrive on time."
+      },
+      {
+        "it": "Non credo che loro vengano stasera.",
+        "en": "I don't think they're coming tonight."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Penso che lui ha ragione.",
+        "right": "Penso che lui abbia ragione.",
+        "why": "Penso che triggers the subjunctive, not the indicative ha."
+      },
+      {
+        "wrong": "Spero che io sia felice. (ambiguous without context)",
+        "right": "Spero di essere felice. (same subject, use di + infinitive instead)",
+        "why": "When the subject of both verbs is the same, Italian prefers di + infinitive over che + subjunctive."
+      },
+      {
+        "wrong": "Voglio che tu vai.",
+        "right": "Voglio che tu vada.",
+        "why": "Volere che triggers the subjunctive: vada, not the indicative vai."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2cp-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "b2cp1",
+          "prompt": "Penso che lei ___ (avere) ragione.",
+          "answers": [
+            [
+              "abbia"
+            ]
+          ],
+          "explanation": "Irregular subjunctive stem of avere: abbia.",
+          "options": [
+            "abbia",
+            "ha",
+            "avesse"
+          ]
+        },
+        {
+          "id": "b2cp2",
+          "prompt": "Spero che voi ___ (stare) bene.",
+          "answers": [
+            [
+              "stiate"
+            ]
+          ],
+          "explanation": "Voi subjunctive of stare: stiate.",
+          "options": [
+            "stiate",
+            "state",
+            "stavate"
+          ]
+        },
+        {
+          "id": "b2cp3",
+          "prompt": "È necessario che tu ___ (venire) subito.",
+          "answers": [
+            [
+              "venga"
+            ]
+          ],
+          "explanation": "Irregular subjunctive stem of venire: venga.",
+          "options": [
+            "venga",
+            "vieni",
+            "venisse"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2cp-mc",
+      "type": "multiple-choice",
+      "title": "Indicative or Subjunctive?",
+      "items": [
+        {
+          "id": "b2cp4",
+          "prompt": "\"I think it's raining.\"",
+          "options": [
+            "Penso che piove.",
+            "Penso che piova.",
+            "Penso piova."
+          ],
+          "answerIndex": 1,
+          "explanation": "Penso che always triggers the subjunctive."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Congiuntivo presente: -are verbs → -i/-i/-i/-iamo/-iate/-ino; -ere/-ire verbs → -a/-a/-a/-iamo/-iate/-ano.",
+    "Io, tu and lui/lei share an identical form — keep the subject pronoun for clarity.",
+    "Most present-indicative irregular verbs keep the same irregular stem in the subjunctive."
+  ]
+}

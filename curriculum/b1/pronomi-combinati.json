@@ -1,0 +1,146 @@
+{
+  "id": "b1-pronomi-combinati",
+  "level": "B1",
+  "unit": "1",
+  "order": 4,
+  "skill": "grammar",
+  "strand": "pronouns",
+  "title": "Pronomi Combinati",
+  "subtitle": "Me lo, te lo, glielo — direct and indirect pronouns fused into one word.",
+  "objectives": [
+    "Combine indirect and direct object pronouns in the correct order",
+    "Recognize the mi/ti/ci/vi → me/te/ce/ve vowel change",
+    "Recognize glielo/gliela/glieli/gliele as one fused word"
+  ],
+  "content": {
+    "intro": "When both a direct and an indirect object pronoun appear in the same sentence — \"I'll give it to you\" — Italian fuses them into a single combined form, always indirect before direct.",
+    "explanation": "<p>Mi, ti, ci, vi change their final -i to -e before a direct object pronoun (mi + lo &rarr; <strong>me lo</strong>). Gli and le both become <strong>glie-</strong> and physically fuse with the direct pronoun into one word: gli/le + lo &rarr; <strong>glielo</strong>, gli/le + la &rarr; <strong>gliela</strong>, and so on — this single form covers \"to him/her/them\" plus the direct object, disambiguated only by context.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Combined pronouns (indirect + lo/la/li/le)</caption><thead><tr><th>Indirect</th><th>+ lo</th><th>+ la</th><th>+ li</th><th>+ le</th></tr></thead><tbody><tr><td>mi</td><td>me lo</td><td>me la</td><td>me li</td><td>me le</td></tr><tr><td>ti</td><td>te lo</td><td>te la</td><td>te li</td><td>te le</td></tr><tr><td>gli/le</td><td>glielo</td><td>gliela</td><td>glieli</td><td>gliele</td></tr><tr><td>ci</td><td>ce lo</td><td>ce la</td><td>ce li</td><td>ce le</td></tr><tr><td>vi</td><td>ve lo</td><td>ve la</td><td>ve li</td><td>ve le</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Order and position",
+        "body": "<p>Indirect always comes first, direct second, and both go before the conjugated verb (or attach to an infinitive): <em>Te lo do.</em> (I give it to you.) <em>Posso dartelo.</em> / <em>Te lo posso dare.</em></p>"
+      },
+      {
+        "heading": "b) Participle agreement",
+        "body": "<p>The past participle agrees with the direct object exactly as with lo/la/li/le alone: <em>Te l'ho dato.</em> (m. sing.) <em>Te l'ho data.</em> (f. sing., elided the same way)</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Il libro? Te lo do domani.",
+        "en": "The book? I'll give it to you tomorrow."
+      },
+      {
+        "it": "Le chiavi? Gliele ho lasciate sul tavolo.",
+        "en": "The keys? I left them for him/her on the table."
+      },
+      {
+        "it": "Ce lo ha spiegato bene.",
+        "en": "He/she explained it to us well."
+      },
+      {
+        "it": "Non ve lo posso dire.",
+        "en": "I can't tell it to you [pl.]."
+      },
+      {
+        "it": "Se vuoi il mio numero, te lo scrivo.",
+        "en": "If you want my number, I'll write it down for you."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Lo mi do.",
+        "right": "Me lo do.",
+        "why": "The indirect pronoun always comes before the direct one, and both come before the verb — never after in this order."
+      },
+      {
+        "wrong": "Gli lo do.",
+        "right": "Glielo do.",
+        "why": "Gli/le physically fuse with lo/la/li/le into one written word — they never stay separate."
+      },
+      {
+        "wrong": "Te l'ho dato. (for una lettera, feminine)",
+        "right": "Te l'ho data.",
+        "why": "The participle must agree with the feminine direct object (la lettera), even though it's now hidden inside the elided l'."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1pc-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "b1pc1",
+          "prompt": "Il regalo? ___ do subito. (to you, tu)",
+          "answers": [
+            [
+              "Te lo"
+            ]
+          ],
+          "explanation": "Ti + lo = te lo.",
+          "options": [
+            "Te lo",
+            "Ti lo",
+            "Lo te"
+          ]
+        },
+        {
+          "id": "b1pc2",
+          "prompt": "La ricetta? ___ ho spiegata ieri. (to him)",
+          "answers": [
+            [
+              "Gliela"
+            ]
+          ],
+          "explanation": "Gli + la = gliela, fused into one word.",
+          "options": [
+            "Gliela",
+            "Gli la",
+            "Le la"
+          ]
+        },
+        {
+          "id": "b1pc3",
+          "prompt": "I documenti? ___ mando subito. (to us)",
+          "answers": [
+            [
+              "Ce li"
+            ]
+          ],
+          "explanation": "Ci + li = ce li.",
+          "options": [
+            "Ce li",
+            "Ci li",
+            "Ce le"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1pc-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Combined Pronoun",
+      "items": [
+        {
+          "id": "b1pc4",
+          "prompt": "\"I explained it to her\" (la spiegazione, feminine)",
+          "options": [
+            "Gliel'ho spiegato.",
+            "Gliel'ho spiegata.",
+            "Le l'ho spiegata."
+          ],
+          "answerIndex": 1,
+          "explanation": "Glielo/gliela fuses gli+le into one word, and the participle agrees with the feminine object."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Mi/ti/ci/vi change to me/te/ce/ve before a direct object pronoun.",
+    "Gli and le both become glie-, fusing into one word: glielo, gliela, glieli, gliele.",
+    "The past participle still agrees with the direct object hidden inside the combined pronoun."
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "c1-verbi-pronominali",
+  "level": "C1",
+  "unit": "1",
+  "order": 6,
+  "skill": "grammar",
+  "strand": "pronominal-verbs",
+  "title": "Verbi Pronominali",
+  "subtitle": "Farsi, andarsene, cavarsela — idiomatic verbs built from pronoun combinations.",
+  "objectives": [
+    "Recognize pronominal verbs as fixed idiomatic units",
+    "Conjugate andarsene and cavarsela correctly across their pronoun set",
+    "Use common pronominal verbs naturally in context"
+  ],
+  "content": {
+    "intro": "Pronominal verbs fuse a base verb with one or more pronouns into an idiomatic unit whose meaning often can't be guessed from the parts — a hallmark of fluent, native-sounding Italian.",
+    "explanation": "<p><strong>Andarsene</strong> (to leave, to go away) combines the reflexive andarsi with ne, both of which move together through the conjugation. <strong>Cavarsela</strong> (to get by, to manage) combines cavarsi with la. These aren't literal reflexive/partitive meanings anymore — they're memorized as whole idiomatic verbs.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Andarsene — present tense</caption><thead><tr><th>Subject</th><th>Form</th></tr></thead><tbody><tr><td>io</td><td>me ne vado</td></tr><tr><td>tu</td><td>te ne vai</td></tr><tr><td>lui/lei</td><td>se ne va</td></tr><tr><td>noi</td><td>ce ne andiamo</td></tr><tr><td>voi</td><td>ve ne andate</td></tr><tr><td>loro</td><td>se ne vanno</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Common pronominal verbs",
+        "body": "<ul><li><em>farcela</em> — to manage, to make it: <em>Ce l'ho fatta!</em> (I made it!)</li><li><em>cavarsela</em> — to get by: <em>Me la cavo bene in inglese.</em> (I get by well in English.)</li><li><em>prendersela</em> — to take offense/get upset: <em>Non prendertela!</em> (Don't take it personally!)</li><li><em>sentirsela</em> — to feel up to something: <em>Non me la sento di uscire stasera.</em></li></ul>"
+      },
+      {
+        "heading": "b) Passato prossimo of andarsene",
+        "body": "<p>Takes essere, with the participle agreeing: <em>Se n'è andato.</em> (He left.) <em>Se ne sono andate.</em> (They [f.] left.)</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Me ne vado, ci vediamo domani.",
+        "en": "I'm leaving, see you tomorrow."
+      },
+      {
+        "it": "Non ce la faccio più.",
+        "en": "I can't take it anymore."
+      },
+      {
+        "it": "Se l'è cavata benissimo all'esame.",
+        "en": "He/she got through the exam really well."
+      },
+      {
+        "it": "Non prendertela, non era colpa tua.",
+        "en": "Don't take it personally, it wasn't your fault."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Io vado ne.",
+        "right": "Me ne vado.",
+        "why": "Andarsene's pronouns (me/te/se/ce/ve/se + ne) precede the verb as a fixed unit — they can't be reordered or split."
+      },
+      {
+        "wrong": "Ho fatta cela. (word order)",
+        "right": "Ce l'ho fatta.",
+        "why": "The combined pronoun ce l' comes before the auxiliary, as one fixed sequence."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c1vp-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "c1vp1",
+          "prompt": "Sono stanco, ___ vado a dormire. (andarsene, io)",
+          "answers": [
+            [
+              "me ne"
+            ]
+          ],
+          "explanation": "Io form of andarsene: me ne vado.",
+          "options": [
+            "me ne",
+            "mi ne",
+            "ne mi"
+          ]
+        },
+        {
+          "id": "c1vp2",
+          "prompt": "Finalmente ___ fatta! (farcela, io, passato prossimo)",
+          "answers": [
+            [
+              "ce l'ho"
+            ]
+          ],
+          "explanation": "Ce l'ho fatta — I made it.",
+          "options": [
+            "ce l'ho",
+            "l'ho ce",
+            "ce ho la"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1vp-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Meaning",
+      "items": [
+        {
+          "id": "c1vp3",
+          "prompt": "\"Non prendertela\" means...",
+          "options": [
+            "Don't take it (an object) with you.",
+            "Don't take offense / don't be upset about it.",
+            "Don't take it away from him."
+          ],
+          "answerIndex": 1,
+          "explanation": "Prendersela is an idiomatic pronominal verb meaning to take offense/get upset."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Pronominal verbs (andarsene, cavarsela, farcela, prendersela) are idiomatic fixed units, not literal reflexive+pronoun combinations.",
+    "Their pronoun sequence moves together as a block through the conjugation.",
+    "Andarsene takes essere in the passato prossimo, with normal participle agreement."
+  ]
+}

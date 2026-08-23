@@ -1,0 +1,161 @@
+{
+  "id": "a2-verbi-irregolari-presente",
+  "level": "A2",
+  "unit": "1",
+  "order": 1,
+  "skill": "grammar",
+  "strand": "verbs",
+  "title": "Altri Verbi Irregolari al Presente",
+  "subtitle": "Dire, venire, uscire, dare, stare, sapere — the rest of Italian's everyday irregulars.",
+  "objectives": [
+    "Conjugate dire, venire, uscire, dare, stare and sapere in the present",
+    "Distinguish sapere (to know facts/how to) from conoscere (to know people/places)",
+    "Recognize stare in fixed expressions and the progressive form"
+  ],
+  "content": {
+    "intro": "Alongside andare, fare and volere, a second wave of irregular verbs — dire, venire, uscire, dare, stare, sapere — appears constantly in everyday Italian.",
+    "explanation": "<p>These verbs don't share one single pattern, so it's most efficient to learn them as a set through repeated use. Two are worth a special note: <strong>stare</strong> is the base of the progressive form (<em>sto mangiando</em>, I am eating) and of asking how someone is (<em>Come stai?</em>); and Italian splits English's single verb \"to know\" into two: <strong>sapere</strong> (facts, information, skills — often + infinitive) and <strong>conoscere</strong> (people, places — a regular -ere verb, covered alongside sapere here for contrast).</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Dire, venire, uscire, dare, stare, sapere — present tense</caption><thead><tr><th>Subject</th><th>dire</th><th>venire</th><th>uscire</th><th>dare</th><th>stare</th><th>sapere</th></tr></thead><tbody><tr><td>io</td><td>dico</td><td>vengo</td><td>esco</td><td>do</td><td>sto</td><td>so</td></tr><tr><td>tu</td><td>dici</td><td>vieni</td><td>esci</td><td>dai</td><td>stai</td><td>sai</td></tr><tr><td>lui/lei</td><td>dice</td><td>viene</td><td>esce</td><td>dà</td><td>sta</td><td>sa</td></tr><tr><td>noi</td><td>diciamo</td><td>veniamo</td><td>usciamo</td><td>diamo</td><td>stiamo</td><td>sappiamo</td></tr><tr><td>voi</td><td>dite</td><td>venite</td><td>uscite</td><td>date</td><td>state</td><td>sapete</td></tr><tr><td>loro</td><td>dicono</td><td>vengono</td><td>escono</td><td>danno</td><td>stanno</td><td>sanno</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Sapere vs. conoscere",
+        "body": "<ul><li><strong>sapere</strong> + fact/information: <em>So che parli italiano.</em> (I know that you speak Italian.)</li><li><strong>sapere</strong> + infinitive = to know how to: <em>So nuotare.</em> (I know how to swim.)</li><li><strong>conoscere</strong> + person/place: <em>Conosco Marco. Conosco Roma bene.</em></li></ul>"
+      },
+      {
+        "heading": "b) Stare — health, staying, and the progressive",
+        "body": "<ul><li>Health: <em>Come stai? Sto bene.</em></li><li>To stay/remain: <em>Stiamo a casa stasera.</em></li><li>Progressive (stare + gerund, full detail at C1): <em>Sto studiando.</em> (I am studying [right now].)</li></ul>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Cosa dici? Non ho capito.",
+        "en": "What are you saying? I didn't understand."
+      },
+      {
+        "it": "Vengo alla festa con Marco.",
+        "en": "I'm coming to the party with Marco."
+      },
+      {
+        "it": "Esco con gli amici stasera.",
+        "en": "I'm going out with friends tonight."
+      },
+      {
+        "it": "Non so dove sia l'ufficio.",
+        "en": "I don't know where the office is."
+      },
+      {
+        "it": "Conosco un buon ristorante qui vicino.",
+        "en": "I know a good restaurant near here."
+      },
+      {
+        "it": "Sto bene, grazie, e tu?",
+        "en": "I'm well, thanks, and you?"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Conosco che tu parli italiano.",
+        "right": "So che tu parli italiano.",
+        "why": "A fact/piece of information needs sapere, not conoscere."
+      },
+      {
+        "wrong": "So Marco molto bene.",
+        "right": "Conosco Marco molto bene.",
+        "why": "Knowing a person needs conoscere, not sapere."
+      },
+      {
+        "wrong": "Io sao nuotare.",
+        "right": "Io so nuotare.",
+        "why": "The io form of sapere is so, an irregular one-syllable form, not sao."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2vi-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "a2vi1",
+          "prompt": "Tu ___ (venire) alla festa?",
+          "answers": [
+            [
+              "vieni"
+            ]
+          ],
+          "explanation": "Tu form of venire is vieni.",
+          "options": [
+            "vieni",
+            "viene",
+            "vengo"
+          ]
+        },
+        {
+          "id": "a2vi2",
+          "prompt": "Noi non ___ (sapere) la risposta.",
+          "answers": [
+            [
+              "sappiamo"
+            ]
+          ],
+          "explanation": "Noi form of sapere is sappiamo.",
+          "options": [
+            "sappiamo",
+            "sapiamo",
+            "saviamo"
+          ]
+        },
+        {
+          "id": "a2vi3",
+          "prompt": "Loro ___ (uscire) ogni sabato sera.",
+          "answers": [
+            [
+              "escono"
+            ]
+          ],
+          "explanation": "Loro form of uscire is escono.",
+          "options": [
+            "escono",
+            "usciono",
+            "esce"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2vi-mc",
+      "type": "multiple-choice",
+      "title": "Sapere or Conoscere?",
+      "items": [
+        {
+          "id": "a2vi4",
+          "prompt": "\"I know how to cook\"",
+          "options": [
+            "So cucinare.",
+            "Conosco cucinare.",
+            "So a cucinare."
+          ],
+          "answerIndex": 0,
+          "explanation": "Sapere + infinitive = to know how to."
+        },
+        {
+          "id": "a2vi5",
+          "prompt": "\"I know this city well\"",
+          "options": [
+            "So questa città bene.",
+            "Conosco questa città bene.",
+            "Conosco a questa città bene."
+          ],
+          "answerIndex": 1,
+          "explanation": "Places need conoscere."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Dire, venire, uscire, dare, stare and sapere are irregular and must be memorized individually.",
+    "Sapere = facts/skills (often + infinitive); conoscere = people/places.",
+    "Stare covers health (Come stai?), staying/remaining, and is the base of the progressive form."
+  ]
+}

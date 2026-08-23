@@ -1,0 +1,123 @@
+{
+  "id": "c1-congiuntivo-trapassato",
+  "level": "C1",
+  "unit": "1",
+  "order": 1,
+  "skill": "grammar",
+  "strand": "subjunctive",
+  "title": "Il Congiuntivo Trapassato e la Concordanza dei Tempi",
+  "subtitle": "The subjunctive's past-before-past tense, and the complete sequence-of-tenses picture.",
+  "objectives": [
+    "Form the congiuntivo trapassato",
+    "Apply the full sequence-of-tenses table across all four subjunctive forms",
+    "Use the congiuntivo trapassato for a completed action before a past main clause"
+  ],
+  "content": {
+    "intro": "With the congiuntivo trapassato, Italian's subjunctive system is complete — four tenses (presente, passato, imperfetto, trapassato) that map cleanly onto the four indicative time frames.",
+    "explanation": "<p>Formed with the congiuntivo imperfetto of avere/essere + past participle: <em>avessi parlato, fossi partito/a</em>. It expresses an action that had already happened before the time of a past main clause — the subjunctive counterpart of the trapassato prossimo.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Sequence of tenses (simplified, standard cases)</caption><thead><tr><th>Main clause</th><th>Same time / later</th><th>Earlier (already happened)</th></tr></thead><tbody><tr><td>Present/future</td><td>congiuntivo presente</td><td>congiuntivo passato</td></tr><tr><td>Past/conditional</td><td>congiuntivo imperfetto</td><td>congiuntivo trapassato</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Formation",
+        "body": "<p>avessi/avessi/avesse/avessimo/aveste/avessero, or fossi/fossi/fosse/fossimo/foste/fossero, + past participle (agreeing with the subject when the auxiliary is essere).</p>"
+      },
+      {
+        "heading": "b) Use",
+        "body": "<p><em>Pensavo che avesse già finito.</em> (I thought he had already finished.) <em>Non credevo che fossero già partiti.</em> (I didn't think they had already left.)</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Pensavo che aveste già mangiato.",
+        "en": "I thought you had already eaten."
+      },
+      {
+        "it": "Speravo che non fosse successo niente di grave.",
+        "en": "I hoped nothing serious had happened."
+      },
+      {
+        "it": "Non sapevo che si fossero già conosciuti.",
+        "en": "I didn't know they had already met each other."
+      },
+      {
+        "it": "Era il film più bello che avessi mai visto.",
+        "en": "It was the best film I had ever seen."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Pensavo che avesse finito ieri. (needs already-completed nuance but uses the wrong tense)",
+        "right": "Pensavo che avesse già finito.",
+        "why": "An action completed before the past main clause needs the trapassato, matching the earlier-than-earlier timeline."
+      },
+      {
+        "wrong": "Era il film più bello che ho mai visto.",
+        "right": "Era il film più bello che avessi mai visto.",
+        "why": "A superlative relative clause (\"the most... that...\") conventionally triggers the subjunctive in Italian, and past context calls for the trapassato here."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c1ct-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "c1ct1",
+          "prompt": "Pensavo che tu ___ (già - partire).",
+          "answers": [
+            [
+              "fossi già partito",
+              "fossi già partita"
+            ]
+          ],
+          "explanation": "Congiuntivo trapassato of partire (essere).",
+          "options": [
+            "fossi già partito",
+            "sia già partito",
+            "eri già partito"
+          ]
+        },
+        {
+          "id": "c1ct2",
+          "prompt": "Non credevo che loro ___ (finire) il progetto così presto.",
+          "answers": [
+            [
+              "avessero finito"
+            ]
+          ],
+          "explanation": "Congiuntivo trapassato of finire (avere).",
+          "options": [
+            "avessero finito",
+            "abbiano finito",
+            "avevano finito"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1ct-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Tense",
+      "items": [
+        {
+          "id": "c1ct3",
+          "prompt": "\"It was the hardest exam I had ever taken.\"",
+          "options": [
+            "che avevo mai fatto",
+            "che avessi mai fatto",
+            "che ho mai fatto"
+          ],
+          "answerIndex": 1,
+          "explanation": "Superlative relative clause in a past context → congiuntivo trapassato."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Congiuntivo trapassato = congiuntivo imperfetto of avere/essere + past participle.",
+    "Completes the four-tense subjunctive system, mirroring the indicative's time frames.",
+    "Used for an action already completed before a past-tense (or conditional) main clause."
+  ]
+}

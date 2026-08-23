@@ -1,0 +1,103 @@
+{
+  "id": "c2-sintesi-argomentazione",
+  "level": "C2",
+  "unit": "1",
+  "order": 4,
+  "skill": "writing",
+  "strand": "argumentation",
+  "title": "L'Arte della Sintesi: Riassumere e Argomentare",
+  "subtitle": "Structuring a persuasive argument and summarizing precisely.",
+  "objectives": [
+    "Structure a short argumentative text with thesis, evidence, and counterargument",
+    "Use hedging and concession to acknowledge an opposing view before rebutting it",
+    "Summarize a longer text concisely without losing its key claims"
+  ],
+  "content": {
+    "intro": "Real argumentative writing in Italian doesn't just state opinions — it anticipates and addresses the other side, using concession as a rhetorical tool rather than a weakness.",
+    "explanation": "<p>A strong argumentative paragraph typically states a thesis, concedes a point to the opposing view (<em>È vero che..., Non si può negare che...</em>), and then pivots to the counter-argument (<em>Tuttavia..., Ciononostante...</em>). Summarizing well means compressing a text to its core claims without adding opinion or losing the original logical structure.</p>",
+    "rules": [
+      {
+        "heading": "a) Concession + rebuttal structure",
+        "body": "<p><em>È vero che [concession], tuttavia [counter-argument].</em> <em>Sebbene si possa obiettare che..., resta il fatto che...</em></p>"
+      },
+      {
+        "heading": "b) Summarizing formulas",
+        "body": "<p><em>L'autore sostiene che... / Il testo affronta il tema di... / In sintesi, l'argomento centrale è...</em></p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "È vero che il progetto comporta dei rischi; tuttavia, i benefici a lungo termine superano di gran lunga i costi iniziali.",
+        "en": "It's true the project carries risks; however, the long-term benefits far outweigh the initial costs."
+      },
+      {
+        "it": "L'autore sostiene che la tecnologia, se usata con moderazione, possa migliorare la qualità della vita.",
+        "en": "The author argues that technology, if used in moderation, can improve quality of life."
+      },
+      {
+        "it": "Sebbene si possa obiettare che la misura sia costosa, resta il fatto che salverebbe molte vite.",
+        "en": "Although one might object that the measure is expensive, the fact remains it would save many lives."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ignoring the counterargument entirely in a persuasive text",
+        "right": "Acknowledge it explicitly (è vero che...) before rebutting",
+        "why": "A persuasive argument that never addresses the obvious objection reads as one-sided and less convincing at this level of writing."
+      },
+      {
+        "wrong": "Summarizing by copying full sentences from the original",
+        "right": "Restate the core claim in your own, more compressed words",
+        "why": "A genuine summary requires reformulation, not verbatim extraction — copying isn't synthesis."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c2sa-mc",
+      "type": "multiple-choice",
+      "title": "Identify the Rhetorical Move",
+      "items": [
+        {
+          "id": "c2sa1",
+          "prompt": "\"È vero che... tuttavia...\" is an example of:",
+          "options": [
+            "A simple statement of fact",
+            "Concession followed by rebuttal",
+            "A summary formula"
+          ],
+          "answerIndex": 1,
+          "explanation": "This is the classic concession + counter-argument structure."
+        }
+      ]
+    },
+    {
+      "id": "c2sa-fill",
+      "type": "fill-blank",
+      "title": "Complete the Argumentative Structure",
+      "items": [
+        {
+          "id": "c2sa2",
+          "prompt": "___ si possa obiettare che il piano sia rischioso, i vantaggi sono evidenti. (although)",
+          "answers": [
+            [
+              "Sebbene",
+              "Benché"
+            ]
+          ],
+          "explanation": "Concessive conjunction, subjunctive follows.",
+          "options": [
+            "Sebbene",
+            "Perché",
+            "Quindi"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Strong argumentative writing concedes a point to the opposing view before rebutting it with tuttavia/ciononostante.",
+    "Summarizing means restating core claims in compressed, original wording — not copying sentences.",
+    "Set formulas (l'autore sostiene che, in sintesi) structure both argument and summary clearly."
+  ]
+}

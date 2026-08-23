@@ -1,0 +1,146 @@
+{
+  "id": "b1-imperfetto",
+  "level": "B1",
+  "unit": "1",
+  "order": 1,
+  "skill": "grammar",
+  "strand": "past-tenses",
+  "title": "L'Imperfetto",
+  "subtitle": "Italian's other past tense — for background, habits, and descriptions.",
+  "objectives": [
+    "Conjugate regular verbs in the imperfetto",
+    "Conjugate the three key irregular imperfetto verbs: essere, fare, bere",
+    "Use the imperfetto for habitual past actions and descriptions"
+  ],
+  "content": {
+    "intro": "While the passato prossimo reports a completed event, the imperfetto paints the background: what things were like, what used to happen, what was already going on.",
+    "explanation": "<p>The imperfetto is one of the most regular tenses in Italian — nearly every verb (even most that are irregular elsewhere) follows the same pattern, built by dropping -re from the infinitive and adding the imperfetto endings. Only essere is truly irregular; fare and bere use their old Latin stems (facere, bevere) rather than the modern infinitive.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Imperfetto — parlare, avere, essere</caption><thead><tr><th>Subject</th><th>parlare</th><th>avere</th><th>essere</th></tr></thead><tbody><tr><td>io</td><td>parlavo</td><td>avevo</td><td>ero</td></tr><tr><td>tu</td><td>parlavi</td><td>avevi</td><td>eri</td></tr><tr><td>lui/lei</td><td>parlava</td><td>aveva</td><td>era</td></tr><tr><td>noi</td><td>parlavamo</td><td>avevamo</td><td>eravamo</td></tr><tr><td>voi</td><td>parlavate</td><td>avevate</td><td>eravate</td></tr><tr><td>loro</td><td>parlavano</td><td>avevano</td><td>erano</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Regular pattern",
+        "body": "<p>Drop -are/-ere/-ire, add: -vo, -vi, -va, -vamo, -vate, -vano (with the conjugation's vowel kept: parla-vo, cred-e-vo, dorm-i-vo).</p>"
+      },
+      {
+        "heading": "b) When to use the imperfetto",
+        "body": "<ul><li>Habitual/repeated past actions: <em>Da bambino giocavo sempre fuori.</em> (As a child I always used to play outside.)</li><li>Descriptions (people, places, weather, time, age) in the past: <em>Era una bella giornata. Faceva caldo.</em></li><li>Background action interrupted by another (paired with passato prossimo, next lesson): <em>Dormivo quando hai chiamato.</em></li></ul>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Da piccolo abitavo in campagna.",
+        "en": "As a child I lived in the countryside."
+      },
+      {
+        "it": "Ogni estate andavamo al mare.",
+        "en": "Every summer we would go to the seaside."
+      },
+      {
+        "it": "Erano le nove di sera.",
+        "en": "It was nine in the evening."
+      },
+      {
+        "it": "Faceva molto freddo quel giorno.",
+        "en": "It was very cold that day."
+      },
+      {
+        "it": "Mia nonna raccontava sempre storie bellissime.",
+        "en": "My grandmother always used to tell wonderful stories."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ieri sono andato al mare ogni giorno.",
+        "right": "Ogni giorno andavo al mare.",
+        "why": "A repeated/habitual action needs the imperfetto, not the passato prossimo, which reports a single completed event."
+      },
+      {
+        "wrong": "Io ero avevo dieci anni.",
+        "right": "Avevo dieci anni.",
+        "why": "Age uses avere alone (avevo), not combined with essere."
+      },
+      {
+        "wrong": "Fecevo i compiti ogni sera. (for fare)",
+        "right": "Facevo i compiti ogni sera.",
+        "why": "Fare's imperfetto stem is fac- (from facere), giving facevo, not a form based on the modern infinitive fare."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1im-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "b1im1",
+          "prompt": "Da bambina, io ___ (giocare) sempre in giardino.",
+          "answers": [
+            [
+              "giocavo"
+            ]
+          ],
+          "explanation": "Regular -are imperfetto: giocavo.",
+          "options": [
+            "giocavo",
+            "giocai",
+            "ho giocato"
+          ]
+        },
+        {
+          "id": "b1im2",
+          "prompt": "Quando ___ (essere) giovane, viaggiavo molto.",
+          "answers": [
+            [
+              "ero"
+            ]
+          ],
+          "explanation": "Essere's irregular imperfetto io form is ero.",
+          "options": [
+            "ero",
+            "sono stato",
+            "fui"
+          ]
+        },
+        {
+          "id": "b1im3",
+          "prompt": "Noi ___ (avere) un cane quando ero piccolo.",
+          "answers": [
+            [
+              "avevamo"
+            ]
+          ],
+          "explanation": "Regular imperfetto of avere: avevamo.",
+          "options": [
+            "avevamo",
+            "abbiamo avuto",
+            "avevano"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1im-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Use",
+      "items": [
+        {
+          "id": "b1im4",
+          "prompt": "Describing what the weather was like yesterday afternoon:",
+          "options": [
+            "Ha fatto caldo.",
+            "Faceva caldo.",
+            "Fece caldo per un minuto."
+          ],
+          "answerIndex": 1,
+          "explanation": "Weather description in the past uses the imperfetto."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "The imperfetto is built regularly: stem + -vo/-vi/-va/-vamo/-vate/-vano; only essere is truly irregular.",
+    "Use it for habitual past actions, descriptions, and background states.",
+    "Contrast with the passato prossimo, which reports single, completed events — next lesson."
+  ]
+}

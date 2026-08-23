@@ -1,0 +1,160 @@
+{
+  "id": "a1-domande",
+  "level": "A1",
+  "unit": "1",
+  "order": 11,
+  "skill": "grammar",
+  "strand": "questions",
+  "title": "Domande e Parole Interrogative",
+  "subtitle": "Ask yes/no questions and use the question words: chi, cosa, dove, quando, perché, come, quanto.",
+  "objectives": [
+    "Form a yes/no question with no word-order change",
+    "Use the seven core question words",
+    "Answer perché questions with perché"
+  ],
+  "content": {
+    "intro": "Forming a question in Italian is refreshingly simple: for yes/no questions, the word order usually doesn't change at all.",
+    "explanation": "<p>A statement becomes a yes/no question just by using rising intonation in speech, or a question mark in writing — <em>Parli italiano.</em> becomes <em>Parli italiano?</em> with no other change. For questions asking for information, place the question word at the start of the sentence.</p>",
+    "rules": [
+      {
+        "heading": "a) Yes/no questions",
+        "body": "<p>Same word order as the statement, just rising intonation / a question mark: <em>Sei italiano? Hai fame? Vuoi un caffè?</em></p>"
+      },
+      {
+        "heading": "b) The seven question words",
+        "body": "<ul><li><strong>chi</strong> — who: <em>Chi è?</em></li><li><strong>cosa / che cosa</strong> — what: <em>Cosa fai?</em></li><li><strong>dove</strong> — where: <em>Dove abiti?</em></li><li><strong>quando</strong> — when: <em>Quando parti?</em></li><li><strong>perché</strong> — why: <em>Perché studi l'italiano?</em></li><li><strong>come</strong> — how: <em>Come stai?</em></li><li><strong>quanto/a/i/e</strong> — how much/many (agrees like an adjective): <em>Quanti anni hai?</em></li></ul>"
+      },
+      {
+        "heading": "c) Answering perché",
+        "body": "<p><em>Perché</em> means both \"why\" and \"because\" — context (and a comma, in writing) tells them apart: <em>Perché studi l'italiano? Perché mi piace.</em> (Why do you study Italian? Because I like it.)</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Dove abiti?",
+        "en": "Where do you live?"
+      },
+      {
+        "it": "Quando arriva il treno?",
+        "en": "When does the train arrive?"
+      },
+      {
+        "it": "Perché sei triste? Perché ho perso il lavoro.",
+        "en": "Why are you sad? Because I lost my job."
+      },
+      {
+        "it": "Quanti fratelli hai?",
+        "en": "How many siblings do you have?"
+      },
+      {
+        "it": "Parli spagnolo?",
+        "en": "Do you speak Spanish?"
+      },
+      {
+        "it": "Come si dice \"grazie\" in inglese?",
+        "en": "How do you say \"thank you\" in English?"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Fai cosa?",
+        "right": "Cosa fai? / Che cosa fai?",
+        "why": "Question words go at the start of the sentence, not at the end as in some casual English word order."
+      },
+      {
+        "wrong": "Quanto sorelle hai?",
+        "right": "Quante sorelle hai?",
+        "why": "Quanto agrees like an adjective — sorelle is feminine plural, so it must be quante."
+      },
+      {
+        "wrong": "Do you speak Spanish? — Fai tu parlare spagnolo?",
+        "right": "Parli spagnolo?",
+        "why": "Italian doesn't use a \"do/does\" auxiliary for questions — just use the plain conjugated verb."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1dq-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Right Question Word",
+      "items": [
+        {
+          "id": "a1dq1",
+          "prompt": "___ ti chiami?",
+          "options": [
+            "Come",
+            "Dove",
+            "Quando"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"Come ti chiami\" — how are you called — is the standard way to ask a name."
+        },
+        {
+          "id": "a1dq2",
+          "prompt": "___ anni hai?",
+          "options": [
+            "Quanti",
+            "Quanto",
+            "Quanta"
+          ],
+          "answerIndex": 0,
+          "explanation": "Anni is masculine plural, so quanto agrees as quanti."
+        },
+        {
+          "id": "a1dq3",
+          "prompt": "___ è il tuo insegnante?",
+          "options": [
+            "Chi",
+            "Cosa",
+            "Come"
+          ],
+          "answerIndex": 0,
+          "explanation": "Chi asks \"who\", the right word for asking about a person."
+        }
+      ]
+    },
+    {
+      "id": "a1dq-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "a1dq4",
+          "prompt": "___ abiti? — Abito a Torino.",
+          "answers": [
+            [
+              "Dove"
+            ]
+          ],
+          "explanation": "Dove asks about location.",
+          "options": [
+            "Dove",
+            "Quando",
+            "Come"
+          ]
+        },
+        {
+          "id": "a1dq5",
+          "prompt": "___ parti? — Parto domani.",
+          "answers": [
+            [
+              "Quando"
+            ]
+          ],
+          "explanation": "Quando asks about time.",
+          "options": [
+            "Quando",
+            "Dove",
+            "Perché"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Yes/no questions in Italian use the same word order as the statement — only intonation/punctuation changes.",
+    "The seven core question words: chi, cosa, dove, quando, perché, come, quanto (which agrees like an adjective).",
+    "Perché means both \"why\" and \"because\" — the same word covers both sides of the exchange."
+  ]
+}

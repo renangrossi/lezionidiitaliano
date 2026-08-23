@@ -1,0 +1,185 @@
+{
+  "id": "a1-saluti-e-presentazioni",
+  "level": "A1",
+  "unit": "1",
+  "order": 1,
+  "skill": "functional",
+  "strand": "greetings",
+  "title": "Saluti e Presentazioni",
+  "subtitle": "Greet people and introduce yourself — and know when to use tu or Lei.",
+  "objectives": [
+    "Greet someone and say goodbye at any time of day",
+    "Introduce yourself and ask someone's name",
+    "Choose between the informal tu and the formal Lei"
+  ],
+  "content": {
+    "intro": "Every conversation in Italian starts with a greeting — and the greeting you choose already signals how formal the conversation will be.",
+    "explanation": "<p>Italian has time-of-day greetings (<em>buongiorno</em>, <em>buonasera</em>) that work in both formal and informal situations, and an all-purpose informal <em>ciao</em> used only with people you're on first-name terms with — friends, family, children, and often colleagues your own age. <em>Salve</em> sits in between: a polite, neutral greeting safe for someone you don't know well.</p><p>Italian also has two ways to say &ldquo;you&rdquo;: <strong>tu</strong> (informal, singular) and <strong>Lei</strong> (formal, singular — note the capital L, and that it takes third-person verb forms, the same as <em>lui/lei</em>). Use <em>Lei</em> with strangers, older people, doctors, officials, and anyone in a professional context until they invite you to use <em>tu</em> (<em>diamoci del tu</em>, &ldquo;let's use tu with each other&rdquo;).</p>",
+    "rules": [
+      {
+        "heading": "a) Greetings by time and formality",
+        "body": "<ul><li><strong>Buongiorno</strong> — good morning / good day (formal or informal, until mid-afternoon)</li><li><strong>Buonasera</strong> — good evening (formal or informal, from mid-afternoon)</li><li><strong>Buonanotte</strong> — good night (only when leaving/going to bed, never as a greeting on arrival)</li><li><strong>Ciao</strong> — hi / bye (informal only, any time)</li><li><strong>Salve</strong> — hello (neutral, safe with strangers)</li><li><strong>Arrivederci</strong> — goodbye (formal-safe); <strong>ArrivederLa</strong> is the fully formal version</li></ul>"
+      },
+      {
+        "heading": "b) Asking and giving names",
+        "body": "<ul><li>Informal: <em>Come ti chiami?</em> (What's your name?) &rarr; <em>Mi chiamo Marco.</em></li><li>Formal: <em>Come si chiama?</em> &rarr; <em>Mi chiamo Marco.</em> (the answer doesn't change)</li><li><em>Piacere</em> — &ldquo;pleasure [to meet you]&rdquo;, said by both people when introduced</li></ul>"
+      },
+      {
+        "heading": "c) Tu vs. Lei",
+        "body": "<ul><li><strong>Tu</strong>: friends, family, children, peers &mdash; <em>Tu come stai?</em></li><li><strong>Lei</strong>: strangers, elders, professional settings &mdash; <em>Lei come sta?</em></li><li>Lei uses third-person singular verb forms, the same ones used for <em>lui/lei</em> (he/she)</li></ul>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Buongiorno, come sta?",
+        "en": "Good morning, how are you? (formal)"
+      },
+      {
+        "it": "Ciao! Come stai?",
+        "en": "Hi! How are you? (informal)"
+      },
+      {
+        "it": "Mi chiamo Giulia. E tu, come ti chiami?",
+        "en": "My name is Giulia. And you, what's your name?"
+      },
+      {
+        "it": "Piacere di conoscerla.",
+        "en": "Pleasure to meet you. (formal)"
+      },
+      {
+        "it": "Sto bene, grazie. E Lei?",
+        "en": "I'm well, thank you. And you? (formal)"
+      },
+      {
+        "it": "Arrivederci, a presto!",
+        "en": "Goodbye, see you soon!"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ciao, come sta?",
+        "right": "Ciao, come stai? / Buongiorno, come sta?",
+        "why": "Ciao is informal, so it pairs with the informal stai — mixing ciao with the formal sta is inconsistent."
+      },
+      {
+        "wrong": "Buonanotte! (as a hello when arriving)",
+        "right": "Buonasera! (as a hello when arriving)",
+        "why": "Buonanotte is only for leaving or going to bed, never for greeting someone on arrival."
+      },
+      {
+        "wrong": "Come ti chiama?",
+        "right": "Come ti chiami? / Come si chiama?",
+        "why": "Ti chiami is the tu-form (2nd person: you call yourself); ti chiama mixes tu with a 3rd-person verb ending."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1sp-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Right Greeting",
+      "items": [
+        {
+          "id": "a1sp1",
+          "prompt": "You meet your boss for the first time this morning. What do you say?",
+          "options": [
+            "Ciao!",
+            "Buongiorno!",
+            "Buonanotte!"
+          ],
+          "answerIndex": 1,
+          "explanation": "Buongiorno is the safe, formal-appropriate morning greeting for someone you don't know well."
+        },
+        {
+          "id": "a1sp2",
+          "prompt": "You're leaving your friend's house late at night.",
+          "options": [
+            "Buongiorno",
+            "Ciao, buonanotte!",
+            "Buonasera"
+          ],
+          "answerIndex": 1,
+          "explanation": "Buonanotte is used when leaving or going to bed, paired here with the informal ciao since it's a friend."
+        },
+        {
+          "id": "a1sp3",
+          "prompt": "Which pronoun goes with a stranger you're asking for directions?",
+          "options": [
+            "tu",
+            "Lei",
+            "voi"
+          ],
+          "answerIndex": 1,
+          "explanation": "Lei is the formal singular \"you\", the safe default with strangers."
+        }
+      ]
+    },
+    {
+      "id": "a1sp-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "instructions": "Complete each exchange.",
+      "items": [
+        {
+          "id": "a1sp4",
+          "prompt": "— Come ti ___? — Mi chiamo Anna.",
+          "answers": [
+            [
+              "chiami"
+            ]
+          ],
+          "explanation": "Chiami is the informal tu-form of chiamarsi.",
+          "options": [
+            "chiami",
+            "chiama",
+            "chiamo"
+          ]
+        },
+        {
+          "id": "a1sp5",
+          "prompt": "— Buonasera, come ___? — Sto bene, grazie.",
+          "answers": [
+            [
+              "sta"
+            ]
+          ],
+          "explanation": "Sta is the formal Lei-form of stare, matching buonasera used formally here.",
+          "options": [
+            "sta",
+            "stai",
+            "sto"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1sp-correction",
+      "type": "correction",
+      "title": "Correct the Mistakes",
+      "items": [
+        {
+          "id": "a1sp6",
+          "incorrect": "Ciao, come sta?",
+          "answer": [
+            "Ciao, come stai?"
+          ],
+          "explanation": "Ciao is informal, so it should pair with the informal stai, not the formal sta."
+        },
+        {
+          "id": "a1sp7",
+          "incorrect": "Buonanotte! (greeting a colleague who just arrived)",
+          "answer": [
+            "Buongiorno!",
+            "Buonasera!"
+          ],
+          "explanation": "Buonanotte is never used to greet someone arriving — only when leaving or going to sleep."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Buongiorno/buonasera work formally or informally; ciao is informal-only; buonanotte is for leaving, not arriving.",
+    "Come ti chiami? (informal) vs. Come si chiama? (formal) — the answer, mi chiamo..., stays the same.",
+    "Use tu with people you're close to; use Lei with strangers, elders and professional contacts."
+  ]
+}

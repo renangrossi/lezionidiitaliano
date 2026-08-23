@@ -1,0 +1,110 @@
+{
+  "id": "c2-coesione-testuale",
+  "level": "C2",
+  "unit": "1",
+  "order": 6,
+  "skill": "writing",
+  "strand": "cohesion",
+  "title": "Coesione Testuale Avanzata: Anafora ed Ellissi",
+  "subtitle": "Keeping a long text connected without repeating yourself.",
+  "objectives": [
+    "Use anaphoric reference (pronouns, demonstratives) to avoid repetition across sentences",
+    "Recognize and use ellipsis to omit a repeated element cleanly",
+    "Maintain clarity of reference across a multi-sentence paragraph"
+  ],
+  "content": {
+    "intro": "A cohesive text avoids repeating the same noun sentence after sentence, but also avoids ambiguity about what each pronoun refers back to — a balance advanced writing has to manage deliberately.",
+    "explanation": "<p><strong>Anaphora</strong> here means referring back to something already mentioned, using a pronoun, demonstrative (<em>questo/quello</em>), or a summarizing noun (<em>tale scelta, questo fatto</em>) instead of repeating it. <strong>Ellipsis</strong> is the clean omission of a repeated element when the grammar makes it recoverable: <em>Marco studia legge, Anna [studia] medicina.</em></p>",
+    "rules": [
+      {
+        "heading": "a) Anaphoric devices",
+        "body": "<ul><li>Pronouns: <em>lo, la, li, le, ne, ci</em></li><li>Demonstratives: <em>questo, quello, ciò</em> (ciò is a fixed, invariable \"this/that [abstract idea]\")</li><li>Summarizing nouns: <em>tale decisione, questo approccio, il tutto</em></li></ul>"
+      },
+      {
+        "heading": "b) Ellipsis",
+        "body": "<p>Omitting a repeated verb (or verb phrase) when context makes it recoverable: <em>Lui ama la musica classica, lei [ama] il jazz.</em></p>"
+      },
+      {
+        "heading": "c) Avoiding ambiguous reference",
+        "body": "<p>When two possible antecedents exist, prefer a demonstrative or a repeated noun over an ambiguous pronoun: <em>Marco ha parlato con Luca; quest'ultimo sembrava preoccupato.</em> (quest'ultimo = \"the latter\", unambiguous.)</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Il progetto è ambizioso. Ciò non significa che sia irrealizzabile.",
+        "en": "The project is ambitious. That doesn't mean it's unachievable."
+      },
+      {
+        "it": "Marco preferisce il tè, Anna il caffè.",
+        "en": "Marco prefers tea, Anna [prefers] coffee. (ellipsis)"
+      },
+      {
+        "it": "Ho parlato con il direttore e con il suo assistente; quest'ultimo si è mostrato molto disponibile.",
+        "en": "I spoke with the director and his assistant; the latter was very helpful. (unambiguous anaphora)"
+      },
+      {
+        "it": "Tale scelta ha sorpreso molti osservatori.",
+        "en": "This choice surprised many observers. (summarizing anaphora)"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Repeating the full noun phrase in every sentence of a paragraph",
+        "right": "Vary with pronouns, demonstratives, and summarizing nouns",
+        "why": "Constant repetition of the same full noun phrase reads as mechanical and unpolished in fluent written Italian."
+      },
+      {
+        "wrong": "Using lui/lei ambiguously when two people of the same gender were just mentioned",
+        "right": "Use quest'ultimo/quel primo or repeat the name for clarity",
+        "why": "An ambiguous pronoun with two possible antecedents forces the reader to guess — advanced writing resolves this explicitly."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c2ct-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Best Cohesive Device",
+      "items": [
+        {
+          "id": "c2ct1",
+          "prompt": "Two people were just mentioned; you need to refer unambiguously to the second one:",
+          "options": [
+            "lui",
+            "quest'ultimo",
+            "quello"
+          ],
+          "answerIndex": 1,
+          "explanation": "Quest'ultimo (\"the latter\") unambiguously points to the most recently mentioned of the two."
+        }
+      ]
+    },
+    {
+      "id": "c2ct-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "c2ct2",
+          "prompt": "Il piano è complesso. ___ non lo rende impossibile. (this [abstract])",
+          "answers": [
+            [
+              "Ciò"
+            ]
+          ],
+          "explanation": "Ciò is the fixed, invariable pronoun for an abstract \"this/that idea\".",
+          "options": [
+            "Ciò",
+            "Questo oggetto",
+            "Lui"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Anaphoric devices (pronouns, ciò, quest'ultimo, summarizing nouns) avoid repeating a noun phrase across sentences.",
+    "Ellipsis cleanly omits a repeated verb/phrase when grammar makes it recoverable.",
+    "Ambiguous pronoun reference is resolved with demonstratives like quest'ultimo, not left to guesswork."
+  ]
+}

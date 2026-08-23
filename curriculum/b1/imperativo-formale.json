@@ -1,0 +1,131 @@
+{
+  "id": "b1-imperativo-formale",
+  "level": "B1",
+  "unit": "1",
+  "order": 8,
+  "skill": "grammar",
+  "strand": "imperative",
+  "title": "L'Imperativo Formale",
+  "subtitle": "Commands and instructions with Lei — and where pronouns go this time.",
+  "objectives": [
+    "Form the formal (Lei) imperative",
+    "Place pronouns correctly before the formal imperative",
+    "Contrast formal and informal imperative in the same situation"
+  ],
+  "content": {
+    "intro": "The formal imperative uses the Lei form — borrowed, interestingly, from the present subjunctive rather than the present indicative — and its pronoun placement rule is the opposite of the informal imperative's.",
+    "explanation": "<p>Where the informal imperative attaches pronouns to the end of the verb, the <strong>formal imperative places pronouns before the verb</strong>, exactly like any other conjugated verb form. The Lei imperative form itself looks like an -are verb's tu present tense and vice versa — a genuinely irregular-feeling swap worth memorizing as a pattern.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Imperativo formale (Lei) — parlare, prendere, aprire</caption><thead><tr><th>Verb</th><th>Lei imperative</th></tr></thead><tbody><tr><td>parlare</td><td>parli!</td></tr><tr><td>prendere</td><td>prenda!</td></tr><tr><td>aprire</td><td>apra!</td></tr><tr><td>fare (irregular)</td><td>faccia!</td></tr><tr><td>andare (irregular)</td><td>vada!</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Formation",
+        "body": "<p>-are verbs take -i (the opposite of their tu present -i); -ere/-ire verbs take -a. Negation is simple: just add non before the form — no infinitive switch, unlike the informal tu.</p>"
+      },
+      {
+        "heading": "b) Pronoun placement — before the verb",
+        "body": "<p><em>Mi dica!</em> (Tell me! — formal) <em>Si accomodi.</em> (Please have a seat/come in.) <em>Lo prenda pure.</em> (Please take it.)</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Mi scusi, dov'è la stazione?",
+        "en": "Excuse me, where's the station? (Lei form of scusare)"
+      },
+      {
+        "it": "Si accomodi, prego.",
+        "en": "Please, have a seat / come in."
+      },
+      {
+        "it": "Aspetti un momento, per favore.",
+        "en": "Please wait a moment."
+      },
+      {
+        "it": "Non si preoccupi.",
+        "en": "Don't worry. (formal)"
+      },
+      {
+        "it": "Mi dica pure, come posso aiutarla?",
+        "en": "Go ahead and tell me, how can I help you?"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Scusami! (to a stranger you'd address as Lei)",
+        "right": "Mi scusi!",
+        "why": "Scusami is the informal tu imperative; a stranger or formal context needs the Lei form, mi scusi."
+      },
+      {
+        "wrong": "Dicami!",
+        "right": "Mi dica!",
+        "why": "Unlike the informal imperative, pronouns go before the formal (Lei) imperative verb, not attached after it."
+      },
+      {
+        "wrong": "Non aspettare! (as a formal negative command)",
+        "right": "Non aspetti!",
+        "why": "Only the informal tu negative imperative switches to the infinitive — the formal negative simply adds non before the normal Lei form."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1if-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "b1if1",
+          "prompt": "___, dov'è il bagno? (Excuse me, formal)",
+          "answers": [
+            [
+              "Mi scusi"
+            ]
+          ],
+          "explanation": "Formal imperative of scusare, with the pronoun before the verb.",
+          "options": [
+            "Mi scusi",
+            "Scusami",
+            "Mi scusa"
+          ]
+        },
+        {
+          "id": "b1if2",
+          "prompt": "Signora, ___ (accomodarsi), prego.",
+          "answers": [
+            [
+              "si accomodi"
+            ]
+          ],
+          "explanation": "Formal reflexive imperative, pronoun before the verb.",
+          "options": [
+            "si accomodi",
+            "si accomoda",
+            "accomodisi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1if-mc",
+      "type": "multiple-choice",
+      "title": "Formal or Informal?",
+      "items": [
+        {
+          "id": "b1if3",
+          "prompt": "Talking to your doctor: \"Please don't worry\"",
+          "options": [
+            "Non ti preoccupare.",
+            "Non si preoccupi.",
+            "Non preoccupati."
+          ],
+          "answerIndex": 1,
+          "explanation": "A doctor is addressed formally: non si preoccupi."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Formal (Lei) imperative: -are verbs take -i, -ere/-ire verbs take -a — the reverse of their present tense pattern.",
+    "Pronouns go before the formal imperative verb, unlike the informal, which attaches them after.",
+    "The formal negative is just non + the normal Lei form — no infinitive switch as with informal tu."
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "c1-gerundio-progressivo",
+  "level": "C1",
+  "unit": "1",
+  "order": 3,
+  "skill": "grammar",
+  "strand": "gerund",
+  "title": "Il Gerundio e la Forma Progressiva",
+  "subtitle": "Stare + gerundio for actions in progress, and the gerund's other uses.",
+  "objectives": [
+    "Form the gerund of regular and common irregular verbs",
+    "Use stare + gerundio for an action happening right now",
+    "Use the gerund alone to express cause, means, or a simultaneous action"
+  ],
+  "content": {
+    "intro": "The Italian gerund (-ando/-endo) is the base of the progressive form and, used on its own, a compact way to express cause, method, or a simultaneous action without a connector word.",
+    "explanation": "<p>Regular gerunds: -are &rarr; -ando, -ere/-ire &rarr; -endo. A few verbs use their old Latin stem, matching the imperfetto: <em>fare &rarr; facendo, dire &rarr; dicendo, bere &rarr; bevendo</em>. Object and reflexive pronouns attach to the end of a standalone gerund, but go before <em>stare</em> in the progressive.</p>",
+    "rules": [
+      {
+        "heading": "a) Stare + gerundio — progressive",
+        "body": "<p>Marks an action genuinely in progress right now, more emphatic than the simple present: <em>Sto leggendo un libro.</em> (I am [right now] reading a book.) Pronouns go before stare or attach to the gerund: <em>Lo sto leggendo. / Sto leggendolo.</em></p>"
+      },
+      {
+        "heading": "b) Gerund alone — cause, means, simultaneous action",
+        "body": "<ul><li>Cause: <em>Studiando ogni giorno, ho imparato molto.</em> (By studying every day, I learned a lot.)</li><li>Simultaneous action: <em>Ho letto il giornale bevendo il caffè.</em> (I read the paper while drinking coffee.)</li></ul>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Sto scrivendo un'email importante.",
+        "en": "I'm [right now] writing an important email."
+      },
+      {
+        "it": "Stavamo dormendo quando è arrivata la chiamata.",
+        "en": "We were sleeping when the call came in."
+      },
+      {
+        "it": "Camminando per la città, ho scoperto un bel caffè.",
+        "en": "Walking through the city, I discovered a nice café."
+      },
+      {
+        "it": "Ha imparato l'italiano guardando film senza sottotitoli.",
+        "en": "He learned Italian by watching films without subtitles."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Sto leggere un libro.",
+        "right": "Sto leggendo un libro.",
+        "why": "Stare requires the gerund, not the infinitive, in the progressive form."
+      },
+      {
+        "wrong": "Facendo attenzione. (spelled as if regular)",
+        "right": "facendo (irregular stem fac-)",
+        "why": "Fare's gerund uses the old stem fac-, matching its imperfetto (facevo), not a regular -are gerund."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c1gp-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "c1gp1",
+          "prompt": "Cosa ___ (tu - fare)? Sto ___.",
+          "answers": [
+            [
+              "stai facendo"
+            ],
+            [
+              "studiando"
+            ]
+          ],
+          "explanation": "Progressive: stare + gerundio.",
+          "options": [
+            "stai facendo",
+            "fai",
+            "studiando",
+            "studiare"
+          ]
+        },
+        {
+          "id": "c1gp2",
+          "prompt": "___ (Bere) il caffè, ho letto le notizie.",
+          "answers": [
+            [
+              "Bevendo"
+            ]
+          ],
+          "explanation": "Bere's irregular gerund stem: bevendo.",
+          "options": [
+            "Bevendo",
+            "Berendo",
+            "Bevuto"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1gp-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Form",
+      "items": [
+        {
+          "id": "c1gp3",
+          "prompt": "\"I learned a lot by traveling.\"",
+          "options": [
+            "Ho imparato molto viaggiare.",
+            "Ho imparato molto viaggiando.",
+            "Ho imparato molto viaggiato."
+          ],
+          "answerIndex": 1,
+          "explanation": "The gerund expresses means/method here."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Regular gerund: -are→-ando, -ere/-ire→-endo; some verbs use an irregular Latin-derived stem.",
+    "Stare + gerundio marks an action genuinely in progress right now.",
+    "A standalone gerund can express cause, method, or a simultaneous action, with pronouns attached to its end."
+  ]
+}

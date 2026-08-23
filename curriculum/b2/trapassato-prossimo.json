@@ -1,0 +1,122 @@
+{
+  "id": "b2-trapassato-prossimo",
+  "level": "B2",
+  "unit": "1",
+  "order": 1,
+  "skill": "grammar",
+  "strand": "past-tenses",
+  "title": "Il Trapassato Prossimo",
+  "subtitle": "The past before the past — what had already happened.",
+  "objectives": [
+    "Form the trapassato prossimo with the imperfetto of avere/essere + past participle",
+    "Use it to mark an action that happened before another past action",
+    "Apply the same auxiliary and agreement rules as the passato prossimo"
+  ],
+  "content": {
+    "intro": "When you need to describe an event that had already finished before another past event, Italian reaches one step further back than the passato prossimo: the trapassato prossimo.",
+    "explanation": "<p>Formed exactly like the passato prossimo, but with the auxiliary in the <strong>imperfetto</strong> instead of the present: <em>avevo parlato</em> (I had spoken), <em>ero partito</em> (I had left). Every rule you already know — which verbs take essere, when the participle agrees — carries over unchanged.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Trapassato prossimo — mangiare, partire</caption><thead><tr><th>Subject</th><th>mangiare</th><th>partire</th></tr></thead><tbody><tr><td>io</td><td>avevo mangiato</td><td>ero partito/a</td></tr><tr><td>tu</td><td>avevi mangiato</td><td>eri partito/a</td></tr><tr><td>lui/lei</td><td>aveva mangiato</td><td>era partito/a</td></tr><tr><td>noi</td><td>avevamo mangiato</td><td>eravamo partiti/e</td></tr><tr><td>voi</td><td>avevate mangiato</td><td>eravate partiti/e</td></tr><tr><td>loro</td><td>avevano mangiato</td><td>erano partiti/e</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Two past events, one earlier than the other",
+        "body": "<p>The earlier event goes in the trapassato prossimo; the later one in the passato prossimo or imperfetto: <em>Quando sono arrivato, il treno era già partito.</em> (When I arrived, the train had already left.)</p>"
+      },
+      {
+        "heading": "b) Common with già, non ancora, appena",
+        "body": "<p><em>Non avevo mai visto un tramonto così.</em> (I had never seen a sunset like that.) <em>Aveva appena finito quando ho chiamato.</em> (He had just finished when I called.)</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Quando sono arrivata, la lezione era già iniziata.",
+        "en": "When I arrived, the lesson had already started."
+      },
+      {
+        "it": "Non avevo mai mangiato il sushi prima di quel viaggio.",
+        "en": "I had never eaten sushi before that trip."
+      },
+      {
+        "it": "Avevamo già prenotato l'albergo quando hanno cancellato il volo.",
+        "en": "We had already booked the hotel when they cancelled the flight."
+      },
+      {
+        "it": "Era già partito quando ho chiamato a casa sua.",
+        "en": "He had already left when I called his house."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Quando sono arrivata, la lezione è già iniziata.",
+        "right": "Quando sono arrivata, la lezione era già iniziata.",
+        "why": "The starting of the lesson happened before the arrival, so it needs the trapassato prossimo, not the passato prossimo."
+      },
+      {
+        "wrong": "Avevo andato al mercato prima.",
+        "right": "Ero andato al mercato prima.",
+        "why": "Andare takes essere, and this doesn't change in the trapassato prossimo — only the auxiliary's tense changes, not which auxiliary is used."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2tp-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "b2tp1",
+          "prompt": "Quando sono tornato a casa, mia madre ___ (già - cucinare) la cena.",
+          "answers": [
+            [
+              "aveva già cucinato"
+            ]
+          ],
+          "explanation": "Trapassato prossimo for the earlier event.",
+          "options": [
+            "aveva già cucinato",
+            "ha già cucinato",
+            "cucinava già"
+          ]
+        },
+        {
+          "id": "b2tp2",
+          "prompt": "Non ___ (io - mai vedere) un film così bello prima.",
+          "answers": [
+            [
+              "avevo mai visto"
+            ]
+          ],
+          "explanation": "Trapassato prossimo of vedere: avevo visto.",
+          "options": [
+            "avevo mai visto",
+            "ho mai visto",
+            "avevo mai vedeto"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2tp-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Tense",
+      "items": [
+        {
+          "id": "b2tp3",
+          "prompt": "\"When I woke up, everyone had already left.\"",
+          "options": [
+            "Tutti sono già partiti.",
+            "Tutti erano già partiti.",
+            "Tutti partivano già."
+          ],
+          "answerIndex": 1,
+          "explanation": "The leaving happened before the waking up — trapassato prossimo."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Trapassato prossimo = imperfetto of avere/essere + past participle.",
+    "Marks an action completed before another past action or reference point.",
+    "Same auxiliary-choice and agreement rules as the passato prossimo — only the auxiliary's own tense changes."
+  ]
+}

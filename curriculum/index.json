@@ -1,0 +1,294 @@
+{
+  "levels": {
+    "A1": {
+      "overview": "A1 starts from zero: the alphabet and sounds, greetings, the essential verbs essere and avere, gender and articles, and the present tense of regular verbs. By the end you can introduce yourself, describe your family and daily routine, and ask simple questions — the base everything else in this course builds on.",
+      "units": [
+        {
+          "id": "1",
+          "title": "A1 Grammar",
+          "lessons": [
+            {
+              "id": "a1-saluti-e-presentazioni",
+              "status": "published"
+            },
+            {
+              "id": "a1-alfabeto-e-pronuncia",
+              "status": "published"
+            },
+            {
+              "id": "a1-genere-e-articoli",
+              "status": "published"
+            },
+            {
+              "id": "a1-essere-e-avere",
+              "status": "published"
+            },
+            {
+              "id": "a1-pronomi-soggetto",
+              "status": "published"
+            },
+            {
+              "id": "a1-aggettivi-e-accordo",
+              "status": "published"
+            },
+            {
+              "id": "a1-presente-verbi-regolari",
+              "status": "published"
+            },
+            {
+              "id": "a1-numeri-ora-e-data",
+              "status": "published"
+            },
+            {
+              "id": "a1-preposizioni-semplici",
+              "status": "published"
+            },
+            {
+              "id": "a1-ce-ci-sono",
+              "status": "published"
+            },
+            {
+              "id": "a1-domande",
+              "status": "published"
+            },
+            {
+              "id": "a1-verbi-irregolari-comuni",
+              "status": "published"
+            }
+          ]
+        }
+      ]
+    },
+    "A2": {
+      "overview": "A2 puts the present tense to work with more irregular verbs and modal verbs, adds the two building blocks of the past — passato prossimo with avere and with essere — and introduces reflexive verbs, possessives, direct object pronouns and comparatives. By the end you can talk about your day, your past, and your plans.",
+      "units": [
+        {
+          "id": "1",
+          "title": "A2 Grammar",
+          "lessons": [
+            {
+              "id": "a2-verbi-irregolari-presente",
+              "status": "published"
+            },
+            {
+              "id": "a2-verbi-modali",
+              "status": "published"
+            },
+            {
+              "id": "a2-preposizioni-articolate",
+              "status": "published"
+            },
+            {
+              "id": "a2-aggettivi-pronomi-possessivi",
+              "status": "published"
+            },
+            {
+              "id": "a2-passato-prossimo-avere",
+              "status": "published"
+            },
+            {
+              "id": "a2-passato-prossimo-essere",
+              "status": "published"
+            },
+            {
+              "id": "a2-verbi-riflessivi",
+              "status": "published"
+            },
+            {
+              "id": "a2-comparativi",
+              "status": "published"
+            },
+            {
+              "id": "a2-pronomi-diretti",
+              "status": "published"
+            },
+            {
+              "id": "a2-avverbi-di-frequenza",
+              "status": "published"
+            }
+          ]
+        }
+      ]
+    },
+    "B1": {
+      "overview": "B1 rounds out the past with the imperfetto and its crucial contrast with the passato prossimo, adds indirect and combined pronouns, and introduces the future, the conditional, the imperative, and the particles ci and ne. By the end you can narrate the past fluently, make requests and suggestions, and give instructions.",
+      "units": [
+        {
+          "id": "1",
+          "title": "B1 Grammar",
+          "lessons": [
+            {
+              "id": "b1-imperfetto",
+              "status": "published"
+            },
+            {
+              "id": "b1-imperfetto-vs-passato-prossimo",
+              "status": "published"
+            },
+            {
+              "id": "b1-pronomi-indiretti",
+              "status": "published"
+            },
+            {
+              "id": "b1-pronomi-combinati",
+              "status": "published"
+            },
+            {
+              "id": "b1-futuro-semplice",
+              "status": "published"
+            },
+            {
+              "id": "b1-condizionale-presente",
+              "status": "published"
+            },
+            {
+              "id": "b1-imperativo-informale",
+              "status": "published"
+            },
+            {
+              "id": "b1-imperativo-formale",
+              "status": "published"
+            },
+            {
+              "id": "b1-superlativi",
+              "status": "published"
+            },
+            {
+              "id": "b1-ci-e-ne",
+              "status": "published"
+            }
+          ]
+        }
+      ]
+    },
+    "B2": {
+      "overview": "B2 opens the subjunctive mood — present and imperfect — alongside the trapassato prossimo, hypothetical sentences, reported speech, the passive voice, and relative pronouns. This is the level where Italian grammar stops being purely mechanical and starts requiring judgment about certainty, opinion and register.",
+      "units": [
+        {
+          "id": "1",
+          "title": "B2 Grammar",
+          "lessons": [
+            {
+              "id": "b2-trapassato-prossimo",
+              "status": "published"
+            },
+            {
+              "id": "b2-congiuntivo-presente",
+              "status": "published"
+            },
+            {
+              "id": "b2-congiuntivo-uso",
+              "status": "published"
+            },
+            {
+              "id": "b2-congiuntivo-imperfetto",
+              "status": "published"
+            },
+            {
+              "id": "b2-periodo-ipotetico",
+              "status": "published"
+            },
+            {
+              "id": "b2-discorso-indiretto",
+              "status": "published"
+            },
+            {
+              "id": "b2-forma-passiva",
+              "status": "published"
+            },
+            {
+              "id": "b2-pronomi-relativi",
+              "status": "published"
+            },
+            {
+              "id": "b2-verbi-preposizione-infinito",
+              "status": "published"
+            }
+          ]
+        }
+      ]
+    },
+    "C1": {
+      "overview": "C1 completes the subjunctive system with the trapassato and full sequence of tenses, adds the impossible-past conditional, the gerund and progressive form, pronominal verbs, and the discourse connectors and register choices that separate fluent Italian from merely correct Italian.",
+      "units": [
+        {
+          "id": "1",
+          "title": "C1 Grammar",
+          "lessons": [
+            {
+              "id": "c1-congiuntivo-trapassato",
+              "status": "published"
+            },
+            {
+              "id": "c1-periodo-ipotetico-terzo-tipo",
+              "status": "published"
+            },
+            {
+              "id": "c1-gerundio-progressivo",
+              "status": "published"
+            },
+            {
+              "id": "c1-connettivi-testuali",
+              "status": "published"
+            },
+            {
+              "id": "c1-registro-formale-informale",
+              "status": "published"
+            },
+            {
+              "id": "c1-verbi-pronominali",
+              "status": "published"
+            },
+            {
+              "id": "c1-sfumature-congiuntivo",
+              "status": "published"
+            },
+            {
+              "id": "c1-ci-ne-avanzato",
+              "status": "published"
+            }
+          ]
+        }
+      ]
+    },
+    "C2": {
+      "overview": "C2 moves past the mechanics of grammar into control of style: complex syntax and inversion, literary and archaic register, precise collocations, cohesive devices for long texts, hedging and nuanced modality, and awareness of Italy's real linguistic variety. This is fluency as judgment, not just correctness.",
+      "units": [
+        {
+          "id": "1",
+          "title": "C2 Grammar",
+          "lessons": [
+            {
+              "id": "c2-sintassi-complessa",
+              "status": "published"
+            },
+            {
+              "id": "c2-registro-letterario",
+              "status": "published"
+            },
+            {
+              "id": "c2-sfumature-lessicali",
+              "status": "published"
+            },
+            {
+              "id": "c2-sintesi-argomentazione",
+              "status": "published"
+            },
+            {
+              "id": "c2-modalita-attenuazione",
+              "status": "published"
+            },
+            {
+              "id": "c2-coesione-testuale",
+              "status": "published"
+            },
+            {
+              "id": "c2-varieta-regionale",
+              "status": "published"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "id": "a2-verbi-modali",
+  "level": "A2",
+  "unit": "1",
+  "order": 2,
+  "skill": "grammar",
+  "strand": "modals",
+  "title": "I Verbi Modali: Dovere, Potere, Volere",
+  "subtitle": "Must, can, and want — the three modal verbs that pair with an infinitive.",
+  "objectives": [
+    "Conjugate dovere, potere and volere in the present tense",
+    "Distinguish obligation (dovere), ability/permission (potere), and desire (volere)",
+    "Use modal verbs correctly with a following infinitive"
+  ],
+  "content": {
+    "intro": "Dovere, potere and volere are Italian's three core modal verbs — each pairs directly with an infinitive to add a layer of meaning: obligation, ability/permission, or desire.",
+    "explanation": "<p>All three are irregular, and all three are followed directly by a bare infinitive with no preposition in between — a simpler pattern than English's mix of \"must\", \"have to\", \"can\", \"is able to\". With reflexive verbs and object pronouns (covered later), the pronoun can attach either before the modal or to the end of the infinitive: <em>Mi devo alzare</em> / <em>Devo alzarmi</em> — both correct.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Dovere, potere, volere — present tense</caption><thead><tr><th>Subject</th><th>dovere</th><th>potere</th><th>volere</th></tr></thead><tbody><tr><td>io</td><td>devo</td><td>posso</td><td>voglio</td></tr><tr><td>tu</td><td>devi</td><td>puoi</td><td>vuoi</td></tr><tr><td>lui/lei</td><td>deve</td><td>può</td><td>vuole</td></tr><tr><td>noi</td><td>dobbiamo</td><td>possiamo</td><td>vogliamo</td></tr><tr><td>voi</td><td>dovete</td><td>potete</td><td>volete</td></tr><tr><td>loro</td><td>devono</td><td>possono</td><td>vogliono</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Dovere — obligation/necessity",
+        "body": "<p><em>Devo studiare stasera.</em> (I have to study tonight.) Also used for probability: <em>Deve essere tardi.</em> (It must be late.)</p>"
+      },
+      {
+        "heading": "b) Potere — ability/permission",
+        "body": "<p><em>Posso aprire la finestra?</em> (Can/May I open the window? — both ability and permission use potere, unlike English's can/may distinction.)</p>"
+      },
+      {
+        "heading": "c) Volere — desire",
+        "body": "<p><em>Voglio andare in vacanza.</em> (I want to go on vacation.) A softer, more polite form is the conditional <em>vorrei</em> (I would like), introduced at B1.</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Devo lavorare fino a tardi oggi.",
+        "en": "I have to work late today."
+      },
+      {
+        "it": "Puoi aiutarmi, per favore?",
+        "en": "Can you help me, please?"
+      },
+      {
+        "it": "Non possiamo uscire, piove troppo.",
+        "en": "We can't go out, it's raining too much."
+      },
+      {
+        "it": "Vogliono comprare una casa nuova.",
+        "en": "They want to buy a new house."
+      },
+      {
+        "it": "Dovete finire il compito entro venerdì.",
+        "en": "You [pl.] have to finish the assignment by Friday."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Devo di studiare.",
+        "right": "Devo studiare.",
+        "why": "Dovere is followed directly by the infinitive, with no preposition."
+      },
+      {
+        "wrong": "Io posso a nuotare bene.",
+        "right": "Io posso nuotare bene.",
+        "why": "Potere never takes a preposition before the infinitive."
+      },
+      {
+        "wrong": "Lei deve essere tarda.",
+        "right": "Deve essere tardi.",
+        "why": "Tardi is an invariable adverb (late) here, not the adjective tarda — no agreement applies."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2vm-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "a2vm1",
+          "prompt": "Io ___ (dovere) partire alle sette.",
+          "answers": [
+            [
+              "devo"
+            ]
+          ],
+          "explanation": "Io form of dovere is devo.",
+          "options": [
+            "devo",
+            "devi",
+            "deve"
+          ]
+        },
+        {
+          "id": "a2vm2",
+          "prompt": "___ (Potere - tu) chiudere la porta?",
+          "answers": [
+            [
+              "Puoi"
+            ]
+          ],
+          "explanation": "Tu form of potere is puoi.",
+          "options": [
+            "Puoi",
+            "Posso",
+            "Può"
+          ]
+        },
+        {
+          "id": "a2vm3",
+          "prompt": "Loro ___ (volere) partire subito.",
+          "answers": [
+            [
+              "vogliono"
+            ]
+          ],
+          "explanation": "Loro form of volere is vogliono.",
+          "options": [
+            "vogliono",
+            "vuole",
+            "volete"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2vm-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Right Modal",
+      "items": [
+        {
+          "id": "a2vm4",
+          "prompt": "You're asking permission to leave early: \"___ andare via prima?\"",
+          "options": [
+            "Devo",
+            "Posso",
+            "Voglio"
+          ],
+          "answerIndex": 1,
+          "explanation": "Asking permission uses potere."
+        },
+        {
+          "id": "a2vm5",
+          "prompt": "\"I must finish this today\" (obligation)",
+          "options": [
+            "Posso finire questo oggi.",
+            "Voglio finire questo oggi.",
+            "Devo finire questo oggi."
+          ],
+          "answerIndex": 2,
+          "explanation": "Obligation uses dovere."
+        }
+      ]
+    },
+    {
+      "id": "a2vm-correction",
+      "type": "correction",
+      "title": "Correct the Mistakes",
+      "items": [
+        {
+          "id": "a2vm6",
+          "incorrect": "Devo di andare a casa.",
+          "answer": [
+            "Devo andare a casa."
+          ],
+          "explanation": "No preposition between dovere and the infinitive."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Dovere = obligation/probability; potere = ability/permission; volere = desire.",
+    "All three are irregular and pair directly with a bare infinitive, no preposition.",
+    "Potere covers both English \"can\" and \"may\" — Italian doesn't distinguish them."
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "id": "a1-numeri-ora-e-data",
+  "level": "A1",
+  "unit": "1",
+  "order": 8,
+  "skill": "vocabulary",
+  "strand": "numbers-time",
+  "title": "Numeri, Ora e Data",
+  "subtitle": "Count, tell the time, and say today's date.",
+  "objectives": [
+    "Count from 0 to 100 and use large round numbers",
+    "Ask for and tell the time",
+    "Say the date, including day of the week and month"
+  ],
+  "content": {
+    "intro": "Numbers, time and dates come up in almost every real conversation — booking a table, catching a train, making plans.",
+    "explanation": "<p>Italian numbers 1–19 are irregular and must be memorized; from 20 on, tens combine regularly with units, dropping the final vowel of the ten before <em>uno</em> and <em>otto</em> (<em>ventuno</em>, <em>ventotto</em>, not <em>venti-uno</em>). Telling time uses <em>Che ora è?</em>/<em>Che ore sono?</em> and answers with <em>È l'una</em> (it's one o'clock, singular) or <em>Sono le due/tre...</em> (plural for everything else).</p>",
+    "rules": [
+      {
+        "heading": "a) Numbers 0–20",
+        "body": "<p>zero, uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci, undici, dodici, tredici, quattordici, quindici, sedici, diciassette, diciotto, diciannove, venti</p>"
+      },
+      {
+        "heading": "b) Tens",
+        "body": "<p>venti (20), trenta (30), quaranta (40), cinquanta (50), sessanta (60), settanta (70), ottanta (80), novanta (90), cento (100). Elide the final vowel before -uno/-otto: <em>ventuno, trentotto</em>.</p>"
+      },
+      {
+        "heading": "c) Telling time",
+        "body": "<ul><li><em>Che ora è? / Che ore sono?</em> — What time is it?</li><li><em>È l'una</em> — It's one o'clock (only l'una is singular)</li><li><em>Sono le tre e mezza</em> — It's half past three</li><li><em>Sono le quattro meno un quarto</em> — It's a quarter to four</li></ul>"
+      },
+      {
+        "heading": "d) Dates",
+        "body": "<p><em>Che giorno è oggi? &mdash; Oggi è il 5 marzo.</em> Days and months are lowercase in Italian. Only the first of the month uses an ordinal: <em>il primo maggio</em>, but <em>il due maggio, il tre maggio</em>...</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Ho trentatré anni.",
+        "en": "I am thirty-three years old."
+      },
+      {
+        "it": "Che ore sono? Sono le nove e un quarto.",
+        "en": "What time is it? It's a quarter past nine."
+      },
+      {
+        "it": "Il treno parte all'una e mezza.",
+        "en": "The train leaves at half past one."
+      },
+      {
+        "it": "Oggi è lunedì, il primo settembre.",
+        "en": "Today is Monday, the first of September."
+      },
+      {
+        "it": "Il mio compleanno è il ventitré aprile.",
+        "en": "My birthday is the twenty-third of April."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "venti-uno",
+        "right": "ventuno",
+        "why": "Tens drop their final vowel before -uno and -otto, and the result is written as one word."
+      },
+      {
+        "wrong": "È le tre.",
+        "right": "Sono le tre.",
+        "why": "Every hour except one o'clock uses the plural sono le..., not è."
+      },
+      {
+        "wrong": "il uno maggio",
+        "right": "il primo maggio",
+        "why": "The first of the month uses the ordinal primo, not the cardinal number uno."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1no-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "a1no1",
+          "prompt": "28 in Italian is ___.",
+          "answers": [
+            [
+              "ventotto"
+            ]
+          ],
+          "explanation": "Venti loses its final vowel before otto: ventotto.",
+          "options": [
+            "ventotto",
+            "venti-otto",
+            "ventiotto"
+          ]
+        },
+        {
+          "id": "a1no2",
+          "prompt": "___ le due del pomeriggio.",
+          "answers": [
+            [
+              "Sono"
+            ]
+          ],
+          "explanation": "All hours except one o'clock use the plural sono.",
+          "options": [
+            "Sono",
+            "È",
+            "Ho"
+          ]
+        },
+        {
+          "id": "a1no3",
+          "prompt": "Oggi è il ___ maggio. (the 1st)",
+          "answers": [
+            [
+              "primo"
+            ]
+          ],
+          "explanation": "The first of the month uses the ordinal primo, not uno.",
+          "options": [
+            "primo",
+            "uno",
+            "prima"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1no-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Answer",
+      "items": [
+        {
+          "id": "a1no4",
+          "prompt": "How do you say \"it's one o'clock\"?",
+          "options": [
+            "Sono l'una.",
+            "È l'una.",
+            "È le una."
+          ],
+          "answerIndex": 1,
+          "explanation": "One o'clock is the only hour that uses the singular è."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "0–19 are irregular; from 20, tens + units combine regularly, eliding before -uno/-otto.",
+    "Sono le... for every hour except È l'una.",
+    "Only the first of the month uses an ordinal (il primo); every other day uses the cardinal number."
+  ]
+}

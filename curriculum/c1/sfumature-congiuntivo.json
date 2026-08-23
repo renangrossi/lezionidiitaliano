@@ -1,0 +1,125 @@
+{
+  "id": "c1-sfumature-congiuntivo",
+  "level": "C1",
+  "unit": "1",
+  "order": 7,
+  "skill": "grammar",
+  "strand": "subjunctive",
+  "title": "Sfumature del Congiuntivo",
+  "subtitle": "The independent subjunctive: wishes, doubts, and concession without che.",
+  "objectives": [
+    "Use the subjunctive independently to express a wish (magari, che)",
+    "Use the subjunctive in concessive clauses (benché, sebbene, nonostante)",
+    "Recognize the doubt-expressing subjunctive in a standalone question"
+  ],
+  "content": {
+    "intro": "Beyond che-clauses, the subjunctive appears on its own to express wishes, doubts, and concession — small, idiomatic patterns that make speech sound genuinely fluent rather than textbook-correct.",
+    "explanation": "<p>An independent subjunctive can open a sentence with an implied \"I wish\" (<em>Magari piovesse!</em>, If only it would rain!) or ask a rhetorical, doubtful question (<em>Che sia già partito?</em>, Could he have already left?). Concessive conjunctions (although/even though) also trigger the subjunctive, unlike their English equivalents.</p>",
+    "rules": [
+      {
+        "heading": "a) Wishes",
+        "body": "<p><em>Magari</em> + congiuntivo (imperfetto for something unlikely/impossible, trapassato for the past): <em>Magari avessi più tempo!</em> (If only I had more time!) <em>Che Dio ce la mandi buona.</em> (a set expression, \"let's hope for the best\")</p>"
+      },
+      {
+        "heading": "b) Concession",
+        "body": "<p><em>benché, sebbene, nonostante, malgrado</em> + congiuntivo: <em>Benché piova, usciamo lo stesso.</em> (Although it's raining, we're going out anyway.)</p>"
+      },
+      {
+        "heading": "c) Doubtful questions",
+        "body": "<p><em>Che + congiuntivo</em> as a standalone rhetorical question: <em>Che si sia dimenticato?</em> (Could he have forgotten?)</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Magari fosse così semplice!",
+        "en": "If only it were that simple!"
+      },
+      {
+        "it": "Sebbene sia stanco, continuo a lavorare.",
+        "en": "Although I'm tired, I keep working."
+      },
+      {
+        "it": "Nonostante avessero poco tempo, hanno finito il progetto.",
+        "en": "Despite having little time, they finished the project."
+      },
+      {
+        "it": "Che abbia frainteso?",
+        "en": "Could he/she have misunderstood?"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Benché piove, usciamo lo stesso.",
+        "right": "Benché piova, usciamo lo stesso.",
+        "why": "Concessive conjunctions like benché always trigger the subjunctive in Italian, unlike English \"although\", which takes a normal indicative."
+      },
+      {
+        "wrong": "Magari ho più tempo!",
+        "right": "Magari avessi più tempo!",
+        "why": "An unreal/unlikely wish with magari needs the congiuntivo imperfetto, not the indicative."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c1sc-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "c1sc1",
+          "prompt": "Sebbene ___ (essere) difficile, ce l'ho fatta.",
+          "answers": [
+            [
+              "fosse"
+            ]
+          ],
+          "explanation": "Sebbene always triggers the subjunctive.",
+          "options": [
+            "fosse",
+            "era",
+            "è stato"
+          ]
+        },
+        {
+          "id": "c1sc2",
+          "prompt": "Magari ___ (io - potere) venire con te!",
+          "answers": [
+            [
+              "potessi"
+            ]
+          ],
+          "explanation": "Unreal wish with magari → congiuntivo imperfetto.",
+          "options": [
+            "potessi",
+            "posso",
+            "potrei"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1sc-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Form",
+      "items": [
+        {
+          "id": "c1sc3",
+          "prompt": "\"Despite the rain, we went out.\"",
+          "options": [
+            "Nonostante piovesse, siamo usciti.",
+            "Nonostante pioveva, siamo usciti.",
+            "Nonostante piove, siamo usciti."
+          ],
+          "answerIndex": 0,
+          "explanation": "Nonostante triggers the subjunctive."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Magari + congiuntivo expresses an unreal wish; che + congiuntivo can open a doubtful, rhetorical question.",
+    "Concessive conjunctions (benché, sebbene, nonostante, malgrado) always trigger the subjunctive, unlike English \"although\".",
+    "These independent uses go beyond che-clause triggers and mark genuinely fluent speech."
+  ]
+}

@@ -1,0 +1,169 @@
+/* =======================================================================
+   DESIGN TOKENS
+   Renan the Teacher — Italian Academy
+   A single source of truth for color, type, spacing and motion.
+   Every other stylesheet should read from these variables rather than
+   hard-coding values, so the whole design system can be tuned from here.
+
+   This is the sister stylesheet to the English course's tokens.css: the
+   token *names* (navy/burgundy/forest/gold/parchment/ink) are kept as a
+   stable internal vocabulary so components.css, layout.css, dark-mode.css
+   and search.css need no structural changes — only the hex values below
+   changed, to a warm Mediterranean "terracotta & olive" palette in place
+   of the English site's navy/burgundy/gold Americana one. Read each
+   variable by its *role* (primary/accent/secondary-accent/ornament), not
+   by its historical color-family name.
+   ======================================================================= */
+
+:root {
+  /* ---- Brand palette --------------------------------------------------
+     Deep Adriatic ink-blue (authority), terracotta/cotto (accent, like a
+     sun-baked roof tile), olive (secondary accent, like a Tuscan grove),
+     warm ochre-gold (ornament, focus ring) and travertine/parchment
+     (paper, marble). Kept restrained: terracotta and gold are accents,
+     not fields. */
+  --navy-900: #12232f;
+  --navy-800: #182f3d;
+  --navy-700: #1f3b4d;
+  --navy-600: #2c4f63;
+
+  --burgundy-700: #9a3a1c;
+  --burgundy-600: #bc4f26;
+  --burgundy-500: #d06736;
+
+  --forest-700: #33421f;
+  --forest-600: #445829;
+
+  --gold-600: #ab7d2c;
+  --gold-500: #c6963e;
+  --gold-300: #e6c684;
+
+  /* "Cotto" red — a saturated terracotta-roof red used for structural
+     accents (rule lines, dividers, focus flourishes) distinct from the
+     burgundy brand accent used on buttons/links/eyebrows. */
+  --cotto-red: #b5451f;
+  --cotto-red-dim: #8f371a;
+
+  --walnut-800: #3a2c22;
+  --walnut-600: #5a4536;
+
+  --parchment-100: #fbf7ef;
+  --parchment-200: #f4ecdc;
+  --parchment-300: #ecdfc4;
+  --ivory-50: #fffdf8;
+
+  --ink-900: #211a12;
+  --ink-700: #3d332a;
+  --ink-500: #6c6153;
+
+  /* ---- Semantic color roles (light theme default) ---------------------
+     Components should reference these, not the raw palette above, so
+     dark-mode.css can safely repoint them. */
+  --color-bg: #ffffff;
+  --color-surface: var(--parchment-100);
+  --color-surface-raised: #ffffff;
+  --color-border: var(--parchment-300);
+  --color-border-strong: var(--cotto-red);
+
+  --color-text: var(--ink-900);
+  --color-text-muted: var(--ink-500);
+  --color-text-on-dark: var(--parchment-100);
+  --color-text-on-dark-muted: #cabfa9;
+
+  --color-primary: var(--navy-800);
+  --color-primary-strong: var(--navy-900);
+  --color-accent: var(--burgundy-600);
+  --color-accent-strong: var(--burgundy-700);
+  --color-secondary-accent: var(--forest-700);
+  --color-gold: var(--gold-600);
+  --color-red: var(--cotto-red);
+  --color-red-dim: var(--cotto-red-dim);
+
+  --color-focus-ring: var(--gold-600);
+  --color-unavailable: var(--ink-500);
+
+  /* Tells the browser this page has an explicit light UI so native
+     controls (scrollbars, and — combined with the explicit select/
+     option colors in base.css — <select> dropdown popups) render with
+     a light chrome instead of guessing from the OS setting. Dark mode
+     repoints this to "dark" in dark-mode.css. */
+  color-scheme: light;
+
+  /* Dedicated feedback colors for exercises — tuned for visibility at
+     low tint percentages, independent of the brand accent colors. */
+  --color-success: #2f7a52;
+  --color-success-bg: #e3f2e8;
+  --color-danger: #b3323f;
+  --color-danger-bg: #fbe9ea;
+
+  /* ---- Typography -------------------------------------------------- */
+  --font-display: "Fraunces", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --font-body: "Source Sans 3", "Segoe UI", Helvetica, Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", "Courier New", monospace;
+
+  --step--1: clamp(0.83rem, 0.8rem + 0.15vw, 0.9rem);
+  --step-0:  clamp(1rem, 0.96rem + 0.2vw, 1.08rem);
+  --step-1:  clamp(1.2rem, 1.12rem + 0.4vw, 1.35rem);
+  --step-2:  clamp(1.44rem, 1.3rem + 0.7vw, 1.75rem);
+  --step-3:  clamp(1.8rem, 1.55rem + 1.2vw, 2.4rem);
+  --step-4:  clamp(2.25rem, 1.85rem + 2vw, 3.2rem);
+  --step-5:  clamp(2.75rem, 2.1rem + 3.2vw, 4.4rem);
+
+  --leading-tight: 1.15;
+  --leading-snug: 1.35;
+  --leading-normal: 1.7;
+
+  --tracking-wide: 0.06em;
+  --tracking-wider: 0.14em;
+
+  /* ---- Spacing scale (8px rhythm) ----------------------------------- */
+  --space-3xs: 0.25rem;
+  --space-2xs: 0.5rem;
+  --space-xs:  0.75rem;
+  --space-sm:  1rem;
+  --space-md:  1.5rem;
+  --space-lg:  2rem;
+  --space-xl:  2.75rem;
+  --space-2xl: 4rem;
+  --space-3xl: 8rem;
+
+  --content-max: 76rem;
+  --content-narrow: 46rem;
+
+  /* ---- Radius, borders, shadow --------------------------------------
+     Kept small and square-ish on purpose — an engraved-plaque feel
+     rather than a soft consumer-app one. */
+  --radius-sm: 3px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+
+  --border-hairline: 1px solid var(--color-border);
+  --border-gold: 1px solid var(--color-border-strong);
+
+  --shadow-sm: 0 1px 2px rgba(120, 60, 20, 0.10);
+  --shadow-md: 0 6px 20px -8px rgba(120, 60, 20, 0.28);
+  --shadow-lg: 0 18px 45px -18px rgba(120, 60, 20, 0.38);
+  --shadow-inset-rule: inset 0 1px 0 rgba(255, 255, 255, 0.4);
+
+  /* ---- Motion --------------------------------------------------------
+     Short and quiet by default; see base.css for reduced-motion. */
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-fast: 150ms;
+  --duration-base: 240ms;
+  --duration-slow: 420ms;
+
+  --header-height: 84px;
+  /* Height of the sticky .level-toc sub-nav bar (present on level,
+     hub and test-yourself pages), used together with --header-height
+     to compute the total sticky-offset below for scroll targeting. */
+  --toc-height: 72px;
+  --sticky-offset: calc(var(--header-height) + var(--toc-height) + var(--space-sm));
+}
+
+/* Narrower header on small screens keeps scroll-offset math correct */
+@media (max-width: 640px) {
+  :root {
+    --header-height: 68px;
+    --toc-height: 70px;
+  }
+}

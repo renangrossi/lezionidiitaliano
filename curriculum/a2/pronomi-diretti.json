@@ -1,0 +1,146 @@
+{
+  "id": "a2-pronomi-diretti",
+  "level": "A2",
+  "unit": "1",
+  "order": 9,
+  "skill": "grammar",
+  "strand": "pronouns",
+  "title": "Pronomi Diretti",
+  "subtitle": "Mi, ti, lo, la, ci, vi, li, le — replacing a direct object to avoid repeating it.",
+  "objectives": [
+    "Identify a direct object and choose the matching pronoun",
+    "Place direct object pronouns correctly before a conjugated verb",
+    "Make the past participle agree with lo/la/li/le in the passato prossimo"
+  ],
+  "content": {
+    "intro": "Once you've mentioned something, Italian — like English — lets you replace it with a pronoun instead of repeating the noun. Direct object pronouns go before the verb, which takes some getting used to for English speakers.",
+    "explanation": "<p>A direct object answers \"what?\" or \"whom?\" with no preposition: in <em>Leggo il libro</em>, il libro is the direct object, replaceable by <strong>lo</strong>: <em>Lo leggo.</em> Unlike English (\"I read it\"), the pronoun goes <strong>before</strong> the conjugated verb, not after.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Direct object pronouns</caption><thead><tr><th>Person</th><th>Pronoun</th></tr></thead><tbody><tr><td>me</td><td>mi</td></tr><tr><td>you (informal)</td><td>ti</td></tr><tr><td>him / it (m.)</td><td>lo</td></tr><tr><td>her / it (f.)</td><td>la</td></tr><tr><td>us</td><td>ci</td></tr><tr><td>you (pl.)</td><td>vi</td></tr><tr><td>them (m.)</td><td>li</td></tr><tr><td>them (f.)</td><td>le</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Position",
+        "body": "<p>Before a conjugated verb: <em>La conosco bene.</em> Attached to an infinitive (dropping its final -e): <em>Voglio conoscerla.</em> (also correct: <em>La voglio conoscere.</em>)</p>"
+      },
+      {
+        "heading": "b) Agreement in the passato prossimo",
+        "body": "<p>With avere, lo/la/li/le force the past participle to agree, even though avere verbs otherwise never agree: <em>Ho comprato la macchina. → L'ho comprata.</em> (Lo/la elide to l' before a vowel.)</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Compro il pane. Lo compro ogni giorno.",
+        "en": "I buy bread. I buy it every day."
+      },
+      {
+        "it": "Vedi Maria stasera? Sì, la vedo alle otto.",
+        "en": "Are you seeing Maria tonight? Yes, I'm seeing her at eight."
+      },
+      {
+        "it": "Hai visto i miei occhiali? Non li trovo.",
+        "en": "Have you seen my glasses? I can't find them."
+      },
+      {
+        "it": "Ho comprato le mele e le ho lavate.",
+        "en": "I bought the apples and washed them."
+      },
+      {
+        "it": "Ti chiamo dopo, va bene?",
+        "en": "I'll call you later, okay?"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Leggo lo.",
+        "right": "Lo leggo.",
+        "why": "The direct object pronoun goes before the conjugated verb, not after, unlike English."
+      },
+      {
+        "wrong": "Ho comprato la e ho mangiato la. (for la mela)",
+        "right": "L'ho comprata e l'ho mangiata.",
+        "why": "Lo/la elide to l' before a vowel (ho), and the participle must agree: comprata, not comprato."
+      },
+      {
+        "wrong": "Ho visto li ieri.",
+        "right": "Li ho visti ieri.",
+        "why": "The pronoun must precede the verb, and the participle agrees with li: visti."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2pd-fill",
+      "type": "fill-blank",
+      "title": "Replace with the Correct Pronoun",
+      "items": [
+        {
+          "id": "a2pd1",
+          "prompt": "Mangio la pizza. → ___ mangio.",
+          "answers": [
+            [
+              "La"
+            ]
+          ],
+          "explanation": "La pizza is feminine singular → la.",
+          "options": [
+            "La",
+            "Lo",
+            "Li"
+          ]
+        },
+        {
+          "id": "a2pd2",
+          "prompt": "Compro i biglietti. → ___ compro.",
+          "answers": [
+            [
+              "Li"
+            ]
+          ],
+          "explanation": "I biglietti is masculine plural → li.",
+          "options": [
+            "Li",
+            "Le",
+            "Lo"
+          ]
+        },
+        {
+          "id": "a2pd3",
+          "prompt": "Conosco Marco. → ___ conosco bene.",
+          "answers": [
+            [
+              "Lo"
+            ]
+          ],
+          "explanation": "Marco is masculine singular → lo.",
+          "options": [
+            "Lo",
+            "La",
+            "Li"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2pd-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Sentence",
+      "items": [
+        {
+          "id": "a2pd4",
+          "prompt": "How do you say \"I bought them\" (le chiavi, feminine plural, passato prossimo)?",
+          "options": [
+            "Le ho comprato.",
+            "Le ho comprate.",
+            "Ho comprato le."
+          ],
+          "answerIndex": 1,
+          "explanation": "Le goes before ho, and the participle agrees: comprate."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Direct object pronouns (mi, ti, lo, la, ci, vi, li, le) replace a direct object and go before the conjugated verb.",
+    "They can attach to an infinitive instead, dropping its final -e.",
+    "With avere in the passato prossimo, lo/la/li/le force participle agreement — the one exception to \"avere never agrees\"."
+  ]
+}

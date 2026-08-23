@@ -1,0 +1,130 @@
+{
+  "id": "b2-forma-passiva",
+  "level": "B2",
+  "unit": "1",
+  "order": 7,
+  "skill": "grammar",
+  "strand": "passive",
+  "title": "La Forma Passiva",
+  "subtitle": "When the object of the action becomes the subject of the sentence.",
+  "objectives": [
+    "Form the passive voice with essere + past participle",
+    "Introduce the agent with da",
+    "Recognize venire as an alternative passive auxiliary in simple tenses"
+  ],
+  "content": {
+    "intro": "The passive voice shifts the focus from who does an action to what happens to something or someone — common in news, formal writing, and whenever the agent is unknown or unimportant.",
+    "explanation": "<p>Built with <strong>essere</strong> (conjugated in whatever tense the sentence needs) + the past participle, which agrees with the subject exactly like any essere + participle structure. The agent, when mentioned, is introduced by <strong>da</strong>. In simple tenses (present, imperfetto, futuro), <strong>venire</strong> can replace essere as a slightly more literary/formal alternative — never in compound tenses.</p>",
+    "rules": [
+      {
+        "heading": "a) Formation",
+        "body": "<p>essere (in the needed tense) + past participle (agreeing with the subject) [+ da + agent]: <em>La lettera è scritta da Marco.</em> (The letter is written by Marco.)</p>"
+      },
+      {
+        "heading": "b) Across tenses",
+        "body": "<ul><li>Present: <em>Il pane è fatto ogni mattina.</em></li><li>Passato prossimo: <em>La casa è stata costruita nel 1990.</em> (note: essere itself needs a participle here too, stata)</li><li>Futuro: <em>Il progetto sarà completato entro giugno.</em></li></ul>"
+      },
+      {
+        "heading": "c) Venire as an alternative (simple tenses only)",
+        "body": "<p><em>Il museo viene visitato da migliaia di turisti.</em> = <em>Il museo è visitato da migliaia di turisti.</em> — same meaning, venire is common in more formal/written registers.</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Il libro è stato scritto da un autore famoso.",
+        "en": "The book was written by a famous author."
+      },
+      {
+        "it": "Le decisioni vengono prese dal direttore.",
+        "en": "The decisions are made by the director."
+      },
+      {
+        "it": "Questo edificio fu costruito nel Seicento.",
+        "en": "This building was built in the 1600s."
+      },
+      {
+        "it": "I risultati saranno annunciati domani.",
+        "en": "The results will be announced tomorrow."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "La lettera è scrivere da Marco.",
+        "right": "La lettera è scritta da Marco.",
+        "why": "The passive needs the past participle, not the infinitive, after essere."
+      },
+      {
+        "wrong": "La casa è stato costruita nel 1990.",
+        "right": "La casa è stata costruita nel 1990.",
+        "why": "Both participles must agree with the feminine subject la casa: stata and costruita."
+      },
+      {
+        "wrong": "Il libro è scritto per Marco. (agent)",
+        "right": "Il libro è scritto da Marco.",
+        "why": "The agent in a passive sentence is introduced by da, not per."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2fp-fill",
+      "type": "fill-blank",
+      "title": "Turn into the Passive",
+      "items": [
+        {
+          "id": "b2fp1",
+          "prompt": "Il pane ___ (fare) ogni mattina dal fornaio.",
+          "answers": [
+            [
+              "è fatto"
+            ]
+          ],
+          "explanation": "Present passive: essere + participle.",
+          "options": [
+            "è fatto",
+            "fa",
+            "ha fatto"
+          ]
+        },
+        {
+          "id": "b2fp2",
+          "prompt": "Il quadro ___ (dipingere) da un artista famoso nel 1800.",
+          "answers": [
+            [
+              "fu dipinto"
+            ]
+          ],
+          "explanation": "Passive in a past narrative tense: essere (here, the passato remoto fu, common in this context) + participle.",
+          "options": [
+            "fu dipinto",
+            "ha dipinto",
+            "dipinge"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2fp-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Passive Form",
+      "items": [
+        {
+          "id": "b2fp3",
+          "prompt": "\"The results will be published tomorrow.\"",
+          "options": [
+            "I risultati pubblicheranno domani.",
+            "I risultati saranno pubblicati domani.",
+            "I risultati sono pubblicare domani."
+          ],
+          "answerIndex": 1,
+          "explanation": "Future passive: sarà/saranno + past participle."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Passive voice: essere (in any tense) + past participle, agreeing with the subject.",
+    "The agent, if stated, is introduced with da.",
+    "Venire can replace essere in simple tenses for a more formal register, but never in compound tenses."
+  ]
+}

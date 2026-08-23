@@ -1,0 +1,126 @@
+{
+  "id": "c2-modalita-attenuazione",
+  "level": "C2",
+  "unit": "1",
+  "order": 5,
+  "skill": "grammar",
+  "strand": "modality",
+  "title": "Modalità e Attenuazione",
+  "subtitle": "Hedging a claim, softening a criticism, and expressing calibrated certainty.",
+  "objectives": [
+    "Use hedging expressions to soften a claim or opinion",
+    "Calibrate certainty with modal expressions (sembra che, pare che, a quanto pare)",
+    "Soften criticism or disagreement diplomatically"
+  ],
+  "content": {
+    "intro": "Native fluency includes knowing how to avoid sounding too blunt or too certain — Italian has a rich set of hedging tools for exactly this.",
+    "explanation": "<p>Hedging expressions distance the speaker slightly from a claim, making room for doubt or diplomacy. Many pair naturally with the subjunctive (since they present something as less than certain fact).</p>",
+    "rules": [
+      {
+        "heading": "a) Softening certainty",
+        "body": "<p><em>Sembra che, pare che</em> + congiuntivo (it seems that); <em>a quanto pare, a quanto sembra</em> (apparently, + indicative); <em>Direi che...</em> (I'd say that..., conditional softening).</p>"
+      },
+      {
+        "heading": "b) Softening disagreement/criticism",
+        "body": "<p><em>Non sono del tutto d'accordo...</em> (I don't entirely agree...); <em>Forse potremmo considerare anche...</em> (Perhaps we could also consider...); <em>Non vorrei sembrare scortese, ma...</em> (I don't want to seem rude, but...)</p>"
+      },
+      {
+        "heading": "c) Impersonal hedges",
+        "body": "<p><em>Si direbbe che...</em> (One might say that...); <em>Non è escluso che...</em> (It's not out of the question that...)</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Sembra che il progetto sia stato rimandato.",
+        "en": "It seems the project has been postponed."
+      },
+      {
+        "it": "A quanto pare, la riunione è stata spostata a venerdì.",
+        "en": "Apparently, the meeting has been moved to Friday."
+      },
+      {
+        "it": "Non vorrei sembrare polemico, ma non sono del tutto d'accordo.",
+        "en": "I don't want to seem argumentative, but I don't entirely agree."
+      },
+      {
+        "it": "Direi che è la soluzione migliore, anche se non l'unica possibile.",
+        "en": "I'd say it's the best solution, though not the only possible one."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Sembra che il progetto è stato rimandato.",
+        "right": "Sembra che il progetto sia stato rimandato.",
+        "why": "Sembra che presents something as less than certain, triggering the subjunctive, unlike a quanto pare, which takes the indicative."
+      },
+      {
+        "wrong": "Sei sbagliato. (blunt, unhedged disagreement)",
+        "right": "Non sono del tutto d'accordo, credo che...",
+        "why": "Bluntly telling someone they're wrong reads as impolite in most registers — hedged disagreement is the diplomatic, native-like default."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c2ma-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "c2ma1",
+          "prompt": "Pare che la situazione ___ (migliorare) negli ultimi giorni.",
+          "answers": [
+            [
+              "sia migliorata"
+            ]
+          ],
+          "explanation": "Pare che triggers the subjunctive.",
+          "options": [
+            "sia migliorata",
+            "è migliorata",
+            "migliora"
+          ]
+        },
+        {
+          "id": "c2ma2",
+          "prompt": "A quanto ___, il volo è stato cancellato. (apparently)",
+          "answers": [
+            [
+              "pare",
+              "sembra"
+            ]
+          ],
+          "explanation": "A quanto pare/sembra takes the indicative that follows normally (here already given as a fact statement).",
+          "options": [
+            "pare",
+            "sia",
+            "sembri"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2ma-mc",
+      "type": "multiple-choice",
+      "title": "Choose the More Diplomatic Option",
+      "items": [
+        {
+          "id": "c2ma3",
+          "prompt": "Disagreeing politely in a meeting:",
+          "options": [
+            "Non è vero.",
+            "Non sono del tutto d'accordo, se posso dire.",
+            "Ti sbagli."
+          ],
+          "answerIndex": 1,
+          "explanation": "Hedged disagreement is the diplomatically appropriate register."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Sembra che/pare che soften certainty and trigger the subjunctive; a quanto pare is a fixed indicative alternative.",
+    "Hedged disagreement (non sono del tutto d'accordo) is the diplomatic default, not blunt contradiction.",
+    "Calibrating certainty and softening criticism are markers of genuinely native-like social fluency."
+  ]
+}

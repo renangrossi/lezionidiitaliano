@@ -1,0 +1,188 @@
+{
+  "id": "a1-verbi-irregolari-comuni",
+  "level": "A1",
+  "unit": "1",
+  "order": 12,
+  "skill": "grammar",
+  "strand": "verbs",
+  "title": "I Primi Verbi Irregolari: Andare, Fare, Volere",
+  "subtitle": "Three high-frequency irregular verbs to get you talking about going, doing, and wanting.",
+  "objectives": [
+    "Conjugate andare, fare and volere in the present tense",
+    "Use andare + a + infinitive for near-future plans",
+    "Use volere + infinitive to express wants"
+  ],
+  "content": {
+    "intro": "Not every irregular verb waits until A2 — andare (to go), fare (to do/make) and volere (to want) are so common in everyday speech that you need them from the start.",
+    "explanation": "<p>These three don't follow the regular -are/-ire patterns you just learned, so their forms simply need memorizing. The reward is immediate: andare + a + infinitive lets you talk about near-future plans (<em>Vado a mangiare</em>, I'm going to eat), and volere + infinitive is the simplest way to express a wish (<em>Voglio partire</em>, I want to leave).</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Andare, fare, volere — present tense</caption><thead><tr><th>Subject</th><th>andare</th><th>fare</th><th>volere</th></tr></thead><tbody><tr><td>io</td><td>vado</td><td>faccio</td><td>voglio</td></tr><tr><td>tu</td><td>vai</td><td>fai</td><td>vuoi</td></tr><tr><td>lui/lei</td><td>va</td><td>fa</td><td>vuole</td></tr><tr><td>noi</td><td>andiamo</td><td>facciamo</td><td>vogliamo</td></tr><tr><td>voi</td><td>andate</td><td>fate</td><td>volete</td></tr><tr><td>loro</td><td>vanno</td><td>fanno</td><td>vogliono</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Andare + a + infinitive",
+        "body": "<p>Expresses \"going to [do something]\": <em>Vado a studiare.</em> (I'm going to study.) The a is required even though English doesn't need an equivalent word here.</p>"
+      },
+      {
+        "heading": "b) Fare in fixed expressions",
+        "body": "<p>Fare is used for weather (<em>Fa caldo</em>, It's hot) and many activities that don't literally involve \"making\" anything: <em>fare la spesa</em> (to go grocery shopping), <em>fare colazione</em> (to have breakfast), <em>fare una domanda</em> (to ask a question).</p>"
+      },
+      {
+        "heading": "c) Volere + infinitive",
+        "body": "<p>Directly followed by an infinitive, no preposition needed: <em>Voglio imparare l'italiano.</em> (I want to learn Italian.)</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Vado a lavorare.",
+        "en": "I'm going to work."
+      },
+      {
+        "it": "Cosa fai stasera?",
+        "en": "What are you doing tonight?"
+      },
+      {
+        "it": "Voglio un caffè, grazie.",
+        "en": "I want a coffee, thanks."
+      },
+      {
+        "it": "Faccio colazione alle otto.",
+        "en": "I have breakfast at eight."
+      },
+      {
+        "it": "Vogliamo andare al mare.",
+        "en": "We want to go to the sea."
+      },
+      {
+        "it": "Loro vanno in vacanza domani.",
+        "en": "They're going on vacation tomorrow."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Vado studiare.",
+        "right": "Vado a studiare.",
+        "why": "Andare requires the preposition a before an infinitive — it can never be dropped."
+      },
+      {
+        "wrong": "Io voglio a mangiare.",
+        "right": "Io voglio mangiare.",
+        "why": "Volere is followed directly by the infinitive, with no preposition — unlike andare."
+      },
+      {
+        "wrong": "Noi vado al cinema.",
+        "right": "Noi andiamo al cinema.",
+        "why": "Noi always needs its own form, andiamo, not the io form vado."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1vi-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "a1vi1",
+          "prompt": "Io ___ (andare) a scuola ogni giorno.",
+          "answers": [
+            [
+              "vado"
+            ]
+          ],
+          "explanation": "Io form of andare is vado.",
+          "options": [
+            "vado",
+            "vai",
+            "va"
+          ]
+        },
+        {
+          "id": "a1vi2",
+          "prompt": "Cosa ___ (fare) tu di bello?",
+          "answers": [
+            [
+              "fai"
+            ]
+          ],
+          "explanation": "Tu form of fare is fai.",
+          "options": [
+            "fai",
+            "fa",
+            "faccio"
+          ]
+        },
+        {
+          "id": "a1vi3",
+          "prompt": "Loro ___ (volere) partire domani.",
+          "answers": [
+            [
+              "vogliono"
+            ]
+          ],
+          "explanation": "Loro form of volere is vogliono.",
+          "options": [
+            "vogliono",
+            "vuole",
+            "volete"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1vi-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Form",
+      "items": [
+        {
+          "id": "a1vi4",
+          "prompt": "\"I'm going to eat\" translates as...",
+          "options": [
+            "Vado mangiare.",
+            "Vado a mangiare.",
+            "Vado di mangiare."
+          ],
+          "answerIndex": 1,
+          "explanation": "Andare requires a before the infinitive."
+        },
+        {
+          "id": "a1vi5",
+          "prompt": "\"We want to travel\" translates as...",
+          "options": [
+            "Vogliamo a viaggiare.",
+            "Vogliamo viaggiare.",
+            "Voliamo viaggiare."
+          ],
+          "answerIndex": 1,
+          "explanation": "Volere is followed directly by the infinitive, no preposition."
+        }
+      ]
+    },
+    {
+      "id": "a1vi-correction",
+      "type": "correction",
+      "title": "Correct the Mistakes",
+      "items": [
+        {
+          "id": "a1vi6",
+          "incorrect": "Vado studiare stasera.",
+          "answer": [
+            "Vado a studiare stasera."
+          ],
+          "explanation": "Andare + infinitive always needs a in between."
+        },
+        {
+          "id": "a1vi7",
+          "incorrect": "Lei vuole a dormire.",
+          "answer": [
+            "Lei vuole dormire."
+          ],
+          "explanation": "Volere never takes a before the infinitive."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Andare, fare and volere are irregular and must be memorized: vado/vai/va/andiamo/andate/vanno, etc.",
+    "Andare + a + infinitive expresses near-future plans; the a is mandatory.",
+    "Volere + infinitive expresses a want, with no preposition needed."
+  ]
+}

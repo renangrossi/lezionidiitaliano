@@ -1,0 +1,129 @@
+{
+  "id": "b2-pronomi-relativi",
+  "level": "B2",
+  "unit": "1",
+  "order": 8,
+  "skill": "grammar",
+  "strand": "relative-clauses",
+  "title": "I Pronomi Relativi",
+  "subtitle": "Che, cui, il quale — linking two ideas about the same noun.",
+  "objectives": [
+    "Use che as the all-purpose relative pronoun for subject and direct object",
+    "Use cui after a preposition",
+    "Use il quale/la quale as a more formal, gender-marked alternative to cui"
+  ],
+  "content": {
+    "intro": "Relative pronouns let you fold a second sentence about the same noun directly into the first, instead of starting a new one — the backbone of fluent, connected Italian.",
+    "explanation": "<p><strong>Che</strong> is invariable and covers both subject and direct object relative clauses — by far the most common case. As soon as a preposition is involved, che is replaced by <strong>cui</strong> (also invariable), with the preposition placed directly before it. <strong>Il quale/la quale/i quali/le quali</strong> is a more formal alternative to cui, useful mainly when cui's lack of gender/number would otherwise be ambiguous.</p>",
+    "rules": [
+      {
+        "heading": "a) Che — subject or direct object",
+        "body": "<p><em>La ragazza che parla è mia sorella.</em> (subject) <em>Il libro che ho letto è bellissimo.</em> (direct object)</p>"
+      },
+      {
+        "heading": "b) Cui — after a preposition",
+        "body": "<p><em>La persona a cui ho scritto</em> (the person I wrote to) <em>Il paese in cui sono nato</em> (the country I was born in) <em>di cui</em> parlava = what he was talking about</p>"
+      },
+      {
+        "heading": "c) Cui with an article = whose",
+        "body": "<p><em>il cui, la cui, i cui, le cui</em> (agreeing with the noun that follows, not with the owner): <em>Lo scrittore il cui libro ho letto.</em> (The writer whose book I read.)</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Il film che abbiamo visto ieri era fantastico.",
+        "en": "The film we watched yesterday was fantastic."
+      },
+      {
+        "it": "La città in cui sono cresciuto è piccola.",
+        "en": "The city I grew up in is small."
+      },
+      {
+        "it": "Ecco la persona di cui ti parlavo.",
+        "en": "Here's the person I was telling you about."
+      },
+      {
+        "it": "L'uomo con cui lavoro è molto simpatico.",
+        "en": "The man I work with is very nice."
+      },
+      {
+        "it": "Lo scrittore il cui romanzo ha vinto il premio è italiano.",
+        "en": "The writer whose novel won the prize is Italian."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "La persona a che ho scritto.",
+        "right": "La persona a cui ho scritto.",
+        "why": "After a preposition, che is replaced by cui — che alone never follows a preposition."
+      },
+      {
+        "wrong": "Il cui il libro (word order)",
+        "right": "il cui libro",
+        "why": "Cui + article goes directly before the noun it modifies, with no extra article repeated."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2pr-fill",
+      "type": "fill-blank",
+      "title": "Che or Cui?",
+      "items": [
+        {
+          "id": "b2pr1",
+          "prompt": "Il libro ___ ho comprato è molto interessante.",
+          "answers": [
+            [
+              "che"
+            ]
+          ],
+          "explanation": "Direct object, no preposition → che.",
+          "options": [
+            "che",
+            "cui",
+            "il quale"
+          ]
+        },
+        {
+          "id": "b2pr2",
+          "prompt": "La ragazza a ___ ho scritto è mia amica.",
+          "answers": [
+            [
+              "cui"
+            ]
+          ],
+          "explanation": "After the preposition a → cui.",
+          "options": [
+            "cui",
+            "che",
+            "quale"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2pr-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Pronoun",
+      "items": [
+        {
+          "id": "b2pr3",
+          "prompt": "\"The house I was born in\"",
+          "options": [
+            "La casa che sono nato.",
+            "La casa in cui sono nato.",
+            "La casa cui sono nato."
+          ],
+          "answerIndex": 1,
+          "explanation": "The preposition in must be kept, followed by cui."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Che covers subject and direct object relative clauses — the default, most common choice.",
+    "Cui is used directly after any preposition, and is invariable.",
+    "Il/la/i/le cui = whose, agreeing with the noun possessed, not the owner."
+  ]
+}

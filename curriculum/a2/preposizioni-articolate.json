@@ -1,0 +1,157 @@
+{
+  "id": "a2-preposizioni-articolate",
+  "level": "A2",
+  "unit": "1",
+  "order": 3,
+  "skill": "grammar",
+  "strand": "prepositions",
+  "title": "Preposizioni Articolate",
+  "subtitle": "When a, di, da, in and su fuse with the definite article.",
+  "objectives": [
+    "Combine a, di, da, in and su with the definite article",
+    "Recall the fused forms al, del, dal, nel, sul and their variants",
+    "Choose the correct fused form based on the noun's article"
+  ],
+  "content": {
+    "intro": "Five of Italian's simple prepositions fuse with a following definite article into a single word — a pattern you'll use constantly once you start referring to specific, known things.",
+    "explanation": "<p>Con and per also historically fuse (col, pel) but this is rare and old-fashioned in modern Italian — stick to con il/con i etc. The five that matter are <strong>a, di, da, in, su</strong>. Each combines with il/lo/la/l'/i/gli/le the same way, replacing the article's initial vowel or consonant pattern.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Preposizioni articolate</caption><thead><tr><th></th><th>il</th><th>lo</th><th>la</th><th>l'</th><th>i</th><th>gli</th><th>le</th></tr></thead><tbody><tr><td>a</td><td>al</td><td>allo</td><td>alla</td><td>all'</td><td>ai</td><td>agli</td><td>alle</td></tr><tr><td>di</td><td>del</td><td>dello</td><td>della</td><td>dell'</td><td>dei</td><td>degli</td><td>delle</td></tr><tr><td>da</td><td>dal</td><td>dallo</td><td>dalla</td><td>dall'</td><td>dai</td><td>dagli</td><td>dalle</td></tr><tr><td>in</td><td>nel</td><td>nello</td><td>nella</td><td>nell'</td><td>nei</td><td>negli</td><td>nelle</td></tr><tr><td>su</td><td>sul</td><td>sullo</td><td>sulla</td><td>sull'</td><td>sui</td><td>sugli</td><td>sulle</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) When to fuse",
+        "body": "<p>Fuse the preposition whenever the noun that follows would itself take a definite article: <em>Vado al cinema.</em> (al = a + il, because \"il cinema\" needs il). No article, no fusion: <em>Vado a scuola.</em> (school with no article, a fixed expression).</p>"
+      },
+      {
+        "heading": "b) Di as possession vs. dei/delle as \"some\"",
+        "body": "<p>Del/dello/della/dei/degli/delle can also mean \"some\" (the partitive article, full detail at B1): <em>Vorrei del pane.</em> (I'd like some bread.)</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Il libro è sul tavolo.",
+        "en": "The book is on the table."
+      },
+      {
+        "it": "Andiamo al mare questo weekend.",
+        "en": "We're going to the seaside this weekend."
+      },
+      {
+        "it": "La chiave è nella borsa.",
+        "en": "The key is in the bag."
+      },
+      {
+        "it": "Parlo spesso degli amici che vivono all'estero.",
+        "en": "I often talk about the friends who live abroad."
+      },
+      {
+        "it": "Il treno arriva dalla stazione centrale.",
+        "en": "The train arrives from the central station."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Vado a il cinema.",
+        "right": "Vado al cinema.",
+        "why": "A + il must fuse into al — they're never written as two separate words."
+      },
+      {
+        "wrong": "Il libro è su il tavolo.",
+        "right": "Il libro è sul tavolo.",
+        "why": "Su + il fuses into sul."
+      },
+      {
+        "wrong": "Parlo delle amico.",
+        "right": "Parlo dell'amico.",
+        "why": "Amico is masculine singular, so the fused form must be dell' (di + l'), not the feminine plural delle."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2pa-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "a2pa1",
+          "prompt": "Vado ___ (a + il) supermercato.",
+          "answers": [
+            [
+              "al"
+            ]
+          ],
+          "explanation": "A + il = al.",
+          "options": [
+            "al",
+            "allo",
+            "alla"
+          ]
+        },
+        {
+          "id": "a2pa2",
+          "prompt": "Il gatto dorme ___ (su + la) sedia.",
+          "answers": [
+            [
+              "sulla"
+            ]
+          ],
+          "explanation": "Su + la = sulla.",
+          "options": [
+            "sulla",
+            "sul",
+            "sullo"
+          ]
+        },
+        {
+          "id": "a2pa3",
+          "prompt": "Torniamo ___ (da + lo) stadio.",
+          "answers": [
+            [
+              "dallo"
+            ]
+          ],
+          "explanation": "Da + lo = dallo.",
+          "options": [
+            "dallo",
+            "dal",
+            "dai"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2pa-match",
+      "type": "matching",
+      "title": "Match the Fusion",
+      "items": [
+        {
+          "id": "a2pa4",
+          "pairs": [
+            {
+              "left": "in + gli",
+              "right": "negli"
+            },
+            {
+              "left": "di + le",
+              "right": "delle"
+            },
+            {
+              "left": "a + l'",
+              "right": "all'"
+            },
+            {
+              "left": "su + i",
+              "right": "sui"
+            }
+          ],
+          "explanation": "Each preposition follows the same pattern across il/lo/la/l'/i/gli/le."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "A, di, da, in and su fuse with the definite article whenever the noun needs one.",
+    "The pattern is regular across all five prepositions: al/allo/alla/all'/ai/agli/alle, and so on.",
+    "No article needed, no fusion — fixed expressions like a scuola, a casa stay unfused."
+  ]
+}

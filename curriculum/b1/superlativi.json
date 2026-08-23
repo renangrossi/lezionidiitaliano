@@ -1,0 +1,149 @@
+{
+  "id": "b1-superlativi",
+  "level": "B1",
+  "unit": "1",
+  "order": 9,
+  "skill": "grammar",
+  "strand": "comparatives",
+  "title": "I Superlativi",
+  "subtitle": "The most/least..., and the intensifier -issimo.",
+  "objectives": [
+    "Form the relative superlative (the most/least ... of/in)",
+    "Form the absolute superlative with -issimo",
+    "Recognize irregular comparative/superlative forms: migliore, peggiore, meglio, peggio"
+  ],
+  "content": {
+    "intro": "Italian has two different kinds of superlative: the relative (\"the most... of the group\") and the absolute (\"extremely...\", with no comparison at all) — and the second is one of the most distinctive features of everyday Italian.",
+    "explanation": "<p>The <strong>relative superlative</strong> reuses the comparative più/meno, adding the definite article: <em>il più alto della classe</em> (the tallest in the class). The <strong>absolute superlative</strong> replaces the adjective's final vowel with <strong>-issimo/a/i/e</strong>, meaning \"extremely/very\" with no comparison implied at all: <em>bellissimo</em> (extremely beautiful) is stronger and more common in speech than <em>molto bello</em>.</p>",
+    "rules": [
+      {
+        "heading": "a) Relative superlative",
+        "body": "<p>Article + (noun +) più/meno + adjective + di: <em>È la ragazza più intelligente della classe.</em> (She's the smartest girl in the class.)</p>"
+      },
+      {
+        "heading": "b) Absolute superlative — -issimo",
+        "body": "<p>Drop the final vowel, add -issimo/a/i/e: <em>alto &rarr; altissimo, facile &rarr; facilissimo, buona &rarr; buonissima</em>. Words ending in -co/-go often add an h to keep the hard sound: <em>stanco &rarr; stanchissimo</em>.</p>"
+      },
+      {
+        "heading": "c) Irregular comparatives/superlatives",
+        "body": "<ul><li><em>buono &rarr; migliore</em> (better) <em>&rarr; il migliore/ottimo</em> (the best/excellent)</li><li><em>cattivo &rarr; peggiore</em> (worse) <em>&rarr; il peggiore/pessimo</em> (the worst/terrible)</li><li>As adverbs: <em>bene &rarr; meglio</em> (better), <em>male &rarr; peggio</em> (worse)</li></ul>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Questo è il ristorante migliore della città.",
+        "en": "This is the best restaurant in the city."
+      },
+      {
+        "it": "Sono stanchissima oggi.",
+        "en": "I'm extremely tired today."
+      },
+      {
+        "it": "Il Colosseo è il monumento più famoso di Roma.",
+        "en": "The Colosseum is the most famous monument in Rome."
+      },
+      {
+        "it": "Questa torta è buonissima!",
+        "en": "This cake is delicious!"
+      },
+      {
+        "it": "Oggi mi sento meglio di ieri.",
+        "en": "Today I feel better than yesterday."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "molto bellissimo",
+        "right": "bellissimo (already means \"very beautiful\")",
+        "why": "-issimo already means \"extremely\" — adding molto in front is redundant, doubling the intensifier."
+      },
+      {
+        "wrong": "più buono for the irregular comparative",
+        "right": "migliore",
+        "why": "Buono has an irregular comparative, migliore — più buono is understood but non-standard where migliore is expected."
+      },
+      {
+        "wrong": "Sto bene meglio.",
+        "right": "Sto meglio.",
+        "why": "Meglio already is the comparative of bene (\"better\") — bene meglio combines two forms of the same idea."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1su-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "b1su1",
+          "prompt": "Questo esame è difficil___. (extremely difficult)",
+          "answers": [
+            [
+              "issimo"
+            ]
+          ],
+          "explanation": "Absolute superlative: difficile → difficilissimo.",
+          "options": [
+            "issimo",
+            "molto",
+            "più"
+          ]
+        },
+        {
+          "id": "b1su2",
+          "prompt": "È il film ___ interessante dell'anno. (the most)",
+          "answers": [
+            [
+              "più"
+            ]
+          ],
+          "explanation": "Relative superlative uses più + article (already given).",
+          "options": [
+            "più",
+            "tanto",
+            "issimo"
+          ]
+        },
+        {
+          "id": "b1su3",
+          "prompt": "Questo ristorante è ___ (better) di quello di ieri.",
+          "answers": [
+            [
+              "migliore"
+            ]
+          ],
+          "explanation": "Buono's irregular comparative is migliore.",
+          "options": [
+            "migliore",
+            "più buono",
+            "buonissimo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1su-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Form",
+      "items": [
+        {
+          "id": "b1su4",
+          "prompt": "\"Extremely tired\" (feminine)",
+          "options": [
+            "molto stanchissima",
+            "stanchissima",
+            "più stanca"
+          ],
+          "answerIndex": 1,
+          "explanation": "-issima alone already conveys \"extremely\"."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Relative superlative: article + più/meno + adjective + di (the most/least ... in/of).",
+    "Absolute superlative: -issimo/a/i/e, meaning \"extremely\", with no molto needed.",
+    "Buono/cattivo/bene/male have irregular comparatives and superlatives: migliore, peggiore, meglio, peggio."
+  ]
+}

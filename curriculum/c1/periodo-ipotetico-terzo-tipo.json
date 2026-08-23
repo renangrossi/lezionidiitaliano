@@ -1,0 +1,130 @@
+{
+  "id": "c1-periodo-ipotetico-terzo-tipo",
+  "level": "C1",
+  "unit": "1",
+  "order": 2,
+  "skill": "grammar",
+  "strand": "conditionals",
+  "title": "Il Periodo Ipotetico di Terzo Tipo",
+  "subtitle": "\"If I had known...\" — the impossible past.",
+  "objectives": [
+    "Form the third type hypothetical sentence for the unreal past",
+    "Use the condizionale passato in the main clause",
+    "Recognize mixed hypotheticals (past condition, present consequence)"
+  ],
+  "content": {
+    "intro": "The third type of hypothetical sentence talks about something that didn't happen in the past — and, by logical necessity, whose consequence also never happened.",
+    "explanation": "<p>Se + congiuntivo trapassato, condizionale passato (avrei/sarei + past participle): <em>Se avessi saputo, sarei venuto.</em> (If I had known, I would have come — but I didn't know, and I didn't come.) Both halves describe a counterfactual past.</p>",
+    "rules": [
+      {
+        "heading": "a) Formation",
+        "body": "<p>se + avessi/fossi + participle, avrei/sarei + participle: <em>Se avessi studiato di più, avrei passato l'esame.</em></p>"
+      },
+      {
+        "heading": "b) Mixed hypothetical",
+        "body": "<p>A past condition can have a present consequence: <em>Se avessi accettato quel lavoro, ora vivrei a Milano.</em> (If I had accepted that job, I'd be living in Milan now.) — condizionale presente in the main clause, since the consequence is felt now, not back then.</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Se avessi saputo, ti avrei chiamato subito.",
+        "en": "If I had known, I would have called you right away."
+      },
+      {
+        "it": "Se non avessimo perso il treno, saremmo già arrivati.",
+        "en": "If we hadn't missed the train, we would already have arrived."
+      },
+      {
+        "it": "Avrei accettato l'offerta se me l'avessero fatta prima.",
+        "en": "I would have accepted the offer if they had made it to me sooner."
+      },
+      {
+        "it": "Se mi fossi laureato in ingegneria, ora lavorerei in un'altra azienda.",
+        "en": "If I had graduated in engineering, I'd be working at a different company now. (mixed)"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Se avrei saputo, sarei venuto.",
+        "right": "Se avessi saputo, sarei venuto.",
+        "why": "The se-clause needs the congiuntivo trapassato, never the conditional — same rule as the second type, one tense further back."
+      },
+      {
+        "wrong": "Se avessi studiato di più, avessi passato l'esame.",
+        "right": "Se avessi studiato di più, avrei passato l'esame.",
+        "why": "The main clause needs the condizionale passato, not a repeated subjunctive."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c1pt-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "c1pt1",
+          "prompt": "Se ___ (io - sapere), ti ___ (avvisare) subito.",
+          "answers": [
+            [
+              "avessi saputo"
+            ],
+            [
+              "avrei avvisato"
+            ]
+          ],
+          "explanation": "Third type: congiuntivo trapassato + condizionale passato.",
+          "options": [
+            "avessi saputo",
+            "sapevo",
+            "avrei avvisato",
+            "avvisavo"
+          ]
+        },
+        {
+          "id": "c1pt2",
+          "prompt": "Se non ___ (perdere) il volo, ___ (arrivare) in tempo.",
+          "answers": [
+            [
+              "avessimo perso"
+            ],
+            [
+              "saremmo arrivati",
+              "saremmo arrivate"
+            ]
+          ],
+          "explanation": "Third type, essere auxiliary in the main clause.",
+          "options": [
+            "avessimo perso",
+            "abbiamo perso",
+            "saremmo arrivati",
+            "arriveremmo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1pt-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Sentence",
+      "items": [
+        {
+          "id": "c1pt3",
+          "prompt": "\"If you had told me, I would have helped you.\"",
+          "options": [
+            "Se mi avresti detto, ti avrei aiutato.",
+            "Se mi avessi detto, ti avrei aiutato.",
+            "Se mi dicevi, ti aiutavo."
+          ],
+          "answerIndex": 1,
+          "explanation": "Se + congiuntivo trapassato, condizionale passato in the main clause."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Third type (unreal past): se + congiuntivo trapassato, condizionale passato.",
+    "Both halves are counterfactual: neither the condition nor its consequence actually happened.",
+    "A mixed hypothetical pairs a past condition with a condizionale presente for a present consequence."
+  ]
+}

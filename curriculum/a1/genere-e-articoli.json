@@ -1,0 +1,212 @@
+{
+  "id": "a1-genere-e-articoli",
+  "level": "A1",
+  "unit": "1",
+  "order": 3,
+  "skill": "grammar",
+  "strand": "nouns-articles",
+  "title": "Genere degli Articoli e dei Sostantivi",
+  "subtitle": "Every Italian noun is masculine or feminine — and the article always agrees.",
+  "objectives": [
+    "Identify whether a noun is masculine or feminine from its ending",
+    "Choose the correct definite article (il, lo, la, l', i, gli, le)",
+    "Choose the correct indefinite article (un, uno, una, un')"
+  ],
+  "content": {
+    "intro": "In Italian, every noun — even for objects with no natural gender, like a table or a book — is grammatically masculine or feminine, and every article that points to it must agree.",
+    "explanation": "<p>Most nouns ending in <strong>-o</strong> are masculine (<em>il libro</em>, the book) and most ending in <strong>-a</strong> are feminine (<em>la casa</em>, the house). Nouns ending in <strong>-e</strong> can be either gender and simply have to be learned (<em>il pane</em> is masculine, <em>la notte</em> is feminine). The article you use depends on both the noun's gender and the sound it starts with.</p>",
+    "rules": [
+      {
+        "heading": "a) Definite article (\"the\") — singular",
+        "body": "<ul><li><strong>il</strong> — masculine + consonant: <em>il libro</em></li><li><strong>lo</strong> — masculine + s+consonant, z, gn, ps, y: <em>lo studente, lo zaino</em></li><li><strong>l'</strong> — masculine or feminine + vowel: <em>l'amico, l'amica</em></li><li><strong>la</strong> — feminine + consonant: <em>la casa</em></li></ul>"
+      },
+      {
+        "heading": "b) Definite article — plural",
+        "body": "<ul><li><strong>i</strong> — plural of il: <em>i libri</em></li><li><strong>gli</strong> — plural of lo and of l' (masculine): <em>gli studenti, gli amici</em></li><li><strong>le</strong> — plural of la and l' (feminine): <em>le case, le amiche</em></li></ul>"
+      },
+      {
+        "heading": "c) Indefinite article (\"a/an\")",
+        "body": "<ul><li><strong>un</strong> — masculine + consonant or vowel: <em>un libro, un amico</em></li><li><strong>uno</strong> — masculine + s+consonant, z, gn: <em>uno studente, uno zaino</em></li><li><strong>una</strong> — feminine + consonant: <em>una casa</em></li><li><strong>un'</strong> — feminine + vowel (with apostrophe): <em>un'amica</em></li></ul>"
+      },
+      {
+        "heading": "d) Forming the plural",
+        "body": "<ul><li>-o &rarr; -i: <em>libro &rarr; libri</em></li><li>-a &rarr; -e: <em>casa &rarr; case</em></li><li>-e &rarr; -i (both genders): <em>notte &rarr; notti, pane &rarr; pani</em></li></ul>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Il libro è sul tavolo.",
+        "en": "The book is on the table."
+      },
+      {
+        "it": "Ho un'amica a Roma.",
+        "en": "I have a [female] friend in Rome."
+      },
+      {
+        "it": "Lo studente studia in biblioteca.",
+        "en": "The student studies in the library."
+      },
+      {
+        "it": "Gli studenti sono bravi.",
+        "en": "The students are good [at what they do]."
+      },
+      {
+        "it": "Le case in questa via sono antiche.",
+        "en": "The houses on this street are old."
+      },
+      {
+        "it": "Uno zaino nuovo costa molto.",
+        "en": "A new backpack costs a lot."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "il amico",
+        "right": "l'amico",
+        "why": "Before a vowel, il/lo shorten to l' — il amico is never used."
+      },
+      {
+        "wrong": "il zaino",
+        "right": "lo zaino",
+        "why": "Masculine nouns starting with z take lo, not il."
+      },
+      {
+        "wrong": "un'amico",
+        "right": "un amico",
+        "why": "The apostrophe form un' is only for feminine nouns before a vowel; masculine amico takes plain un."
+      },
+      {
+        "wrong": "la libri",
+        "right": "i libri",
+        "why": "Plural masculine nouns need the plural article i (or gli), never the feminine la."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1ga-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Correct Article",
+      "instructions": "Complete each phrase with il, lo, la, or l'.",
+      "items": [
+        {
+          "id": "a1ga1",
+          "prompt": "___ studente (the student, m.)",
+          "answers": [
+            [
+              "Lo"
+            ]
+          ],
+          "explanation": "Masculine nouns starting with s+consonant take lo.",
+          "options": [
+            "Il",
+            "Lo",
+            "La"
+          ]
+        },
+        {
+          "id": "a1ga2",
+          "prompt": "___ amica (the friend, f.)",
+          "answers": [
+            [
+              "L'"
+            ]
+          ],
+          "explanation": "Before a vowel, the feminine article shortens to l'.",
+          "options": [
+            "La",
+            "L'",
+            "Lo"
+          ]
+        },
+        {
+          "id": "a1ga3",
+          "prompt": "___ pane (the bread, m.)",
+          "answers": [
+            [
+              "Il"
+            ]
+          ],
+          "explanation": "Pane is masculine and starts with a consonant, so it takes il.",
+          "options": [
+            "Il",
+            "La",
+            "Lo"
+          ]
+        },
+        {
+          "id": "a1ga4",
+          "prompt": "___ notte (the night, f.)",
+          "answers": [
+            [
+              "La"
+            ]
+          ],
+          "explanation": "Notte is feminine (despite the -e ending) and starts with a consonant.",
+          "options": [
+            "Il",
+            "La",
+            "Lo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1ga-mc",
+      "type": "multiple-choice",
+      "title": "Plural Forms",
+      "items": [
+        {
+          "id": "a1ga5",
+          "prompt": "What is the plural of \"lo zaino\"?",
+          "options": [
+            "i zaini",
+            "gli zaini",
+            "le zaini"
+          ],
+          "answerIndex": 1,
+          "explanation": "Gli is the plural of lo."
+        },
+        {
+          "id": "a1ga6",
+          "prompt": "What is the plural of \"la casa\"?",
+          "options": [
+            "le case",
+            "i case",
+            "le casi"
+          ],
+          "answerIndex": 0,
+          "explanation": "Feminine -a nouns become -e in the plural, with the article le."
+        }
+      ]
+    },
+    {
+      "id": "a1ga-correction",
+      "type": "correction",
+      "title": "Correct the Mistakes",
+      "items": [
+        {
+          "id": "a1ga7",
+          "incorrect": "il amico",
+          "answer": [
+            "l'amico"
+          ],
+          "explanation": "Before a vowel, il shortens to l'."
+        },
+        {
+          "id": "a1ga8",
+          "incorrect": "una amica",
+          "answer": [
+            "un'amica"
+          ],
+          "explanation": "Before a vowel, feminine una becomes un', with an apostrophe."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Nouns ending in -o are usually masculine; -a usually feminine; -e can be either and must be learned.",
+    "Definite articles: il/lo/l' (m. sing.), la/l' (f. sing.), i/gli (m. pl.), le (f. pl.) — chosen by gender and starting sound.",
+    "Indefinite articles: un/uno (m.), una/un' (f.) — un' only before a feminine vowel."
+  ]
+}

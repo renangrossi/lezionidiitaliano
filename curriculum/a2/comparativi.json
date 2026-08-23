@@ -1,0 +1,146 @@
+{
+  "id": "a2-comparativi",
+  "level": "A2",
+  "unit": "1",
+  "order": 8,
+  "skill": "grammar",
+  "strand": "comparatives",
+  "title": "I Comparativi",
+  "subtitle": "More than, less than, as ... as — comparing two things.",
+  "objectives": [
+    "Form comparatives of majority and minority with più/meno ... di/che",
+    "Choose between di and che correctly",
+    "Form the comparative of equality with (così) ... come / (tanto) ... quanto"
+  ],
+  "content": {
+    "intro": "Comparing two things is built from simple, reusable pieces: più (more), meno (less), and a choice between di and che that trips up almost every learner at first.",
+    "explanation": "<p>Use <strong>di</strong> when comparing two different nouns or pronouns (people, places, things): <em>Marco è più alto di Luca.</em> Use <strong>che</strong> when comparing two elements of the same type within the same clause — two adjectives, two verbs, two nouns with the same preposition: <em>È più simpatico che intelligente.</em> (He's more nice than [he is] smart.)</p>",
+    "rules": [
+      {
+        "heading": "a) Majority/minority with di",
+        "body": "<p>più/meno + adjective + <strong>di</strong> + noun/pronoun: <em>Roma è più grande di Milano. Sono meno alto di te.</em></p>"
+      },
+      {
+        "heading": "b) Majority/minority with che",
+        "body": "<p>più/meno + adjective + <strong>che</strong> + adjective/verb/same-preposition noun: <em>È più simpatico che bello. Preferisco leggere che guardare la TV.</em></p>"
+      },
+      {
+        "heading": "c) Equality",
+        "body": "<p><em>(così) ... come</em> or <em>(tanto) ... quanto</em> — the first word is often dropped in speech: <em>Marco è (così) alto come suo padre. / Marco è (tanto) alto quanto suo padre.</em></p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Il treno è più veloce dell'autobus.",
+        "en": "The train is faster than the bus."
+      },
+      {
+        "it": "Sono meno stanca di ieri.",
+        "en": "I'm less tired than yesterday."
+      },
+      {
+        "it": "È più facile parlare che scrivere.",
+        "en": "It's easier to speak than to write."
+      },
+      {
+        "it": "Mia sorella è alta come me.",
+        "en": "My sister is as tall as me."
+      },
+      {
+        "it": "Questo film è interessante quanto il libro.",
+        "en": "This film is as interesting as the book."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Marco è più alto che Luca.",
+        "right": "Marco è più alto di Luca.",
+        "why": "Comparing two different people/nouns needs di, not che."
+      },
+      {
+        "wrong": "È più intelligente di bello.",
+        "right": "È più intelligente che bello.",
+        "why": "Comparing two adjectives about the same subject needs che, not di."
+      },
+      {
+        "wrong": "più alto di te di quanto pensavo (extra di)",
+        "right": "più alto di quanto pensassi",
+        "why": "This advanced comparative construction takes di quanto + subjunctive, covered later — for now, keep to simple di/che comparisons."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2co-fill",
+      "type": "fill-blank",
+      "title": "Di or Che?",
+      "items": [
+        {
+          "id": "a2co1",
+          "prompt": "Milano è più grande ___ Firenze.",
+          "answers": [
+            [
+              "di"
+            ]
+          ],
+          "explanation": "Comparing two cities (nouns): di.",
+          "options": [
+            "di",
+            "che"
+          ]
+        },
+        {
+          "id": "a2co2",
+          "prompt": "È più bravo a cantare ___ a ballare.",
+          "answers": [
+            [
+              "che"
+            ]
+          ],
+          "explanation": "Comparing two activities/verbs: che.",
+          "options": [
+            "che",
+            "di"
+          ]
+        },
+        {
+          "id": "a2co3",
+          "prompt": "Sono più giovane ___ te.",
+          "answers": [
+            [
+              "di"
+            ]
+          ],
+          "explanation": "Comparing with a pronoun (te): di.",
+          "options": [
+            "di",
+            "che"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2co-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Comparative",
+      "items": [
+        {
+          "id": "a2co4",
+          "prompt": "\"This book is as interesting as that film\"",
+          "options": [
+            "Questo libro è interessante come quel film.",
+            "Questo libro è più interessante di quel film.",
+            "Questo libro è interessante che quel film."
+          ],
+          "answerIndex": 0,
+          "explanation": "Equality uses come (or quanto), not più/che."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Di compares two different nouns/pronouns; che compares two elements of the same type in one clause.",
+    "Majority/minority: più/meno ... di/che.",
+    "Equality: (così) ... come or (tanto) ... quanto."
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "c1-connettivi-testuali",
+  "level": "C1",
+  "unit": "1",
+  "order": 4,
+  "skill": "writing",
+  "strand": "discourse",
+  "title": "Connettivi Testuali Avanzati",
+  "subtitle": "Linking ideas like a fluent writer: contrast, cause, consequence, addition.",
+  "objectives": [
+    "Use a range of connectors beyond the basic e, ma, perché",
+    "Choose connectors appropriate to formal written Italian",
+    "Structure a short argumentative paragraph with clear logical connectors"
+  ],
+  "content": {
+    "intro": "Fluent written Italian relies on a richer set of connectors than everyday speech — signalling contrast, consequence, and addition precisely instead of stringing ideas together with e and ma.",
+    "explanation": "<p>These connectors are especially common in essays, articles, and formal writing/speech. Many pair naturally: <em>da un lato... dall'altro</em> (on one hand... on the other).</p>",
+    "rules": [
+      {
+        "heading": "a) Contrast",
+        "body": "<p><em>tuttavia, però, nonostante ciò, d'altra parte, al contrario, mentre</em> — all stronger/more formal alternatives to ma.</p>"
+      },
+      {
+        "heading": "b) Cause and consequence",
+        "body": "<p><em>poiché, dato che, dal momento che</em> (cause, more formal than perché); <em>quindi, perciò, di conseguenza, pertanto</em> (consequence, more formal than allora).</p>"
+      },
+      {
+        "heading": "c) Addition and sequence",
+        "body": "<p><em>inoltre, per di più, in aggiunta</em> (addition); <em>innanzitutto, in primo luogo, infine</em> (sequencing an argument).</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Il progetto è ambizioso; tuttavia, i tempi sono realistici.",
+        "en": "The project is ambitious; however, the timeline is realistic."
+      },
+      {
+        "it": "Dato che il traffico era intenso, siamo arrivati in ritardo.",
+        "en": "Since traffic was heavy, we arrived late."
+      },
+      {
+        "it": "Il costo è aumentato; di conseguenza, abbiamo dovuto rivedere il budget.",
+        "en": "The cost increased; as a result, we had to revise the budget."
+      },
+      {
+        "it": "Da un lato capisco le tue ragioni; dall'altro, non sono d'accordo.",
+        "en": "On one hand I understand your reasons; on the other, I don't agree."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Perciò using it to introduce a cause (instead of a consequence)",
+        "right": "poiché/dato che for cause; perciò/quindi for consequence",
+        "why": "Cause and consequence connectors aren't interchangeable — mixing them reverses the logical relationship of the sentence."
+      },
+      {
+        "wrong": "Overusing tuttavia/quindi in casual conversation",
+        "right": "però/allora in casual speech; tuttavia/quindi in writing",
+        "why": "These heavier connectors read as formal/written register — using them constantly in casual speech can sound stilted."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c1ct2-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "c1ct2a",
+          "prompt": "___ pioveva, siamo usciti lo stesso. (since/given that)",
+          "answers": [
+            [
+              "Dato che",
+              "Poiché"
+            ]
+          ],
+          "explanation": "Cause connector.",
+          "options": [
+            "Dato che",
+            "Quindi",
+            "Tuttavia"
+          ]
+        },
+        {
+          "id": "c1ct2b",
+          "prompt": "Ha lavorato molto; ___, ha ottenuto una promozione. (as a result)",
+          "answers": [
+            [
+              "di conseguenza",
+              "quindi",
+              "perciò"
+            ]
+          ],
+          "explanation": "Consequence connector.",
+          "options": [
+            "di conseguenza",
+            "poiché",
+            "mentre"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1ct2-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Right Connector",
+      "items": [
+        {
+          "id": "c1ct2c",
+          "prompt": "Which connector expresses contrast?",
+          "options": [
+            "inoltre",
+            "tuttavia",
+            "perciò"
+          ],
+          "answerIndex": 1,
+          "explanation": "Tuttavia (however) expresses contrast."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Formal connectors express cause (poiché, dato che), consequence (quindi, perciò), and contrast (tuttavia, d'altra parte) more precisely than e/ma/perché.",
+    "Cause and consequence connectors are not interchangeable — they mark opposite logical directions.",
+    "Heavier connectors belong mainly to written/formal register, not everyday conversation."
+  ]
+}

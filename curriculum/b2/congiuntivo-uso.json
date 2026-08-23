@@ -1,0 +1,134 @@
+{
+  "id": "b2-congiuntivo-uso",
+  "level": "B2",
+  "unit": "1",
+  "order": 3,
+  "skill": "grammar",
+  "strand": "subjunctive",
+  "title": "Il Congiuntivo dopo Opinione, Dubbio ed Emozione",
+  "subtitle": "When exactly the subjunctive is required — and when it isn't.",
+  "objectives": [
+    "Identify the categories of main clause that trigger the subjunctive",
+    "Distinguish opinion verbs (require subjunctive) from certainty verbs (require indicative)",
+    "Use di + infinitive instead of che + subjunctive when the subject doesn't change"
+  ],
+  "content": {
+    "intro": "The subjunctive isn't triggered by particular words alone, but by a whole category of meaning: whatever isn't presented as a plain, certain fact.",
+    "explanation": "<p>Four broad triggers: <strong>opinion</strong> (penso che, credo che), <strong>doubt/uncertainty</strong> (dubito che, non sono sicuro che), <strong>emotion</strong> (sono felice che, mi dispiace che), and <strong>will/necessity</strong> (voglio che, è necessario che, bisogna che). By contrast, verbs of <strong>certainty</strong> — sapere che, essere sicuro che (in the affirmative), è vero che — take the indicative, because they present the information as an established fact, not an opinion.</p>",
+    "rules": [
+      {
+        "heading": "a) Subjunctive triggers",
+        "body": "<ul><li>Opinion: <em>penso, credo, immagino</em> + che</li><li>Doubt: <em>dubito, non sono sicuro/a</em> + che</li><li>Emotion: <em>sono contento/a, mi dispiace, ho paura</em> + che</li><li>Will/necessity: <em>voglio, spero, è importante, bisogna</em> + che</li></ul>"
+      },
+      {
+        "heading": "b) Indicative instead",
+        "body": "<p><em>So che hai ragione.</em> (I know you're right — a fact.) <em>È vero che piove.</em> (It's true that it's raining.) Negating a certainty verb (non sono sicuro che) flips it back to subjunctive, since it now expresses doubt.</p>"
+      },
+      {
+        "heading": "c) Same subject → di + infinitive",
+        "body": "<p>When both verbs share the same subject, Italian avoids che + subjunctive: <em>Spero di partire presto.</em> (I hope to leave early — not <em>Spero che io parta</em>.)</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Dubito che lui arrivi in tempo.",
+        "en": "I doubt he'll arrive on time."
+      },
+      {
+        "it": "So che hai ragione.",
+        "en": "I know you're right."
+      },
+      {
+        "it": "Mi dispiace che tu non possa venire.",
+        "en": "I'm sorry you can't come."
+      },
+      {
+        "it": "È vero che i prezzi sono aumentati.",
+        "en": "It's true that prices have gone up."
+      },
+      {
+        "it": "Spero di finire in tempo.",
+        "en": "I hope to finish in time. (same subject, di + infinitive)"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "So che tu abbia ragione.",
+        "right": "So che tu hai ragione.",
+        "why": "Sapere che presents a known fact, so it takes the indicative, not the subjunctive."
+      },
+      {
+        "wrong": "Sono sicuro che sia vero. (in the affirmative, presenting genuine certainty)",
+        "right": "Sono sicuro che è vero.",
+        "why": "Affirmative certainty verbs take the indicative; only their negation (non sono sicuro che) triggers the subjunctive."
+      },
+      {
+        "wrong": "Spero che io possa venire.",
+        "right": "Spero di poter venire.",
+        "why": "With the same subject in both clauses, Italian prefers di + infinitive over che + subjunctive."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2cu-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "b2cu1",
+          "prompt": "Dubito che loro ___ (potere) aiutarci.",
+          "answers": [
+            [
+              "possano"
+            ]
+          ],
+          "explanation": "Dubito che triggers the subjunctive.",
+          "options": [
+            "possano",
+            "possono",
+            "potevano"
+          ]
+        },
+        {
+          "id": "b2cu2",
+          "prompt": "So che tu ___ (essere) molto occupato.",
+          "answers": [
+            [
+              "sei"
+            ]
+          ],
+          "explanation": "Sapere che presents a fact — indicative.",
+          "options": [
+            "sei",
+            "sia",
+            "eri"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2cu-mc",
+      "type": "multiple-choice",
+      "title": "Which Trigger Requires the Subjunctive?",
+      "items": [
+        {
+          "id": "b2cu3",
+          "prompt": "Which verb requires the indicative, not the subjunctive?",
+          "options": [
+            "Dubito che...",
+            "So che...",
+            "Ho paura che..."
+          ],
+          "answerIndex": 1,
+          "explanation": "So che presents a fact, so it takes the indicative."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Opinion, doubt, emotion and will/necessity trigger the subjunctive; certainty (sapere che, è vero che) takes the indicative.",
+    "Negating a certainty verb flips it to the subjunctive, since it now expresses doubt.",
+    "Same subject in both clauses → prefer di + infinitive over che + subjunctive."
+  ]
+}

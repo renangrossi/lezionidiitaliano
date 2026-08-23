@@ -1,0 +1,171 @@
+{
+  "id": "a1-preposizioni-semplici",
+  "level": "A1",
+  "unit": "1",
+  "order": 9,
+  "skill": "grammar",
+  "strand": "prepositions",
+  "title": "Preposizioni Semplici",
+  "subtitle": "In, a, di, da, su, con, per, tra/fra — Italian's core simple prepositions.",
+  "objectives": [
+    "Use the eight simple prepositions correctly",
+    "Distinguish in vs. a for location",
+    "Recognize di for possession and origin"
+  ],
+  "content": {
+    "intro": "Prepositions link the pieces of a sentence together — and their use in Italian often doesn't match English word-for-word, so it's worth learning them as fixed patterns rather than translating literally.",
+    "explanation": "<p>The eight simple prepositions are <strong>di, a, da, in, con, su, per, tra/fra</strong> (tra and fra are interchangeable, chosen just to avoid repeating sounds). In the next lesson you'll see how several of them combine with the definite article (<em>a</em> + <em>il</em> = <em>al</em>) — for now, focus on their use before a noun with no article, and before city names.</p>",
+    "rules": [
+      {
+        "heading": "a) di — of, from, possession",
+        "body": "<ul><li>Possession: <em>il libro di Marco</em> (Marco's book)</li><li>Origin: <em>Sono di Torino.</em> (I'm from Turin.)</li><li>Material: <em>un tavolo di legno</em> (a wooden table)</li></ul>"
+      },
+      {
+        "heading": "b) a — to, at, in (with cities)",
+        "body": "<ul><li>Destination/location with cities: <em>Vado a Roma. Abito a Roma.</em></li><li>Time of day: <em>a mezzogiorno</em> (at noon)</li><li>Indirect object: <em>Scrivo a Maria.</em> (I write to Maria.)</li></ul>"
+      },
+      {
+        "heading": "c) in — in, to (with countries/regions/enclosed spaces)",
+        "body": "<ul><li>Countries, regions, enclosed spaces: <em>Vivo in Italia. Sono in ufficio.</em></li><li>Note the contrast with a: <strong>a</strong> Roma, but <strong>in</strong> Italia</li></ul>"
+      },
+      {
+        "heading": "d) da, su, con, per, tra/fra",
+        "body": "<ul><li><strong>da</strong> — from, since, at someone's place: <em>Vengo da Napoli. Vado da Marco.</em> (I'm going to Marco's place.)</li><li><strong>su</strong> — on: <em>Il libro è su tavolo.</em></li><li><strong>con</strong> — with: <em>Esco con gli amici.</em></li><li><strong>per</strong> — for, in order to: <em>Studio per l'esame.</em></li><li><strong>tra/fra</strong> — between, among, in [time]: <em>tra due ore</em> (in two hours)</li></ul>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Sono di Firenze, ma vivo a Milano.",
+        "en": "I'm from Florence, but I live in Milan."
+      },
+      {
+        "it": "Il gatto dorme su una sedia.",
+        "en": "The cat sleeps on a chair."
+      },
+      {
+        "it": "Vado da Anna stasera.",
+        "en": "I'm going to Anna's place tonight."
+      },
+      {
+        "it": "Questo regalo è per te.",
+        "en": "This gift is for you."
+      },
+      {
+        "it": "Ci vediamo tra un'ora.",
+        "en": "See you in an hour."
+      },
+      {
+        "it": "Studio l'italiano con un insegnante.",
+        "en": "I study Italian with a teacher."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Vivo in Roma.",
+        "right": "Vivo a Roma.",
+        "why": "Cities take a for location; in is for countries and regions (Vivo in Italia)."
+      },
+      {
+        "wrong": "Vado a Marco.",
+        "right": "Vado da Marco.",
+        "why": "\"Going to someone's place\" uses da, not a — a is for destinations like cities or specific places, not people."
+      },
+      {
+        "wrong": "Sono a Torino. (origin)",
+        "right": "Sono di Torino.",
+        "why": "Di expresses origin (\"I'm from...\"); a would describe current location, a different meaning."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1pp-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "a1pp1",
+          "prompt": "Vivo ___ Roma, ma sono ___ Napoli.",
+          "answers": [
+            [
+              "a"
+            ],
+            [
+              "di"
+            ]
+          ],
+          "explanation": "A for city location, di for origin.",
+          "options": [
+            "a",
+            "di",
+            "in"
+          ]
+        },
+        {
+          "id": "a1pp2",
+          "prompt": "Il libro è ___ tavolo.",
+          "answers": [
+            [
+              "su"
+            ]
+          ],
+          "explanation": "Su expresses \"on\".",
+          "options": [
+            "su",
+            "in",
+            "a"
+          ]
+        },
+        {
+          "id": "a1pp3",
+          "prompt": "Vado ___ Giulia stasera.",
+          "answers": [
+            [
+              "da"
+            ]
+          ],
+          "explanation": "\"Going to someone's place\" uses da.",
+          "options": [
+            "da",
+            "a",
+            "per"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1pp-mc",
+      "type": "multiple-choice",
+      "title": "In or A?",
+      "items": [
+        {
+          "id": "a1pp4",
+          "prompt": "Vivo ___ Spagna.",
+          "options": [
+            "a",
+            "in",
+            "di"
+          ],
+          "answerIndex": 1,
+          "explanation": "Countries take in, not a."
+        },
+        {
+          "id": "a1pp5",
+          "prompt": "Abito ___ Barcellona.",
+          "options": [
+            "in",
+            "a",
+            "su"
+          ],
+          "answerIndex": 1,
+          "explanation": "Cities take a, not in."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Di = of/from/possession; a = to/at/in with cities; in = with countries, regions, enclosed spaces.",
+    "Da = from/since/at someone's place; su = on; con = with; per = for; tra/fra = between/in [time].",
+    "The contrast a Roma vs. in Italia is one of the most common early mistakes — learn it as a pair."
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "id": "a1-aggettivi-e-accordo",
+  "level": "A1",
+  "unit": "1",
+  "order": 6,
+  "skill": "grammar",
+  "strand": "adjectives",
+  "title": "Aggettivi e Accordo",
+  "subtitle": "Adjectives must match the noun they describe in gender and number.",
+  "objectives": [
+    "Make -o/-a adjectives agree in gender and number",
+    "Use -e adjectives, which don't change for gender",
+    "Place adjectives correctly before or after the noun"
+  ],
+  "content": {
+    "intro": "An Italian adjective isn't fixed — it changes its ending to match the noun it describes, exactly like the article does.",
+    "explanation": "<p>Most adjectives end in <strong>-o</strong> in the masculine singular and change to <strong>-a</strong>, <strong>-i</strong>, <strong>-e</strong> to agree with the noun. A second group ends in <strong>-e</strong> for both masculine and feminine singular, changing only for plural. Most descriptive adjectives follow the noun (<em>una casa grande</em>), while a small set of very common adjectives (bello, buono, grande, piccolo, giovane, vecchio...) can also come before it, sometimes with a slightly different nuance.</p>",
+    "rules": [
+      {
+        "heading": "a) -o/-a adjectives (four forms)",
+        "body": "<ul><li>m. sing. <strong>-o</strong>: <em>alto</em></li><li>f. sing. <strong>-a</strong>: <em>alta</em></li><li>m. pl. <strong>-i</strong>: <em>alti</em></li><li>f. pl. <strong>-e</strong>: <em>alte</em></li></ul>"
+      },
+      {
+        "heading": "b) -e adjectives (two forms)",
+        "body": "<ul><li>sing. (m. or f.) <strong>-e</strong>: <em>un ragazzo intelligente, una ragazza intelligente</em></li><li>pl. (m. or f.) <strong>-i</strong>: <em>ragazzi intelligenti, ragazze intelligenti</em></li></ul>"
+      },
+      {
+        "heading": "c) Position",
+        "body": "<ul><li>Most adjectives follow the noun: <em>un libro interessante</em></li><li>A short list (bello, brutto, buono, cattivo, grande, piccolo, giovane, vecchio, nuovo) often precede it: <em>una bella giornata</em></li></ul>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Marco è alto e simpatico.",
+        "en": "Marco is tall and nice."
+      },
+      {
+        "it": "Le mie amiche sono intelligenti.",
+        "en": "My [female] friends are intelligent."
+      },
+      {
+        "it": "È una macchina veloce.",
+        "en": "It's a fast car."
+      },
+      {
+        "it": "Abbiamo una bella casa piccola.",
+        "en": "We have a nice small house."
+      },
+      {
+        "it": "I ragazzi sono stanchi.",
+        "en": "The boys are tired."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "una ragazza alto",
+        "right": "una ragazza alta",
+        "why": "The adjective must agree with the feminine noun ragazza, so it needs the -a ending."
+      },
+      {
+        "wrong": "i libri interessanto",
+        "right": "i libri interessanti",
+        "why": "-e adjectives take -i for the plural, not -o — interessante is not an -o/-a adjective."
+      },
+      {
+        "wrong": "le case bianco",
+        "right": "le case bianche",
+        "why": "Bianco needs a spelling adjustment (c→ch) to keep the hard \"k\" sound before the plural -e."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1aa-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Correct Ending",
+      "items": [
+        {
+          "id": "a1aa1",
+          "prompt": "Maria è molto simpatic___.",
+          "answers": [
+            [
+              "a"
+            ]
+          ],
+          "explanation": "Simpatica agrees with the feminine subject Maria.",
+          "options": [
+            "a",
+            "o",
+            "e"
+          ]
+        },
+        {
+          "id": "a1aa2",
+          "prompt": "I ragazzi sono alt___.",
+          "answers": [
+            [
+              "i"
+            ]
+          ],
+          "explanation": "Masculine plural takes -i.",
+          "options": [
+            "i",
+            "e",
+            "o"
+          ]
+        },
+        {
+          "id": "a1aa3",
+          "prompt": "Una casa grand___.",
+          "answers": [
+            [
+              "e"
+            ]
+          ],
+          "explanation": "Grande is an -e adjective — same form for masculine and feminine singular.",
+          "options": [
+            "e",
+            "a",
+            "o"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1aa-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Form",
+      "items": [
+        {
+          "id": "a1aa4",
+          "prompt": "Le mie sorelle sono molto ___.",
+          "options": [
+            "intelligente",
+            "intelligenti",
+            "intelligento"
+          ],
+          "answerIndex": 1,
+          "explanation": "Feminine plural of an -e adjective is -i, same as masculine plural."
+        }
+      ]
+    },
+    {
+      "id": "a1aa-correction",
+      "type": "correction",
+      "title": "Correct the Mistakes",
+      "items": [
+        {
+          "id": "a1aa5",
+          "incorrect": "una ragazza alto",
+          "answer": [
+            "una ragazza alta"
+          ],
+          "explanation": "The adjective must agree with feminine ragazza."
+        },
+        {
+          "id": "a1aa6",
+          "incorrect": "gli studenti bravo",
+          "answer": [
+            "gli studenti bravi"
+          ],
+          "explanation": "Masculine plural subject needs the -i ending on the adjective."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "-o/-a adjectives have four forms: -o, -a, -i, -e, matching the noun's gender and number.",
+    "-e adjectives have only two forms: -e (singular, both genders) and -i (plural, both genders).",
+    "Most adjectives follow the noun; a short, common set can also precede it."
+  ]
+}

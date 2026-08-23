@@ -1,0 +1,171 @@
+{
+  "id": "b1-imperfetto-vs-passato-prossimo",
+  "level": "B1",
+  "unit": "1",
+  "order": 2,
+  "skill": "grammar",
+  "strand": "past-tenses",
+  "title": "Imperfetto vs. Passato Prossimo",
+  "subtitle": "The single most important contrast in Italian storytelling.",
+  "objectives": [
+    "Choose between imperfetto and passato prossimo based on the type of past action",
+    "Combine both tenses correctly in one narrative",
+    "Recognize verbs whose meaning shifts between the two tenses"
+  ],
+  "content": {
+    "intro": "Almost every Italian story mixes both past tenses: the imperfetto sets the scene, the passato prossimo moves the plot forward. Getting this contrast right is what makes your Italian sound like real narration instead of a list of facts.",
+    "explanation": "<p>Think of the imperfetto as a video camera left running in the background (ongoing, no clear end point) and the passato prossimo as a snapshot (a single, completed, often sudden event). The classic pattern is a background action (imperfetto) interrupted by a completed one (passato prossimo): <em>Dormivo quando è suonato il telefono.</em> (I was sleeping when the phone rang.)</p>",
+    "rules": [
+      {
+        "heading": "a) Imperfetto — background, ongoing, habitual",
+        "body": "<ul><li>Descriptions: <em>Il cielo era grigio.</em></li><li>Habits/repetition: <em>Andavo in palestra ogni martedì.</em></li><li>Ongoing action in progress: <em>Leggevo un libro.</em></li></ul>"
+      },
+      {
+        "heading": "b) Passato prossimo — completed, sudden, sequential events",
+        "body": "<ul><li>A single completed event: <em>Ieri sono andato in palestra.</em></li><li>A sudden interruption: <em>...quando è suonato il telefono.</em></li><li>A sequence of events: <em>Mi sono alzato, ho fatto colazione, sono uscito.</em></li></ul>"
+      },
+      {
+        "heading": "c) Verbs that change meaning",
+        "body": "<ul><li><em>sapere</em>: imperfetto = knew (state) &mdash; <em>Non sapevo</em> (I didn't know); passato prossimo = found out (event) &mdash; <em>Ho saputo</em> (I found out)</li><li><em>conoscere</em>: imperfetto = knew (already acquainted); passato prossimo = met (for the first time) &mdash; <em>Ho conosciuto mia moglie a Roma.</em></li></ul>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Mentre cucinavo, è arrivato Marco.",
+        "en": "While I was cooking, Marco arrived."
+      },
+      {
+        "it": "Da giovane, giocavo a calcio ogni weekend.",
+        "en": "As a young man, I used to play soccer every weekend."
+      },
+      {
+        "it": "Ieri ho giocato a calcio con i miei amici.",
+        "en": "Yesterday I played soccer with my friends."
+      },
+      {
+        "it": "Non sapevo che eri qui!",
+        "en": "I didn't know you were here!"
+      },
+      {
+        "it": "Ho conosciuto mia moglie in Italia.",
+        "en": "I met my wife in Italy."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Mentre cucinavo, Marco è arrivava.",
+        "right": "Mentre cucinavo, Marco è arrivato.",
+        "why": "The interrupting, completed event (arriving) needs the passato prossimo; only the background action stays in the imperfetto."
+      },
+      {
+        "wrong": "Ieri giocavo a calcio.",
+        "right": "Ieri ho giocato a calcio.",
+        "why": "A single, completed event on a specific occasion (\"yesterday\") needs the passato prossimo, not the imperfetto."
+      },
+      {
+        "wrong": "Ho conosciuto la geografia dell'Italia da anni.",
+        "right": "Conoscevo la geografia dell'Italia da anni.",
+        "why": "An ongoing state of already knowing something needs the imperfetto; passato prossimo here would wrongly suggest a single \"meeting\" event."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1ip-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "instructions": "Choose imperfetto or passato prossimo.",
+      "items": [
+        {
+          "id": "b1ip1",
+          "prompt": "___ (Piovere) quando siamo usciti di casa.",
+          "answers": [
+            [
+              "Pioveva"
+            ]
+          ],
+          "explanation": "Background, ongoing weather → imperfetto.",
+          "options": [
+            "Pioveva",
+            "È piovuto",
+            "Piove"
+          ]
+        },
+        {
+          "id": "b1ip2",
+          "prompt": "Ieri sera ___ (io - guardare) un film e poi ___ (andare) a letto.",
+          "answers": [
+            [
+              "ho guardato"
+            ],
+            [
+              "sono andato"
+            ]
+          ],
+          "explanation": "A sequence of completed events → passato prossimo for both.",
+          "options": [
+            "ho guardato",
+            "guardavo",
+            "sono andato"
+          ]
+        },
+        {
+          "id": "b1ip3",
+          "prompt": "Quando ___ (essere) piccolo, ___ (avere) paura del buio.",
+          "answers": [
+            [
+              "ero"
+            ],
+            [
+              "avevo"
+            ]
+          ],
+          "explanation": "A description/state in the past → imperfetto for both.",
+          "options": [
+            "ero",
+            "sono stato",
+            "avevo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1ip-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Tense",
+      "items": [
+        {
+          "id": "b1ip4",
+          "prompt": "\"I found out yesterday that she moved.\"",
+          "options": [
+            "Sapevo ieri che si è trasferita.",
+            "Ho saputo ieri che si è trasferita.",
+            "Ho sapere ieri che si trasferiva."
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Found out\" is a single event → passato prossimo of sapere."
+        }
+      ]
+    },
+    {
+      "id": "b1ip-correction",
+      "type": "correction",
+      "title": "Correct the Mistakes",
+      "items": [
+        {
+          "id": "b1ip5",
+          "incorrect": "Ieri giocavo a tennis con Marco.",
+          "answer": [
+            "Ieri ho giocato a tennis con Marco."
+          ],
+          "explanation": "A single completed occasion needs the passato prossimo."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Imperfetto = background, ongoing, habitual, description; passato prossimo = completed, sudden, sequential.",
+    "The classic pattern: imperfetto sets the scene, passato prossimo interrupts or advances the plot.",
+    "Sapere and conoscere shift meaning between the two tenses — state vs. event."
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "id": "a1-presente-verbi-regolari",
+  "level": "A1",
+  "unit": "1",
+  "order": 7,
+  "skill": "grammar",
+  "strand": "verbs",
+  "title": "Presente Indicativo dei Verbi Regolari",
+  "subtitle": "The present tense of -are, -ere and -ire verbs — Italian's three regular conjugations.",
+  "objectives": [
+    "Conjugate regular -are, -ere and -ire verbs in the present tense",
+    "Recognize -isc- verbs, a common pattern within -ire",
+    "Use the present tense for habits, facts and (unlike English) near-future plans"
+  ],
+  "content": {
+    "intro": "Every Italian verb belongs to one of three families, named for their infinitive ending: -are, -ere, -ire. Learn the pattern for one regular verb in each family, and you can conjugate hundreds of others the same way.",
+    "explanation": "<p>To conjugate a regular verb, drop the infinitive ending (-are/-ere/-ire) and add the ending for each subject. A subgroup of -ire verbs (like <em>capire</em>, to understand) inserts <strong>-isc-</strong> before the ending in all forms except noi/voi — there's no way to predict which -ire verbs do this, so it's learned per verb.</p><p>The present tense also covers ground English splits into two tenses: <em>Parlo italiano</em> can mean both &ldquo;I speak Italian&rdquo; and, right now, &ldquo;I am speaking Italian&rdquo;. It's also commonly used for near-future plans: <em>Domani parto per Roma</em> (Tomorrow I'm leaving for Rome).</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Present tense — parlare, scrivere, dormire, capire (-isc-)</caption><thead><tr><th>Subject</th><th>parlare</th><th>scrivere</th><th>dormire</th><th>capire</th></tr></thead><tbody><tr><td>io</td><td>parlo</td><td>scrivo</td><td>dormo</td><td>capisco</td></tr><tr><td>tu</td><td>parli</td><td>scrivi</td><td>dormi</td><td>capisci</td></tr><tr><td>lui/lei</td><td>parla</td><td>scrive</td><td>dorme</td><td>capisce</td></tr><tr><td>noi</td><td>parliamo</td><td>scriviamo</td><td>dormiamo</td><td>capiamo</td></tr><tr><td>voi</td><td>parlate</td><td>scrivete</td><td>dormite</td><td>capite</td></tr><tr><td>loro</td><td>parlano</td><td>scrivono</td><td>dormono</td><td>capiscono</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) -are verbs (e.g. parlare, lavorare, abitare)",
+        "body": "<p>Endings: -o, -i, -a, -iamo, -ate, -ano</p>"
+      },
+      {
+        "heading": "b) -ere verbs (e.g. scrivere, leggere, prendere)",
+        "body": "<p>Endings: -o, -i, -e, -iamo, -ete, -ono</p>"
+      },
+      {
+        "heading": "c) -ire verbs (e.g. dormire, partire, aprire)",
+        "body": "<p>Endings: -o, -i, -e, -iamo, -ite, -ono</p>"
+      },
+      {
+        "heading": "d) -isc- verbs (e.g. capire, finire, preferire, pulire)",
+        "body": "<p>Same -ire endings, but -isc- is inserted before the ending for io/tu/lui-lei/loro: <em>capisco, capisci, capisce, capiamo, capite, capiscono</em>.</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Io lavoro in un ufficio.",
+        "en": "I work in an office."
+      },
+      {
+        "it": "Tu scrivi molte email.",
+        "en": "You write a lot of emails."
+      },
+      {
+        "it": "Lei dorme otto ore ogni notte.",
+        "en": "She sleeps eight hours every night."
+      },
+      {
+        "it": "Non capisco questa parola.",
+        "en": "I don't understand this word."
+      },
+      {
+        "it": "Domani partiamo per le vacanze.",
+        "en": "Tomorrow we're leaving for vacation."
+      },
+      {
+        "it": "Preferisco il tè al caffè.",
+        "en": "I prefer tea to coffee."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Io parlo l'italiano fluentemente da domani.",
+        "right": "Da domani parlerò... / Parlo italiano ora, ma da domani...",
+        "why": "Present tense for future plans works for near, planned events (\"tomorrow I leave\"), not for describing a change that will only become true later — that needs the future tense (covered at B1)."
+      },
+      {
+        "wrong": "Io capo la lezione.",
+        "right": "Io capisco la lezione.",
+        "why": "Capire is an -isc- verb: the io form is capisco, not a bare capo."
+      },
+      {
+        "wrong": "Noi parla italiano.",
+        "right": "Noi parliamo italiano.",
+        "why": "Noi always takes the -iamo ending, never the lui/lei -a/-e ending."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1pr-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "instructions": "Conjugate the verb in parentheses.",
+      "items": [
+        {
+          "id": "a1pr1",
+          "prompt": "Io ___ (lavorare) a Milano.",
+          "answers": [
+            [
+              "lavoro"
+            ]
+          ],
+          "explanation": "Io + -are verb = -o ending.",
+          "options": [
+            "lavoro",
+            "lavori",
+            "lavora"
+          ]
+        },
+        {
+          "id": "a1pr2",
+          "prompt": "Tu ___ (scrivere) molto bene.",
+          "answers": [
+            [
+              "scrivi"
+            ]
+          ],
+          "explanation": "Tu + -ere verb = -i ending.",
+          "options": [
+            "scrivi",
+            "scrive",
+            "scrivo"
+          ]
+        },
+        {
+          "id": "a1pr3",
+          "prompt": "Loro ___ (dormire) fino a tardi.",
+          "answers": [
+            [
+              "dormono"
+            ]
+          ],
+          "explanation": "Loro + -ire verb = -ono ending.",
+          "options": [
+            "dormono",
+            "dormano",
+            "dormiamo"
+          ]
+        },
+        {
+          "id": "a1pr4",
+          "prompt": "Noi non ___ (capire) l'esercizio.",
+          "answers": [
+            [
+              "capiamo"
+            ]
+          ],
+          "explanation": "Noi never takes -isc-, even in an -isc- verb: capiamo.",
+          "options": [
+            "capiamo",
+            "capisciamo",
+            "capisce"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1pr-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Conjugation",
+      "items": [
+        {
+          "id": "a1pr5",
+          "prompt": "Which is the correct io form of \"finire\"?",
+          "options": [
+            "finisco",
+            "fino",
+            "finiso"
+          ],
+          "answerIndex": 0,
+          "explanation": "Finire is an -isc- verb: io finisco."
+        },
+        {
+          "id": "a1pr6",
+          "prompt": "\"Lei ___ un libro\" (leggere)",
+          "options": [
+            "legge",
+            "leggi",
+            "leggo"
+          ],
+          "answerIndex": 0,
+          "explanation": "Lui/lei + -ere verb = -e ending: legge."
+        }
+      ]
+    },
+    {
+      "id": "a1pr-correction",
+      "type": "correction",
+      "title": "Correct the Mistakes",
+      "items": [
+        {
+          "id": "a1pr7",
+          "incorrect": "Io capo l'italiano.",
+          "answer": [
+            "Io capisco l'italiano."
+          ],
+          "explanation": "Capire needs -isc- in the io form: capisco."
+        },
+        {
+          "id": "a1pr8",
+          "incorrect": "Noi parla molto.",
+          "answer": [
+            "Noi parliamo molto."
+          ],
+          "explanation": "Noi always uses -iamo, not a singular ending."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Three regular conjugations: -are (-o,-i,-a,-iamo,-ate,-ano), -ere (-o,-i,-e,-iamo,-ete,-ono), -ire (-o,-i,-e,-iamo,-ite,-ono).",
+    "Some -ire verbs insert -isc- before the ending, except for noi/voi.",
+    "The present tense covers habits, facts, right-now actions, and near-future plans."
+  ]
+}

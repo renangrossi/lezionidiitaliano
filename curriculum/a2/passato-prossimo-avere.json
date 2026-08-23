@@ -1,0 +1,177 @@
+{
+  "id": "a2-passato-prossimo-avere",
+  "level": "A2",
+  "unit": "1",
+  "order": 5,
+  "skill": "grammar",
+  "strand": "past-tenses",
+  "title": "Passato Prossimo con Avere",
+  "subtitle": "Your first past tense: avere + past participle.",
+  "objectives": [
+    "Form the past participle of regular -are, -ere, -ire verbs",
+    "Conjugate the passato prossimo with avere",
+    "Recognize the most common irregular past participles"
+  ],
+  "content": {
+    "intro": "The passato prossimo is Italian's everyday past tense — used constantly in conversation for anything that happened and is now finished, from five minutes ago to years ago.",
+    "explanation": "<p>Most verbs form the passato prossimo with the present tense of <strong>avere</strong> plus the past participle of the main verb. The regular participle endings are predictable from the infinitive, but a long list of very common verbs have irregular participles that simply need memorizing.</p>",
+    "rules": [
+      {
+        "heading": "a) Regular past participles",
+        "body": "<ul><li>-are → -ato: <em>parlare → parlato</em></li><li>-ere → -uto: <em>credere → creduto</em></li><li>-ire → -ito: <em>dormire → dormito</em></li></ul>"
+      },
+      {
+        "heading": "b) Common irregular participles",
+        "body": "<ul><li><em>fare → fatto, dire → detto, leggere → letto, scrivere → scritto</em></li><li><em>fare → fatto, prendere → preso, mettere → messo, chiedere → chiesto</em></li><li><em>aprire → aperto, vedere → visto, bere → bevuto</em></li></ul>"
+      },
+      {
+        "heading": "c) Conjugating with avere",
+        "body": "<p>Present tense of avere + past participle, which stays invariable in gender/number when the auxiliary is avere: <em>Ho mangiato. Hai mangiato. Ha mangiato. Abbiamo mangiato. Avete mangiato. Hanno mangiato.</em></p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Ieri ho lavorato tutto il giorno.",
+        "en": "Yesterday I worked all day."
+      },
+      {
+        "it": "Hai letto quel libro?",
+        "en": "Have you read that book?"
+      },
+      {
+        "it": "Abbiamo mangiato al ristorante.",
+        "en": "We ate at the restaurant."
+      },
+      {
+        "it": "Cosa hai detto?",
+        "en": "What did you say?"
+      },
+      {
+        "it": "Ho preso il treno delle otto.",
+        "en": "I took the eight o'clock train."
+      },
+      {
+        "it": "Non hanno finito il progetto.",
+        "en": "They haven't finished the project."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ho parlata con lei.",
+        "right": "Ho parlato con lei.",
+        "why": "With avere, the past participle doesn't agree with the subject — it stays in its base -o form."
+      },
+      {
+        "wrong": "Ho leggeto il libro.",
+        "right": "Ho letto il libro.",
+        "why": "Leggere has an irregular participle, letto, not the regular -uto pattern."
+      },
+      {
+        "wrong": "Io sono mangiato la pizza.",
+        "right": "Io ho mangiato la pizza.",
+        "why": "Mangiare (like most verbs) takes avere as its auxiliary, not essere."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2pp-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "instructions": "Use the passato prossimo of the verb in parentheses.",
+      "items": [
+        {
+          "id": "a2pp1",
+          "prompt": "Ieri ___ (io - lavorare) fino a tardi.",
+          "answers": [
+            [
+              "ho lavorato"
+            ]
+          ],
+          "explanation": "Ho + lavorato (regular -ato participle).",
+          "options": [
+            "ho lavorato",
+            "sono lavorato",
+            "ha lavorato"
+          ]
+        },
+        {
+          "id": "a2pp2",
+          "prompt": "___ (tu - scrivere) la lettera?",
+          "answers": [
+            [
+              "Hai scritto"
+            ]
+          ],
+          "explanation": "Scrivere has the irregular participle scritto.",
+          "options": [
+            "Hai scritto",
+            "Hai scriveto",
+            "Hai scrivuto"
+          ]
+        },
+        {
+          "id": "a2pp3",
+          "prompt": "Noi ___ (vedere) un bel film.",
+          "answers": [
+            [
+              "abbiamo visto"
+            ]
+          ],
+          "explanation": "Vedere has the irregular participle visto.",
+          "options": [
+            "abbiamo visto",
+            "abbiamo veduto",
+            "siamo visto"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2pp-correction",
+      "type": "correction",
+      "title": "Correct the Mistakes",
+      "items": [
+        {
+          "id": "a2pp4",
+          "incorrect": "Ho mangiata la pasta.",
+          "answer": [
+            "Ho mangiato la pasta."
+          ],
+          "explanation": "With avere, the participle stays invariable — no agreement with the object."
+        },
+        {
+          "id": "a2pp5",
+          "incorrect": "Ho facere i compiti.",
+          "answer": [
+            "Ho fatto i compiti."
+          ],
+          "explanation": "Fare has the irregular participle fatto, and it can't stay as an infinitive after avere."
+        }
+      ]
+    },
+    {
+      "id": "a2pp-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Participle",
+      "items": [
+        {
+          "id": "a2pp6",
+          "prompt": "The past participle of \"prendere\" is...",
+          "options": [
+            "prendato",
+            "preso",
+            "prenduto"
+          ],
+          "answerIndex": 1,
+          "explanation": "Prendere has the irregular participle preso."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Passato prossimo = present tense of avere/essere + past participle; most verbs use avere.",
+    "Regular participles: -are→-ato, -ere→-uto, -ire→-ito; many common verbs are irregular.",
+    "With avere, the participle never agrees with the subject."
+  ]
+}

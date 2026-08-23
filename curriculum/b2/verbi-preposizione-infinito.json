@@ -1,0 +1,149 @@
+{
+  "id": "b2-verbi-preposizione-infinito",
+  "level": "B2",
+  "unit": "1",
+  "order": 9,
+  "skill": "grammar",
+  "strand": "verb-patterns",
+  "title": "Verbi Seguiti da Preposizione + Infinito",
+  "subtitle": "Which verbs need a, which need di, and which need nothing at all before an infinitive.",
+  "objectives": [
+    "Group common verbs by whether they take a, di, or no preposition before an infinitive",
+    "Apply the pattern correctly in context",
+    "Recognize a handful of high-frequency exceptions worth memorizing individually"
+  ],
+  "content": {
+    "intro": "There's no single rule for predicting which preposition (if any) connects a verb to a following infinitive — but the most common verbs sort into learnable groups.",
+    "explanation": "<p>Modal verbs (dovere, potere, volere) and a handful of others take the bare infinitive with no preposition, as you already know. Many verbs of movement and beginning take <strong>a</strong>; many verbs of stopping, deciding, and trying take <strong>di</strong>. There's real overlap and no fully reliable shortcut — building intuition through exposure is the realistic goal at this stage.</p>",
+    "rules": [
+      {
+        "heading": "a) No preposition",
+        "body": "<p><em>dovere, potere, volere, sapere, piacere, preferire, amare, desiderare</em>: <em>Preferisco restare a casa.</em></p>"
+      },
+      {
+        "heading": "b) + a",
+        "body": "<p><em>andare a, venire a, cominciare a, iniziare a, imparare a, continuare a, riuscire a, aiutare a</em>: <em>Ho imparato a nuotare da bambino.</em></p>"
+      },
+      {
+        "heading": "c) + di",
+        "body": "<p><em>finire di, smettere di, decidere di, cercare di, dimenticare di, avere bisogno di, avere voglia di, chiedere di, promettere di</em>: <em>Ho deciso di cambiare lavoro.</em></p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Ho smesso di fumare due anni fa.",
+        "en": "I quit smoking two years ago."
+      },
+      {
+        "it": "Sto imparando a suonare la chitarra.",
+        "en": "I'm learning to play the guitar."
+      },
+      {
+        "it": "Cerco di mangiare più sano.",
+        "en": "I'm trying to eat healthier."
+      },
+      {
+        "it": "Continua a piovere da stamattina.",
+        "en": "It's kept raining since this morning."
+      },
+      {
+        "it": "Ho bisogno di riposare un po'.",
+        "en": "I need to rest a bit."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ho smesso fumare.",
+        "right": "Ho smesso di fumare.",
+        "why": "Smettere requires di before an infinitive — it's never dropped."
+      },
+      {
+        "wrong": "Ho imparato di nuotare.",
+        "right": "Ho imparato a nuotare.",
+        "why": "Imparare takes a, not di, before an infinitive."
+      },
+      {
+        "wrong": "Voglio di partire.",
+        "right": "Voglio partire.",
+        "why": "Volere, a modal verb, takes no preposition at all before an infinitive."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2vp-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "b2vp1",
+          "prompt": "Ho deciso ___ trasferirmi a Milano.",
+          "answers": [
+            [
+              "di"
+            ]
+          ],
+          "explanation": "Decidere takes di.",
+          "options": [
+            "di",
+            "a",
+            "(nothing)"
+          ]
+        },
+        {
+          "id": "b2vp2",
+          "prompt": "Ho iniziato ___ studiare il francese.",
+          "answers": [
+            [
+              "a"
+            ]
+          ],
+          "explanation": "Iniziare takes a.",
+          "options": [
+            "a",
+            "di",
+            "(nothing)"
+          ]
+        },
+        {
+          "id": "b2vp3",
+          "prompt": "Non riesco ___ dormire stanotte.",
+          "answers": [
+            [
+              "a"
+            ]
+          ],
+          "explanation": "Riuscire takes a.",
+          "options": [
+            "a",
+            "di",
+            "(nothing)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2vp-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Preposition",
+      "items": [
+        {
+          "id": "b2vp4",
+          "prompt": "\"I need to talk to you.\"",
+          "options": [
+            "Ho bisogno a parlarti.",
+            "Ho bisogno di parlarti.",
+            "Ho bisogno parlarti."
+          ],
+          "answerIndex": 1,
+          "explanation": "Avere bisogno takes di before an infinitive."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Modal-type verbs take no preposition; many motion/beginning verbs take a; many stopping/deciding verbs take di.",
+    "There's real overlap — treat each verb's pattern as a fact to learn alongside its meaning.",
+    "The preposition, once required, is never optional or interchangeable."
+  ]
+}

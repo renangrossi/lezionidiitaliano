@@ -1,0 +1,122 @@
+{
+  "id": "a1-pronomi-soggetto",
+  "level": "A1",
+  "unit": "1",
+  "order": 5,
+  "skill": "grammar",
+  "strand": "pronouns",
+  "title": "Pronomi Personali Soggetto",
+  "subtitle": "Subject pronouns — and why Italian sentences usually leave them out.",
+  "objectives": [
+    "List the Italian subject pronouns",
+    "Explain why subject pronouns are usually omitted",
+    "Use subject pronouns for emphasis or contrast when needed"
+  ],
+  "content": {
+    "intro": "Italian verb endings already tell you who's doing the action, so subject pronouns are optional and often dropped entirely — the opposite of English, where a sentence needs its subject.",
+    "explanation": "<p>Because each verb ending is unique to a subject (parl<strong>o</strong> can only mean \"I speak\"), Italian is a &ldquo;pro-drop&rdquo; language: <em>Parlo italiano</em> is a complete, natural sentence — adding <em>io</em> is grammatically fine but usually unnecessary. Subject pronouns reappear mainly for emphasis, contrast, or clarity (e.g. when a lui/lei form could refer to more than one person in context).</p>",
+    "rules": [
+      {
+        "heading": "a) The subject pronouns",
+        "body": "<ul><li><strong>io</strong> — I</li><li><strong>tu</strong> — you (informal)</li><li><strong>lui / lei</strong> — he / she; <strong>Lei</strong> (capitalized) — you (formal)</li><li><strong>noi</strong> — we</li><li><strong>voi</strong> — you (plural)</li><li><strong>loro</strong> — they</li></ul>"
+      },
+      {
+        "heading": "b) When to keep the pronoun",
+        "body": "<ul><li>Contrast: <em>Io studio, tu guardi la TV.</em> (I study, you watch TV.)</li><li>Emphasis: <em>Lo dico io!</em> (I'm the one saying it!)</li><li>Answering a question alone: <em>Chi vuole il caffè? Io!</em></li></ul>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Parlo italiano e inglese.",
+        "en": "I speak Italian and English. (io dropped)"
+      },
+      {
+        "it": "Tu studi, io lavoro.",
+        "en": "You study, I work. (kept, for contrast)"
+      },
+      {
+        "it": "Vive a Roma.",
+        "en": "He/she lives in Rome. (lui/lei dropped — context makes it clear)"
+      },
+      {
+        "it": "Voi venite alla festa?",
+        "en": "Are you [plural] coming to the party?"
+      },
+      {
+        "it": "Loro non capiscono.",
+        "en": "They don't understand."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Io sono io stanco.",
+        "right": "Sono stanco.",
+        "why": "Italian never needs an explicit subject pronoun to make a sentence grammatical — it's redundant here, not required."
+      },
+      {
+        "wrong": "lei (lowercase) for the formal \"you\"",
+        "right": "Lei (capitalized) for formal \"you\"",
+        "why": "Capitalizing Lei distinguishes formal \"you\" from lei meaning \"she\" in writing."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1ps-mc",
+      "type": "multiple-choice",
+      "title": "Which Pronoun?",
+      "items": [
+        {
+          "id": "a1ps1",
+          "prompt": "Which pronoun means \"they\"?",
+          "options": [
+            "voi",
+            "loro",
+            "noi"
+          ],
+          "answerIndex": 1,
+          "explanation": "Loro is the third-person plural, \"they\"."
+        },
+        {
+          "id": "a1ps2",
+          "prompt": "\"Parlo italiano\" needs which extra word to be correct?",
+          "options": [
+            "io, but it's optional",
+            "io, it's required",
+            "nothing else is needed and no pronoun would help"
+          ],
+          "answerIndex": 0,
+          "explanation": "The -o ending already means \"I\", so io is grammatically optional here."
+        }
+      ]
+    },
+    {
+      "id": "a1ps-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "instructions": "Add the pronoun only where it's needed for contrast or clarity.",
+      "items": [
+        {
+          "id": "a1ps3",
+          "prompt": "___ studio, ___ guardi la TV. (contrast between \"I\" and \"you\")",
+          "answers": [
+            [
+              "Io"
+            ]
+          ],
+          "explanation": "Kept for contrast between two different subjects in the same sentence.",
+          "options": [
+            "Io",
+            "Tu",
+            "(nothing)"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Subject pronouns are io, tu, lui/lei/Lei, noi, voi, loro.",
+    "Italian verb endings identify the subject, so pronouns are usually dropped.",
+    "Keep the pronoun for contrast, emphasis, or when the verb form alone would be ambiguous."
+  ]
+}

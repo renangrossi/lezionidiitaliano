@@ -1,0 +1,90 @@
+{
+  "id": "c2-varieta-regionale",
+  "level": "C2",
+  "unit": "1",
+  "order": 7,
+  "skill": "reading",
+  "strand": "sociolinguistics",
+  "title": "Italiano Regionale e Varietà",
+  "subtitle": "Standard Italian isn't the only Italian — a proficient speaker recognizes the variation.",
+  "objectives": [
+    "Recognize that regional variation affects vocabulary, not just accent",
+    "Identify a handful of well-known regionalisms and their standard equivalents",
+    "Understand the sociolinguistic relationship between standard Italian and regional dialects"
+  ],
+  "content": {
+    "intro": "Standard Italian, taught throughout this course, coexists with genuine regional varieties and dialects across Italy — true proficiency includes knowing this landscape exists, even without mastering every variety.",
+    "explanation": "<p>Italy's regional dialects (Sicilian, Neapolitan, Venetian, Milanese/Lombard, Sardinian, and many more) are, linguistically, distinct languages descended independently from Latin — not simply \"accented Italian\". What most Italians actually speak day-to-day is <strong>regional Italian</strong>: standard Italian with regional vocabulary, some grammar habits, and intonation carried over from the local dialect.</p>",
+    "rules": [
+      {
+        "heading": "a) Well-known regional vocabulary",
+        "body": "<ul><li>\"What are you doing?\" — standard <em>Che fai?</em>; Roman <em>Che stai a fa'?</em></li><li>Bread roll: standard <em>panino</em>; in parts of the south, <em>panuozzo/rosetta</em> (regional bread specialties, with their own names)</li><li>Small bar snack before lunch (a well-known Northern custom): <em>aperitivo</em>, standard nationwide by now, originally strongly Milanese</li></ul>"
+      },
+      {
+        "heading": "b) A well-known grammar habit: passato remoto in the south",
+        "body": "<p>In much of southern Italy, the passato remoto (Lesson 2 of this level) remains common in everyday speech for recent events, where standard/northern Italian would use the passato prossimo.</p>"
+      },
+      {
+        "heading": "c) Standard Italian's role",
+        "body": "<p>Standard Italian (based historically on literary Florentine) is the shared language of education, media, and formal communication nationwide — the variety this entire course teaches, and the safest, most broadly understood register anywhere in Italy.</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "A Napoli si dice spesso \"jamm\" per \"andiamo\".",
+        "en": "In Naples, \"jamm\" is often said for \"let's go\" (dialectal, not standard)."
+      },
+      {
+        "it": "Al sud è comune sentire \"Andai al mercato stamattina\" invece di \"Sono andato\".",
+        "en": "In the south it's common to hear the passato remoto (\"andai\") instead of the passato prossimo, even for this morning."
+      },
+      {
+        "it": "L'italiano standard è capito e usato in tutto il Paese, anche dove si parla ancora il dialetto in famiglia.",
+        "en": "Standard Italian is understood and used throughout the country, even where dialect is still spoken at home."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Treating regional Italian/dialect as simply \"bad\" or \"incorrect\" Italian",
+        "right": "Recognize dialects as distinct language varieties with their own history and grammar",
+        "why": "Italy's dialects are linguistically independent developments from Latin, not corruptions of standard Italian — a common misconception worth correcting at this level."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c2vr-mc",
+      "type": "multiple-choice",
+      "title": "Test Your Sociolinguistic Awareness",
+      "items": [
+        {
+          "id": "c2vr1",
+          "prompt": "Italy's regional dialects are best described as...",
+          "options": [
+            "Corrupted forms of standard Italian",
+            "Independent language varieties descended from Latin",
+            "Just different accents"
+          ],
+          "answerIndex": 1,
+          "explanation": "Dialects developed independently from Latin, parallel to standard Italian itself, not as deviations from it."
+        },
+        {
+          "id": "c2vr2",
+          "prompt": "In everyday southern Italian speech, which tense often replaces the passato prossimo for recent events?",
+          "options": [
+            "Il futuro",
+            "Il passato remoto",
+            "L'imperfetto"
+          ],
+          "answerIndex": 1,
+          "explanation": "The passato remoto remains common in everyday southern speech, unlike in the standard/northern norm."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Italy's dialects are distinct language varieties, not \"incorrect\" Italian — a key sociolinguistic distinction.",
+    "Most Italians actually speak regional Italian day-to-day: standard Italian with regional vocabulary and habits.",
+    "Standard Italian, taught throughout this course, remains the shared, universally understood register nationwide."
+  ]
+}

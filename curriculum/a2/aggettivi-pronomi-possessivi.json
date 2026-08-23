@@ -1,0 +1,150 @@
+{
+  "id": "a2-aggettivi-pronomi-possessivi",
+  "level": "A2",
+  "unit": "1",
+  "order": 4,
+  "skill": "grammar",
+  "strand": "possessives",
+  "title": "Aggettivi e Pronomi Possessivi",
+  "subtitle": "My, your, his/her — possessives that agree with the thing owned, not the owner.",
+  "objectives": [
+    "Use possessive adjectives that agree with the noun possessed",
+    "Use the article with most possessives, except for singular family members",
+    "Use possessive pronouns to avoid repeating the noun"
+  ],
+  "content": {
+    "intro": "Italian possessives are one of the biggest grammatical differences from English: they agree with the thing owned, not with the owner — so suo can mean \"his\" or \"her\", depending only on what's possessed and by whom in context.",
+    "explanation": "<p>Possessives are almost always preceded by the definite article, agreeing with both the article and the noun: <em>il mio libro, la mia casa, i miei libri, le mie case</em>. The one major exception is <strong>singular, unmodified family members</strong>, which drop the article: <em>mio padre, tua sorella</em> — but the article returns with a plural family noun or a modified one: <em>i miei genitori, la mia sorella maggiore</em>.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Possessive adjectives (masc. singular shown; all four forms exist for each)</caption><thead><tr><th>Owner</th><th>Possessive</th></tr></thead><tbody><tr><td>io</td><td>il mio</td></tr><tr><td>tu</td><td>il tuo</td></tr><tr><td>lui/lei/Lei</td><td>il suo</td></tr><tr><td>noi</td><td>il nostro</td></tr><tr><td>voi</td><td>il vostro</td></tr><tr><td>loro</td><td>il loro (invariable)</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Agreement",
+        "body": "<p>Mio/tuo/suo/nostro/vostro each have four forms (-o/-a/-i/-e) agreeing with the noun possessed. Loro never changes: <em>il loro libro, la loro casa, i loro libri</em>.</p>"
+      },
+      {
+        "heading": "b) Singular family members drop the article",
+        "body": "<ul><li><em>mio fratello, tua madre, suo zio</em> (no article)</li><li>but: <em>i miei fratelli</em> (plural — article returns)</li><li>and: <em>la mia sorella maggiore</em> (modified by an adjective — article returns)</li></ul>"
+      },
+      {
+        "heading": "c) Possessive pronouns",
+        "body": "<p>Same forms, used alone to avoid repeating the noun: <em>Questo è il mio libro. Dov'è il tuo?</em> (This is my book. Where's yours?)</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Questa è la mia macchina.",
+        "en": "This is my car."
+      },
+      {
+        "it": "Mio fratello vive a Torino.",
+        "en": "My brother lives in Turin."
+      },
+      {
+        "it": "I loro figli studiano all'estero.",
+        "en": "Their children study abroad."
+      },
+      {
+        "it": "Il tuo è più grande del mio.",
+        "en": "Yours is bigger than mine."
+      },
+      {
+        "it": "Suo padre è medico.",
+        "en": "His/her father is a doctor."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "il mio fratello",
+        "right": "mio fratello",
+        "why": "Singular, unmodified family members drop the article — the article only returns for plurals or modified nouns."
+      },
+      {
+        "wrong": "la sua libro",
+        "right": "il suo libro",
+        "why": "The possessive and article must agree with libro (masculine), not with the owner's gender."
+      },
+      {
+        "wrong": "i loro figlio",
+        "right": "il loro figlio / i loro figli",
+        "why": "The article must match the number of the noun; loro itself never changes but the article and noun must agree with each other."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2ap-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "a2ap1",
+          "prompt": "___ (my) sorella lavora in banca. (family, singular, unmodified)",
+          "answers": [
+            [
+              "Mia"
+            ]
+          ],
+          "explanation": "Singular, unmodified family member drops the article: mia sorella.",
+          "options": [
+            "Mia",
+            "La mia",
+            "Le mie"
+          ]
+        },
+        {
+          "id": "a2ap2",
+          "prompt": "Ecco ___ (our) casa nuova.",
+          "answers": [
+            [
+              "la nostra"
+            ]
+          ],
+          "explanation": "Casa is not a family member, so it keeps its article: la nostra.",
+          "options": [
+            "la nostra",
+            "nostra",
+            "il nostro"
+          ]
+        },
+        {
+          "id": "a2ap3",
+          "prompt": "___ (their) amici arrivano domani.",
+          "answers": [
+            [
+              "I loro"
+            ]
+          ],
+          "explanation": "Loro is invariable but the article agrees with amici (masc. plural): i loro.",
+          "options": [
+            "I loro",
+            "Il loro",
+            "Le loro"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2ap-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Form",
+      "items": [
+        {
+          "id": "a2ap4",
+          "prompt": "\"His car\" (macchina is feminine)",
+          "options": [
+            "il suo macchina",
+            "la sua macchina",
+            "la suo macchina"
+          ],
+          "answerIndex": 1,
+          "explanation": "Suo agrees with macchina, a feminine noun: la sua macchina."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Possessive adjectives agree with the thing possessed, not the owner — suo can mean his or her.",
+    "Almost always used with the article, except before a singular, unmodified family member.",
+    "Loro never changes form, but the article before it still agrees with the noun."
+  ]
+}

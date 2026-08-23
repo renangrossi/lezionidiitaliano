@@ -1,0 +1,125 @@
+{
+  "id": "c1-ci-ne-avanzato",
+  "level": "C1",
+  "unit": "1",
+  "order": 8,
+  "skill": "grammar",
+  "strand": "pronouns",
+  "title": "Ci e Ne Avanzati con l'Imperativo e l'Infinito",
+  "subtitle": "Combining pronouns, ci and ne with commands and infinitives, including irregular tu forms.",
+  "objectives": [
+    "Attach ci, ne, and combined pronouns correctly to the informal imperative",
+    "Apply consonant doubling with the irregular tu imperatives (va', da', fa', sta', di')",
+    "Combine multiple pronouns with an infinitive after another verb"
+  ],
+  "content": {
+    "intro": "At this level, pronoun attachment needs to work smoothly even in the trickiest combinations: an irregular tu imperative plus a pronoun, or a chain of pronouns onto an infinitive after a modal verb.",
+    "explanation": "<p>The apostrophized irregular tu imperatives (va', da', fa', sta', di') <strong>double the first consonant</strong> of any pronoun that attaches to them (except gli): <em>va' + ci &rarr; vacci; da' + mi &rarr; dammi; fa' + lo &rarr; fallo; di' + gli &rarr; digli</em> (gli never doubles). With a modal + infinitive, pronouns (including combined ones, ci, ne) can attach to the infinitive or precede the modal — both correct, but the attached form is more common in formal writing.</p>",
+    "rules": [
+      {
+        "heading": "a) Consonant doubling after va'/da'/fa'/sta'/di'",
+        "body": "<ul><li><em>Vacci subito!</em> (Go there right away!)</li><li><em>Dammi una mano.</em> (Give me a hand.)</li><li><em>Fallo per me.</em> (Do it for me.)</li><li><em>Digli la verità.</em> (Tell him the truth — gli never doubles.)</li></ul>"
+      },
+      {
+        "heading": "b) Pronouns with modal + infinitive",
+        "body": "<p><em>Voglio andarci.</em> / <em>Ci voglio andare.</em> <em>Devo dirglielo.</em> / <em>Glielo devo dire.</em> (combined pronoun, both positions correct)</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Vacci tu, io sono troppo stanco.",
+        "en": "You go there, I'm too tired."
+      },
+      {
+        "it": "Dammi il tuo numero, ti chiamo dopo.",
+        "en": "Give me your number, I'll call you later."
+      },
+      {
+        "it": "Fallo subito, non aspettare.",
+        "en": "Do it right away, don't wait."
+      },
+      {
+        "it": "Devo dirglielo prima che sia troppo tardi.",
+        "en": "I have to tell him/her before it's too late."
+      },
+      {
+        "it": "Non voglio più parlarne.",
+        "en": "I don't want to talk about it anymore."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Vaci subito!",
+        "right": "Vacci subito!",
+        "why": "The pronoun's first consonant doubles after va'/da'/fa'/sta' — a single c would be a spelling error here."
+      },
+      {
+        "wrong": "Digli la verità → Dilli la verità",
+        "right": "Digli la verità (no doubling)",
+        "why": "Gli is the one pronoun that never doubles after these irregular imperatives — a genuine, memorized exception."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c1cn-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "c1cn1",
+          "prompt": "___ subito! (Vai lì — irregular tu imperative + ci)",
+          "answers": [
+            [
+              "Vacci"
+            ]
+          ],
+          "explanation": "Va' + ci, with consonant doubling: vacci.",
+          "options": [
+            "Vacci",
+            "Vaci",
+            "Va'ci"
+          ]
+        },
+        {
+          "id": "c1cn2",
+          "prompt": "___ una mano, per favore! (Dai a me — irregular tu imperative + mi)",
+          "answers": [
+            [
+              "Dammi"
+            ]
+          ],
+          "explanation": "Da' + mi, with doubling: dammi.",
+          "options": [
+            "Dammi",
+            "Dami",
+            "Da'mi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1cn-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Form",
+      "items": [
+        {
+          "id": "c1cn3",
+          "prompt": "\"Tell him!\" (Digli, or the wrong doubled version?)",
+          "options": [
+            "Dilli!",
+            "Digli!",
+            "Diglli!"
+          ],
+          "answerIndex": 1,
+          "explanation": "Gli never doubles after these irregular imperatives."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Va', da', fa', sta', di' double the first consonant of an attached pronoun — except gli, which never doubles.",
+    "With modal + infinitive, pronouns (including combined ones) can attach to the infinitive or precede the modal.",
+    "These fine points of pronoun placement are a genuine marker of fluent, C1-level control."
+  ]
+}

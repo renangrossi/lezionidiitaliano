@@ -1,0 +1,126 @@
+{
+  "id": "b2-congiuntivo-imperfetto",
+  "level": "B2",
+  "unit": "1",
+  "order": 4,
+  "skill": "grammar",
+  "strand": "subjunctive",
+  "title": "Il Congiuntivo Imperfetto",
+  "subtitle": "The subjunctive's past tense, used after a past-tense main clause.",
+  "objectives": [
+    "Conjugate regular verbs in the congiuntivo imperfetto",
+    "Apply the sequence-of-tenses rule with a past-tense main verb",
+    "Recognize essere's fully irregular imperfect subjunctive"
+  ],
+  "content": {
+    "intro": "When the main clause is in a past tense, the subjunctive in the subordinate clause shifts back too — into the congiuntivo imperfetto.",
+    "explanation": "<p>Formed regularly for almost every verb, including most that are irregular elsewhere: drop -re from the infinitive, add the endings. Only <strong>essere</strong> has a genuinely irregular stem (fossi, fossi, fosse...).</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Congiuntivo imperfetto — parlare, avere, essere</caption><thead><tr><th>Subject</th><th>parlare</th><th>avere</th><th>essere</th></tr></thead><tbody><tr><td>io</td><td>parlassi</td><td>avessi</td><td>fossi</td></tr><tr><td>tu</td><td>parlassi</td><td>avessi</td><td>fossi</td></tr><tr><td>lui/lei</td><td>parlasse</td><td>avesse</td><td>fosse</td></tr><tr><td>noi</td><td>parlassimo</td><td>avessimo</td><td>fossimo</td></tr><tr><td>voi</td><td>parlaste</td><td>aveste</td><td>foste</td></tr><tr><td>loro</td><td>parlassero</td><td>avessero</td><td>fossero</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Regular endings",
+        "body": "<p>-assi, -assi, -asse, -assimo, -aste, -assero (-are verbs); -essi, -essi, -esse, -essimo, -este, -essero (-ere/-ire verbs).</p>"
+      },
+      {
+        "heading": "b) Sequence of tenses (simplified)",
+        "body": "<p>Main clause in the present/future → subordinate in the congiuntivo presente. Main clause in a past tense or the conditional → subordinate in the congiuntivo imperfetto: <em>Pensavo che avesse ragione.</em> (I thought he was right.)</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Pensavo che fossi già partito.",
+        "en": "I thought you had already left."
+      },
+      {
+        "it": "Speravo che venissi alla festa.",
+        "en": "I was hoping you'd come to the party."
+      },
+      {
+        "it": "Non credevo che fosse così difficile.",
+        "en": "I didn't think it would be so difficult."
+      },
+      {
+        "it": "Volevo che tu sapessi la verità.",
+        "en": "I wanted you to know the truth."
+      },
+      {
+        "it": "Era importante che tutti capissero.",
+        "en": "It was important that everyone understood."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Pensavo che lui abbia ragione.",
+        "right": "Pensavo che lui avesse ragione.",
+        "why": "A past-tense main verb (pensavo) requires the congiuntivo imperfetto, not the congiuntivo presente."
+      },
+      {
+        "wrong": "Volevo che tu sapevi.",
+        "right": "Volevo che tu sapessi.",
+        "why": "Volere che always requires the subjunctive, regardless of tense — here, the imperfect subjunctive."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2ci-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "b2ci1",
+          "prompt": "Speravo che tu ___ (venire) alla cena.",
+          "answers": [
+            [
+              "venissi"
+            ]
+          ],
+          "explanation": "Regular congiuntivo imperfetto of venire.",
+          "options": [
+            "venissi",
+            "venga",
+            "venivi"
+          ]
+        },
+        {
+          "id": "b2ci2",
+          "prompt": "Non pensavo che ___ (essere) così tardi.",
+          "answers": [
+            [
+              "fosse"
+            ]
+          ],
+          "explanation": "Essere's irregular imperfect subjunctive: fosse.",
+          "options": [
+            "fosse",
+            "sia",
+            "era"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2ci-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Tense",
+      "items": [
+        {
+          "id": "b2ci3",
+          "prompt": "\"I wanted you to understand\" — Volevo che tu ___",
+          "options": [
+            "capisca",
+            "capissi",
+            "capivi"
+          ],
+          "answerIndex": 1,
+          "explanation": "Past main clause → imperfect subjunctive."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Congiuntivo imperfetto: -assi/-assi/-asse/-assimo/-aste/-assero, or -essi/-essi/-esse/-essimo/-este/-essero.",
+    "Only essere is irregular: fossi, fossi, fosse, fossimo, foste, fossero.",
+    "A past-tense (or conditional) main clause requires the imperfect subjunctive in the subordinate clause."
+  ]
+}

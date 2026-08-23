@@ -1,0 +1,149 @@
+{
+  "id": "a2-avverbi-di-frequenza",
+  "level": "A2",
+  "unit": "1",
+  "order": 10,
+  "skill": "grammar",
+  "strand": "adverbs",
+  "title": "Espressioni di Tempo e Avverbi di Frequenza",
+  "subtitle": "Sempre, spesso, a volte, raramente, mai — and where they go in the sentence.",
+  "objectives": [
+    "Use the core frequency adverbs from most to least frequent",
+    "Place frequency adverbs correctly in simple and compound tenses",
+    "Use non ... mai correctly for \"never\""
+  ],
+  "content": {
+    "intro": "Frequency adverbs let you describe routines and habits with precision — and they follow a placement rule that differs from the present tense to the passato prossimo.",
+    "explanation": "<p>In the present tense, frequency adverbs usually follow the verb directly: <em>Vado sempre in palestra.</em> In the passato prossimo, short, common adverbs (sempre, già, mai, ancora, ma also ben-known più) slot in <strong>between</strong> the auxiliary and the past participle: <em>Non sono mai stato a Venezia.</em></p>",
+    "rules": [
+      {
+        "heading": "a) Frequency scale, most to least",
+        "body": "<p><em>sempre</em> (always) &gt; <em>di solito</em> (usually) &gt; <em>spesso</em> (often) &gt; <em>a volte / qualche volta</em> (sometimes) &gt; <em>raramente</em> (rarely) &gt; <em>non ... mai</em> (never)</p>"
+      },
+      {
+        "heading": "b) Mai — \"never\" needs non",
+        "body": "<p>Non before the verb + mai after (or between auxiliary and participle): <em>Non mangio mai carne.</em> (I never eat meat.) <em>Non ho mai visto quel film.</em> (I've never seen that film.)</p>"
+      },
+      {
+        "heading": "c) Placement in the passato prossimo",
+        "body": "<p>Sempre, mai, già, ancora, più typically go between the auxiliary and the participle: <em>Ho già mangiato. Non ho ancora finito.</em> (I've already eaten. I haven't finished yet.)</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Faccio sempre colazione alle otto.",
+        "en": "I always have breakfast at eight."
+      },
+      {
+        "it": "Vado spesso in palestra dopo il lavoro.",
+        "en": "I often go to the gym after work."
+      },
+      {
+        "it": "Non sono mai stata in Giappone.",
+        "en": "I've never been to Japan."
+      },
+      {
+        "it": "A volte lavoro anche il weekend.",
+        "en": "Sometimes I even work on the weekend."
+      },
+      {
+        "it": "Ho già finito i compiti.",
+        "en": "I've already finished my homework."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Mangio mai carne.",
+        "right": "Non mangio mai carne.",
+        "why": "Mai needs non before the verb — Italian, unlike English \"never\", still requires the negative particle."
+      },
+      {
+        "wrong": "Ho mai visitato Venezia.",
+        "right": "Non ho mai visitato Venezia.",
+        "why": "Same rule in the passato prossimo — non is required alongside mai."
+      },
+      {
+        "wrong": "Ho finito già i compiti.",
+        "right": "Ho già finito i compiti.",
+        "why": "Già typically sits between the auxiliary and the participle, not after the whole verb phrase."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2af-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "a2af1",
+          "prompt": "___ mangio carne. (never)",
+          "answers": [
+            [
+              "Non mangio mai"
+            ]
+          ],
+          "explanation": "Mai needs non before the verb.",
+          "options": [
+            "Non mangio mai",
+            "Mangio mai",
+            "Mai mangio"
+          ]
+        },
+        {
+          "id": "a2af2",
+          "prompt": "Ho ___ (already) finito il lavoro.",
+          "answers": [
+            [
+              "già"
+            ]
+          ],
+          "explanation": "Già slots between auxiliary and participle.",
+          "options": [
+            "già",
+            "sempre",
+            "mai"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2af-mc",
+      "type": "multiple-choice",
+      "title": "Order Them by Frequency",
+      "items": [
+        {
+          "id": "a2af3",
+          "prompt": "Which word means the LEAST frequent (besides never)?",
+          "options": [
+            "spesso",
+            "raramente",
+            "di solito"
+          ],
+          "answerIndex": 1,
+          "explanation": "Raramente (rarely) is the least frequent option here, short of mai (never)."
+        }
+      ]
+    },
+    {
+      "id": "a2af-correction",
+      "type": "correction",
+      "title": "Correct the Mistakes",
+      "items": [
+        {
+          "id": "a2af4",
+          "incorrect": "Sono mai stato a Roma.",
+          "answer": [
+            "Non sono mai stato a Roma."
+          ],
+          "explanation": "Mai requires non before the verb."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Frequency scale: sempre > di solito > spesso > a volte > raramente > non ... mai.",
+    "Mai (never) always needs non before the verb — Italian double-marks the negation.",
+    "In the passato prossimo, sempre/mai/già/ancora typically go between the auxiliary and the participle."
+  ]
+}

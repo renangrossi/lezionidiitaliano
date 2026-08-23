@@ -1,0 +1,143 @@
+{
+  "id": "a1-alfabeto-e-pronuncia",
+  "level": "A1",
+  "unit": "1",
+  "order": 2,
+  "skill": "pronunciation",
+  "strand": "phonetics",
+  "title": "L'Alfabeto e la Pronuncia",
+  "subtitle": "Italian spelling is famously regular — learn the handful of rules that make it so.",
+  "objectives": [
+    "Say the 21 letters of the Italian alphabet",
+    "Pronounce c/g before different vowels correctly",
+    "Recognize gn, gl and sc as single sounds"
+  ],
+  "content": {
+    "intro": "Italian is written almost exactly as it sounds. Once you know a small set of spelling rules, you can read any Italian word aloud correctly — even one you've never seen.",
+    "explanation": "<p>The Italian alphabet has 21 native letters (no j, k, w, x, y — these appear only in loanwords like <em>jeans</em> or <em>whisky</em>). Every vowel (a, e, i, o, u) is always pronounced clearly and the same way — Italian has no silent vowels and no vowel reduction like English &ldquo;the&rdquo; becoming &ldquo;thuh&rdquo;.</p><p>The trickiest part for English speakers is that <strong>c</strong> and <strong>g</strong> change sound depending on the letter that follows them, and a few two/three-letter combinations represent a single sound.</p>",
+    "rules": [
+      {
+        "heading": "a) C and G before vowels",
+        "body": "<ul><li><strong>ca, co, cu</strong> = hard \"k\" sound &mdash; <em>casa, cosa, cubo</em></li><li><strong>ce, ci</strong> = soft \"ch\" sound (like English \"cheese\") &mdash; <em>cena, cinema</em></li><li><strong>ga, go, gu</strong> = hard \"g\" sound &mdash; <em>gatto, gonna, guanto</em></li><li><strong>ge, gi</strong> = soft \"j\" sound (like English \"jet\") &mdash; <em>gelato, giorno</em></li></ul>"
+      },
+      {
+        "heading": "b) Keeping the hard/soft sound before e or i",
+        "body": "<ul><li>Add an <strong>h</strong> to keep the hard sound before e/i: <strong>che, chi</strong> = \"k\" (<em>chi</em>, \"who\"); <strong>ghe, ghi</strong> = hard \"g\" (<em>spaghetti</em>)</li><li>Add an <strong>i</strong> to keep the soft sound before a/o/u: <strong>cia, cio, ciu</strong> = \"ch\" (<em>ciao</em>); <strong>gia, gio, giu</strong> = \"j\" (<em>giorno</em>) — the i is silent here, just a spelling signal</li></ul>"
+      },
+      {
+        "heading": "c) Special combinations",
+        "body": "<ul><li><strong>gn</strong> = \"ny\" as in canyon &mdash; <em>gnocchi, bagno</em></li><li><strong>gli</strong> = \"ly\" as in million &mdash; <em>famiglia, figlio</em></li><li><strong>sc</strong> before e/i = \"sh\" &mdash; <em>pesce, sciare</em>; before a/o/u = \"sk\" &mdash; <em>scuola, pesca</em></li><li>Double consonants are held longer than single ones &mdash; <em>sono</em> (I am) vs. <em>sonno</em> (sleep) are genuinely different words</li></ul>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Ciao, come ti chiami?",
+        "en": "Hi, what's your name? — ciao starts with the soft \"ch\" sound"
+      },
+      {
+        "it": "Ho fame, voglio la pasta.",
+        "en": "I'm hungry, I want pasta — voglio has a soft \"ly\"-like gli is not here, but voglio's gli combo shows the pattern in famiglia"
+      },
+      {
+        "it": "Il gatto dorme sul letto.",
+        "en": "The cat sleeps on the bed — gatto has the hard \"g\" sound"
+      },
+      {
+        "it": "Mia figlia studia all'università.",
+        "en": "My daughter studies at university — figlia uses the gli \"ly\" sound"
+      },
+      {
+        "it": "Gli spaghetti sono buonissimi.",
+        "en": "The spaghetti is delicious — spaghetti keeps the hard \"g\" thanks to the h"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Pronouncing \"ciao\" with a hard \"k\" sound",
+        "right": "\"ciao\" with a soft \"ch\" sound (chow)",
+        "why": "ci before a vowel is always the soft \"ch\" sound in Italian, unlike the hard c English speakers expect."
+      },
+      {
+        "wrong": "Treating \"sono\" and \"sonno\" as the same word",
+        "right": "sono (I am / they are) vs. sonno (sleep, drowsiness) — genuinely different",
+        "why": "Double consonants change the meaning of the word, not just the spelling — they must be held longer in speech."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1ap-mc",
+      "type": "multiple-choice",
+      "title": "Which Sound?",
+      "items": [
+        {
+          "id": "a1ap1",
+          "prompt": "How is the \"c\" in \"cena\" (dinner) pronounced?",
+          "options": [
+            "Hard, like \"k\"",
+            "Soft, like \"ch\" in cheese",
+            "Silent"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ce/ci is always the soft \"ch\" sound in Italian."
+        },
+        {
+          "id": "a1ap2",
+          "prompt": "How is the \"gn\" in \"bagno\" (bathroom) pronounced?",
+          "options": [
+            "\"g\" + \"n\" separately",
+            "\"ny\" as in canyon",
+            "silent g"
+          ],
+          "answerIndex": 1,
+          "explanation": "gn is always a single \"ny\" sound, never two separate letters."
+        },
+        {
+          "id": "a1ap3",
+          "prompt": "Which word has the hard \"g\" sound?",
+          "options": [
+            "gente",
+            "gatto",
+            "giorno"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ga/go/gu is hard; ge/gi is soft — gatto has ga, the hard sound."
+        }
+      ]
+    },
+    {
+      "id": "a1ap-match",
+      "type": "matching",
+      "title": "Match the Spelling to Its Sound",
+      "items": [
+        {
+          "id": "a1ap4",
+          "pairs": [
+            {
+              "left": "che, chi",
+              "right": "hard \"k\" before e/i"
+            },
+            {
+              "left": "ce, ci",
+              "right": "soft \"ch\""
+            },
+            {
+              "left": "gli",
+              "right": "\"ly\" as in million"
+            },
+            {
+              "left": "sc + e/i",
+              "right": "\"sh\" sound"
+            }
+          ],
+          "explanation": "The h and i in these combinations are silent spelling signals, not pronounced letters of their own."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Every Italian vowel is pronounced clearly — there is no vowel reduction.",
+    "C/g are hard before a, o, u and soft before e, i; h keeps them hard, i keeps them soft.",
+    "gn = \"ny\", gli = \"ly\", sc(e/i) = \"sh\" — and double consonants are genuinely held longer."
+  ]
+}

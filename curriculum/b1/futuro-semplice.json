@@ -1,0 +1,150 @@
+{
+  "id": "b1-futuro-semplice",
+  "level": "B1",
+  "unit": "1",
+  "order": 5,
+  "skill": "grammar",
+  "strand": "future",
+  "title": "Il Futuro Semplice",
+  "subtitle": "One tense for predictions, plans, and probability.",
+  "objectives": [
+    "Conjugate regular verbs in the futuro semplice",
+    "Recognize the main irregular future stems",
+    "Use the future of probability to express a guess about the present"
+  ],
+  "content": {
+    "intro": "The futuro semplice covers what English splits between \"will\" and \"going to\" — and it has one more job English's future doesn't: expressing a guess about right now.",
+    "explanation": "<p>Built from the infinitive (with -are verbs changing their a to e) plus one shared set of endings across all three conjugations. A number of very common verbs have a shortened, irregular stem that the endings then attach to.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Futuro semplice — parlare, avere, essere</caption><thead><tr><th>Subject</th><th>parlare</th><th>avere</th><th>essere</th></tr></thead><tbody><tr><td>io</td><td>parlerò</td><td>avrò</td><td>sarò</td></tr><tr><td>tu</td><td>parlerai</td><td>avrai</td><td>sarai</td></tr><tr><td>lui/lei</td><td>parlerà</td><td>avrà</td><td>sarà</td></tr><tr><td>noi</td><td>parleremo</td><td>avremo</td><td>saremo</td></tr><tr><td>voi</td><td>parlerete</td><td>avrete</td><td>sarete</td></tr><tr><td>loro</td><td>parleranno</td><td>avranno</td><td>saranno</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Regular endings",
+        "body": "<p>-erò, -erai, -erà, -eremo, -erete, -eranno (for -are verbs, the a of the infinitive becomes e first: parlare → parler-).</p>"
+      },
+      {
+        "heading": "b) Common irregular stems",
+        "body": "<p><em>essere &rarr; sar-, avere &rarr; avr-, andare &rarr; andr-, fare &rarr; far-, potere &rarr; potr-, dovere &rarr; dovr-, volere &rarr; vorr-, venire &rarr; verr-, vedere &rarr; vedr-, sapere &rarr; sapr-</em> — the regular endings still attach to these stems.</p>"
+      },
+      {
+        "heading": "c) Future of probability",
+        "body": "<p>A guess about the present, not a real future event: <em>Che ore sono? Saranno le tre.</em> (What time is it? It's probably around three.) <em>Non risponde: sarà occupato.</em> (He's not answering: he's probably busy.)</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Domani lavorerò da casa.",
+        "en": "Tomorrow I'll work from home."
+      },
+      {
+        "it": "L'anno prossimo andremo in Giappone.",
+        "en": "Next year we'll go to Japan."
+      },
+      {
+        "it": "Farà bel tempo questo weekend.",
+        "en": "It will be good weather this weekend."
+      },
+      {
+        "it": "Chi sarà a quella festa?",
+        "en": "I wonder who'll be at that party."
+      },
+      {
+        "it": "Avranno vent'anni, più o meno.",
+        "en": "They're probably about twenty."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Io vado studiare domani. (for a distant plan)",
+        "right": "Studierò domani. / Andrò a studiare domani.",
+        "why": "While present tense works for near, casual plans, a clearer future statement uses the futuro semplice."
+      },
+      {
+        "wrong": "Io avrò vent'anni oggi. (stating a fact)",
+        "right": "Ho vent'anni.",
+        "why": "The future is for prediction or probability, not a present fact — use the present tense to simply state your age."
+      },
+      {
+        "wrong": "Farò meaning \"I will make/do\" spelled faro",
+        "right": "farò (with the accent)",
+        "why": "The accent on the final ò marks stress and is required — dropping it changes both spelling and, in writing, meaning."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1fs-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "b1fs1",
+          "prompt": "Domani ___ (io - lavorare) tutto il giorno.",
+          "answers": [
+            [
+              "lavorerò"
+            ]
+          ],
+          "explanation": "Regular future of lavorare: lavorerò.",
+          "options": [
+            "lavorerò",
+            "lavoro",
+            "lavoravo"
+          ]
+        },
+        {
+          "id": "b1fs2",
+          "prompt": "L'anno prossimo ___ (loro - andare) in Australia.",
+          "answers": [
+            [
+              "andranno"
+            ]
+          ],
+          "explanation": "Andare has the irregular stem andr-.",
+          "options": [
+            "andranno",
+            "anderanno",
+            "vanno"
+          ]
+        },
+        {
+          "id": "b1fs3",
+          "prompt": "___ (Essere - tu) libero sabato?",
+          "answers": [
+            [
+              "Sarai"
+            ]
+          ],
+          "explanation": "Essere's irregular future stem is sar-.",
+          "options": [
+            "Sarai",
+            "Sei",
+            "Serai"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1fs-mc",
+      "type": "multiple-choice",
+      "title": "Prediction or Probability?",
+      "items": [
+        {
+          "id": "b1fs4",
+          "prompt": "\"Someone's knocking — it's probably the postman.\"",
+          "options": [
+            "È il postino.",
+            "Sarà il postino.",
+            "Era il postino."
+          ],
+          "answerIndex": 1,
+          "explanation": "A guess about the present uses the future of probability."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Regular future: infinitive stem (-are → -er-) + -ò, -ai, -à, -emo, -ete, -anno.",
+    "Common irregular stems: sar-, avr-, andr-, far-, potr-, dovr-, vorr-, verr-, vedr-, sapr-.",
+    "The future also expresses probability about the present, not just genuine future events."
+  ]
+}

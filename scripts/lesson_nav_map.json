@@ -1,0 +1,238 @@
+{
+  "a1": [
+    {
+      "slug": "saluti-e-presentazioni",
+      "title": "Saluti e Presentazioni"
+    },
+    {
+      "slug": "alfabeto-e-pronuncia",
+      "title": "L'Alfabeto e la Pronuncia"
+    },
+    {
+      "slug": "genere-e-articoli",
+      "title": "Genere degli Articoli e dei Sostantivi"
+    },
+    {
+      "slug": "essere-e-avere",
+      "title": "Essere e Avere"
+    },
+    {
+      "slug": "pronomi-soggetto",
+      "title": "Pronomi Personali Soggetto"
+    },
+    {
+      "slug": "aggettivi-e-accordo",
+      "title": "Aggettivi e Accordo"
+    },
+    {
+      "slug": "presente-verbi-regolari",
+      "title": "Presente Indicativo dei Verbi Regolari"
+    },
+    {
+      "slug": "numeri-ora-e-data",
+      "title": "Numeri, Ora e Data"
+    },
+    {
+      "slug": "preposizioni-semplici",
+      "title": "Preposizioni Semplici"
+    },
+    {
+      "slug": "ce-ci-sono",
+      "title": "C'è e Ci Sono"
+    },
+    {
+      "slug": "domande",
+      "title": "Domande e Parole Interrogative"
+    },
+    {
+      "slug": "verbi-irregolari-comuni",
+      "title": "I Primi Verbi Irregolari: Andare, Fare, Volere"
+    }
+  ],
+  "a2": [
+    {
+      "slug": "verbi-irregolari-presente",
+      "title": "Altri Verbi Irregolari al Presente"
+    },
+    {
+      "slug": "verbi-modali",
+      "title": "I Verbi Modali: Dovere, Potere, Volere"
+    },
+    {
+      "slug": "preposizioni-articolate",
+      "title": "Preposizioni Articolate"
+    },
+    {
+      "slug": "aggettivi-pronomi-possessivi",
+      "title": "Aggettivi e Pronomi Possessivi"
+    },
+    {
+      "slug": "passato-prossimo-avere",
+      "title": "Passato Prossimo con Avere"
+    },
+    {
+      "slug": "passato-prossimo-essere",
+      "title": "Passato Prossimo con Essere"
+    },
+    {
+      "slug": "verbi-riflessivi",
+      "title": "Verbi Riflessivi"
+    },
+    {
+      "slug": "comparativi",
+      "title": "I Comparativi"
+    },
+    {
+      "slug": "pronomi-diretti",
+      "title": "Pronomi Diretti"
+    },
+    {
+      "slug": "avverbi-di-frequenza",
+      "title": "Espressioni di Tempo e Avverbi di Frequenza"
+    }
+  ],
+  "b1": [
+    {
+      "slug": "imperfetto",
+      "title": "L'Imperfetto"
+    },
+    {
+      "slug": "imperfetto-vs-passato-prossimo",
+      "title": "Imperfetto vs. Passato Prossimo"
+    },
+    {
+      "slug": "pronomi-indiretti",
+      "title": "Pronomi Indiretti"
+    },
+    {
+      "slug": "pronomi-combinati",
+      "title": "Pronomi Combinati"
+    },
+    {
+      "slug": "futuro-semplice",
+      "title": "Il Futuro Semplice"
+    },
+    {
+      "slug": "condizionale-presente",
+      "title": "Il Condizionale Presente"
+    },
+    {
+      "slug": "imperativo-informale",
+      "title": "L'Imperativo Informale"
+    },
+    {
+      "slug": "imperativo-formale",
+      "title": "L'Imperativo Formale"
+    },
+    {
+      "slug": "superlativi",
+      "title": "I Superlativi"
+    },
+    {
+      "slug": "ci-e-ne",
+      "title": "Ci e Ne"
+    }
+  ],
+  "b2": [
+    {
+      "slug": "trapassato-prossimo",
+      "title": "Il Trapassato Prossimo"
+    },
+    {
+      "slug": "congiuntivo-presente",
+      "title": "Il Congiuntivo Presente: Formazione"
+    },
+    {
+      "slug": "congiuntivo-uso",
+      "title": "Il Congiuntivo dopo Opinione, Dubbio ed Emozione"
+    },
+    {
+      "slug": "congiuntivo-imperfetto",
+      "title": "Il Congiuntivo Imperfetto"
+    },
+    {
+      "slug": "periodo-ipotetico",
+      "title": "Il Periodo Ipotetico (I e II tipo)"
+    },
+    {
+      "slug": "discorso-indiretto",
+      "title": "Il Discorso Indiretto"
+    },
+    {
+      "slug": "forma-passiva",
+      "title": "La Forma Passiva"
+    },
+    {
+      "slug": "pronomi-relativi",
+      "title": "I Pronomi Relativi"
+    },
+    {
+      "slug": "verbi-preposizione-infinito",
+      "title": "Verbi Seguiti da Preposizione + Infinito"
+    }
+  ],
+  "c1": [
+    {
+      "slug": "congiuntivo-trapassato",
+      "title": "Il Congiuntivo Trapassato e la Concordanza dei Tempi"
+    },
+    {
+      "slug": "periodo-ipotetico-terzo-tipo",
+      "title": "Il Periodo Ipotetico di Terzo Tipo"
+    },
+    {
+      "slug": "gerundio-progressivo",
+      "title": "Il Gerundio e la Forma Progressiva"
+    },
+    {
+      "slug": "connettivi-testuali",
+      "title": "Connettivi Testuali Avanzati"
+    },
+    {
+      "slug": "registro-formale-informale",
+      "title": "Registro Formale e Informale nella Scrittura"
+    },
+    {
+      "slug": "verbi-pronominali",
+      "title": "Verbi Pronominali"
+    },
+    {
+      "slug": "sfumature-congiuntivo",
+      "title": "Sfumature del Congiuntivo"
+    },
+    {
+      "slug": "ci-ne-avanzato",
+      "title": "Ci e Ne Avanzati con l'Imperativo e l'Infinito"
+    }
+  ],
+  "c2": [
+    {
+      "slug": "sintassi-complessa",
+      "title": "Sintassi Complessa e Inversione"
+    },
+    {
+      "slug": "registro-letterario",
+      "title": "Registro Letterario e Forme Arcaiche"
+    },
+    {
+      "slug": "sfumature-lessicali",
+      "title": "Sfumature Lessicali e Collocazioni"
+    },
+    {
+      "slug": "sintesi-argomentazione",
+      "title": "L'Arte della Sintesi: Riassumere e Argomentare"
+    },
+    {
+      "slug": "modalita-attenuazione",
+      "title": "Modalità e Attenuazione"
+    },
+    {
+      "slug": "coesione-testuale",
+      "title": "Coesione Testuale Avanzata: Anafora ed Ellissi"
+    },
+    {
+      "slug": "varieta-regionale",
+      "title": "Italiano Regionale e Varietà"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "c2-registro-letterario",
+  "level": "C2",
+  "unit": "1",
+  "order": 2,
+  "skill": "reading",
+  "strand": "register",
+  "title": "Registro Letterario e Forme Arcaiche",
+  "subtitle": "Recognizing (not necessarily using) the Italian of literature and formal narration.",
+  "objectives": [
+    "Recognize the passato remoto and its role in literary narration",
+    "Identify archaic/literary pronouns and vocabulary",
+    "Read a short literary-register passage with comprehension"
+  ],
+  "content": {
+    "intro": "Literary Italian preserves forms that have largely disappeared from speech — most importantly the passato remoto, still standard for narrating completed historical or fictional events at a narrative distance.",
+    "explanation": "<p>The <strong>passato remoto</strong> is a simple (one-word) past tense, used in place of the passato prossimo for events felt as historically or narratively distant — literature, history books, some regional speech (especially southern Italy, where it remains common even in conversation). At C2, the goal is <em>recognition</em> for reading, not necessarily active production.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Passato remoto — parlare, credere, partire (recognition forms)</caption><thead><tr><th>Subject</th><th>parlare</th><th>credere</th><th>partire</th></tr></thead><tbody><tr><td>io</td><td>parlai</td><td>credei/credetti</td><td>partii</td></tr><tr><td>tu</td><td>parlasti</td><td>credesti</td><td>partisti</td></tr><tr><td>lui/lei</td><td>parlò</td><td>credé/credette</td><td>partì</td></tr><tr><td>noi</td><td>parlammo</td><td>credemmo</td><td>partimmo</td></tr><tr><td>voi</td><td>parlaste</td><td>credeste</td><td>partiste</td></tr><tr><td>loro</td><td>parlarono</td><td>crederono/credettero</td><td>partirono</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Where you'll meet it",
+        "body": "<p>Novels, fairy tales (<em>C'era una volta... il principe partì...</em>), history books, formal biographical writing, and everyday conversation in much of southern Italy.</p>"
+      },
+      {
+        "heading": "b) Archaic/literary vocabulary and forms",
+        "body": "<p><em>ove</em> (dove, poetic), <em>giacché</em> (poiché), <em>dianzi</em> (poco fa), <em>egli/ella</em> (lui/lei, now purely literary), <em>testé</em> (proprio ora).</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Nacque a Firenze nel 1265 e morì nel 1321.",
+        "en": "He was born in Florence in 1265 and died in 1321. (biographical passato remoto)"
+      },
+      {
+        "it": "Il re, udita la notizia, convocò subito il consiglio.",
+        "en": "The king, having heard the news, immediately summoned the council."
+      },
+      {
+        "it": "Ella non disse nulla e se ne andò in silenzio.",
+        "en": "She said nothing and left in silence. (literary ella, not lei)"
+      },
+      {
+        "it": "Giacché era tardi, decisero di rimandare la partenza.",
+        "en": "Since it was late, they decided to postpone the departure."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Using the passato remoto for yesterday's events in everyday central/northern Italian conversation",
+        "right": "Use the passato prossimo for recent events in everyday speech (outside southern regional use)",
+        "why": "The passato remoto reads as narratively distant/literary in most of Italy — using it for something that happened yesterday sounds jarring outside its normal contexts."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c2rl-mc",
+      "type": "multiple-choice",
+      "title": "Reading Comprehension",
+      "items": [
+        {
+          "id": "c2rl1",
+          "prompt": "In \"Il re, udita la notizia, convocò subito il consiglio,\" what is convocò?",
+          "options": [
+            "Present tense of convocare",
+            "Passato remoto of convocare",
+            "Imperfetto of convocare"
+          ],
+          "answerIndex": 1,
+          "explanation": "Convocò is the third-person singular passato remoto of convocare."
+        },
+        {
+          "id": "c2rl2",
+          "prompt": "Where would you most expect to encounter the passato remoto?",
+          "options": [
+            "A casual text message",
+            "A historical novel",
+            "A shopping list"
+          ],
+          "answerIndex": 1,
+          "explanation": "The passato remoto is the standard narrative past of literature and history writing."
+        }
+      ]
+    },
+    {
+      "id": "c2rl-match",
+      "type": "matching",
+      "title": "Match the Literary Form to Its Modern Equivalent",
+      "items": [
+        {
+          "id": "c2rl3",
+          "pairs": [
+            {
+              "left": "ove",
+              "right": "dove"
+            },
+            {
+              "left": "giacché",
+              "right": "poiché"
+            },
+            {
+              "left": "egli/ella",
+              "right": "lui/lei"
+            },
+            {
+              "left": "testé",
+              "right": "proprio ora"
+            }
+          ],
+          "explanation": "These literary forms are recognizable but no longer used in everyday spoken Italian."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "The passato remoto is the standard narrative past of literature, history, and (regionally) southern Italian speech.",
+    "C2 reading fluency requires recognizing it and a handful of archaic pronouns/connectors, even without actively using them.",
+    "Using literary forms in ordinary conversation outside their natural context sounds stilted or affected."
+  ]
+}

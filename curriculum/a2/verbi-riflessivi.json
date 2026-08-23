@@ -1,0 +1,152 @@
+{
+  "id": "a2-verbi-riflessivi",
+  "level": "A2",
+  "unit": "1",
+  "order": 7,
+  "skill": "grammar",
+  "strand": "reflexive",
+  "title": "Verbi Riflessivi",
+  "subtitle": "Actions you do to yourself — and why their passato prossimo always uses essere.",
+  "objectives": [
+    "Use reflexive pronouns (mi, ti, si, ci, vi, si) with reflexive verbs",
+    "Conjugate common reflexive verbs in the present tense",
+    "Form the passato prossimo of reflexive verbs, always with essere"
+  ],
+  "content": {
+    "intro": "Italian uses reflexive verbs far more than English does — routines like waking up, getting dressed, or getting bored are all built with a reflexive pronoun plus the verb.",
+    "explanation": "<p>A reflexive verb's infinitive ends in <strong>-si</strong> (e.g. <em>alzarsi</em>, to get [oneself] up), and the reflexive pronoun changes to match the subject, placed right before the conjugated verb. Every reflexive verb takes <strong>essere</strong> in the passato prossimo, with the usual subject agreement on the participle.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Alzarsi (to get up) — present and passato prossimo</caption><thead><tr><th>Subject</th><th>Present</th><th>Passato prossimo</th></tr></thead><tbody><tr><td>io</td><td>mi alzo</td><td>mi sono alzato/a</td></tr><tr><td>tu</td><td>ti alzi</td><td>ti sei alzato/a</td></tr><tr><td>lui/lei</td><td>si alza</td><td>si è alzato/a</td></tr><tr><td>noi</td><td>ci alziamo</td><td>ci siamo alzati/e</td></tr><tr><td>voi</td><td>vi alzate</td><td>vi siete alzati/e</td></tr><tr><td>loro</td><td>si alzano</td><td>si sono alzati/e</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Common reflexive verbs",
+        "body": "<p><em>svegliarsi</em> (to wake up), <em>alzarsi</em> (to get up), <em>lavarsi</em> (to wash oneself), <em>vestirsi</em> (to get dressed), <em>chiamarsi</em> (to be named), <em>sentirsi</em> (to feel), <em>annoiarsi</em> (to get bored), <em>divertirsi</em> (to have fun), <em>arrabbiarsi</em> (to get angry).</p>"
+      },
+      {
+        "heading": "b) Position of the pronoun",
+        "body": "<p>Before a conjugated verb: <em>Mi sveglio alle sette.</em> Attached to an infinitive (dropping the infinitive's final -e): <em>Devo alzarmi presto.</em> (equally correct: <em>Mi devo alzare presto.</em>)</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Mi sveglio sempre alle sei e mezza.",
+        "en": "I always wake up at half past six."
+      },
+      {
+        "it": "Ti sei divertito alla festa?",
+        "en": "Did you have fun at the party? (to a male)"
+      },
+      {
+        "it": "Ci vediamo domani!",
+        "en": "See you tomorrow! (literally: we see each other)"
+      },
+      {
+        "it": "Si è arrabbiata con me.",
+        "en": "She got angry with me."
+      },
+      {
+        "it": "I bambini si sono lavati le mani.",
+        "en": "The children washed their hands."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ho alzato alle sette.",
+        "right": "Mi sono alzato/a alle sette.",
+        "why": "Reflexive verbs need both the reflexive pronoun and essere as the auxiliary in the passato prossimo — avere alone is never used."
+      },
+      {
+        "wrong": "Si è arrabbiato con me. (about a woman)",
+        "right": "Si è arrabbiata con me.",
+        "why": "The participle must agree with the subject's gender, exactly as with any other essere verb."
+      },
+      {
+        "wrong": "Io mi sveglia alle sette.",
+        "right": "Io mi sveglio alle sette.",
+        "why": "The pronoun mi must pair with the io verb form, sveglio, not the lui/lei form sveglia."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2vr-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "a2vr1",
+          "prompt": "Io ___ (svegliarsi) alle sette.",
+          "answers": [
+            [
+              "mi sveglio"
+            ]
+          ],
+          "explanation": "Reflexive pronoun mi + present tense sveglio.",
+          "options": [
+            "mi sveglio",
+            "ti svegli",
+            "si sveglia"
+          ]
+        },
+        {
+          "id": "a2vr2",
+          "prompt": "Loro ___ (divertirsi) sempre alle feste.",
+          "answers": [
+            [
+              "si divertono"
+            ]
+          ],
+          "explanation": "Reflexive pronoun si + loro form divertono.",
+          "options": [
+            "si divertono",
+            "ci divertiamo",
+            "si diverte"
+          ]
+        },
+        {
+          "id": "a2vr3",
+          "prompt": "Maria ___ (vestirsi - passato prossimo) in fretta.",
+          "answers": [
+            [
+              "si è vestita"
+            ]
+          ],
+          "explanation": "Reflexive + essere, agreeing with feminine Maria.",
+          "options": [
+            "si è vestita",
+            "si è vestito",
+            "ha vestito"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2vr-correction",
+      "type": "correction",
+      "title": "Correct the Mistakes",
+      "items": [
+        {
+          "id": "a2vr4",
+          "incorrect": "Ho svegliato alle otto.",
+          "answer": [
+            "Mi sono svegliato alle otto.",
+            "Mi sono svegliata alle otto."
+          ],
+          "explanation": "Reflexive verbs need the pronoun and essere, never avere alone."
+        },
+        {
+          "id": "a2vr5",
+          "incorrect": "Le ragazze si sono divertito.",
+          "answer": [
+            "Le ragazze si sono divertite."
+          ],
+          "explanation": "Feminine plural subject needs the -e participle ending."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Reflexive verbs (infinitive -si) use mi/ti/si/ci/vi/si before the conjugated verb.",
+    "Every reflexive verb takes essere in the passato prossimo, with participle agreement.",
+    "The pronoun can attach to an infinitive instead: devo alzarmi = mi devo alzare."
+  ]
+}

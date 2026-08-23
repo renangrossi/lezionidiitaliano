@@ -1,0 +1,121 @@
+{
+  "id": "c2-sfumature-lessicali",
+  "level": "C2",
+  "unit": "1",
+  "order": 3,
+  "skill": "vocabulary",
+  "strand": "lexis",
+  "title": "Sfumature Lessicali e Collocazioni",
+  "subtitle": "Near-synonyms that aren't interchangeable, and the fixed word pairings native speakers expect.",
+  "objectives": [
+    "Distinguish near-synonym pairs by register, connotation, or precise meaning",
+    "Use common fixed collocations correctly",
+    "Avoid literal word-for-word translation from English collocations"
+  ],
+  "content": {
+    "intro": "At C2, correctness alone isn't enough — native-like Italian depends on choosing the word a native speaker would actually reach for, in the exact combination they expect.",
+    "explanation": "<p>Many Italian near-synonyms differ by connotation, formality, or precise shade of meaning — not by strict correctness. Collocations (fixed word pairings, like English \"heavy rain\" rather than \"strong rain\") are equally important and rarely translate literally from English.</p>",
+    "rules": [
+      {
+        "heading": "a) Near-synonym pairs",
+        "body": "<ul><li><em>lavoro</em> (neutral) vs. <em>occupazione</em> (more formal/administrative) vs. <em>impiego</em> (a specific job/position)</li><li><em>felice</em> (deep, meaningful happiness) vs. <em>contento</em> (satisfied, more everyday)</li><li><em>guardare</em> (to look at, active) vs. <em>vedere</em> (to see, perceive)</li></ul>"
+      },
+      {
+        "heading": "b) Fixed collocations",
+        "body": "<p><em>fare una domanda</em> (to ask a question, not \"chiedere una domanda\"); <em>prendere una decisione</em> (to make a decision, not \"fare una decisione\"); <em>commettere un errore</em> (to make a mistake, not \"fare un errore\", though this is now widely tolerated); <em>pioggia battente</em> (pouring rain, not \"pioggia forte\").</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Ho preso una decisione difficile.",
+        "en": "I made a difficult decision."
+      },
+      {
+        "it": "Mi ha fatto una domanda imbarazzante.",
+        "en": "He asked me an embarrassing question."
+      },
+      {
+        "it": "Ha commesso un grave errore di valutazione.",
+        "en": "He made a serious error of judgment."
+      },
+      {
+        "it": "Sono felice di essere qui con voi stasera.",
+        "en": "I am [deeply] happy to be here with you tonight."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ho fatto una decisione.",
+        "right": "Ho preso una decisione.",
+        "why": "Decisions are \"taken\" (prendere), not \"made\" (fare), in standard Italian — a direct calque from English fails here."
+      },
+      {
+        "wrong": "Mi ha chiesto una domanda.",
+        "right": "Mi ha fatto una domanda.",
+        "why": "Questions are \"made/asked\" with fare, not chiedere — chiedere una domanda is a common learner error, redundant in meaning too."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c2sl-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Correct Collocation",
+      "items": [
+        {
+          "id": "c2sl1",
+          "prompt": "Devo ___ una decisione importante.",
+          "answers": [
+            [
+              "prendere"
+            ]
+          ],
+          "explanation": "Prendere una decisione is the fixed collocation.",
+          "options": [
+            "prendere",
+            "fare",
+            "dare"
+          ]
+        },
+        {
+          "id": "c2sl2",
+          "prompt": "Posso ___ ti una domanda?",
+          "answers": [
+            [
+              "fare"
+            ]
+          ],
+          "explanation": "Fare una domanda is the fixed collocation.",
+          "options": [
+            "fare",
+            "chiedere",
+            "dire"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2sl-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Better Word",
+      "items": [
+        {
+          "id": "c2sl3",
+          "prompt": "Describing torrential rain: \"pioggia ___\"",
+          "options": [
+            "forte",
+            "battente",
+            "grande"
+          ],
+          "answerIndex": 1,
+          "explanation": "Pioggia battente is the natural collocation for heavy, driving rain."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Near-synonyms often differ by register or connotation rather than strict correctness — precise use is a C2 marker.",
+    "Collocations are fixed word pairings (prendere una decisione, fare una domanda) that rarely translate literally.",
+    "Direct calques from English collocations are one of the most persistent tells of a non-native speaker."
+  ]
+}

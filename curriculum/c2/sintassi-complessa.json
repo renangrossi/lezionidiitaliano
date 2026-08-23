@@ -1,0 +1,114 @@
+{
+  "id": "c2-sintassi-complessa",
+  "level": "C2",
+  "unit": "1",
+  "order": 1,
+  "skill": "grammar",
+  "strand": "syntax",
+  "title": "Sintassi Complessa e Inversione",
+  "subtitle": "Reordering a sentence for emphasis, without breaking it.",
+  "objectives": [
+    "Use subject-verb inversion for stylistic emphasis in written Italian",
+    "Front a subordinate clause or object for emphasis",
+    "Recognize inversion after certain adverbs and in formal narrative style"
+  ],
+  "content": {
+    "intro": "Standard Italian word order (subject-verb-object) is flexible enough that shifting an element to the front or inverting subject and verb reshapes emphasis — a tool fluent writers use deliberately.",
+    "explanation": "<p>Fronting an object or subordinate clause pulls focus onto it: <em>Quello che mi preoccupa è il costo.</em> (What worries me is the cost — instead of <em>Il costo mi preoccupa.</em>) Certain adverbs and adverbial phrases at the start of a sentence trigger or favor inversion in more formal/literary registers: <em>Solo così si può capire davvero.</em> (Only in this way can one truly understand.)</p>",
+    "rules": [
+      {
+        "heading": "a) Subject postponed for emphasis",
+        "body": "<p><em>È arrivato il momento della verità.</em> (The moment of truth has arrived — subject after the verb, more dramatic than Il momento della verità è arrivato.)</p>"
+      },
+      {
+        "heading": "b) Fronting for focus",
+        "body": "<p><em>Di questo non voglio parlare.</em> (About this, I don't want to talk — object/prepositional phrase fronted for emphasis.)</p>"
+      },
+      {
+        "heading": "c) Cleft sentences",
+        "body": "<p><em>È proprio questo il punto.</em> (This is exactly the point.) <em>Fu allora che capii tutto.</em> (It was then that I understood everything.)</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Solo allora capii la gravità della situazione.",
+        "en": "Only then did I understand the seriousness of the situation."
+      },
+      {
+        "it": "È il coraggio che ammiro di più in lei.",
+        "en": "It's her courage that I admire most."
+      },
+      {
+        "it": "Di soldi non ne aveva mai avuti molti.",
+        "en": "Money, he had never had much of."
+      },
+      {
+        "it": "Non appena arrivò la notizia, tutti tacquero.",
+        "en": "As soon as the news arrived, everyone fell silent."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Overusing inversion in casual conversation",
+        "right": "Reserve heavy inversion for formal writing/narrative",
+        "why": "Constant inversion sounds stilted or overly literary in everyday spoken Italian — it's a stylistic register choice, not a default."
+      },
+      {
+        "wrong": "È il coraggio che io ammiro di più in lei. (redundant pronoun)",
+        "right": "È il coraggio che ammiro di più in lei.",
+        "why": "In a cleft sentence like this, the subject pronoun io is typically dropped as usual — adding it back doesn't add emphasis, since the cleft structure itself already provides it."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c2sc-mc",
+      "type": "multiple-choice",
+      "title": "Identify the Emphasis Structure",
+      "items": [
+        {
+          "id": "c2sc1",
+          "prompt": "\"È proprio questo il problema.\" — What does this structure emphasize?",
+          "options": [
+            "The subject, questo/il problema",
+            "Nothing in particular",
+            "The verb only"
+          ],
+          "answerIndex": 0,
+          "explanation": "This is a cleft sentence, structurally designed to spotlight questo/il problema."
+        },
+        {
+          "id": "c2sc2",
+          "prompt": "Which register favors frequent subject-verb inversion?",
+          "options": [
+            "Casual texting",
+            "Formal/literary narrative",
+            "Everyday small talk"
+          ],
+          "answerIndex": 1,
+          "explanation": "Inversion for emphasis is a formal/literary stylistic device."
+        }
+      ]
+    },
+    {
+      "id": "c2sc-correction",
+      "type": "correction",
+      "title": "Improve for Emphasis",
+      "items": [
+        {
+          "id": "c2sc3",
+          "incorrect": "Il coraggio è la qualità che ammiro di più in lei. (flat, no emphasis structure)",
+          "answer": [
+            "È il coraggio la qualità che ammiro di più in lei."
+          ],
+          "explanation": "Fronting/clefting il coraggio sharpens the emphasis compared to the flat statement."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Fronting an object, subordinate clause, or adverbial phrase shifts emphasis onto it.",
+    "Cleft sentences (è... che) spotlight one element of the sentence explicitly.",
+    "Heavy inversion is a formal/literary register choice, not the everyday default."
+  ]
+}

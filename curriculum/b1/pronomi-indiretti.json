@@ -1,0 +1,146 @@
+{
+  "id": "b1-pronomi-indiretti",
+  "level": "B1",
+  "unit": "1",
+  "order": 3,
+  "skill": "grammar",
+  "strand": "pronouns",
+  "title": "Pronomi Indiretti",
+  "subtitle": "Mi, ti, gli, le, ci, vi, gli — replacing \"to/for someone\".",
+  "objectives": [
+    "Identify an indirect object and choose the matching pronoun",
+    "Distinguish gli (to him) from le (to her)",
+    "Use common verbs that take an indirect object: dare, dire, scrivere, telefonare, piacere"
+  ],
+  "content": {
+    "intro": "An indirect object answers \"to whom?\" or \"for whom?\" — in English it's often marked by \"to\", but in Italian, once replaced by a pronoun, that \"to\" disappears entirely.",
+    "explanation": "<p>Many indirect object pronouns look identical to the direct ones you already know (mi, ti, ci, vi) — only the third person differs: <strong>gli</strong> (to him), <strong>le</strong> (to her, also the formal \"to you\"), and <strong>gli</strong> again for the plural \"to them\" (loro is the old, formal alternative, placed after the verb, but gli before the verb is now standard in speech).</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Indirect object pronouns</caption><thead><tr><th>To/for...</th><th>Pronoun</th></tr></thead><tbody><tr><td>me</td><td>mi</td></tr><tr><td>you (informal)</td><td>ti</td></tr><tr><td>him</td><td>gli</td></tr><tr><td>her / you (formal)</td><td>le</td></tr><tr><td>us</td><td>ci</td></tr><tr><td>you (pl.)</td><td>vi</td></tr><tr><td>them</td><td>gli</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Verbs that take an indirect object",
+        "body": "<p><em>dare</em> (to give), <em>dire</em> (to say/tell), <em>scrivere</em> (to write), <em>telefonare</em> (to phone), <em>chiedere</em> (to ask), <em>rispondere</em> (to answer) — all describe an action directed \"to/for\" someone.</p>"
+      },
+      {
+        "heading": "b) Piacere — a special case",
+        "body": "<p><em>Piacere</em> (to like/please) works backwards from English: the thing liked is the subject, and the person is an indirect object. <em>Mi piace il caffè.</em> (Coffee is pleasing to me = I like coffee.) <em>Mi piacciono i film.</em> (plural subject → plural verb piacciono)</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Gli scrivo un'email ogni settimana.",
+        "en": "I write him an email every week."
+      },
+      {
+        "it": "Le ho telefonato ieri.",
+        "en": "I called her yesterday."
+      },
+      {
+        "it": "Ci hanno detto la verità.",
+        "en": "They told us the truth."
+      },
+      {
+        "it": "Mi piace molto questa città.",
+        "en": "I really like this city."
+      },
+      {
+        "it": "Non gli piacciono i dolci.",
+        "en": "He doesn't like sweets."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Gli scrivo a Maria. (using gli for a woman)",
+        "right": "Le scrivo.",
+        "why": "Gli is masculine (\"to him\"); a female indirect object needs le."
+      },
+      {
+        "wrong": "Mi piaccio il gelato.",
+        "right": "Mi piace il gelato.",
+        "why": "Piacere agrees with the thing liked (il gelato, singular), not with the speaker — mi piaccio would mean \"I like myself\"."
+      },
+      {
+        "wrong": "Telefono a lei ogni giorno. (natural but the pronoun form is preferred in fluent speech)",
+        "right": "Le telefono ogni giorno.",
+        "why": "While a lei is grammatical, fluent Italian strongly prefers the unstressed pronoun le before the verb in everyday speech."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1pi-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "b1pi1",
+          "prompt": "___ scrivo un messaggio a Marco. (to him)",
+          "answers": [
+            [
+              "Gli"
+            ]
+          ],
+          "explanation": "Gli = to him.",
+          "options": [
+            "Gli",
+            "Le",
+            "Lo"
+          ]
+        },
+        {
+          "id": "b1pi2",
+          "prompt": "___ piace il cinema italiano. (I like)",
+          "answers": [
+            [
+              "Mi"
+            ]
+          ],
+          "explanation": "Mi piace = it is pleasing to me.",
+          "options": [
+            "Mi",
+            "Io",
+            "Mia"
+          ]
+        },
+        {
+          "id": "b1pi3",
+          "prompt": "___ telefono domani. (to her)",
+          "answers": [
+            [
+              "Le"
+            ]
+          ],
+          "explanation": "Le = to her.",
+          "options": [
+            "Le",
+            "Gli",
+            "La"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1pi-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Pronoun",
+      "items": [
+        {
+          "id": "b1pi4",
+          "prompt": "\"I like Italian songs\" (canzoni is plural)",
+          "options": [
+            "Mi piace le canzoni italiane.",
+            "Mi piacciono le canzoni italiane.",
+            "Mi piaccio le canzoni italiane."
+          ],
+          "answerIndex": 1,
+          "explanation": "Piacere agrees with the plural subject canzoni: piacciono."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Indirect object pronouns: mi, ti, gli (to him), le (to her/formal you), ci, vi, gli (to them).",
+    "Verbs like dare, dire, scrivere, telefonare, chiedere naturally take an indirect object.",
+    "Piacere works backwards from English: the thing liked is the subject, agreeing with the verb."
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "c1-registro-formale-informale",
+  "level": "C1",
+  "unit": "1",
+  "order": 5,
+  "skill": "writing",
+  "strand": "register",
+  "title": "Registro Formale e Informale nella Scrittura",
+  "subtitle": "Choosing vocabulary and structure to match the situation.",
+  "objectives": [
+    "Identify markers of formal vs. informal written register",
+    "Rewrite an informal sentence in a formal register and vice versa",
+    "Use standard formal opening/closing formulas for emails and letters"
+  ],
+  "content": {
+    "intro": "Beyond tu vs. Lei, Italian marks formality through vocabulary choice, sentence structure, and set phrases — especially visible in written communication.",
+    "explanation": "<p>Formal writing favors longer, more explicit sentences, the connectors from the previous lesson, and a vocabulary that avoids colloquialisms. Informal writing (texts, casual emails to friends) allows contractions, colloquial vocabulary, and much shorter sentences.</p>",
+    "rules": [
+      {
+        "heading": "a) Vocabulary pairs (informal → formal)",
+        "body": "<p><em>un sacco di &rarr; molti/numerosi; un po' &rarr; un po' (fine) / leggermente; fare un giro &rarr; effettuare una visita; iniziare &rarr; dare inizio a; dire &rarr; comunicare, dichiarare</em></p>"
+      },
+      {
+        "heading": "b) Email/letter formulas",
+        "body": "<ul><li>Formal opening: <em>Gentile Sig.ra/Sig. [Cognome], La contatto per...</em></li><li>Formal closing: <em>Cordiali saluti / Distinti saluti</em></li><li>Informal opening: <em>Ciao [Nome],</em></li><li>Informal closing: <em>A presto! / Un abbraccio</em></li></ul>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Gentile Dott.ssa Rossi, Le scrivo per chiederLe informazioni riguardo al Suo prossimo seminario.",
+        "en": "Dear Dr. Rossi, I am writing to ask you for information about your upcoming seminar."
+      },
+      {
+        "it": "Ciao Marco, ti scrivo per chiederti se sei libero sabato!",
+        "en": "Hi Marco, I'm writing to ask if you're free Saturday!"
+      },
+      {
+        "it": "La informiamo che la Sua richiesta è stata accolta.",
+        "en": "We inform you that your request has been accepted."
+      },
+      {
+        "it": "Ti volevo dire che ho accettato il lavoro!",
+        "en": "I wanted to tell you I accepted the job!"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ciao Direttore, volevo sapere... (mixing informal greeting with a formal context)",
+        "right": "Gentile Direttore, vorrei sapere...",
+        "why": "Mixing an informal opening with formal content and pronouns is inconsistent — pick one register and keep it throughout."
+      },
+      {
+        "wrong": "Ending a formal email with Ciao!",
+        "right": "Ending with Cordiali saluti / Distinti saluti",
+        "why": "Ciao is strictly informal — a formal closing formula is expected to match a Lei-register email."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "c1rf-mc",
+      "type": "multiple-choice",
+      "title": "Formal or Informal?",
+      "items": [
+        {
+          "id": "c1rf1",
+          "prompt": "Which closing fits a formal email to a company?",
+          "options": [
+            "A presto!",
+            "Cordiali saluti",
+            "Ciao ciao!"
+          ],
+          "answerIndex": 1,
+          "explanation": "Cordiali saluti is the standard formal closing."
+        },
+        {
+          "id": "c1rf2",
+          "prompt": "Which is the more formal way to say \"a lot of people\"?",
+          "options": [
+            "un sacco di gente",
+            "numerose persone",
+            "tanta gente"
+          ],
+          "answerIndex": 1,
+          "explanation": "Numerose persone is the formal-register equivalent."
+        }
+      ]
+    },
+    {
+      "id": "c1rf-correction",
+      "type": "correction",
+      "title": "Fix the Register",
+      "items": [
+        {
+          "id": "c1rf3",
+          "incorrect": "Gentile Direttore, ciao! Volevo un po' di info.",
+          "answer": [
+            "Gentile Direttore, Le scrivo per richiedere alcune informazioni."
+          ],
+          "explanation": "A formal opening (Gentile Direttore) should be followed by consistently formal vocabulary and structure, not casual expressions."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Formal register favors explicit, longer sentences and formal vocabulary; informal favors contractions and colloquialisms.",
+    "Set formulas exist for opening/closing formal and informal correspondence — don't mix them.",
+    "Consistency matters more than any single word choice: pick a register and hold it throughout."
+  ]
+}

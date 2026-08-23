@@ -1,0 +1,150 @@
+{
+  "id": "b1-condizionale-presente",
+  "level": "B1",
+  "unit": "1",
+  "order": 6,
+  "skill": "grammar",
+  "strand": "conditional",
+  "title": "Il Condizionale Presente",
+  "subtitle": "Would — for politeness, wishes, and advice.",
+  "objectives": [
+    "Conjugate regular verbs in the condizionale presente",
+    "Use vorrei for polite requests",
+    "Use the conditional of dovere for advice"
+  ],
+  "content": {
+    "intro": "The conditional is what makes Italian sound polite: vorrei instead of voglio, potrebbe instead of può — the single grammatical feature that softens a request into a courtesy.",
+    "explanation": "<p>The conditional shares the same irregular stems as the future (sar-, avr-, andr-, and so on) but takes its own distinct set of endings. It's used constantly in everyday speech for politeness, wishes, and giving advice.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Condizionale presente — parlare, avere, essere</caption><thead><tr><th>Subject</th><th>parlare</th><th>avere</th><th>essere</th></tr></thead><tbody><tr><td>io</td><td>parlerei</td><td>avrei</td><td>sarei</td></tr><tr><td>tu</td><td>parleresti</td><td>avresti</td><td>saresti</td></tr><tr><td>lui/lei</td><td>parlerebbe</td><td>avrebbe</td><td>sarebbe</td></tr><tr><td>noi</td><td>parleremmo</td><td>avremmo</td><td>saremmo</td></tr><tr><td>voi</td><td>parlereste</td><td>avreste</td><td>sareste</td></tr><tr><td>loro</td><td>parlerebbero</td><td>avrebbero</td><td>sarebbero</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Endings",
+        "body": "<p>-ei, -esti, -ebbe, -emmo, -este, -ebbero, added to the same stem as the future (parler-, avr-, sar-...).</p>"
+      },
+      {
+        "heading": "b) Politeness",
+        "body": "<p><em>Vorrei</em> (I would like) is the standard polite way to order or request, replacing the blunter <em>voglio</em>: <em>Vorrei un caffè, per favore.</em> <em>Potrebbe aiutarmi?</em> (Could you help me? — formal)</p>"
+      },
+      {
+        "heading": "c) Advice with dovrei/dovresti",
+        "body": "<p><em>Dovresti riposare di più.</em> (You should rest more.) Softer and more natural than the blunt obligation of devi.</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Vorrei un tavolo per due, per favore.",
+        "en": "I would like a table for two, please."
+      },
+      {
+        "it": "Mi piacerebbe visitare la Sicilia.",
+        "en": "I would love to visit Sicily."
+      },
+      {
+        "it": "Dovresti parlare con lui.",
+        "en": "You should talk to him."
+      },
+      {
+        "it": "Potresti chiudere la finestra?",
+        "en": "Could you close the window?"
+      },
+      {
+        "it": "Sarebbe fantastico viaggiare insieme.",
+        "en": "It would be fantastic to travel together."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Voglio un caffè. (as a polite order in a café)",
+        "right": "Vorrei un caffè, per favore.",
+        "why": "Voglio is grammatically fine but blunt — vorrei is the standard polite register for ordering or requesting."
+      },
+      {
+        "wrong": "Dovrei che tu studi di più.",
+        "right": "Dovresti studiare di più.",
+        "why": "Dovere + infinitive needs no conjunction che — it pairs directly with the infinitive, just like in the present tense."
+      },
+      {
+        "wrong": "Io vorrei andare al mare. spelled voglierei",
+        "right": "vorrei (irregular stem vorr-, not a regular volere stem)",
+        "why": "Volere has an irregular conditional stem, vorr-, shared with the future — not a regular form built from the infinitive."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1cp-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "b1cp1",
+          "prompt": "___ (Volere - io) un bicchiere d'acqua, per favore.",
+          "answers": [
+            [
+              "Vorrei"
+            ]
+          ],
+          "explanation": "Vorrei is the polite conditional of volere.",
+          "options": [
+            "Vorrei",
+            "Voglio",
+            "Volevo"
+          ]
+        },
+        {
+          "id": "b1cp2",
+          "prompt": "___ (Potere - tu) aiutarmi con le valigie?",
+          "answers": [
+            [
+              "Potresti"
+            ]
+          ],
+          "explanation": "Conditional of potere, tu form: potresti.",
+          "options": [
+            "Potresti",
+            "Puoi",
+            "Potevi"
+          ]
+        },
+        {
+          "id": "b1cp3",
+          "prompt": "Voi ___ (dovere) riposare di più.",
+          "answers": [
+            [
+              "dovreste"
+            ]
+          ],
+          "explanation": "Conditional of dovere, voi form: dovreste.",
+          "options": [
+            "dovreste",
+            "dovete",
+            "dovevate"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1cp-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Politest Option",
+      "items": [
+        {
+          "id": "b1cp4",
+          "prompt": "Ordering coffee politely at a café bar:",
+          "options": [
+            "Voglio un caffè.",
+            "Vorrei un caffè, per favore.",
+            "Devo un caffè."
+          ],
+          "answerIndex": 1,
+          "explanation": "Vorrei is the standard polite conditional for ordering."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "The conditional shares the future's irregular stems, with its own endings: -ei, -esti, -ebbe, -emmo, -este, -ebbero.",
+    "Vorrei/potrebbe soften requests into polite register — used constantly in daily life.",
+    "Dovrei/dovresti give gentle advice, softer than the direct obligation of devo/devi."
+  ]
+}

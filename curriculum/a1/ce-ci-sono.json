@@ -1,0 +1,144 @@
+{
+  "id": "a1-ce-ci-sono",
+  "level": "A1",
+  "unit": "1",
+  "order": 10,
+  "skill": "grammar",
+  "strand": "existence",
+  "title": "C'è e Ci Sono",
+  "subtitle": "\"There is\" and \"there are\" — your first taste of the particle ci.",
+  "objectives": [
+    "Use c'è for singular and ci sono for plural existence",
+    "Form the negative and question forms",
+    "Recognize ci as \"here/there\" in this fixed expression"
+  ],
+  "content": {
+    "intro": "C'è and ci sono are how Italian says \"there is\" and \"there are\" — useful from your very first day, for describing a room, a menu, or a city.",
+    "explanation": "<p>C'è is a contraction of <strong>ci</strong> (here/there) + <strong>è</strong> (is); ci sono is <strong>ci</strong> + <strong>sono</strong> (are). You'll meet <em>ci</em> again properly at B1 as a full pronoun/particle — for now, just learn c'è/ci sono as a fixed pair, matching singular vs. plural exactly like essere itself does.</p>",
+    "rules": [
+      {
+        "heading": "a) Affirmative",
+        "body": "<ul><li><strong>c'è</strong> + singular noun: <em>C'è un bar qui vicino.</em></li><li><strong>ci sono</strong> + plural noun: <em>Ci sono due bar qui vicino.</em></li></ul>"
+      },
+      {
+        "heading": "b) Negative",
+        "body": "<ul><li><em>Non c'è</em> tempo. (There isn't time.)</li><li><em>Non ci sono</em> problemi. (There aren't [any] problems.)</li></ul>"
+      },
+      {
+        "heading": "c) Question",
+        "body": "<ul><li><em>C'è latte in frigo?</em> (Is there milk in the fridge?)</li><li><em>Ci sono posti liberi?</em> (Are there free seats?)</li></ul>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "C'è un ristorante molto buono qui vicino.",
+        "en": "There's a very good restaurant near here."
+      },
+      {
+        "it": "Ci sono tre camere da letto.",
+        "en": "There are three bedrooms."
+      },
+      {
+        "it": "Non c'è nessuno in casa.",
+        "en": "There's nobody home."
+      },
+      {
+        "it": "Quante persone ci sono alla festa?",
+        "en": "How many people are there at the party?"
+      },
+      {
+        "it": "C'è un problema con il tuo biglietto.",
+        "en": "There's a problem with your ticket."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "C'è due gatti.",
+        "right": "Ci sono due gatti.",
+        "why": "A plural noun (due gatti) needs the plural ci sono, not the singular c'è."
+      },
+      {
+        "wrong": "È un problema.",
+        "right": "C'è un problema.",
+        "why": "\"There is a problem\" needs c'è, not just è — plain è means \"[it] is\", not \"there is\"."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1cs-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "a1cs1",
+          "prompt": "___ un bar qui vicino.",
+          "answers": [
+            [
+              "C'è"
+            ]
+          ],
+          "explanation": "Singular noun (un bar) → c'è.",
+          "options": [
+            "C'è",
+            "Ci sono",
+            "È"
+          ]
+        },
+        {
+          "id": "a1cs2",
+          "prompt": "___ molte persone in piazza.",
+          "answers": [
+            [
+              "Ci sono"
+            ]
+          ],
+          "explanation": "Plural noun (molte persone) → ci sono.",
+          "options": [
+            "Ci sono",
+            "C'è",
+            "Sono"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1cs-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Form",
+      "items": [
+        {
+          "id": "a1cs3",
+          "prompt": "\"Are there any free tables?\"",
+          "options": [
+            "C'è tavoli liberi?",
+            "Ci sono tavoli liberi?",
+            "Sono tavoli liberi?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Plural tavoli needs ci sono."
+        }
+      ]
+    },
+    {
+      "id": "a1cs-correction",
+      "type": "correction",
+      "title": "Correct the Mistakes",
+      "items": [
+        {
+          "id": "a1cs4",
+          "incorrect": "C'è tre camere.",
+          "answer": [
+            "Ci sono tre camere."
+          ],
+          "explanation": "Plural camere needs ci sono, not c'è."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "C'è = there is (singular); ci sono = there are (plural).",
+    "Negate with non c'è / non ci sono; question by intonation or word order, same as any yes/no question.",
+    "You'll meet ci again as a full particle at B1 — for now, treat c'è/ci sono as one fixed pair."
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "b2-periodo-ipotetico",
+  "level": "B2",
+  "unit": "1",
+  "order": 5,
+  "skill": "grammar",
+  "strand": "conditionals",
+  "title": "Il Periodo Ipotetico (I e II tipo)",
+  "subtitle": "Real and possible/unreal \"if\" sentences.",
+  "objectives": [
+    "Form the first type (real, likely) hypothetical sentence",
+    "Form the second type (possible but unlikely, or contrary-to-fact present) hypothetical sentence",
+    "Match the correct tense/mood in the se-clause and the main clause"
+  ],
+  "content": {
+    "intro": "Italian hypothetical sentences are built from a matched pair of tenses/moods in the se-clause and the main clause — get the pairing right, and the whole sentence falls into place.",
+    "explanation": "<p>The <strong>first type</strong> describes a real or likely condition: se + present indicative, main clause in the present or future. The <strong>second type</strong> describes something possible but unlikely, or contrary to fact right now: se + congiuntivo imperfetto, main clause in the present conditional. (The third type, for the impossible past, comes at C1.)</p>",
+    "rules": [
+      {
+        "heading": "a) First type — real/likely",
+        "body": "<p>Se + presente indicativo, presente/futuro: <em>Se piove, resto a casa. / Se piove, resterò a casa.</em> (If it rains, I'll stay home.)</p>"
+      },
+      {
+        "heading": "b) Second type — possible/unreal",
+        "body": "<p>Se + congiuntivo imperfetto, condizionale presente: <em>Se avessi più tempo, viaggerei di più.</em> (If I had more time, I'd travel more — implying I don't, right now.)</p>"
+      },
+      {
+        "heading": "c) Order can flip",
+        "body": "<p>The main clause can come first: <em>Viaggerei di più se avessi più tempo.</em> — same meaning, just reordered.</p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Se ho tempo stasera, ti chiamo.",
+        "en": "If I have time tonight, I'll call you."
+      },
+      {
+        "it": "Se studi di più, passerai l'esame.",
+        "en": "If you study more, you'll pass the exam."
+      },
+      {
+        "it": "Se fossi in te, non lo farei.",
+        "en": "If I were you, I wouldn't do it."
+      },
+      {
+        "it": "Se avessimo una macchina, andremmo al mare più spesso.",
+        "en": "If we had a car, we'd go to the seaside more often."
+      },
+      {
+        "it": "Comprerei quella casa se costasse meno.",
+        "en": "I'd buy that house if it cost less."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Se avrei più tempo, viaggerei di più.",
+        "right": "Se avessi più tempo, viaggerei di più.",
+        "why": "The se-clause of the second type needs the congiuntivo imperfetto (avessi), never the conditional — the conditional only goes in the main clause."
+      },
+      {
+        "wrong": "Se piovesse, resto a casa. (mixing types)",
+        "right": "Se piove, resto a casa. / Se piovesse, resterei a casa.",
+        "why": "The se-clause tense/mood must match the main clause type — congiuntivo imperfetto pairs with the conditional, not the present indicative."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2pi-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "items": [
+        {
+          "id": "b2pi1",
+          "prompt": "Se ___ (io - avere) più soldi, comprerei una macchina nuova.",
+          "answers": [
+            [
+              "avessi"
+            ]
+          ],
+          "explanation": "Second type: se + congiuntivo imperfetto.",
+          "options": [
+            "avessi",
+            "ho",
+            "avrei"
+          ]
+        },
+        {
+          "id": "b2pi2",
+          "prompt": "Se ___ (tu - studiare) di più, prenderai un voto migliore.",
+          "answers": [
+            [
+              "studi"
+            ]
+          ],
+          "explanation": "First type: se + presente indicativo.",
+          "options": [
+            "studi",
+            "studiassi",
+            "studieresti"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2pi-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Sentence",
+      "items": [
+        {
+          "id": "b2pi3",
+          "prompt": "\"If I were rich, I would travel the world.\"",
+          "options": [
+            "Se sono ricco, viaggerei per il mondo.",
+            "Se fossi ricco, viaggerei per il mondo.",
+            "Se sarei ricco, viaggerei per il mondo."
+          ],
+          "answerIndex": 1,
+          "explanation": "Unreal present condition needs se + congiuntivo imperfetto, conditional in the main clause."
+        }
+      ]
+    },
+    {
+      "id": "b2pi-correction",
+      "type": "correction",
+      "title": "Correct the Mistakes",
+      "items": [
+        {
+          "id": "b2pi4",
+          "incorrect": "Se avrei tempo, verrei con te.",
+          "answer": [
+            "Se avessi tempo, verrei con te."
+          ],
+          "explanation": "The se-clause of the second type needs the imperfect subjunctive, not the conditional."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "First type (real/likely): se + presente indicativo, presente/futuro.",
+    "Second type (unreal/unlikely, present): se + congiuntivo imperfetto, condizionale presente.",
+    "The conditional never appears in the se-clause itself, only in the main clause."
+  ]
+}

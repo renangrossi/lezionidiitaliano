@@ -1,0 +1,165 @@
+{
+  "id": "a2-passato-prossimo-essere",
+  "level": "A2",
+  "unit": "1",
+  "order": 6,
+  "skill": "grammar",
+  "strand": "past-tenses",
+  "title": "Passato Prossimo con Essere",
+  "subtitle": "Motion and change-of-state verbs, and why the participle must agree.",
+  "objectives": [
+    "Identify the common verbs that take essere as their auxiliary",
+    "Make the past participle agree with the subject when using essere",
+    "Recognize the essere pattern for reflexive verbs"
+  ],
+  "content": {
+    "intro": "A smaller, learnable group of verbs — mostly about motion, staying, or a change of state — use essere instead of avere as their passato prossimo auxiliary, and this changes one important rule.",
+    "explanation": "<p>With essere, the past participle behaves like an adjective: it <strong>agrees in gender and number with the subject</strong>. The classic mnemonic for which verbs take essere is a short list learned by heart (often taught as \"the house of essere\"): andare, venire, partire, arrivare, entrare, uscire, salire, scendere, nascere, morire, diventare, stare, essere itself, rimanere, tornare, cadere, crescere.</p>",
+    "rules": [
+      {
+        "heading": "a) Common essere verbs",
+        "body": "<ul><li>Motion: <em>andare, venire, partire, arrivare, entrare, uscire, salire, scendere, tornare, cadere</em></li><li>Change of state: <em>nascere (to be born), morire (to die), diventare (to become), crescere (to grow)</em></li><li>Staying: <em>stare, rimanere</em></li></ul>"
+      },
+      {
+        "heading": "b) Participle agreement",
+        "body": "<p>The participle takes -o (m. sing.), -a (f. sing.), -i (m. pl.), -e (f. pl.): <em>Marco è andato. Maria è andata. I ragazzi sono andati. Le ragazze sono andate.</em></p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Maria è arrivata alle nove.",
+        "en": "Maria arrived at nine."
+      },
+      {
+        "it": "I miei genitori sono partiti ieri.",
+        "en": "My parents left yesterday."
+      },
+      {
+        "it": "Siamo tornati tardi ieri sera.",
+        "en": "We got back late last night."
+      },
+      {
+        "it": "Sei mai stato in Italia?",
+        "en": "Have you ever been to Italy?"
+      },
+      {
+        "it": "Sono nata nel 1995.",
+        "en": "I was born in 1995. (female speaker)"
+      },
+      {
+        "it": "Le ragazze sono uscite presto.",
+        "en": "The girls went out early."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Maria ha andata al lavoro.",
+        "right": "Maria è andata al lavoro.",
+        "why": "Andare takes essere, not avere, as its auxiliary."
+      },
+      {
+        "wrong": "Maria è andato al lavoro.",
+        "right": "Maria è andata al lavoro.",
+        "why": "With essere, the participle must agree with the feminine subject Maria: andata, not andato."
+      },
+      {
+        "wrong": "Le ragazze sono arrivato.",
+        "right": "Le ragazze sono arrivate.",
+        "why": "Feminine plural subject needs the -e ending on the participle: arrivate."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2pe-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "instructions": "Use the passato prossimo, making the participle agree with the subject.",
+      "items": [
+        {
+          "id": "a2pe1",
+          "prompt": "Anna ___ (arrivare) tardi.",
+          "answers": [
+            [
+              "è arrivata"
+            ]
+          ],
+          "explanation": "Feminine singular subject: è arrivata.",
+          "options": [
+            "è arrivata",
+            "è arrivato",
+            "ha arrivato"
+          ]
+        },
+        {
+          "id": "a2pe2",
+          "prompt": "I ragazzi ___ (partire) alle sette.",
+          "answers": [
+            [
+              "sono partiti"
+            ]
+          ],
+          "explanation": "Masculine plural subject: sono partiti.",
+          "options": [
+            "sono partiti",
+            "sono partite",
+            "hanno partito"
+          ]
+        },
+        {
+          "id": "a2pe3",
+          "prompt": "Noi (femminile) ___ (tornare) a casa presto.",
+          "answers": [
+            [
+              "siamo tornate"
+            ]
+          ],
+          "explanation": "Feminine plural noi: siamo tornate.",
+          "options": [
+            "siamo tornate",
+            "siamo tornati",
+            "abbiamo tornato"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2pe-mc",
+      "type": "multiple-choice",
+      "title": "Avere or Essere?",
+      "items": [
+        {
+          "id": "a2pe4",
+          "prompt": "\"She was born in Rome\"",
+          "options": [
+            "Ha nato a Roma.",
+            "È nata a Roma.",
+            "È nato a Roma."
+          ],
+          "answerIndex": 1,
+          "explanation": "Nascere takes essere, and the participle agrees with the feminine subject: nata."
+        }
+      ]
+    },
+    {
+      "id": "a2pe-correction",
+      "type": "correction",
+      "title": "Correct the Mistakes",
+      "items": [
+        {
+          "id": "a2pe5",
+          "incorrect": "Le mie amiche sono arrivato.",
+          "answer": [
+            "Le mie amiche sono arrivate."
+          ],
+          "explanation": "Feminine plural subject needs the -e participle ending."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "A learnable list of motion, change-of-state, and staying verbs take essere as their auxiliary.",
+    "With essere, the past participle agrees in gender and number with the subject.",
+    "With avere, the participle never agrees — this is the key contrast to remember."
+  ]
+}

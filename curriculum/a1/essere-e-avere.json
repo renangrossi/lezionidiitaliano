@@ -1,0 +1,204 @@
+{
+  "id": "a1-essere-e-avere",
+  "level": "A1",
+  "unit": "1",
+  "order": 4,
+  "skill": "grammar",
+  "strand": "verbs",
+  "title": "Essere e Avere",
+  "subtitle": "The two most essential verbs in Italian — irregular, and used everywhere.",
+  "objectives": [
+    "Conjugate essere (to be) in the present tense",
+    "Conjugate avere (to have) in the present tense",
+    "Use avere in fixed expressions like avere fame and avere ... anni"
+  ],
+  "content": {
+    "intro": "Essere and avere are the two pillars of Italian: you'll use them in almost every sentence, and later they're also the building blocks of the passato prossimo (compound past tense).",
+    "explanation": "<p>Both verbs are irregular and must be memorized — but they're used so constantly that this happens naturally with practice. <strong>Essere</strong> expresses identity, origin, characteristics and location (with certain expressions); <strong>avere</strong> expresses possession, but also age, and a large family of physical/emotional-state expressions where English uses &ldquo;to be&rdquo;.</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Essere and avere — present tense</caption><thead><tr><th>Subject</th><th>essere</th><th>avere</th></tr></thead><tbody><tr><td>io</td><td>sono</td><td>ho</td></tr><tr><td>tu</td><td>sei</td><td>hai</td></tr><tr><td>lui/lei/Lei</td><td>è</td><td>ha</td></tr><tr><td>noi</td><td>siamo</td><td>abbiamo</td></tr><tr><td>voi</td><td>siete</td><td>avete</td></tr><tr><td>loro</td><td>sono</td><td>hanno</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Essere",
+        "body": "<ul><li>Identity/profession: <em>Sono Marco. Sei insegnante.</em></li><li>Origin: <em>Siamo di Milano.</em></li><li>Characteristics: <em>È simpatica.</em></li></ul>"
+      },
+      {
+        "heading": "b) Avere — possession and age",
+        "body": "<ul><li>Possession: <em>Ho una macchina.</em></li><li>Age (never essere here): <em>Ho trent'anni.</em> (I am thirty — literally \"I have thirty years\")</li></ul>"
+      },
+      {
+        "heading": "c) Avere in fixed expressions",
+        "body": "<ul><li><em>avere fame/sete</em> — to be hungry/thirsty</li><li><em>avere caldo/freddo</em> — to be hot/cold</li><li><em>avere sonno</em> — to be sleepy</li><li><em>avere paura (di)</em> — to be afraid (of)</li><li><em>avere ragione/torto</em> — to be right/wrong</li><li><em>avere fretta</em> — to be in a hurry</li><li><em>avere bisogno di</em> — to need</li></ul>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Io sono italiano, ma abito in Spagna.",
+        "en": "I am Italian, but I live in Spain."
+      },
+      {
+        "it": "Hai fratelli o sorelle?",
+        "en": "Do you have brothers or sisters?"
+      },
+      {
+        "it": "Ho vent'anni.",
+        "en": "I am twenty years old."
+      },
+      {
+        "it": "Abbiamo fame, mangiamo qualcosa?",
+        "en": "We're hungry, shall we eat something?"
+      },
+      {
+        "it": "Loro sono sempre in ritardo.",
+        "en": "They are always late."
+      },
+      {
+        "it": "Hai ragione, hai proprio ragione.",
+        "en": "You're right, you're really right."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Sono venti anni.",
+        "right": "Ho vent'anni.",
+        "why": "Age uses avere in Italian, not essere — a direct English-to-Italian translation of \"I am\" is wrong here."
+      },
+      {
+        "wrong": "Sono fame.",
+        "right": "Ho fame.",
+        "why": "Physical/emotional states like hunger use avere, not essere, even though English says \"I am hungry.\""
+      },
+      {
+        "wrong": "Io ha vent'anni.",
+        "right": "Io ho vent'anni.",
+        "why": "Ha is the lui/lei form; io always pairs with ho."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1ea-fill",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "instructions": "Complete each sentence with the correct form of essere or avere.",
+      "items": [
+        {
+          "id": "a1ea1",
+          "prompt": "Io ___ studentessa.",
+          "answers": [
+            [
+              "sono"
+            ]
+          ],
+          "explanation": "Io + essere (identity/profession) = sono.",
+          "options": [
+            "sono",
+            "sei",
+            "ho"
+          ]
+        },
+        {
+          "id": "a1ea2",
+          "prompt": "Loro ___ due gatti.",
+          "answers": [
+            [
+              "hanno"
+            ]
+          ],
+          "explanation": "Loro + avere (possession) = hanno.",
+          "options": [
+            "hanno",
+            "sono",
+            "ha"
+          ]
+        },
+        {
+          "id": "a1ea3",
+          "prompt": "Noi ___ fame, andiamo a mangiare!",
+          "answers": [
+            [
+              "abbiamo"
+            ]
+          ],
+          "explanation": "Avere fame — to be hungry — needs avere: abbiamo.",
+          "options": [
+            "abbiamo",
+            "siamo",
+            "avete"
+          ]
+        },
+        {
+          "id": "a1ea4",
+          "prompt": "Tu ___ di Napoli?",
+          "answers": [
+            [
+              "sei"
+            ]
+          ],
+          "explanation": "Origin uses essere: tu + essere = sei.",
+          "options": [
+            "sei",
+            "hai",
+            "è"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1ea-mc",
+      "type": "multiple-choice",
+      "title": "Essere or Avere?",
+      "items": [
+        {
+          "id": "a1ea5",
+          "prompt": "How do you say \"I am thirty years old\"?",
+          "options": [
+            "Sono trent'anni.",
+            "Ho trent'anni.",
+            "Ho essere trent'anni."
+          ],
+          "answerIndex": 1,
+          "explanation": "Age always uses avere in Italian."
+        },
+        {
+          "id": "a1ea6",
+          "prompt": "\"Ha sonno\" means...",
+          "options": [
+            "He/she has a dream.",
+            "He/she is sleepy.",
+            "He/she is asleep."
+          ],
+          "answerIndex": 1,
+          "explanation": "Avere sonno is a fixed expression meaning \"to be sleepy\"."
+        }
+      ]
+    },
+    {
+      "id": "a1ea-correction",
+      "type": "correction",
+      "title": "Correct the Mistakes",
+      "items": [
+        {
+          "id": "a1ea7",
+          "incorrect": "Sono diciotto anni.",
+          "answer": [
+            "Ho diciotto anni."
+          ],
+          "explanation": "Age needs avere, not essere."
+        },
+        {
+          "id": "a1ea8",
+          "incorrect": "Io ha una sorella.",
+          "answer": [
+            "Io ho una sorella."
+          ],
+          "explanation": "Io always takes ho, never ha (which is the lui/lei form)."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Essere = identity, origin, characteristics; avere = possession and age.",
+    "Age, hunger, thirst, heat/cold, fear, being right/wrong all use avere in Italian, unlike English \"to be\".",
+    "Both verbs are irregular — memorize the six forms: sono/sei/è/siamo/siete/sono and ho/hai/ha/abbiamo/avete/hanno."
+  ]
+}

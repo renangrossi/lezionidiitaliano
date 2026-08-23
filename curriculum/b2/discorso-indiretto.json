@@ -1,0 +1,122 @@
+{
+  "id": "b2-discorso-indiretto",
+  "level": "B2",
+  "unit": "1",
+  "order": 6,
+  "skill": "grammar",
+  "strand": "reported-speech",
+  "title": "Il Discorso Indiretto",
+  "subtitle": "Reporting what someone said, and how the tenses shift back.",
+  "objectives": [
+    "Convert direct speech into reported speech with dire che",
+    "Shift tenses back correctly when the reporting verb is in the past",
+    "Adjust pronouns, possessives and time expressions appropriately"
+  ],
+  "content": {
+    "intro": "Reporting what someone said requires more than just adding \"that\" — pronouns, tenses and time expressions often all need to shift to fit the new perspective.",
+    "explanation": "<p>When the reporting verb (<em>dire, chiedere, rispondere</em>) is in the present, little changes besides pronouns. When it's in the <strong>past</strong> — by far the more common case in real narration — every tense in the reported clause shifts one step back: present → imperfetto, passato prossimo → trapassato prossimo, futuro → condizionale passato (a form met at C1; condizionale presente is an acceptable simplification at this level).</p>",
+    "table": "<div class=\"table-scroll\"><table class=\"ref-table\"><caption>Tense shift after a past reporting verb (ha detto che...)</caption><thead><tr><th>Direct speech</th><th>Reported speech</th></tr></thead><tbody><tr><td>presente</td><td>imperfetto</td></tr><tr><td>passato prossimo</td><td>trapassato prossimo</td></tr><tr><td>futuro semplice</td><td>condizionale (presente/passato)</td></tr><tr><td>imperativo</td><td>di + infinito</td></tr></tbody></table></div>",
+    "rules": [
+      {
+        "heading": "a) Also shift: pronouns, possessives, time words",
+        "body": "<ul><li><em>domani → il giorno dopo; oggi → quel giorno; ieri → il giorno prima</em></li><li><em>qui → lì; questo → quello</em></li><li>Subject/possessive pronouns adjust to the new speaker's perspective</li></ul>"
+      },
+      {
+        "heading": "b) Imperative becomes di + infinitive",
+        "body": "<p>Direct: <em>\"Chiudi la porta!\"</em> Reported: <em>Mi ha detto di chiudere la porta.</em></p>"
+      }
+    ],
+    "examples": [
+      {
+        "it": "Marco ha detto: \"Sono stanco.\" → Marco ha detto che era stanco.",
+        "en": "Marco said: \"I'm tired.\" → Marco said he was tired."
+      },
+      {
+        "it": "Ha detto: \"Verrò domani.\" → Ha detto che sarebbe venuto il giorno dopo.",
+        "en": "He said: \"I'll come tomorrow.\" → He said he would come the next day."
+      },
+      {
+        "it": "Mi ha chiesto: \"Hai finito?\" → Mi ha chiesto se avevo finito.",
+        "en": "She asked me: \"Have you finished?\" → She asked me if I had finished."
+      },
+      {
+        "it": "\"Aspetta qui!\" → Mi ha detto di aspettare lì.",
+        "en": "\"Wait here!\" → She told me to wait there."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ha detto che è stanco. (reporting from a past viewpoint)",
+        "right": "Ha detto che era stanco.",
+        "why": "A past reporting verb (ha detto) shifts the present tense of direct speech back to the imperfetto."
+      },
+      {
+        "wrong": "Mi ha detto \"chiudi la porta\" as reported speech kept verbatim",
+        "right": "Mi ha detto di chiudere la porta.",
+        "why": "The imperative in direct speech becomes di + infinitive when reported, never kept as a literal imperative."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2di-fill",
+      "type": "fill-blank",
+      "title": "Convert to Reported Speech",
+      "items": [
+        {
+          "id": "b2di1",
+          "prompt": "Ha detto: \"Sto lavorando.\" → Ha detto che ___.",
+          "answers": [
+            [
+              "stava lavorando"
+            ]
+          ],
+          "explanation": "Present → imperfetto after a past reporting verb.",
+          "options": [
+            "stava lavorando",
+            "sta lavorando",
+            "stia lavorando"
+          ]
+        },
+        {
+          "id": "b2di2",
+          "prompt": "Ha detto: \"Ho finito il lavoro.\" → Ha detto che ___.",
+          "answers": [
+            [
+              "aveva finito il lavoro"
+            ]
+          ],
+          "explanation": "Passato prossimo → trapassato prossimo.",
+          "options": [
+            "aveva finito il lavoro",
+            "ha finito il lavoro",
+            "finiva il lavoro"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2di-mc",
+      "type": "multiple-choice",
+      "title": "Choose the Correct Reported Form",
+      "items": [
+        {
+          "id": "b2di3",
+          "prompt": "Direct: \"Vengo domani.\" Reported (ha detto che...):",
+          "options": [
+            "sarebbe venuto il giorno dopo",
+            "viene domani",
+            "veniva domani"
+          ],
+          "answerIndex": 0,
+          "explanation": "Futuro shifts to the conditional, and domani shifts to il giorno dopo."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "A past reporting verb shifts tenses back: presente→imperfetto, passato prossimo→trapassato prossimo, futuro→condizionale.",
+    "Pronouns, possessives and time expressions (domani→il giorno dopo) shift to the new perspective too.",
+    "A reported imperative becomes di + infinitive."
+  ]
+}
