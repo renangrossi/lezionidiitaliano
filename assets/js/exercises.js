@@ -1384,6 +1384,7 @@
   // block's score panel, then the native print/save dialog); this
   // adds a brief "Saved ✓" flash on the button itself as a
   // lightweight extra confirmation.
+  // === COURSE-ENGINE:SAVE-ALL-ANSWERS-BLOCK:START ===
   function buildSaveAllAnswersButton(ariaLabel, onClick) {
     var label = "Save All Answers";
     var btn = el("button", {
@@ -1406,12 +1407,13 @@
   }
 
   // Finds the .exercise-actions row of the last exercise-block within
-  // `root` that actually has a Submit button -- i.e. the last *graded*
-  // block, searching backwards through document order. A "writing"
-  // block's actions row only ever has a "Save my answers" button (no
-  // grading, so no Submit), so this skips over one should a Practice
-  // section or Test Yourself topic ever end with one, rather than
-  // assuming the very last DOM block is always graded.
+  // `root` that actually has a Submit ("Submit") button -- i.e.
+  // the last *graded* block, searching backwards through document
+  // order. A "writing" block's actions row only ever has a
+  // "Save my answers" button (no grading, so no Submit), so
+  // this skips over one should a Practice section or Test Yourself
+  // topic ever end with one, rather than assuming the very last DOM
+  // block is graded.
   function findLastSubmitActionsRow(root) {
     var blocks = root.querySelectorAll(".exercise-block");
     for (var i = blocks.length - 1; i >= 0; i--) {
@@ -1423,12 +1425,12 @@
   }
 
   // Inserts `btn` as the row's second control, immediately after
-  // Submit -- [Submit] [Save All Answers] -- rather than at the end
-  // of the row (after Retry/Retry all/Save my answers, which only
-  // reveal themselves once that one exercise has been graded). The
-  // new button stays visible before, during and after that exercise's
-  // own Submit/Retry cycle, since what it saves is the whole
-  // section/topic, not just this one exercise.
+  // Submit -- [Submit] [Save All Answers] -- rather than at
+  // the end of the row (after Retry/Retry all/Save my answers, which
+  // only reveal themselves once that one exercise has been graded).
+  // The new button stays visible before, during and after that
+  // exercise's own Submit/Retry cycle, since what it saves is the
+  // whole section/topic, not just this one exercise.
   function insertBesideSubmit(actionsRow, btn) {
     var submitBtn = actionsRow.querySelector("button");
     if (submitBtn && submitBtn.nextSibling) {
@@ -1439,9 +1441,10 @@
   }
 
   // Individual lesson pages have exactly one exercise-bearing section,
-  // id="practice" (same id every lesson page uses, verified across the
-  // whole site). The button is inserted beside that section's own
-  // last Submit button and saves every exercise block inside it.
+  // id="practice" (same id every lesson page uses,
+  // verified across the whole site). The button is inserted beside
+  // that section's own last Submit button and saves every exercise
+  // block inside it.
   function addPracticeSaveAllButton() {
     var practice = document.getElementById("practice");
     if (!practice) return;
@@ -1525,6 +1528,7 @@
       return wrapWithPrintHeader(buildGenericPrintHeaderText(label), wrap);
     });
   }
+  // === COURSE-ENGINE:SAVE-ALL-ANSWERS-BLOCK:END ===
 
   function init() {
     document.querySelectorAll(".exercise-block").forEach(function (container) {
@@ -1553,6 +1557,7 @@
   // (one or more <section class="ty-topic">), so this stays generic
   // instead of being wired per-level. Runs once; leaves the existing
   // "Back to <level>" / "Continue to <next level>" links untouched.
+  // === COURSE-ENGINE:PAGE-WIDE-SAVE-BUTTON:START ===
   function maybeAddTestSaveButton() {
     var topics = document.querySelectorAll(".ty-topic[id]");
     if (!topics.length || document.getElementById("ty-save-all-btn")) return;
@@ -1571,12 +1576,11 @@
     wrap.appendChild(btn);
     // Every test-yourself.html on the site was expected to close with a
     // <section id="bottom"> holding the "Back to <level>" nav row, but
-    // this course's template omits it entirely -- the page just ends
-    // after the last topic's </section>, so this button was silently
-    // never appearing at all (querySelector found nothing, and the
-    // function returned before ever building the button). Falling back
-    // to appending right after the last topic keeps the button working
-    // regardless of whether that closing section exists.
+    // some course templates omit it entirely -- the page just ends
+    // after the last topic's </section>, so this button would silently
+    // never appear at all if we only ever looked for it there. Falling
+    // back to appending right after the last topic keeps the button
+    // working regardless of whether that closing section exists.
     var bottomNav = document.querySelector("#bottom .lesson-nav");
     if (bottomNav) {
       bottomNav.parentNode.insertBefore(wrap, bottomNav);
@@ -1585,6 +1589,7 @@
       lastTopic.parentNode.insertBefore(wrap, lastTopic.nextSibling);
     }
   }
+  // === COURSE-ENGINE:PAGE-WIDE-SAVE-BUTTON:END ===
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", init);
