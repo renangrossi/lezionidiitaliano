@@ -140,6 +140,74 @@
           "explanation": "A guess about the present uses the future of probability."
         }
       ]
+    },
+    {
+      "id": "b1fs-fill2",
+      "type": "fill-blank",
+      "title": "More Future Practice",
+      "items": [
+        {
+          "id": "b1fs5",
+          "prompt": "Voi ___ (potere) venire alla festa?",
+          "answers": [
+            [
+              "potrete"
+            ]
+          ],
+          "explanation": "Potere's irregular future stem is potr-.",
+          "options": [
+            "potrete",
+            "potete",
+            "potevate"
+          ]
+        },
+        {
+          "id": "b1fs6",
+          "prompt": "Domani ___ (fare) bel tempo.",
+          "answers": [
+            [
+              "farà"
+            ]
+          ],
+          "explanation": "Fare's irregular future stem is far-.",
+          "options": [
+            "farà",
+            "fa",
+            "faceva"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1fs-mc2",
+      "type": "multiple-choice",
+      "title": "More Future Choices",
+      "items": [
+        {
+          "id": "b1fs7",
+          "prompt": "Which is the irregular future stem of \"venire\"?",
+          "options": [
+            "verr-",
+            "venir-",
+            "vier-"
+          ],
+          "answerIndex": 0,
+          "explanation": "Venire's irregular future stem is verr-."
+        }
+      ]
+    },
+    {
+      "id": "b1fs-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "b1fs8",
+          "statement": "The future of probability expresses a guess about the present, not a real future event.",
+          "answer": true,
+          "explanation": "Saranno le tre — it's probably three — is about now, not the future."
+        }
+      ]
     }
   ],
   "summary": [

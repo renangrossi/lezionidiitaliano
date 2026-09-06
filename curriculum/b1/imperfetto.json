@@ -136,6 +136,106 @@
           "explanation": "Weather description in the past uses the imperfetto."
         }
       ]
+    },
+    {
+      "id": "b1im-fill2",
+      "type": "fill-blank",
+      "title": "More Imperfetto Practice",
+      "items": [
+        {
+          "id": "b1im5",
+          "prompt": "Tu ___ (bere) sempre il caffè la mattina, da giovane.",
+          "answers": [
+            [
+              "bevevi"
+            ]
+          ],
+          "explanation": "Regular imperfetto of bere: bevevi.",
+          "options": [
+            "bevevi",
+            "bevesti",
+            "hai bevuto"
+          ]
+        },
+        {
+          "id": "b1im6",
+          "prompt": "Noi ___ (fare) i compiti insieme ogni pomeriggio.",
+          "answers": [
+            [
+              "facevamo"
+            ]
+          ],
+          "explanation": "Fare's imperfetto stem is fac-: facevamo.",
+          "options": [
+            "facevamo",
+            "abbiamo fatto",
+            "fecimo"
+          ]
+        },
+        {
+          "id": "b1im7",
+          "prompt": "Quando ero piccolo, mio padre mi ___ (leggere) sempre una storia.",
+          "answers": [
+            [
+              "leggeva"
+            ]
+          ],
+          "explanation": "Regular imperfetto of leggere: leggeva.",
+          "options": [
+            "leggeva",
+            "ha letto",
+            "legge"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1im-mc2",
+      "type": "multiple-choice",
+      "title": "More Imperfetto Choices",
+      "items": [
+        {
+          "id": "b1im8",
+          "prompt": "Which sentence describes a habitual past action?",
+          "options": [
+            "Ieri sono andato al cinema.",
+            "Da bambino andavo spesso al cinema.",
+            "Sono andato al cinema una volta."
+          ],
+          "answerIndex": 1,
+          "explanation": "A repeated habit in the past needs the imperfetto."
+        },
+        {
+          "id": "b1im9",
+          "prompt": "Which verb is truly irregular in the imperfetto?",
+          "options": [
+            "essere",
+            "parlare",
+            "dormire"
+          ],
+          "answerIndex": 0,
+          "explanation": "Essere alone is truly irregular; fare/bere just use an old stem with regular endings."
+        }
+      ]
+    },
+    {
+      "id": "b1im-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "b1im10",
+          "statement": "The imperfetto is one of the most regular tenses in Italian.",
+          "answer": true,
+          "explanation": "Nearly every verb follows the same pattern in the imperfetto."
+        },
+        {
+          "id": "b1im11",
+          "statement": "Fare's imperfetto is built from its modern infinitive, giving \"farevo\".",
+          "answer": false,
+          "explanation": "Fare's imperfetto is built from the old stem facere, giving facevo."
+        }
+      ]
     }
   ],
   "summary": [

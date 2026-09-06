@@ -121,6 +121,85 @@
           "explanation": "A doctor is addressed formally: non si preoccupi."
         }
       ]
+    },
+    {
+      "id": "b1if-fill2",
+      "type": "fill-blank",
+      "title": "More Formal Commands",
+      "items": [
+        {
+          "id": "b1if4",
+          "prompt": "___ (Prendere - Lei) pure una sedia.",
+          "answers": [
+            [
+              "Prenda"
+            ]
+          ],
+          "explanation": "-ere verbs take -a in the Lei imperative.",
+          "options": [
+            "Prenda",
+            "Prendi",
+            "Prende"
+          ]
+        },
+        {
+          "id": "b1if5",
+          "prompt": "Signore, non ___ (aspettare) qui, prego.",
+          "answers": [
+            [
+              "aspetti"
+            ]
+          ],
+          "explanation": "-are verbs take -i in the Lei imperative; the formal negative just adds non.",
+          "options": [
+            "aspetti",
+            "aspetta",
+            "aspettare"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1if-mc2",
+      "type": "multiple-choice",
+      "title": "More Formal Command Choices",
+      "items": [
+        {
+          "id": "b1if6",
+          "prompt": "Which is the Lei imperative of \"andare\"?",
+          "options": [
+            "Vada!",
+            "Va'!",
+            "Andi!"
+          ],
+          "answerIndex": 0,
+          "explanation": "Andare's irregular Lei imperative is vada."
+        },
+        {
+          "id": "b1if7",
+          "prompt": "Where do pronouns go with the formal imperative?",
+          "options": [
+            "before the verb",
+            "after the verb, attached",
+            "either position, freely"
+          ],
+          "answerIndex": 0,
+          "explanation": "Unlike the informal imperative, the formal one places pronouns before the verb."
+        }
+      ]
+    },
+    {
+      "id": "b1if-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "b1if8",
+          "statement": "The formal negative imperative uses a special infinitive form, just like the informal tu.",
+          "answer": false,
+          "explanation": "Only the informal tu negative switches to the infinitive; the formal negative just adds non before the normal Lei form."
+        }
+      ]
     }
   ],
   "summary": [

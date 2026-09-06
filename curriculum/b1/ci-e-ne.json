@@ -139,6 +139,59 @@
           "explanation": "A quantity of water → ne."
         }
       ]
+    },
+    {
+      "id": "b1cn-fill2",
+      "type": "fill-blank",
+      "title": "More Ci or Ne?",
+      "items": [
+        {
+          "id": "b1cn5",
+          "prompt": "Sei mai stato a Parigi? Sì, ___ sono stato due volte.",
+          "answers": [
+            [
+              "ci"
+            ]
+          ],
+          "explanation": "Replacing a place (a Parigi) → ci.",
+          "options": [
+            "ci",
+            "ne",
+            "lo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1cn-mc2",
+      "type": "multiple-choice",
+      "title": "More Particle Choices",
+      "items": [
+        {
+          "id": "b1cn6",
+          "prompt": "\"Ne ho comprate tre\" — ne replaces...",
+          "options": [
+            "a quantity of something feminine plural",
+            "a place",
+            "a person"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ne stands in for a quantity, forcing the participle to agree."
+        }
+      ]
+    },
+    {
+      "id": "b1cn-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "b1cn7",
+          "statement": "Ne and the noun it replaces can both appear together in the same clause without being redundant.",
+          "answer": false,
+          "explanation": "Using both ne and the noun together is redundant — ne alone replaces it."
+        }
+      ]
     }
   ],
   "summary": [

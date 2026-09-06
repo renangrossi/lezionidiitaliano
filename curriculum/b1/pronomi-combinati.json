@@ -136,6 +136,85 @@
           "explanation": "Glielo/gliela fuses gli+le into one word, and the participle agrees with the feminine object."
         }
       ]
+    },
+    {
+      "id": "b1pc-fill2",
+      "type": "fill-blank",
+      "title": "More Combined Pronouns",
+      "items": [
+        {
+          "id": "b1pc5",
+          "prompt": "Il caffè? ___ preparo subito. (to you informal + it, m.)",
+          "answers": [
+            [
+              "Te lo"
+            ]
+          ],
+          "explanation": "Ti + lo = te lo.",
+          "options": [
+            "Te lo",
+            "Ti lo",
+            "Lo ti"
+          ]
+        },
+        {
+          "id": "b1pc6",
+          "prompt": "Le foto? ___ mando stasera. (to you plural + them, f.)",
+          "answers": [
+            [
+              "Ve le"
+            ]
+          ],
+          "explanation": "Vi + le = ve le.",
+          "options": [
+            "Ve le",
+            "Vi le",
+            "Le vi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1pc-mc2",
+      "type": "multiple-choice",
+      "title": "More Combined Pronoun Choices",
+      "items": [
+        {
+          "id": "b1pc7",
+          "prompt": "Which is the fused form of \"gli\" + \"la\"?",
+          "options": [
+            "gliela",
+            "glila",
+            "gli la"
+          ],
+          "answerIndex": 0,
+          "explanation": "Gli/le always physically fuse with lo/la/li/le into one word."
+        },
+        {
+          "id": "b1pc8",
+          "prompt": "\"Ce lo ha spiegato bene\" means...",
+          "options": [
+            "He/she explained it to us well.",
+            "We explained it to him well.",
+            "He/she explained it to them well."
+          ],
+          "answerIndex": 0,
+          "explanation": "Ce lo = to us + it."
+        }
+      ]
+    },
+    {
+      "id": "b1pc-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "b1pc9",
+          "statement": "Mi, ti, ci, vi keep their final -i even before a direct object pronoun.",
+          "answer": false,
+          "explanation": "They change their final -i to -e: mi→me, ti→te, ci→ce, vi→ve."
+        }
+      ]
     }
   ],
   "summary": [
