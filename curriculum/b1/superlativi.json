@@ -139,6 +139,59 @@
           "explanation": "-issima alone already conveys \"extremely\"."
         }
       ]
+    },
+    {
+      "id": "b1su-fill2",
+      "type": "fill-blank",
+      "title": "More Superlative Practice",
+      "items": [
+        {
+          "id": "b1su5",
+          "prompt": "Questa pizza è buon___! (extremely good, f.)",
+          "answers": [
+            [
+              "issima"
+            ]
+          ],
+          "explanation": "Absolute superlative: buona → buonissima.",
+          "options": [
+            "issima",
+            "molto",
+            "più"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1su-mc2",
+      "type": "multiple-choice",
+      "title": "More Superlative Choices",
+      "items": [
+        {
+          "id": "b1su6",
+          "prompt": "What is the irregular comparative of \"cattivo\"?",
+          "options": [
+            "peggiore",
+            "più cattivo",
+            "cattivissimo"
+          ],
+          "answerIndex": 0,
+          "explanation": "Cattivo's irregular comparative is peggiore."
+        }
+      ]
+    },
+    {
+      "id": "b1su-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "b1su7",
+          "statement": "\"Molto bellissimo\" is correct because it reinforces the intensity.",
+          "answer": false,
+          "explanation": "-issimo already means \"extremely\"; adding molto is redundant."
+        }
+      ]
     }
   ],
   "summary": [

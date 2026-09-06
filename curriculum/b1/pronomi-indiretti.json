@@ -136,6 +136,74 @@
           "explanation": "Piacere agrees with the plural subject canzoni: piacciono."
         }
       ]
+    },
+    {
+      "id": "b1pi-fill2",
+      "type": "fill-blank",
+      "title": "More Indirect Pronouns",
+      "items": [
+        {
+          "id": "b1pi5",
+          "prompt": "___ hanno detto la verità. (to us)",
+          "answers": [
+            [
+              "Ci"
+            ]
+          ],
+          "explanation": "Ci = to us.",
+          "options": [
+            "Ci",
+            "Vi",
+            "Gli"
+          ]
+        },
+        {
+          "id": "b1pi6",
+          "prompt": "Cosa ___ dici? (to them)",
+          "answers": [
+            [
+              "gli"
+            ]
+          ],
+          "explanation": "Gli = to them, standard in spoken Italian.",
+          "options": [
+            "gli",
+            "le",
+            "ci"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1pi-mc2",
+      "type": "multiple-choice",
+      "title": "More Indirect Pronoun Choices",
+      "items": [
+        {
+          "id": "b1pi7",
+          "prompt": "Which pronoun means \"to her\" (also formal \"to you\")?",
+          "options": [
+            "le",
+            "gli",
+            "la"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le covers both \"to her\" and the formal \"to you\"."
+        }
+      ]
+    },
+    {
+      "id": "b1pi-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "b1pi8",
+          "statement": "Piacere agrees with the person who likes something, not with the thing liked.",
+          "answer": false,
+          "explanation": "Piacere agrees with the thing liked, which is the grammatical subject."
+        }
+      ]
     }
   ],
   "summary": [

@@ -161,6 +161,43 @@
           "explanation": "A single completed occasion needs the passato prossimo."
         }
       ]
+    },
+    {
+      "id": "b1ip-mc2",
+      "type": "multiple-choice",
+      "title": "More Tense Choices",
+      "items": [
+        {
+          "id": "b1ip6",
+          "prompt": "\"Da giovane giocavo a calcio ogni weekend\" uses the imperfetto because it describes...",
+          "options": [
+            "a habitual past action",
+            "a single completed event",
+            "a sudden interruption"
+          ],
+          "answerIndex": 0,
+          "explanation": "A repeated habit needs the imperfetto."
+        }
+      ]
+    },
+    {
+      "id": "b1ip-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "b1ip7",
+          "statement": "Conoscere in the passato prossimo (ho conosciuto) means \"met for the first time\".",
+          "answer": true,
+          "explanation": "Passato prossimo shifts conoscere's meaning to a single event, \"met\"."
+        },
+        {
+          "id": "b1ip8",
+          "statement": "The imperfetto is used for a sequence of completed actions, one after another.",
+          "answer": false,
+          "explanation": "That's the passato prossimo's job; the imperfetto describes background or habitual action."
+        }
+      ]
     }
   ],
   "summary": [

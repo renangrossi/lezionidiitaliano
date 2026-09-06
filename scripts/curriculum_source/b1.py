@@ -49,6 +49,22 @@ LESSONS = [
              "items": [
                 {"id": "b1im4", "prompt": "Describing what the weather was like yesterday afternoon:", "options": ["Ha fatto caldo.", "Faceva caldo.", "Fece caldo per un minuto."], "answerIndex": 1, "explanation": "Weather description in the past uses the imperfetto."},
              ]},
+            {"id": "b1im-fill2", "type": "fill-blank", "title": "More Imperfetto Practice",
+             "items": [
+                {"id": "b1im5", "prompt": "Tu ___ (bere) sempre il caffè la mattina, da giovane.", "answers": [["bevevi"]], "explanation": "Regular imperfetto of bere: bevevi.", "options": ["bevevi", "bevesti", "hai bevuto"]},
+                {"id": "b1im6", "prompt": "Noi ___ (fare) i compiti insieme ogni pomeriggio.", "answers": [["facevamo"]], "explanation": "Fare's imperfetto stem is fac-: facevamo.", "options": ["facevamo", "abbiamo fatto", "fecimo"]},
+                {"id": "b1im7", "prompt": "Quando ero piccolo, mio padre mi ___ (leggere) sempre una storia.", "answers": [["leggeva"]], "explanation": "Regular imperfetto of leggere: leggeva.", "options": ["leggeva", "ha letto", "legge"]},
+             ]},
+            {"id": "b1im-mc2", "type": "multiple-choice", "title": "More Imperfetto Choices",
+             "items": [
+                {"id": "b1im8", "prompt": "Which sentence describes a habitual past action?", "options": ["Ieri sono andato al cinema.", "Da bambino andavo spesso al cinema.", "Sono andato al cinema una volta."], "answerIndex": 1, "explanation": "A repeated habit in the past needs the imperfetto."},
+                {"id": "b1im9", "prompt": "Which verb is truly irregular in the imperfetto?", "options": ["essere", "parlare", "dormire"], "answerIndex": 0, "explanation": "Essere alone is truly irregular; fare/bere just use an old stem with regular endings."},
+             ]},
+            {"id": "b1im-tf", "type": "true-false", "title": "True or False?",
+             "items": [
+                {"id": "b1im10", "statement": "The imperfetto is one of the most regular tenses in Italian.", "answer": True, "explanation": "Nearly every verb follows the same pattern in the imperfetto."},
+                {"id": "b1im11", "statement": "Fare's imperfetto is built from its modern infinitive, giving \"farevo\".", "answer": False, "explanation": "Fare's imperfetto is built from the old stem facere, giving facevo."},
+             ]},
         ],
         "summary": [
             "The imperfetto is built regularly: stem + -vo/-vi/-va/-vamo/-vate/-vano; only essere is truly irregular.",
@@ -103,6 +119,15 @@ LESSONS = [
              "items": [
                 {"id": "b1ip5", "incorrect": "Ieri giocavo a tennis con Marco.", "answer": ["Ieri ho giocato a tennis con Marco."], "explanation": "A single completed occasion needs the passato prossimo."},
              ]},
+            {"id": "b1ip-mc2", "type": "multiple-choice", "title": "More Tense Choices",
+             "items": [
+                {"id": "b1ip6", "prompt": "\"Da giovane giocavo a calcio ogni weekend\" uses the imperfetto because it describes...", "options": ["a habitual past action", "a single completed event", "a sudden interruption"], "answerIndex": 0, "explanation": "A repeated habit needs the imperfetto."},
+             ]},
+            {"id": "b1ip-tf", "type": "true-false", "title": "True or False?",
+             "items": [
+                {"id": "b1ip7", "statement": "Conoscere in the passato prossimo (ho conosciuto) means \"met for the first time\".", "answer": True, "explanation": "Passato prossimo shifts conoscere's meaning to a single event, \"met\"."},
+                {"id": "b1ip8", "statement": "The imperfetto is used for a sequence of completed actions, one after another.", "answer": False, "explanation": "That's the passato prossimo's job; the imperfetto describes background or habitual action."},
+             ]},
         ],
         "summary": [
             "Imperfetto = background, ongoing, habitual, description; passato prossimo = completed, sudden, sequential.",
@@ -152,6 +177,19 @@ LESSONS = [
              "items": [
                 {"id": "b1pi4", "prompt": "\"I like Italian songs\" (canzoni is plural)", "options": ["Mi piace le canzoni italiane.", "Mi piacciono le canzoni italiane.", "Mi piaccio le canzoni italiane."], "answerIndex": 1, "explanation": "Piacere agrees with the plural subject canzoni: piacciono."},
              ]},
+            {"id": "b1pi-fill2", "type": "fill-blank", "title": "More Indirect Pronouns",
+             "items": [
+                {"id": "b1pi5", "prompt": "___ hanno detto la verità. (to us)", "answers": [["Ci"]], "explanation": "Ci = to us.", "options": ["Ci", "Vi", "Gli"]},
+                {"id": "b1pi6", "prompt": "Cosa ___ dici? (to them)", "answers": [["gli"]], "explanation": "Gli = to them, standard in spoken Italian.", "options": ["gli", "le", "ci"]},
+             ]},
+            {"id": "b1pi-mc2", "type": "multiple-choice", "title": "More Indirect Pronoun Choices",
+             "items": [
+                {"id": "b1pi7", "prompt": "Which pronoun means \"to her\" (also formal \"to you\")?", "options": ["le", "gli", "la"], "answerIndex": 0, "explanation": "Le covers both \"to her\" and the formal \"to you\"."},
+             ]},
+            {"id": "b1pi-tf", "type": "true-false", "title": "True or False?",
+             "items": [
+                {"id": "b1pi8", "statement": "Piacere agrees with the person who likes something, not with the thing liked.", "answer": False, "explanation": "Piacere agrees with the thing liked, which is the grammatical subject."},
+             ]},
         ],
         "summary": [
             "Indirect object pronouns: mi, ti, gli (to him), le (to her/formal you), ci, vi, gli (to them).",
@@ -200,6 +238,20 @@ LESSONS = [
             {"id": "b1pc-mc", "type": "multiple-choice", "title": "Choose the Correct Combined Pronoun",
              "items": [
                 {"id": "b1pc4", "prompt": "\"I explained it to her\" (la spiegazione, feminine)", "options": ["Gliel'ho spiegato.", "Gliel'ho spiegata.", "Le l'ho spiegata."], "answerIndex": 1, "explanation": "Glielo/gliela fuses gli+le into one word, and the participle agrees with the feminine object."},
+             ]},
+            {"id": "b1pc-fill2", "type": "fill-blank", "title": "More Combined Pronouns",
+             "items": [
+                {"id": "b1pc5", "prompt": "Il caffè? ___ preparo subito. (to you informal + it, m.)", "answers": [["Te lo"]], "explanation": "Ti + lo = te lo.", "options": ["Te lo", "Ti lo", "Lo ti"]},
+                {"id": "b1pc6", "prompt": "Le foto? ___ mando stasera. (to you plural + them, f.)", "answers": [["Ve le"]], "explanation": "Vi + le = ve le.", "options": ["Ve le", "Vi le", "Le vi"]},
+             ]},
+            {"id": "b1pc-mc2", "type": "multiple-choice", "title": "More Combined Pronoun Choices",
+             "items": [
+                {"id": "b1pc7", "prompt": "Which is the fused form of \"gli\" + \"la\"?", "options": ["gliela", "glila", "gli la"], "answerIndex": 0, "explanation": "Gli/le always physically fuse with lo/la/li/le into one word."},
+                {"id": "b1pc8", "prompt": "\"Ce lo ha spiegato bene\" means...", "options": ["He/she explained it to us well.", "We explained it to him well.", "He/she explained it to them well."], "answerIndex": 0, "explanation": "Ce lo = to us + it."},
+             ]},
+            {"id": "b1pc-tf", "type": "true-false", "title": "True or False?",
+             "items": [
+                {"id": "b1pc9", "statement": "Mi, ti, ci, vi keep their final -i even before a direct object pronoun.", "answer": False, "explanation": "They change their final -i to -e: mi→me, ti→te, ci→ce, vi→ve."},
              ]},
         ],
         "summary": [
@@ -251,6 +303,19 @@ LESSONS = [
              "items": [
                 {"id": "b1fs4", "prompt": "\"Someone's knocking — it's probably the postman.\"", "options": ["È il postino.", "Sarà il postino.", "Era il postino."], "answerIndex": 1, "explanation": "A guess about the present uses the future of probability."},
              ]},
+            {"id": "b1fs-fill2", "type": "fill-blank", "title": "More Future Practice",
+             "items": [
+                {"id": "b1fs5", "prompt": "Voi ___ (potere) venire alla festa?", "answers": [["potrete"]], "explanation": "Potere's irregular future stem is potr-.", "options": ["potrete", "potete", "potevate"]},
+                {"id": "b1fs6", "prompt": "Domani ___ (fare) bel tempo.", "answers": [["farà"]], "explanation": "Fare's irregular future stem is far-.", "options": ["farà", "fa", "faceva"]},
+             ]},
+            {"id": "b1fs-mc2", "type": "multiple-choice", "title": "More Future Choices",
+             "items": [
+                {"id": "b1fs7", "prompt": "Which is the irregular future stem of \"venire\"?", "options": ["verr-", "venir-", "vier-"], "answerIndex": 0, "explanation": "Venire's irregular future stem is verr-."},
+             ]},
+            {"id": "b1fs-tf", "type": "true-false", "title": "True or False?",
+             "items": [
+                {"id": "b1fs8", "statement": "The future of probability expresses a guess about the present, not a real future event.", "answer": True, "explanation": "Saranno le tre — it's probably three — is about now, not the future."},
+             ]},
         ],
         "summary": [
             "Regular future: infinitive stem (-are → -er-) + -ò, -ai, -à, -emo, -ete, -anno.",
@@ -300,6 +365,19 @@ LESSONS = [
             {"id": "b1cp-mc", "type": "multiple-choice", "title": "Choose the Politest Option",
              "items": [
                 {"id": "b1cp4", "prompt": "Ordering coffee politely at a café bar:", "options": ["Voglio un caffè.", "Vorrei un caffè, per favore.", "Devo un caffè."], "answerIndex": 1, "explanation": "Vorrei is the standard polite conditional for ordering."},
+             ]},
+            {"id": "b1cp-fill2", "type": "fill-blank", "title": "More Conditional Practice",
+             "items": [
+                {"id": "b1cp5", "prompt": "Noi ___ (volere) prenotare un tavolo per due.", "answers": [["vorremmo"]], "explanation": "Conditional of volere, noi form: vorremmo.", "options": ["vorremmo", "vogliamo", "volevamo"]},
+                {"id": "b1cp6", "prompt": "Loro ___ (dovere) studiare di più.", "answers": [["dovrebbero"]], "explanation": "Conditional of dovere, loro form: dovrebbero.", "options": ["dovrebbero", "devono", "dovevano"]},
+             ]},
+            {"id": "b1cp-mc2", "type": "multiple-choice", "title": "More Politeness Choices",
+             "items": [
+                {"id": "b1cp7", "prompt": "Which is the most polite way to ask someone to help you?", "options": ["Mi aiuti.", "Potresti aiutarmi?", "Devi aiutarmi."], "answerIndex": 1, "explanation": "The conditional potresti softens the request into a polite one."},
+             ]},
+            {"id": "b1cp-tf", "type": "true-false", "title": "True or False?",
+             "items": [
+                {"id": "b1cp8", "statement": "The conditional shares its irregular stems with the future tense.", "answer": True, "explanation": "Both use stems like sar-, avr-, andr-, only the endings differ."},
              ]},
         ],
         "summary": [
@@ -356,6 +434,14 @@ LESSONS = [
              "items": [
                 {"id": "b1ii5", "incorrect": "Non tocca quello!", "answer": ["Non toccare quello!"], "explanation": "Negative tu imperative needs the infinitive, not the present tense form."},
              ]},
+            {"id": "b1ii-fill2", "type": "fill-blank", "title": "More Informal Commands",
+             "items": [
+                {"id": "b1ii6", "prompt": "___ (Aspettare - tu) un attimo!", "answers": [["Aspetta"]], "explanation": "-are verbs change the tu ending to -a in the imperative.", "options": ["Aspetta", "Aspetti", "Aspettare"]},
+             ]},
+            {"id": "b1ii-mc2", "type": "multiple-choice", "title": "More Command Choices",
+             "items": [
+                {"id": "b1ii7", "prompt": "Which is the correct negative tu imperative of \"toccare\"?", "options": ["Non toccare!", "Non tocca!", "Non tocchi!"], "answerIndex": 0, "explanation": "Negative tu imperative is always non + infinitive."},
+             ]},
         ],
         "summary": [
             "Tu imperative: -are verbs use -a; -ere/-ire verbs match the present tense tu form.",
@@ -403,6 +489,20 @@ LESSONS = [
             {"id": "b1if-mc", "type": "multiple-choice", "title": "Formal or Informal?",
              "items": [
                 {"id": "b1if3", "prompt": "Talking to your doctor: \"Please don't worry\"", "options": ["Non ti preoccupare.", "Non si preoccupi.", "Non preoccupati."], "answerIndex": 1, "explanation": "A doctor is addressed formally: non si preoccupi."},
+             ]},
+            {"id": "b1if-fill2", "type": "fill-blank", "title": "More Formal Commands",
+             "items": [
+                {"id": "b1if4", "prompt": "___ (Prendere - Lei) pure una sedia.", "answers": [["Prenda"]], "explanation": "-ere verbs take -a in the Lei imperative.", "options": ["Prenda", "Prendi", "Prende"]},
+                {"id": "b1if5", "prompt": "Signore, non ___ (aspettare) qui, prego.", "answers": [["aspetti"]], "explanation": "-are verbs take -i in the Lei imperative; the formal negative just adds non.", "options": ["aspetti", "aspetta", "aspettare"]},
+             ]},
+            {"id": "b1if-mc2", "type": "multiple-choice", "title": "More Formal Command Choices",
+             "items": [
+                {"id": "b1if6", "prompt": "Which is the Lei imperative of \"andare\"?", "options": ["Vada!", "Va'!", "Andi!"], "answerIndex": 0, "explanation": "Andare's irregular Lei imperative is vada."},
+                {"id": "b1if7", "prompt": "Where do pronouns go with the formal imperative?", "options": ["before the verb", "after the verb, attached", "either position, freely"], "answerIndex": 0, "explanation": "Unlike the informal imperative, the formal one places pronouns before the verb."},
+             ]},
+            {"id": "b1if-tf", "type": "true-false", "title": "True or False?",
+             "items": [
+                {"id": "b1if8", "statement": "The formal negative imperative uses a special infinitive form, just like the informal tu.", "answer": False, "explanation": "Only the informal tu negative switches to the infinitive; the formal negative just adds non before the normal Lei form."},
              ]},
         ],
         "summary": [
@@ -453,6 +553,18 @@ LESSONS = [
              "items": [
                 {"id": "b1su4", "prompt": "\"Extremely tired\" (feminine)", "options": ["molto stanchissima", "stanchissima", "più stanca"], "answerIndex": 1, "explanation": "-issima alone already conveys \"extremely\"."},
              ]},
+            {"id": "b1su-fill2", "type": "fill-blank", "title": "More Superlative Practice",
+             "items": [
+                {"id": "b1su5", "prompt": "Questa pizza è buon___! (extremely good, f.)", "answers": [["issima"]], "explanation": "Absolute superlative: buona → buonissima.", "options": ["issima", "molto", "più"]},
+             ]},
+            {"id": "b1su-mc2", "type": "multiple-choice", "title": "More Superlative Choices",
+             "items": [
+                {"id": "b1su6", "prompt": "What is the irregular comparative of \"cattivo\"?", "options": ["peggiore", "più cattivo", "cattivissimo"], "answerIndex": 0, "explanation": "Cattivo's irregular comparative is peggiore."},
+             ]},
+            {"id": "b1su-tf", "type": "true-false", "title": "True or False?",
+             "items": [
+                {"id": "b1su7", "statement": "\"Molto bellissimo\" is correct because it reinforces the intensity.", "answer": False, "explanation": "-issimo already means \"extremely\"; adding molto is redundant."},
+             ]},
         ],
         "summary": [
             "Relative superlative: article + più/meno + adjective + di (the most/least ... in/of).",
@@ -501,6 +613,18 @@ LESSONS = [
             {"id": "b1cn-mc", "type": "multiple-choice", "title": "Choose the Correct Particle",
              "items": [
                 {"id": "b1cn4", "prompt": "\"Do you want some water?\" — \"Yes, I want a little [of it].\"", "options": ["Sì, ci voglio un po'.", "Sì, ne voglio un po'.", "Sì, lo voglio un po'."], "answerIndex": 1, "explanation": "A quantity of water → ne."},
+             ]},
+            {"id": "b1cn-fill2", "type": "fill-blank", "title": "More Ci or Ne?",
+             "items": [
+                {"id": "b1cn5", "prompt": "Sei mai stato a Parigi? Sì, ___ sono stato due volte.", "answers": [["ci"]], "explanation": "Replacing a place (a Parigi) → ci.", "options": ["ci", "ne", "lo"]},
+             ]},
+            {"id": "b1cn-mc2", "type": "multiple-choice", "title": "More Particle Choices",
+             "items": [
+                {"id": "b1cn6", "prompt": "\"Ne ho comprate tre\" — ne replaces...", "options": ["a quantity of something feminine plural", "a place", "a person"], "answerIndex": 0, "explanation": "Ne stands in for a quantity, forcing the participle to agree."},
+             ]},
+            {"id": "b1cn-tf", "type": "true-false", "title": "True or False?",
+             "items": [
+                {"id": "b1cn7", "statement": "Ne and the noun it replaces can both appear together in the same clause without being redundant.", "answer": False, "explanation": "Using both ne and the noun together is redundant — ne alone replaces it."},
              ]},
         ],
         "summary": [

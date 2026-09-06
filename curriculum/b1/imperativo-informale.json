@@ -159,6 +159,46 @@
           "explanation": "Negative tu imperative needs the infinitive, not the present tense form."
         }
       ]
+    },
+    {
+      "id": "b1ii-fill2",
+      "type": "fill-blank",
+      "title": "More Informal Commands",
+      "items": [
+        {
+          "id": "b1ii6",
+          "prompt": "___ (Aspettare - tu) un attimo!",
+          "answers": [
+            [
+              "Aspetta"
+            ]
+          ],
+          "explanation": "-are verbs change the tu ending to -a in the imperative.",
+          "options": [
+            "Aspetta",
+            "Aspetti",
+            "Aspettare"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1ii-mc2",
+      "type": "multiple-choice",
+      "title": "More Command Choices",
+      "items": [
+        {
+          "id": "b1ii7",
+          "prompt": "Which is the correct negative tu imperative of \"toccare\"?",
+          "options": [
+            "Non toccare!",
+            "Non tocca!",
+            "Non tocchi!"
+          ],
+          "answerIndex": 0,
+          "explanation": "Negative tu imperative is always non + infinitive."
+        }
+      ]
     }
   ],
   "summary": [

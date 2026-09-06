@@ -140,6 +140,74 @@
           "explanation": "Vorrei is the standard polite conditional for ordering."
         }
       ]
+    },
+    {
+      "id": "b1cp-fill2",
+      "type": "fill-blank",
+      "title": "More Conditional Practice",
+      "items": [
+        {
+          "id": "b1cp5",
+          "prompt": "Noi ___ (volere) prenotare un tavolo per due.",
+          "answers": [
+            [
+              "vorremmo"
+            ]
+          ],
+          "explanation": "Conditional of volere, noi form: vorremmo.",
+          "options": [
+            "vorremmo",
+            "vogliamo",
+            "volevamo"
+          ]
+        },
+        {
+          "id": "b1cp6",
+          "prompt": "Loro ___ (dovere) studiare di più.",
+          "answers": [
+            [
+              "dovrebbero"
+            ]
+          ],
+          "explanation": "Conditional of dovere, loro form: dovrebbero.",
+          "options": [
+            "dovrebbero",
+            "devono",
+            "dovevano"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1cp-mc2",
+      "type": "multiple-choice",
+      "title": "More Politeness Choices",
+      "items": [
+        {
+          "id": "b1cp7",
+          "prompt": "Which is the most polite way to ask someone to help you?",
+          "options": [
+            "Mi aiuti.",
+            "Potresti aiutarmi?",
+            "Devi aiutarmi."
+          ],
+          "answerIndex": 1,
+          "explanation": "The conditional potresti softens the request into a polite one."
+        }
+      ]
+    },
+    {
+      "id": "b1cp-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "b1cp8",
+          "statement": "The conditional shares its irregular stems with the future tense.",
+          "answer": true,
+          "explanation": "Both use stems like sar-, avr-, andr-, only the endings differ."
+        }
+      ]
     }
   ],
   "summary": [
