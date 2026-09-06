@@ -167,6 +167,59 @@
           "explanation": "Prendere has the irregular participle preso."
         }
       ]
+    },
+    {
+      "id": "a2pp-fill2",
+      "type": "fill-blank",
+      "title": "More Avere Practice",
+      "items": [
+        {
+          "id": "a2pp7",
+          "prompt": "Loro ___ (bere) troppo caffè oggi.",
+          "answers": [
+            [
+              "hanno bevuto"
+            ]
+          ],
+          "explanation": "Bere has the irregular participle bevuto.",
+          "options": [
+            "hanno bevuto",
+            "sono bevuto",
+            "hanno beveto"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2pp-mc2",
+      "type": "multiple-choice",
+      "title": "More Participle Choices",
+      "items": [
+        {
+          "id": "a2pp8",
+          "prompt": "The past participle of \"mettere\" is...",
+          "options": [
+            "messo",
+            "mettuto",
+            "metto"
+          ],
+          "answerIndex": 0,
+          "explanation": "Mettere has the irregular participle messo."
+        }
+      ]
+    },
+    {
+      "id": "a2pp-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "a2pp9",
+          "statement": "With avere, the past participle agrees with the subject's gender and number.",
+          "answer": false,
+          "explanation": "With avere, the participle stays invariable — it doesn't agree with the subject."
+        }
+      ]
     }
   ],
   "summary": [

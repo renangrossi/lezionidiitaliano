@@ -151,6 +151,109 @@
           "explanation": "Places need conoscere."
         }
       ]
+    },
+    {
+      "id": "a2vi-mc2",
+      "type": "multiple-choice",
+      "title": "More Irregular Verbs",
+      "items": [
+        {
+          "id": "a2vi6",
+          "prompt": "Which is the io form of dire?",
+          "options": [
+            "dico",
+            "dici",
+            "dice"
+          ],
+          "answerIndex": 0,
+          "explanation": "Dico is the io form of dire."
+        },
+        {
+          "id": "a2vi7",
+          "prompt": "\"Sai nuotare?\" means...",
+          "options": [
+            "Do you know how to swim?",
+            "Do you know this pool?",
+            "Are you swimming?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sapere + infinitive asks about a skill."
+        },
+        {
+          "id": "a2vi8",
+          "prompt": "Which verb means \"to know\" a person or place?",
+          "options": [
+            "sapere",
+            "conoscere",
+            "stare"
+          ],
+          "answerIndex": 1,
+          "explanation": "Conoscere is used for people and places."
+        },
+        {
+          "id": "a2vi9",
+          "prompt": "Which is the loro form of stare?",
+          "options": [
+            "stanno",
+            "stano",
+            "state"
+          ],
+          "answerIndex": 0,
+          "explanation": "Stanno is the loro form of stare."
+        }
+      ]
+    },
+    {
+      "id": "a2vi-fill2",
+      "type": "fill-blank",
+      "title": "More Conjugation Practice",
+      "items": [
+        {
+          "id": "a2vi10",
+          "prompt": "Noi ___ (dare) una festa sabato.",
+          "answers": [
+            [
+              "diamo"
+            ]
+          ],
+          "explanation": "Noi form of dare is diamo.",
+          "options": [
+            "diamo",
+            "date",
+            "danno"
+          ]
+        },
+        {
+          "id": "a2vi11",
+          "prompt": "Tu ___ (dire) sempre la verità.",
+          "answers": [
+            [
+              "dici"
+            ]
+          ],
+          "explanation": "Tu form of dire is dici.",
+          "options": [
+            "dici",
+            "dice",
+            "dico"
+          ]
+        },
+        {
+          "id": "a2vi12",
+          "prompt": "Io non ___ (conoscere) quella persona.",
+          "answers": [
+            [
+              "conosco"
+            ]
+          ],
+          "explanation": "Conoscere is a regular -ere verb; io form is conosco.",
+          "options": [
+            "conosco",
+            "so",
+            "conosci"
+          ]
+        }
+      ]
     }
   ],
   "summary": [

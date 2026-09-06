@@ -147,6 +147,72 @@
           "explanation": "Each preposition follows the same pattern across il/lo/la/l'/i/gli/le."
         }
       ]
+    },
+    {
+      "id": "a2pa-fill2",
+      "type": "fill-blank",
+      "title": "More Fusions",
+      "items": [
+        {
+          "id": "a2pa5",
+          "prompt": "Parlo spesso ___ (di + i) miei colleghi.",
+          "answers": [
+            [
+              "dei"
+            ]
+          ],
+          "explanation": "Di + i = dei.",
+          "options": [
+            "dei",
+            "delle",
+            "degli"
+          ]
+        },
+        {
+          "id": "a2pa6",
+          "prompt": "Andiamo ___ (a + la) spiaggia.",
+          "answers": [
+            [
+              "alla"
+            ]
+          ],
+          "explanation": "A + la = alla.",
+          "options": [
+            "alla",
+            "al",
+            "alle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2pa-mc2",
+      "type": "multiple-choice",
+      "title": "More Fusion Choices",
+      "items": [
+        {
+          "id": "a2pa7",
+          "prompt": "Which is the fusion of \"in\" + \"gli\"?",
+          "options": [
+            "negli",
+            "negl'",
+            "nelli"
+          ],
+          "answerIndex": 0,
+          "explanation": "In + gli = negli."
+        },
+        {
+          "id": "a2pa8",
+          "prompt": "\"Vado a scuola\" has no fusion because...",
+          "options": [
+            "scuola takes no article here",
+            "scuola is feminine",
+            "a never fuses"
+          ],
+          "answerIndex": 0,
+          "explanation": "Fixed expressions without an article, like a scuola, stay unfused."
+        }
+      ]
     }
   ],
   "summary": [

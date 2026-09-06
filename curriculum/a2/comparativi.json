@@ -136,6 +136,72 @@
           "explanation": "Equality uses come (or quanto), not più/che."
         }
       ]
+    },
+    {
+      "id": "a2co-fill2",
+      "type": "fill-blank",
+      "title": "More Di or Che?",
+      "items": [
+        {
+          "id": "a2co5",
+          "prompt": "Preferisco nuotare ___ correre.",
+          "answers": [
+            [
+              "che"
+            ]
+          ],
+          "explanation": "Comparing two verbs/activities: che.",
+          "options": [
+            "che",
+            "di"
+          ]
+        },
+        {
+          "id": "a2co6",
+          "prompt": "Sono più veloce ___ mio fratello.",
+          "answers": [
+            [
+              "di"
+            ]
+          ],
+          "explanation": "Comparing two different people: di.",
+          "options": [
+            "di",
+            "che"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2co-mc2",
+      "type": "multiple-choice",
+      "title": "More Comparative Choices",
+      "items": [
+        {
+          "id": "a2co7",
+          "prompt": "\"Marco è alto come suo padre\" expresses...",
+          "options": [
+            "equality",
+            "majority",
+            "minority"
+          ],
+          "answerIndex": 0,
+          "explanation": "Come signals a comparison of equality."
+        }
+      ]
+    },
+    {
+      "id": "a2co-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "a2co8",
+          "statement": "Che is used when comparing two different nouns, like two people.",
+          "answer": false,
+          "explanation": "Di is used for that; che compares two elements of the same type within one clause."
+        }
+      ]
     }
   ],
   "summary": [

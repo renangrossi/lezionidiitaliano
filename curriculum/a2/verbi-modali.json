@@ -166,6 +166,72 @@
           "explanation": "No preposition between dovere and the infinitive."
         }
       ]
+    },
+    {
+      "id": "a2vm-mc2",
+      "type": "multiple-choice",
+      "title": "More Modal Choices",
+      "items": [
+        {
+          "id": "a2vm7",
+          "prompt": "Which modal expresses probability, as in \"it must be late\"?",
+          "options": [
+            "dovere",
+            "potere",
+            "volere"
+          ],
+          "answerIndex": 0,
+          "explanation": "Dovere covers both obligation and probability."
+        },
+        {
+          "id": "a2vm8",
+          "prompt": "\"Posso entrare?\" is asking for...",
+          "options": [
+            "permission",
+            "obligation",
+            "desire"
+          ],
+          "answerIndex": 0,
+          "explanation": "Potere covers both ability and permission."
+        }
+      ]
+    },
+    {
+      "id": "a2vm-fill2",
+      "type": "fill-blank",
+      "title": "More Modal Practice",
+      "items": [
+        {
+          "id": "a2vm9",
+          "prompt": "Noi ___ (potere) aiutarti domani.",
+          "answers": [
+            [
+              "possiamo"
+            ]
+          ],
+          "explanation": "Noi form of potere is possiamo.",
+          "options": [
+            "possiamo",
+            "potete",
+            "possono"
+          ]
+        },
+        {
+          "id": "a2vm10",
+          "prompt": "Voi ___ (dovere) arrivare in orario.",
+          "answers": [
+            [
+              "dovete"
+            ]
+          ],
+          "explanation": "Voi form of dovere is dovete.",
+          "options": [
+            "dovete",
+            "dobbiamo",
+            "devono"
+          ]
+        }
+      ]
     }
   ],
   "summary": [

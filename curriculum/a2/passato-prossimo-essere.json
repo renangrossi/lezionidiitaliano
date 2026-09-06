@@ -155,6 +155,106 @@
           "explanation": "Feminine plural subject needs the -e participle ending."
         }
       ]
+    },
+    {
+      "id": "a2pe-fill2",
+      "type": "fill-blank",
+      "title": "More Essere Practice",
+      "items": [
+        {
+          "id": "a2pe6",
+          "prompt": "Lui ___ (nascere) nel 1990.",
+          "answers": [
+            [
+              "è nato"
+            ]
+          ],
+          "explanation": "Nascere takes essere; masculine singular participle: nato.",
+          "options": [
+            "è nato",
+            "ha nato",
+            "è nata"
+          ]
+        },
+        {
+          "id": "a2pe7",
+          "prompt": "Le mie amiche ___ (arrivare) presto.",
+          "answers": [
+            [
+              "sono arrivate"
+            ]
+          ],
+          "explanation": "Feminine plural subject: sono arrivate.",
+          "options": [
+            "sono arrivate",
+            "sono arrivati",
+            "hanno arrivato"
+          ]
+        },
+        {
+          "id": "a2pe8",
+          "prompt": "Io (maschile) ___ (diventare) medico l'anno scorso.",
+          "answers": [
+            [
+              "sono diventato"
+            ]
+          ],
+          "explanation": "Diventare takes essere; masculine singular participle: diventato.",
+          "options": [
+            "sono diventato",
+            "sono diventata",
+            "ho diventato"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2pe-mc2",
+      "type": "multiple-choice",
+      "title": "More Avere or Essere Choices",
+      "items": [
+        {
+          "id": "a2pe9",
+          "prompt": "Which verb takes essere in the passato prossimo?",
+          "options": [
+            "mangiare",
+            "cadere",
+            "leggere"
+          ],
+          "answerIndex": 1,
+          "explanation": "Cadere (to fall) is one of the common essere verbs."
+        },
+        {
+          "id": "a2pe10",
+          "prompt": "\"Siamo rimasti a casa\" — rimasti agrees with...",
+          "options": [
+            "a masculine plural subject",
+            "a feminine plural subject",
+            "a masculine singular subject"
+          ],
+          "answerIndex": 0,
+          "explanation": "The -i ending marks a masculine plural subject."
+        }
+      ]
+    },
+    {
+      "id": "a2pe-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "a2pe11",
+          "statement": "All motion verbs take essere in the passato prossimo.",
+          "answer": false,
+          "explanation": "It's a specific, learnable list of common verbs, not a blanket rule covering every verb of motion."
+        },
+        {
+          "id": "a2pe12",
+          "statement": "Nascere and morire both take essere as their auxiliary.",
+          "answer": true,
+          "explanation": "Both are change-of-state verbs on the essere list."
+        }
+      ]
     }
   ],
   "summary": [
