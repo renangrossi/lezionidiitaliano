@@ -51,6 +51,19 @@ LESSONS = [
                 {"id": "a2vi4", "prompt": "\"I know how to cook\"", "options": ["So cucinare.", "Conosco cucinare.", "So a cucinare."], "answerIndex": 0, "explanation": "Sapere + infinitive = to know how to."},
                 {"id": "a2vi5", "prompt": "\"I know this city well\"", "options": ["So questa città bene.", "Conosco questa città bene.", "Conosco a questa città bene."], "answerIndex": 1, "explanation": "Places need conoscere."},
              ]},
+            {"id": "a2vi-mc2", "type": "multiple-choice", "title": "More Irregular Verbs",
+             "items": [
+                {"id": "a2vi6", "prompt": "Which is the io form of dire?", "options": ["dico", "dici", "dice"], "answerIndex": 0, "explanation": "Dico is the io form of dire."},
+                {"id": "a2vi7", "prompt": "\"Sai nuotare?\" means...", "options": ["Do you know how to swim?", "Do you know this pool?", "Are you swimming?"], "answerIndex": 0, "explanation": "Sapere + infinitive asks about a skill."},
+                {"id": "a2vi8", "prompt": "Which verb means \"to know\" a person or place?", "options": ["sapere", "conoscere", "stare"], "answerIndex": 1, "explanation": "Conoscere is used for people and places."},
+                {"id": "a2vi9", "prompt": "Which is the loro form of stare?", "options": ["stanno", "stano", "state"], "answerIndex": 0, "explanation": "Stanno is the loro form of stare."},
+             ]},
+            {"id": "a2vi-fill2", "type": "fill-blank", "title": "More Conjugation Practice",
+             "items": [
+                {"id": "a2vi10", "prompt": "Noi ___ (dare) una festa sabato.", "answers": [["diamo"]], "explanation": "Noi form of dare is diamo.", "options": ["diamo", "date", "danno"]},
+                {"id": "a2vi11", "prompt": "Tu ___ (dire) sempre la verità.", "answers": [["dici"]], "explanation": "Tu form of dire is dici.", "options": ["dici", "dice", "dico"]},
+                {"id": "a2vi12", "prompt": "Io non ___ (conoscere) quella persona.", "answers": [["conosco"]], "explanation": "Conoscere is a regular -ere verb; io form is conosco.", "options": ["conosco", "so", "conosci"]},
+             ]},
         ],
         "summary": [
             "Dire, venire, uscire, dare, stare and sapere are irregular and must be memorized individually.",
@@ -106,6 +119,16 @@ LESSONS = [
              "items": [
                 {"id": "a2vm6", "incorrect": "Devo di andare a casa.", "answer": ["Devo andare a casa."], "explanation": "No preposition between dovere and the infinitive."},
              ]},
+            {"id": "a2vm-mc2", "type": "multiple-choice", "title": "More Modal Choices",
+             "items": [
+                {"id": "a2vm7", "prompt": "Which modal expresses probability, as in \"it must be late\"?", "options": ["dovere", "potere", "volere"], "answerIndex": 0, "explanation": "Dovere covers both obligation and probability."},
+                {"id": "a2vm8", "prompt": "\"Posso entrare?\" is asking for...", "options": ["permission", "obligation", "desire"], "answerIndex": 0, "explanation": "Potere covers both ability and permission."},
+             ]},
+            {"id": "a2vm-fill2", "type": "fill-blank", "title": "More Modal Practice",
+             "items": [
+                {"id": "a2vm9", "prompt": "Noi ___ (potere) aiutarti domani.", "answers": [["possiamo"]], "explanation": "Noi form of potere is possiamo.", "options": ["possiamo", "potete", "possono"]},
+                {"id": "a2vm10", "prompt": "Voi ___ (dovere) arrivare in orario.", "answers": [["dovete"]], "explanation": "Voi form of dovere is dovete.", "options": ["dovete", "dobbiamo", "devono"]},
+             ]},
         ],
         "summary": [
             "Dovere = obligation/probability; potere = ability/permission; volere = desire.",
@@ -160,6 +183,16 @@ LESSONS = [
                     {"left": "su + i", "right": "sui"},
                 ], "explanation": "Each preposition follows the same pattern across il/lo/la/l'/i/gli/le."},
              ]},
+            {"id": "a2pa-fill2", "type": "fill-blank", "title": "More Fusions",
+             "items": [
+                {"id": "a2pa5", "prompt": "Parlo spesso ___ (di + i) miei colleghi.", "answers": [["dei"]], "explanation": "Di + i = dei.", "options": ["dei", "delle", "degli"]},
+                {"id": "a2pa6", "prompt": "Andiamo ___ (a + la) spiaggia.", "answers": [["alla"]], "explanation": "A + la = alla.", "options": ["alla", "al", "alle"]},
+             ]},
+            {"id": "a2pa-mc2", "type": "multiple-choice", "title": "More Fusion Choices",
+             "items": [
+                {"id": "a2pa7", "prompt": "Which is the fusion of \"in\" + \"gli\"?", "options": ["negli", "negl'", "nelli"], "answerIndex": 0, "explanation": "In + gli = negli."},
+                {"id": "a2pa8", "prompt": "\"Vado a scuola\" has no fusion because...", "options": ["scuola takes no article here", "scuola is feminine", "a never fuses"], "answerIndex": 0, "explanation": "Fixed expressions without an article, like a scuola, stay unfused."},
+             ]},
         ],
         "summary": [
             "A, di, da, in and su fuse with the definite article whenever the noun needs one.",
@@ -209,6 +242,20 @@ LESSONS = [
             {"id": "a2ap-mc", "type": "multiple-choice", "title": "Choose the Correct Form",
              "items": [
                 {"id": "a2ap4", "prompt": "\"His car\" (macchina is feminine)", "options": ["il suo macchina", "la sua macchina", "la suo macchina"], "answerIndex": 1, "explanation": "Suo agrees with macchina, a feminine noun: la sua macchina."},
+             ]},
+            {"id": "a2ap-fill2", "type": "fill-blank", "title": "More Possessives",
+             "items": [
+                {"id": "a2ap5", "prompt": "___ (his) macchina è nuova.", "answers": [["La sua"]], "explanation": "Macchina is feminine, so the possessive agrees: la sua.", "options": ["La sua", "Il suo", "Le sue"]},
+                {"id": "a2ap6", "prompt": "___ (my) genitori abitano a Napoli.", "answers": [["I miei"]], "explanation": "Plural family noun keeps the article: i miei.", "options": ["I miei", "Mio", "I mio"]},
+             ]},
+            {"id": "a2ap-mc2", "type": "multiple-choice", "title": "More Possessive Choices",
+             "items": [
+                {"id": "a2ap7", "prompt": "\"Tua sorella\" drops the article because...", "options": ["sorella is a singular, unmodified family member", "tua is invariable", "sorella is feminine"], "answerIndex": 0, "explanation": "Singular, unmodified family members drop the article."},
+                {"id": "a2ap8", "prompt": "Which is correct for \"their house\"?", "options": ["la loro casa", "la sua casa", "il loro casa"], "answerIndex": 0, "explanation": "Loro never changes, but the article still agrees with casa (feminine)."},
+             ]},
+            {"id": "a2ap-tf", "type": "true-false", "title": "True or False?",
+             "items": [
+                {"id": "a2ap9", "statement": "Loro (their) changes form to agree with the noun, just like mio/tuo/suo.", "answer": False, "explanation": "Loro is invariable — only the article before it changes to agree with the noun."},
              ]},
         ],
         "summary": [
@@ -266,6 +313,18 @@ LESSONS = [
              "items": [
                 {"id": "a2pp6", "prompt": "The past participle of \"prendere\" is...", "options": ["prendato", "preso", "prenduto"], "answerIndex": 1, "explanation": "Prendere has the irregular participle preso."},
              ]},
+            {"id": "a2pp-fill2", "type": "fill-blank", "title": "More Avere Practice",
+             "items": [
+                {"id": "a2pp7", "prompt": "Loro ___ (bere) troppo caffè oggi.", "answers": [["hanno bevuto"]], "explanation": "Bere has the irregular participle bevuto.", "options": ["hanno bevuto", "sono bevuto", "hanno beveto"]},
+             ]},
+            {"id": "a2pp-mc2", "type": "multiple-choice", "title": "More Participle Choices",
+             "items": [
+                {"id": "a2pp8", "prompt": "The past participle of \"mettere\" is...", "options": ["messo", "mettuto", "metto"], "answerIndex": 0, "explanation": "Mettere has the irregular participle messo."},
+             ]},
+            {"id": "a2pp-tf", "type": "true-false", "title": "True or False?",
+             "items": [
+                {"id": "a2pp9", "statement": "With avere, the past participle agrees with the subject's gender and number.", "answer": False, "explanation": "With avere, the participle stays invariable — it doesn't agree with the subject."},
+             ]},
         ],
         "summary": [
             "Passato prossimo = present tense of avere/essere + past participle; most verbs use avere.",
@@ -320,6 +379,22 @@ LESSONS = [
              "items": [
                 {"id": "a2pe5", "incorrect": "Le mie amiche sono arrivato.", "answer": ["Le mie amiche sono arrivate."], "explanation": "Feminine plural subject needs the -e participle ending."},
              ]},
+            {"id": "a2pe-fill2", "type": "fill-blank", "title": "More Essere Practice",
+             "items": [
+                {"id": "a2pe6", "prompt": "Lui ___ (nascere) nel 1990.", "answers": [["è nato"]], "explanation": "Nascere takes essere; masculine singular participle: nato.", "options": ["è nato", "ha nato", "è nata"]},
+                {"id": "a2pe7", "prompt": "Le mie amiche ___ (arrivare) presto.", "answers": [["sono arrivate"]], "explanation": "Feminine plural subject: sono arrivate.", "options": ["sono arrivate", "sono arrivati", "hanno arrivato"]},
+                {"id": "a2pe8", "prompt": "Io (maschile) ___ (diventare) medico l'anno scorso.", "answers": [["sono diventato"]], "explanation": "Diventare takes essere; masculine singular participle: diventato.", "options": ["sono diventato", "sono diventata", "ho diventato"]},
+             ]},
+            {"id": "a2pe-mc2", "type": "multiple-choice", "title": "More Avere or Essere Choices",
+             "items": [
+                {"id": "a2pe9", "prompt": "Which verb takes essere in the passato prossimo?", "options": ["mangiare", "cadere", "leggere"], "answerIndex": 1, "explanation": "Cadere (to fall) is one of the common essere verbs."},
+                {"id": "a2pe10", "prompt": "\"Siamo rimasti a casa\" — rimasti agrees with...", "options": ["a masculine plural subject", "a feminine plural subject", "a masculine singular subject"], "answerIndex": 0, "explanation": "The -i ending marks a masculine plural subject."},
+             ]},
+            {"id": "a2pe-tf", "type": "true-false", "title": "True or False?",
+             "items": [
+                {"id": "a2pe11", "statement": "All motion verbs take essere in the passato prossimo.", "answer": False, "explanation": "It's a specific, learnable list of common verbs, not a blanket rule covering every verb of motion."},
+                {"id": "a2pe12", "statement": "Nascere and morire both take essere as their auxiliary.", "answer": True, "explanation": "Both are change-of-state verbs on the essere list."},
+             ]},
         ],
         "summary": [
             "A learnable list of motion, change-of-state, and staying verbs take essere as their auxiliary.",
@@ -370,6 +445,18 @@ LESSONS = [
                 {"id": "a2vr4", "incorrect": "Ho svegliato alle otto.", "answer": ["Mi sono svegliato alle otto.", "Mi sono svegliata alle otto."], "explanation": "Reflexive verbs need the pronoun and essere, never avere alone."},
                 {"id": "a2vr5", "incorrect": "Le ragazze si sono divertito.", "answer": ["Le ragazze si sono divertite."], "explanation": "Feminine plural subject needs the -e participle ending."},
              ]},
+            {"id": "a2vr-fill2", "type": "fill-blank", "title": "More Reflexive Practice",
+             "items": [
+                {"id": "a2vr6", "prompt": "Voi ___ (annoiarsi) a lezione?", "answers": [["vi annoiate"]], "explanation": "Reflexive pronoun vi + voi form annoiate.", "options": ["vi annoiate", "ci annoiamo", "si annoiano"]},
+             ]},
+            {"id": "a2vr-mc2", "type": "multiple-choice", "title": "More Reflexive Choices",
+             "items": [
+                {"id": "a2vr7", "prompt": "\"Mi devo alzare\" and \"Devo alzarmi\" are...", "options": ["both correct, same meaning", "only the first correct", "only the second correct"], "answerIndex": 0, "explanation": "The reflexive pronoun can attach either before the modal or to the end of the infinitive."},
+             ]},
+            {"id": "a2vr-tf", "type": "true-false", "title": "True or False?",
+             "items": [
+                {"id": "a2vr8", "statement": "Reflexive verbs can use avere in the passato prossimo if the action is quick.", "answer": False, "explanation": "Reflexive verbs always take essere, with no exception."},
+             ]},
         ],
         "summary": [
             "Reflexive verbs (infinitive -si) use mi/ti/si/ci/vi/si before the conjugated verb.",
@@ -419,6 +506,19 @@ LESSONS = [
              "items": [
                 {"id": "a2co4", "prompt": "\"This book is as interesting as that film\"", "options": ["Questo libro è interessante come quel film.", "Questo libro è più interessante di quel film.", "Questo libro è interessante che quel film."], "answerIndex": 0, "explanation": "Equality uses come (or quanto), not più/che."},
              ]},
+            {"id": "a2co-fill2", "type": "fill-blank", "title": "More Di or Che?",
+             "items": [
+                {"id": "a2co5", "prompt": "Preferisco nuotare ___ correre.", "answers": [["che"]], "explanation": "Comparing two verbs/activities: che.", "options": ["che", "di"]},
+                {"id": "a2co6", "prompt": "Sono più veloce ___ mio fratello.", "answers": [["di"]], "explanation": "Comparing two different people: di.", "options": ["di", "che"]},
+             ]},
+            {"id": "a2co-mc2", "type": "multiple-choice", "title": "More Comparative Choices",
+             "items": [
+                {"id": "a2co7", "prompt": "\"Marco è alto come suo padre\" expresses...", "options": ["equality", "majority", "minority"], "answerIndex": 0, "explanation": "Come signals a comparison of equality."},
+             ]},
+            {"id": "a2co-tf", "type": "true-false", "title": "True or False?",
+             "items": [
+                {"id": "a2co8", "statement": "Che is used when comparing two different nouns, like two people.", "answer": False, "explanation": "Di is used for that; che compares two elements of the same type within one clause."},
+             ]},
         ],
         "summary": [
             "Di compares two different nouns/pronouns; che compares two elements of the same type in one clause.",
@@ -467,6 +567,19 @@ LESSONS = [
             {"id": "a2pd-mc", "type": "multiple-choice", "title": "Choose the Correct Sentence",
              "items": [
                 {"id": "a2pd4", "prompt": "How do you say \"I bought them\" (le chiavi, feminine plural, passato prossimo)?", "options": ["Le ho comprato.", "Le ho comprate.", "Ho comprato le."], "answerIndex": 1, "explanation": "Le goes before ho, and the participle agrees: comprate."},
+             ]},
+            {"id": "a2pd-fill2", "type": "fill-blank", "title": "More Pronoun Replacements",
+             "items": [
+                {"id": "a2pd5", "prompt": "Guardo la TV. → ___ guardo ogni sera.", "answers": [["La"]], "explanation": "La TV is feminine singular → la.", "options": ["La", "Lo", "Li"]},
+                {"id": "a2pd6", "prompt": "Vedo i miei amici. → ___ vedo spesso.", "answers": [["Li"]], "explanation": "I miei amici is masculine plural → li.", "options": ["Li", "Le", "Lo"]},
+             ]},
+            {"id": "a2pd-mc2", "type": "multiple-choice", "title": "More Pronoun Choices",
+             "items": [
+                {"id": "a2pd7", "prompt": "\"Le ho viste ieri\" — le refers to...", "options": ["a feminine plural noun", "a masculine plural noun", "a feminine singular noun"], "answerIndex": 0, "explanation": "Le is the feminine plural direct object pronoun."},
+             ]},
+            {"id": "a2pd-tf", "type": "true-false", "title": "True or False?",
+             "items": [
+                {"id": "a2pd8", "statement": "Direct object pronouns always go after the conjugated verb, as in English.", "answer": False, "explanation": "They go before the conjugated verb in Italian, unlike English."},
              ]},
         ],
         "summary": [
@@ -519,6 +632,19 @@ LESSONS = [
             {"id": "a2af-correction", "type": "correction", "title": "Correct the Mistakes",
              "items": [
                 {"id": "a2af4", "incorrect": "Sono mai stato a Roma.", "answer": ["Non sono mai stato a Roma."], "explanation": "Mai requires non before the verb."},
+             ]},
+            {"id": "a2af-fill2", "type": "fill-blank", "title": "More Frequency Practice",
+             "items": [
+                {"id": "a2af5", "prompt": "___ vado in palestra il lunedì.", "answers": [["Di solito"]], "explanation": "Di solito means \"usually\".", "options": ["Di solito", "Mai", "Raramente"]},
+             ]},
+            {"id": "a2af-mc2", "type": "multiple-choice", "title": "More Frequency Choices",
+             "items": [
+                {"id": "a2af6", "prompt": "Which adverb means \"sometimes\"?", "options": ["a volte", "sempre", "raramente"], "answerIndex": 0, "explanation": "A volte (or qualche volta) means \"sometimes\"."},
+                {"id": "a2af7", "prompt": "Where does \"già\" typically go in the passato prossimo?", "options": ["between the auxiliary and participle", "after the participle", "before the subject"], "answerIndex": 0, "explanation": "Già usually slots in between the auxiliary and the past participle."},
+             ]},
+            {"id": "a2af-tf", "type": "true-false", "title": "True or False?",
+             "items": [
+                {"id": "a2af8", "statement": "\"Mai\" can be used without \"non\" to mean \"never\", just like English.", "answer": False, "explanation": "Italian still requires non before the verb even when mai is present."},
              ]},
         ],
         "summary": [

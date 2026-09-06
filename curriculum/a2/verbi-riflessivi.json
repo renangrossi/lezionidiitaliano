@@ -142,6 +142,59 @@
           "explanation": "Feminine plural subject needs the -e participle ending."
         }
       ]
+    },
+    {
+      "id": "a2vr-fill2",
+      "type": "fill-blank",
+      "title": "More Reflexive Practice",
+      "items": [
+        {
+          "id": "a2vr6",
+          "prompt": "Voi ___ (annoiarsi) a lezione?",
+          "answers": [
+            [
+              "vi annoiate"
+            ]
+          ],
+          "explanation": "Reflexive pronoun vi + voi form annoiate.",
+          "options": [
+            "vi annoiate",
+            "ci annoiamo",
+            "si annoiano"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2vr-mc2",
+      "type": "multiple-choice",
+      "title": "More Reflexive Choices",
+      "items": [
+        {
+          "id": "a2vr7",
+          "prompt": "\"Mi devo alzare\" and \"Devo alzarmi\" are...",
+          "options": [
+            "both correct, same meaning",
+            "only the first correct",
+            "only the second correct"
+          ],
+          "answerIndex": 0,
+          "explanation": "The reflexive pronoun can attach either before the modal or to the end of the infinitive."
+        }
+      ]
+    },
+    {
+      "id": "a2vr-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "a2vr8",
+          "statement": "Reflexive verbs can use avere in the passato prossimo if the action is quick.",
+          "answer": false,
+          "explanation": "Reflexive verbs always take essere, with no exception."
+        }
+      ]
     }
   ],
   "summary": [

@@ -139,6 +139,70 @@
           "explanation": "Mai requires non before the verb."
         }
       ]
+    },
+    {
+      "id": "a2af-fill2",
+      "type": "fill-blank",
+      "title": "More Frequency Practice",
+      "items": [
+        {
+          "id": "a2af5",
+          "prompt": "___ vado in palestra il lunedì.",
+          "answers": [
+            [
+              "Di solito"
+            ]
+          ],
+          "explanation": "Di solito means \"usually\".",
+          "options": [
+            "Di solito",
+            "Mai",
+            "Raramente"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2af-mc2",
+      "type": "multiple-choice",
+      "title": "More Frequency Choices",
+      "items": [
+        {
+          "id": "a2af6",
+          "prompt": "Which adverb means \"sometimes\"?",
+          "options": [
+            "a volte",
+            "sempre",
+            "raramente"
+          ],
+          "answerIndex": 0,
+          "explanation": "A volte (or qualche volta) means \"sometimes\"."
+        },
+        {
+          "id": "a2af7",
+          "prompt": "Where does \"già\" typically go in the passato prossimo?",
+          "options": [
+            "between the auxiliary and participle",
+            "after the participle",
+            "before the subject"
+          ],
+          "answerIndex": 0,
+          "explanation": "Già usually slots in between the auxiliary and the past participle."
+        }
+      ]
+    },
+    {
+      "id": "a2af-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "a2af8",
+          "statement": "\"Mai\" can be used without \"non\" to mean \"never\", just like English.",
+          "answer": false,
+          "explanation": "Italian still requires non before the verb even when mai is present."
+        }
+      ]
     }
   ],
   "summary": [

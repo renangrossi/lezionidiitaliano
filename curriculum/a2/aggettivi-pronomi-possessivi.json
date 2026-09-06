@@ -140,6 +140,85 @@
           "explanation": "Suo agrees with macchina, a feminine noun: la sua macchina."
         }
       ]
+    },
+    {
+      "id": "a2ap-fill2",
+      "type": "fill-blank",
+      "title": "More Possessives",
+      "items": [
+        {
+          "id": "a2ap5",
+          "prompt": "___ (his) macchina è nuova.",
+          "answers": [
+            [
+              "La sua"
+            ]
+          ],
+          "explanation": "Macchina is feminine, so the possessive agrees: la sua.",
+          "options": [
+            "La sua",
+            "Il suo",
+            "Le sue"
+          ]
+        },
+        {
+          "id": "a2ap6",
+          "prompt": "___ (my) genitori abitano a Napoli.",
+          "answers": [
+            [
+              "I miei"
+            ]
+          ],
+          "explanation": "Plural family noun keeps the article: i miei.",
+          "options": [
+            "I miei",
+            "Mio",
+            "I mio"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2ap-mc2",
+      "type": "multiple-choice",
+      "title": "More Possessive Choices",
+      "items": [
+        {
+          "id": "a2ap7",
+          "prompt": "\"Tua sorella\" drops the article because...",
+          "options": [
+            "sorella is a singular, unmodified family member",
+            "tua is invariable",
+            "sorella is feminine"
+          ],
+          "answerIndex": 0,
+          "explanation": "Singular, unmodified family members drop the article."
+        },
+        {
+          "id": "a2ap8",
+          "prompt": "Which is correct for \"their house\"?",
+          "options": [
+            "la loro casa",
+            "la sua casa",
+            "il loro casa"
+          ],
+          "answerIndex": 0,
+          "explanation": "Loro never changes, but the article still agrees with casa (feminine)."
+        }
+      ]
+    },
+    {
+      "id": "a2ap-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "a2ap9",
+          "statement": "Loro (their) changes form to agree with the noun, just like mio/tuo/suo.",
+          "answer": false,
+          "explanation": "Loro is invariable — only the article before it changes to agree with the noun."
+        }
+      ]
     }
   ],
   "summary": [

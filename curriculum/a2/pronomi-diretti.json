@@ -136,6 +136,74 @@
           "explanation": "Le goes before ho, and the participle agrees: comprate."
         }
       ]
+    },
+    {
+      "id": "a2pd-fill2",
+      "type": "fill-blank",
+      "title": "More Pronoun Replacements",
+      "items": [
+        {
+          "id": "a2pd5",
+          "prompt": "Guardo la TV. → ___ guardo ogni sera.",
+          "answers": [
+            [
+              "La"
+            ]
+          ],
+          "explanation": "La TV is feminine singular → la.",
+          "options": [
+            "La",
+            "Lo",
+            "Li"
+          ]
+        },
+        {
+          "id": "a2pd6",
+          "prompt": "Vedo i miei amici. → ___ vedo spesso.",
+          "answers": [
+            [
+              "Li"
+            ]
+          ],
+          "explanation": "I miei amici is masculine plural → li.",
+          "options": [
+            "Li",
+            "Le",
+            "Lo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2pd-mc2",
+      "type": "multiple-choice",
+      "title": "More Pronoun Choices",
+      "items": [
+        {
+          "id": "a2pd7",
+          "prompt": "\"Le ho viste ieri\" — le refers to...",
+          "options": [
+            "a feminine plural noun",
+            "a masculine plural noun",
+            "a feminine singular noun"
+          ],
+          "answerIndex": 0,
+          "explanation": "Le is the feminine plural direct object pronoun."
+        }
+      ]
+    },
+    {
+      "id": "a2pd-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "a2pd8",
+          "statement": "Direct object pronouns always go after the conjugated verb, as in English.",
+          "answer": false,
+          "explanation": "They go before the conjugated verb in Italian, unlike English."
+        }
+      ]
     }
   ],
   "summary": [
