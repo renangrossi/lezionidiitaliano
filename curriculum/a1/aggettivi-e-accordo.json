@@ -162,6 +162,315 @@
           "explanation": "Masculine plural subject needs the -i ending on the adjective."
         }
       ]
+    },
+    {
+      "id": "a1aa-fill2",
+      "type": "fill-blank",
+      "title": "More Endings to Fill In",
+      "items": [
+        {
+          "id": "a1aa7",
+          "prompt": "Il ragazzo è molto alt___.",
+          "answers": [
+            [
+              "o"
+            ]
+          ],
+          "explanation": "Masculine singular takes -o.",
+          "options": [
+            "o",
+            "a",
+            "i"
+          ]
+        },
+        {
+          "id": "a1aa8",
+          "prompt": "Le ragazze sono molto simpatic___.",
+          "answers": [
+            [
+              "he"
+            ]
+          ],
+          "explanation": "Simpatiche needs the h to keep the hard \"k\" sound before the plural -e.",
+          "options": [
+            "he",
+            "e",
+            "i"
+          ]
+        },
+        {
+          "id": "a1aa9",
+          "prompt": "Un cane piccol___.",
+          "answers": [
+            [
+              "o"
+            ]
+          ],
+          "explanation": "Masculine singular takes -o.",
+          "options": [
+            "o",
+            "a",
+            "i"
+          ]
+        },
+        {
+          "id": "a1aa10",
+          "prompt": "Delle case bianc___.",
+          "answers": [
+            [
+              "he"
+            ]
+          ],
+          "explanation": "Bianche needs the h to keep the hard \"k\" sound before the plural -e.",
+          "options": [
+            "he",
+            "e",
+            "chi"
+          ]
+        },
+        {
+          "id": "a1aa11",
+          "prompt": "Uno studente intelligent___.",
+          "answers": [
+            [
+              "e"
+            ]
+          ],
+          "explanation": "Intelligente is an -e adjective; masculine singular keeps -e.",
+          "options": [
+            "e",
+            "o",
+            "i"
+          ]
+        },
+        {
+          "id": "a1aa12",
+          "prompt": "Due amiche molto gentil___.",
+          "answers": [
+            [
+              "i"
+            ]
+          ],
+          "explanation": "Gentile is an -e adjective; the plural (both genders) takes -i.",
+          "options": [
+            "i",
+            "e",
+            "a"
+          ]
+        },
+        {
+          "id": "a1aa13",
+          "prompt": "La torta è buon___.",
+          "answers": [
+            [
+              "a"
+            ]
+          ],
+          "explanation": "Feminine singular takes -a.",
+          "options": [
+            "a",
+            "o",
+            "e"
+          ]
+        },
+        {
+          "id": "a1aa14",
+          "prompt": "I bambini sono felic___.",
+          "answers": [
+            [
+              "i"
+            ]
+          ],
+          "explanation": "Felice is an -e adjective; masculine plural takes -i.",
+          "options": [
+            "i",
+            "e",
+            "o"
+          ]
+        },
+        {
+          "id": "a1aa15",
+          "prompt": "Le finestre sono grand___.",
+          "answers": [
+            [
+              "i"
+            ]
+          ],
+          "explanation": "Grande is an -e adjective; feminine plural takes -i, same as masculine plural.",
+          "options": [
+            "i",
+            "e",
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1aa-mc2",
+      "type": "multiple-choice",
+      "title": "More Agreement Choices",
+      "items": [
+        {
+          "id": "a1aa16",
+          "prompt": "Which is the correct feminine plural of \"alto\"?",
+          "options": [
+            "alte",
+            "alti",
+            "alto"
+          ],
+          "answerIndex": 0,
+          "explanation": "Feminine plural takes -e."
+        },
+        {
+          "id": "a1aa17",
+          "prompt": "\"Simpatico\" in the feminine plural is spelled...",
+          "options": [
+            "simpatiche",
+            "simpatice",
+            "simpatichi"
+          ],
+          "answerIndex": 0,
+          "explanation": "The h keeps the hard \"k\" sound before the plural -e."
+        },
+        {
+          "id": "a1aa18",
+          "prompt": "Which adjective form matches \"i libri\" (the books, m. pl.)?",
+          "options": [
+            "interessanti",
+            "interessante",
+            "interessanto"
+          ],
+          "answerIndex": 0,
+          "explanation": "-e adjectives take -i for the masculine (and feminine) plural."
+        },
+        {
+          "id": "a1aa19",
+          "prompt": "\"Una bella giornata\" — bella comes before the noun because...",
+          "options": [
+            "it's a common adjective that can precede the noun",
+            "all adjectives always precede the noun",
+            "giornata requires it"
+          ],
+          "answerIndex": 0,
+          "explanation": "Only a short set of common adjectives, like bello, can come before the noun."
+        },
+        {
+          "id": "a1aa20",
+          "prompt": "Which is correct: \"le ragazze ___\" (tall)?",
+          "options": [
+            "alte",
+            "alti",
+            "alto"
+          ],
+          "answerIndex": 0,
+          "explanation": "Feminine plural subject needs the -e ending."
+        },
+        {
+          "id": "a1aa21",
+          "prompt": "Which ending do -e adjectives use in the plural (both genders)?",
+          "options": [
+            "-i",
+            "-e",
+            "-a"
+          ],
+          "answerIndex": 0,
+          "explanation": "-e adjectives share a single plural ending, -i, for both genders."
+        },
+        {
+          "id": "a1aa22",
+          "prompt": "\"Gli uomini sono forti\" — forti agrees with...",
+          "options": [
+            "a masculine plural noun",
+            "a feminine plural noun",
+            "a masculine singular noun"
+          ],
+          "answerIndex": 0,
+          "explanation": "Uomini is masculine plural, matching the -i ending on forti."
+        },
+        {
+          "id": "a1aa23",
+          "prompt": "Which is the correct plural of \"un piccolo problema\"?",
+          "options": [
+            "piccoli problemi",
+            "piccoli problema",
+            "piccolo problemi"
+          ],
+          "answerIndex": 0,
+          "explanation": "Both the noun and the adjective must agree in the plural."
+        },
+        {
+          "id": "a1aa24",
+          "prompt": "Which agreement is correct for \"le sue idee\" + the adjective \"nuovo\"?",
+          "options": [
+            "nuove",
+            "nuovi",
+            "nuovo"
+          ],
+          "answerIndex": 0,
+          "explanation": "Idee is feminine plural, so the adjective takes -e."
+        }
+      ]
+    },
+    {
+      "id": "a1aa-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "a1aa25",
+          "statement": "An adjective ending in -e has the same form for masculine and feminine singular.",
+          "answer": true,
+          "explanation": "-e adjectives share one singular form across both genders."
+        },
+        {
+          "id": "a1aa26",
+          "statement": "Adjectives never change their ending, regardless of the noun.",
+          "answer": false,
+          "explanation": "Adjectives must agree with the noun's gender and number."
+        },
+        {
+          "id": "a1aa27",
+          "statement": "Simpatico becomes simpatici in the masculine plural.",
+          "answer": true,
+          "explanation": "Masculine plural of -o/-a adjectives takes -i."
+        },
+        {
+          "id": "a1aa28",
+          "statement": "Most Italian adjectives come before the noun they describe.",
+          "answer": false,
+          "explanation": "Most adjectives follow the noun; only a short, common set can also precede it."
+        },
+        {
+          "id": "a1aa29",
+          "statement": "Bianco needs a spelling change (c to ch) to keep its hard sound in the plural.",
+          "answer": true,
+          "explanation": "Bianche keeps the hard \"k\" sound thanks to the added h."
+        },
+        {
+          "id": "a1aa30",
+          "statement": "An -e adjective like intelligente has four different forms.",
+          "answer": false,
+          "explanation": "-e adjectives have only two forms: -e (singular) and -i (plural)."
+        },
+        {
+          "id": "a1aa31",
+          "statement": "Grande is an example of an -e adjective.",
+          "answer": true,
+          "explanation": "Grande keeps the same singular form for both genders, like any -e adjective."
+        },
+        {
+          "id": "a1aa32",
+          "statement": "Adjective agreement depends only on the noun's gender, never its number.",
+          "answer": false,
+          "explanation": "Agreement depends on both gender and number."
+        },
+        {
+          "id": "a1aa33",
+          "statement": "Piccolo, grande and buono are among the adjectives that can precede the noun.",
+          "answer": true,
+          "explanation": "These are part of the short, common set that can come before the noun."
+        }
+      ]
     }
   ],
   "summary": [

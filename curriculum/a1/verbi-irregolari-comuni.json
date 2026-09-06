@@ -178,6 +178,575 @@
           "explanation": "Volere never takes a before the infinitive."
         }
       ]
+    },
+    {
+      "id": "a1vi-fill2",
+      "type": "fill-blank",
+      "title": "More Andare, Fare, Volere",
+      "instructions": "Conjugate the verb in parentheses.",
+      "items": [
+        {
+          "id": "a1vi8",
+          "prompt": "Tu ___ (andare) al mercato oggi?",
+          "answers": [
+            [
+              "vai"
+            ]
+          ],
+          "explanation": "Tu form of andare is vai.",
+          "options": [
+            "vai",
+            "va",
+            "vado"
+          ]
+        },
+        {
+          "id": "a1vi9",
+          "prompt": "Noi ___ (andare) in vacanza ad agosto.",
+          "answers": [
+            [
+              "andiamo"
+            ]
+          ],
+          "explanation": "Noi form of andare is andiamo.",
+          "options": [
+            "andiamo",
+            "andate",
+            "vanno"
+          ]
+        },
+        {
+          "id": "a1vi10",
+          "prompt": "Voi ___ (fare) colazione insieme?",
+          "answers": [
+            [
+              "fate"
+            ]
+          ],
+          "explanation": "Voi form of fare is fate.",
+          "options": [
+            "fate",
+            "facciamo",
+            "fanno"
+          ]
+        },
+        {
+          "id": "a1vi11",
+          "prompt": "Lei ___ (fare) sempre tante domande.",
+          "answers": [
+            [
+              "fa"
+            ]
+          ],
+          "explanation": "Lui/lei form of fare is fa.",
+          "options": [
+            "fa",
+            "fai",
+            "faccio"
+          ]
+        },
+        {
+          "id": "a1vi12",
+          "prompt": "Loro ___ (volere) un caffè.",
+          "answers": [
+            [
+              "vogliono"
+            ]
+          ],
+          "explanation": "Loro form of volere is vogliono.",
+          "options": [
+            "vogliono",
+            "vuole",
+            "volete"
+          ]
+        },
+        {
+          "id": "a1vi13",
+          "prompt": "Tu ___ (volere) venire con noi?",
+          "answers": [
+            [
+              "vuoi"
+            ]
+          ],
+          "explanation": "Tu form of volere is vuoi.",
+          "options": [
+            "vuoi",
+            "vuole",
+            "voglio"
+          ]
+        },
+        {
+          "id": "a1vi14",
+          "prompt": "Fa molto ___ oggi.",
+          "answers": [
+            [
+              "caldo"
+            ]
+          ],
+          "explanation": "Fare caldo is the fixed expression for hot weather.",
+          "options": [
+            "caldo",
+            "freddo",
+            "fame"
+          ]
+        },
+        {
+          "id": "a1vi15",
+          "prompt": "Io ___ (fare) la spesa il venerdì.",
+          "answers": [
+            [
+              "faccio"
+            ]
+          ],
+          "explanation": "Io form of fare is faccio.",
+          "options": [
+            "faccio",
+            "fai",
+            "fa"
+          ]
+        },
+        {
+          "id": "a1vi16",
+          "prompt": "Noi ___ (volere) imparare l'italiano.",
+          "answers": [
+            [
+              "vogliamo"
+            ]
+          ],
+          "explanation": "Noi form of volere is vogliamo.",
+          "options": [
+            "vogliamo",
+            "vuole",
+            "volete"
+          ]
+        },
+        {
+          "id": "a1vi17",
+          "prompt": "Vado ___ studiare in biblioteca.",
+          "answers": [
+            [
+              "a"
+            ]
+          ],
+          "explanation": "Andare always needs a before an infinitive.",
+          "options": [
+            "a",
+            "di",
+            "per"
+          ]
+        },
+        {
+          "id": "a1vi18",
+          "prompt": "Lei ___ (andare) a Roma ogni estate.",
+          "answers": [
+            [
+              "va"
+            ]
+          ],
+          "explanation": "Lui/lei form of andare is va.",
+          "options": [
+            "va",
+            "vai",
+            "vado"
+          ]
+        },
+        {
+          "id": "a1vi19",
+          "prompt": "Cosa ___ (fare) voi di bello stasera?",
+          "answers": [
+            [
+              "fate"
+            ]
+          ],
+          "explanation": "Voi form of fare is fate.",
+          "options": [
+            "fate",
+            "facciamo",
+            "fanno"
+          ]
+        },
+        {
+          "id": "a1vi20",
+          "prompt": "Io non ___ (volere) uscire stasera.",
+          "answers": [
+            [
+              "voglio"
+            ]
+          ],
+          "explanation": "Io form of volere is voglio.",
+          "options": [
+            "voglio",
+            "vuoi",
+            "vuole"
+          ]
+        },
+        {
+          "id": "a1vi21",
+          "prompt": "Loro ___ (andare) al cinema venerdì.",
+          "answers": [
+            [
+              "vanno"
+            ]
+          ],
+          "explanation": "Loro form of andare is vanno.",
+          "options": [
+            "vanno",
+            "va",
+            "andate"
+          ]
+        },
+        {
+          "id": "a1vi22",
+          "prompt": "Ogni mattina ___ (fare) colazione alle sette.",
+          "answers": [
+            [
+              "faccio"
+            ]
+          ],
+          "explanation": "Io form of fare is faccio.",
+          "options": [
+            "faccio",
+            "fai",
+            "fa"
+          ]
+        },
+        {
+          "id": "a1vi23",
+          "prompt": "Domani ___ (andare) a fare la spesa.",
+          "answers": [
+            [
+              "vado"
+            ]
+          ],
+          "explanation": "Io form of andare is vado.",
+          "options": [
+            "vado",
+            "vai",
+            "va"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1vi-mc2",
+      "type": "multiple-choice",
+      "title": "More Verb and Meaning Choices",
+      "items": [
+        {
+          "id": "a1vi24",
+          "prompt": "Which is the io form of andare?",
+          "options": [
+            "vado",
+            "vai",
+            "va"
+          ],
+          "answerIndex": 0,
+          "explanation": "Vado is the io form of andare."
+        },
+        {
+          "id": "a1vi25",
+          "prompt": "Which is the loro form of fare?",
+          "options": [
+            "fanno",
+            "fate",
+            "facciamo"
+          ],
+          "answerIndex": 0,
+          "explanation": "Fanno is the loro form of fare."
+        },
+        {
+          "id": "a1vi26",
+          "prompt": "Which is the tu form of volere?",
+          "options": [
+            "vuoi",
+            "vuole",
+            "voglio"
+          ],
+          "answerIndex": 0,
+          "explanation": "Vuoi is the tu form of volere."
+        },
+        {
+          "id": "a1vi27",
+          "prompt": "\"Fa freddo\" means...",
+          "options": [
+            "It's cold.",
+            "I'm cold.",
+            "It's hot."
+          ],
+          "answerIndex": 0,
+          "explanation": "Fare freddo describes cold weather."
+        },
+        {
+          "id": "a1vi28",
+          "prompt": "\"Fare la spesa\" means...",
+          "options": [
+            "to make a wish",
+            "to go grocery shopping",
+            "to do homework"
+          ],
+          "answerIndex": 1,
+          "explanation": "Fare la spesa is the fixed expression for grocery shopping."
+        },
+        {
+          "id": "a1vi29",
+          "prompt": "\"Fare colazione\" means...",
+          "options": [
+            "to have breakfast",
+            "to make a decision",
+            "to do a favor"
+          ],
+          "answerIndex": 0,
+          "explanation": "Fare colazione is the fixed expression for having breakfast."
+        },
+        {
+          "id": "a1vi30",
+          "prompt": "Which preposition must follow andare before an infinitive?",
+          "options": [
+            "a",
+            "di",
+            "per"
+          ],
+          "answerIndex": 0,
+          "explanation": "Andare + a + infinitive is mandatory."
+        },
+        {
+          "id": "a1vi31",
+          "prompt": "Which is correct for \"I want to sleep\"?",
+          "options": [
+            "Voglio a dormire.",
+            "Voglio dormire.",
+            "Vado dormire."
+          ],
+          "answerIndex": 1,
+          "explanation": "Volere is followed directly by the infinitive, no preposition."
+        },
+        {
+          "id": "a1vi32",
+          "prompt": "Which is the noi form of andare?",
+          "options": [
+            "andiamo",
+            "andate",
+            "vanno"
+          ],
+          "answerIndex": 0,
+          "explanation": "Andiamo is the noi form of andare."
+        },
+        {
+          "id": "a1vi33",
+          "prompt": "\"Vado a fare una domanda\" means...",
+          "options": [
+            "I'm going to ask a question.",
+            "I'm going to answer a question.",
+            "I'm going to make a question mark."
+          ],
+          "answerIndex": 0,
+          "explanation": "Fare una domanda means \"to ask a question\"."
+        },
+        {
+          "id": "a1vi34",
+          "prompt": "Which is the voi form of volere?",
+          "options": [
+            "volete",
+            "vogliono",
+            "vogliamo"
+          ],
+          "answerIndex": 0,
+          "explanation": "Volete is the voi form of volere."
+        },
+        {
+          "id": "a1vi35",
+          "prompt": "\"Fare una domanda\" means...",
+          "options": [
+            "to ask a question",
+            "to make a phone call",
+            "to do an exam"
+          ],
+          "answerIndex": 0,
+          "explanation": "Fare una domanda is the fixed expression for asking a question."
+        },
+        {
+          "id": "a1vi36",
+          "prompt": "Which is the lui/lei form of fare?",
+          "options": [
+            "fa",
+            "fai",
+            "faccio"
+          ],
+          "answerIndex": 0,
+          "explanation": "Fa is the lui/lei form of fare."
+        },
+        {
+          "id": "a1vi37",
+          "prompt": "\"Vogliamo andare al mare\" means...",
+          "options": [
+            "We want to go to the sea.",
+            "We're going to want the sea.",
+            "We want the sea to go."
+          ],
+          "answerIndex": 0,
+          "explanation": "Vogliamo andare al mare — we want to go to the sea."
+        },
+        {
+          "id": "a1vi38",
+          "prompt": "Which verb is irregular among andare, fare, volere?",
+          "options": [
+            "all three",
+            "only andare",
+            "only fare"
+          ],
+          "answerIndex": 0,
+          "explanation": "All three don't follow the regular -are/-ire patterns."
+        },
+        {
+          "id": "a1vi39",
+          "prompt": "\"Andare + a + infinitive\" is used to express...",
+          "options": [
+            "near-future plans",
+            "the past",
+            "a wish with no plan"
+          ],
+          "answerIndex": 0,
+          "explanation": "This structure expresses near-future plans, like vado a mangiare."
+        }
+      ]
+    },
+    {
+      "id": "a1vi-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "a1vi40",
+          "statement": "Andare, fare and volere are all irregular in the present tense.",
+          "answer": true,
+          "explanation": "None follow the regular -are/-ire conjugation patterns."
+        },
+        {
+          "id": "a1vi41",
+          "statement": "Andare requires the preposition a before an infinitive.",
+          "answer": true,
+          "explanation": "Andare + a + infinitive is a fixed, mandatory structure."
+        },
+        {
+          "id": "a1vi42",
+          "statement": "Volere requires a preposition before an infinitive, just like andare.",
+          "answer": false,
+          "explanation": "Volere is followed directly by the infinitive, with no preposition."
+        },
+        {
+          "id": "a1vi43",
+          "statement": "\"Fare caldo/freddo\" describes the weather.",
+          "answer": true,
+          "explanation": "Fare is used for weather expressions in Italian."
+        },
+        {
+          "id": "a1vi44",
+          "statement": "The io form of fare is \"fo\".",
+          "answer": false,
+          "explanation": "The io form of fare is faccio, not fo."
+        },
+        {
+          "id": "a1vi45",
+          "statement": "Vado, vai, va, andiamo, andate, vanno are the six present-tense forms of andare.",
+          "answer": true,
+          "explanation": "These are the complete irregular conjugation of andare."
+        },
+        {
+          "id": "a1vi46",
+          "statement": "Fare colazione means \"to make a decision\".",
+          "answer": false,
+          "explanation": "Fare colazione means \"to have breakfast\"."
+        },
+        {
+          "id": "a1vi47",
+          "statement": "Voglio is the io form of volere.",
+          "answer": true,
+          "explanation": "Voglio is the first-person singular of volere."
+        },
+        {
+          "id": "a1vi48",
+          "statement": "Noi always uses vado for andare.",
+          "answer": false,
+          "explanation": "Noi uses andiamo; vado is the io form."
+        },
+        {
+          "id": "a1vi49",
+          "statement": "Fare una domanda means \"to ask a question\".",
+          "answer": true,
+          "explanation": "This is a fixed expression using fare, not letteralmente \"to make\"."
+        }
+      ]
+    },
+    {
+      "id": "a1vi-correction2",
+      "type": "correction",
+      "title": "Correct More Mistakes",
+      "items": [
+        {
+          "id": "a1vi50",
+          "incorrect": "Vado studiare oggi.",
+          "answer": [
+            "Vado a studiare oggi."
+          ],
+          "explanation": "Andare always needs a before an infinitive."
+        },
+        {
+          "id": "a1vi51",
+          "incorrect": "Noi vado al mare.",
+          "answer": [
+            "Noi andiamo al mare."
+          ],
+          "explanation": "Noi needs its own form, andiamo, not the io form vado."
+        },
+        {
+          "id": "a1vi52",
+          "incorrect": "Io voglio a partire domani.",
+          "answer": [
+            "Io voglio partire domani."
+          ],
+          "explanation": "Volere never takes a preposition before the infinitive."
+        },
+        {
+          "id": "a1vi53",
+          "incorrect": "Loro va in vacanza.",
+          "answer": [
+            "Loro vanno in vacanza."
+          ],
+          "explanation": "Loro needs vanno, not va, which is the lui/lei form."
+        },
+        {
+          "id": "a1vi54",
+          "incorrect": "Tu fa colazione presto.",
+          "answer": [
+            "Tu fai colazione presto."
+          ],
+          "explanation": "Tu needs fai, not fa, which is the lui/lei form."
+        },
+        {
+          "id": "a1vi55",
+          "incorrect": "Lei vuoi un caffè.",
+          "answer": [
+            "Lei vuole un caffè."
+          ],
+          "explanation": "Lei needs vuole, not vuoi, which is the tu form."
+        },
+        {
+          "id": "a1vi56",
+          "incorrect": "Noi vogliamo a viaggiare insieme.",
+          "answer": [
+            "Noi vogliamo viaggiare insieme."
+          ],
+          "explanation": "Volere is followed directly by the infinitive, no preposition."
+        },
+        {
+          "id": "a1vi57",
+          "incorrect": "Io va al cinema stasera.",
+          "answer": [
+            "Io vado al cinema stasera."
+          ],
+          "explanation": "Io needs vado, not va, which is the lui/lei form."
+        }
+      ]
     }
   ],
   "summary": [

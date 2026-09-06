@@ -202,6 +202,234 @@
           "explanation": "Before a vowel, feminine una becomes un', with an apostrophe."
         }
       ]
+    },
+    {
+      "id": "a1ga-fill2",
+      "type": "fill-blank",
+      "title": "More Articles",
+      "items": [
+        {
+          "id": "a1ga9",
+          "prompt": "___ zaino nuovo (a new backpack, indefinite)",
+          "answers": [
+            [
+              "Uno"
+            ]
+          ],
+          "explanation": "Masculine nouns starting with z take uno.",
+          "options": [
+            "Un",
+            "Uno",
+            "Una"
+          ]
+        },
+        {
+          "id": "a1ga10",
+          "prompt": "___ amica di Roma (a female friend from Rome, indefinite)",
+          "answers": [
+            [
+              "Un'"
+            ]
+          ],
+          "explanation": "Feminine una shortens to un' before a vowel.",
+          "options": [
+            "Una",
+            "Un'",
+            "Uno"
+          ]
+        },
+        {
+          "id": "a1ga11",
+          "prompt": "___ studenti sono in classe. (the students, m. pl.)",
+          "answers": [
+            [
+              "Gli"
+            ]
+          ],
+          "explanation": "Gli is the plural of lo.",
+          "options": [
+            "I",
+            "Gli",
+            "Le"
+          ]
+        },
+        {
+          "id": "a1ga12",
+          "prompt": "___ case sono grandi. (the houses, f. pl.)",
+          "answers": [
+            [
+              "Le"
+            ]
+          ],
+          "explanation": "Le is the plural definite article for feminine nouns.",
+          "options": [
+            "Le",
+            "I",
+            "Gli"
+          ]
+        },
+        {
+          "id": "a1ga13",
+          "prompt": "Ho ___ libro interessante. (an interesting book, indefinite m.)",
+          "answers": [
+            [
+              "un"
+            ]
+          ],
+          "explanation": "Un is the plain masculine indefinite article before a consonant.",
+          "options": [
+            "un",
+            "uno",
+            "una"
+          ]
+        },
+        {
+          "id": "a1ga14",
+          "prompt": "___ acqua è fredda. (the water, definite f. before vowel)",
+          "answers": [
+            [
+              "L'"
+            ]
+          ],
+          "explanation": "Feminine la shortens to l' before a vowel.",
+          "options": [
+            "La",
+            "L'",
+            "Lo"
+          ]
+        },
+        {
+          "id": "a1ga15",
+          "prompt": "___ amico arriva domani. (a male friend, indefinite m. before vowel)",
+          "answers": [
+            [
+              "Un"
+            ]
+          ],
+          "explanation": "Masculine un never takes an apostrophe, even before a vowel.",
+          "options": [
+            "Un",
+            "Un'",
+            "Uno"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1ga-mc2",
+      "type": "multiple-choice",
+      "title": "Plural and Article Choices",
+      "items": [
+        {
+          "id": "a1ga16",
+          "prompt": "What is the plural of \"l'amico\" (m.)?",
+          "options": [
+            "gli amici",
+            "i amici",
+            "le amici"
+          ],
+          "answerIndex": 0,
+          "explanation": "L' (masculine) becomes gli in the plural."
+        },
+        {
+          "id": "a1ga17",
+          "prompt": "What is the plural of \"l'amica\" (f.)?",
+          "options": [
+            "le amiche",
+            "gli amiche",
+            "i amiche"
+          ],
+          "answerIndex": 0,
+          "explanation": "L' (feminine) becomes le in the plural."
+        },
+        {
+          "id": "a1ga18",
+          "prompt": "Which indefinite article goes with \"specchio\" (mirror, starts with sp)?",
+          "options": [
+            "un",
+            "uno",
+            "una"
+          ],
+          "answerIndex": 1,
+          "explanation": "Masculine nouns starting with s+consonant take uno."
+        },
+        {
+          "id": "a1ga19",
+          "prompt": "Which definite article goes with \"psicologo\" (psychologist, starts with ps)?",
+          "options": [
+            "il",
+            "lo",
+            "la"
+          ],
+          "answerIndex": 1,
+          "explanation": "Lo is used before masculine nouns starting with ps, like s+consonant and z."
+        },
+        {
+          "id": "a1ga20",
+          "prompt": "What is the plural of \"il libro\"?",
+          "options": [
+            "i libri",
+            "gli libri",
+            "le libri"
+          ],
+          "answerIndex": 0,
+          "explanation": "I is the plural of il."
+        },
+        {
+          "id": "a1ga21",
+          "prompt": "Which indefinite article goes with \"isola\" (island, feminine, starts with a vowel)?",
+          "options": [
+            "una",
+            "un'",
+            "uno"
+          ],
+          "answerIndex": 1,
+          "explanation": "Feminine una shortens to un' before a vowel."
+        }
+      ]
+    },
+    {
+      "id": "a1ga-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "a1ga22",
+          "statement": "Nouns ending in -e always change gender depending on context.",
+          "answer": false,
+          "explanation": "Nouns ending in -e have a fixed gender that simply must be learned, not one that changes."
+        },
+        {
+          "id": "a1ga23",
+          "statement": "Un' with an apostrophe is only used before a feminine noun starting with a vowel.",
+          "answer": true,
+          "explanation": "Un' is exclusively the feminine form before a vowel."
+        },
+        {
+          "id": "a1ga24",
+          "statement": "Gli is the plural of both lo and l' (masculine).",
+          "answer": true,
+          "explanation": "Gli covers the plural of both lo and masculine l'."
+        },
+        {
+          "id": "a1ga25",
+          "statement": "Masculine nouns starting with z always take the article il.",
+          "answer": false,
+          "explanation": "They take lo, not il, the same as nouns starting with s+consonant."
+        },
+        {
+          "id": "a1ga26",
+          "statement": "The plural of a noun ending in -a is usually -e.",
+          "answer": true,
+          "explanation": "Casa becomes case, following the -a to -e pattern."
+        },
+        {
+          "id": "a1ga27",
+          "statement": "Un (masculine indefinite) needs an apostrophe before a vowel, just like una.",
+          "answer": false,
+          "explanation": "Only feminine una shortens to un' before a vowel; masculine un never takes an apostrophe."
+        }
+      ]
     }
   ],
   "summary": [

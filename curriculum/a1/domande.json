@@ -150,6 +150,230 @@
           ]
         }
       ]
+    },
+    {
+      "id": "a1dq-mc2",
+      "type": "multiple-choice",
+      "title": "More Question Words",
+      "items": [
+        {
+          "id": "a1dq6",
+          "prompt": "Which word means \"what\"?",
+          "options": [
+            "cosa",
+            "chi",
+            "come"
+          ],
+          "answerIndex": 0,
+          "explanation": "Cosa (or che cosa) means \"what\"."
+        },
+        {
+          "id": "a1dq7",
+          "prompt": "\"Perché\" can mean...",
+          "options": [
+            "only why",
+            "only because",
+            "both why and because"
+          ],
+          "answerIndex": 2,
+          "explanation": "Perché covers both sides of the exchange, \"why\" and \"because\"."
+        },
+        {
+          "id": "a1dq8",
+          "prompt": "Which is a correct yes/no question?",
+          "options": [
+            "Tu parli italiano?",
+            "Parli tu italiano?",
+            "Fai parlare italiano?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Word order stays the same as the statement; only intonation/punctuation changes."
+        },
+        {
+          "id": "a1dq9",
+          "prompt": "\"Quante sorelle hai?\" — quante agrees with...",
+          "options": [
+            "a feminine plural noun",
+            "a masculine singular noun",
+            "a feminine singular noun"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sorelle is feminine plural, so quanto becomes quante."
+        },
+        {
+          "id": "a1dq10",
+          "prompt": "Which question word asks about a reason?",
+          "options": [
+            "perché",
+            "dove",
+            "quando"
+          ],
+          "answerIndex": 0,
+          "explanation": "Perché asks \"why\"."
+        },
+        {
+          "id": "a1dq11",
+          "prompt": "How do you ask \"how do you say 'hello' in Italian?\"",
+          "options": [
+            "Come si dice \"hello\" in italiano?",
+            "Cosa si dice \"hello\" in italiano?",
+            "Dove si dice \"hello\" in italiano?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Come si dice...? is the fixed way to ask how something is said."
+        },
+        {
+          "id": "a1dq12",
+          "prompt": "Which question word changes form to agree like an adjective?",
+          "options": [
+            "quanto",
+            "dove",
+            "come"
+          ],
+          "answerIndex": 0,
+          "explanation": "Quanto/a/i/e agrees with the noun it modifies, unlike the other question words."
+        }
+      ]
+    },
+    {
+      "id": "a1dq-fill2",
+      "type": "fill-blank",
+      "title": "More Questions to Complete",
+      "items": [
+        {
+          "id": "a1dq13",
+          "prompt": "___ fai stasera? — Guardo un film.",
+          "answers": [
+            [
+              "Cosa"
+            ]
+          ],
+          "explanation": "Cosa asks \"what\".",
+          "options": [
+            "Cosa",
+            "Chi",
+            "Come"
+          ]
+        },
+        {
+          "id": "a1dq14",
+          "prompt": "___ è il tuo amico? — È Marco.",
+          "answers": [
+            [
+              "Chi"
+            ]
+          ],
+          "explanation": "Chi asks about a person.",
+          "options": [
+            "Chi",
+            "Cosa",
+            "Dove"
+          ]
+        },
+        {
+          "id": "a1dq15",
+          "prompt": "___ anni ha tuo fratello?",
+          "answers": [
+            [
+              "Quanti"
+            ]
+          ],
+          "explanation": "Anni is masculine plural, so quanto agrees as quanti.",
+          "options": [
+            "Quanti",
+            "Quante",
+            "Quanto"
+          ]
+        },
+        {
+          "id": "a1dq16",
+          "prompt": "___ costa questo libro?",
+          "answers": [
+            [
+              "Quanto"
+            ]
+          ],
+          "explanation": "Costa is singular here, so quanto stays in its base masculine singular form.",
+          "options": [
+            "Quanto",
+            "Quanti",
+            "Quanta"
+          ]
+        },
+        {
+          "id": "a1dq17",
+          "prompt": "___ sei triste? — Perché ho perso il treno.",
+          "answers": [
+            [
+              "Perché"
+            ]
+          ],
+          "explanation": "Perché asks \"why\".",
+          "options": [
+            "Perché",
+            "Come",
+            "Dove"
+          ]
+        },
+        {
+          "id": "a1dq18",
+          "prompt": "___ stai? — Bene, grazie.",
+          "answers": [
+            [
+              "Come"
+            ]
+          ],
+          "explanation": "Come asks \"how\".",
+          "options": [
+            "Come",
+            "Cosa",
+            "Chi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1dq-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "a1dq19",
+          "statement": "Yes/no questions in Italian require a change in word order.",
+          "answer": false,
+          "explanation": "Only intonation or a question mark changes; word order stays the same."
+        },
+        {
+          "id": "a1dq20",
+          "statement": "Perché means both \"why\" and \"because\".",
+          "answer": true,
+          "explanation": "Context and punctuation tell the two meanings apart."
+        },
+        {
+          "id": "a1dq21",
+          "statement": "Quanto agrees in gender and number with the noun it modifies.",
+          "answer": true,
+          "explanation": "Quanto/a/i/e behaves like an adjective."
+        },
+        {
+          "id": "a1dq22",
+          "statement": "Chi asks about a place.",
+          "answer": false,
+          "explanation": "Chi asks about a person; dove asks about place."
+        },
+        {
+          "id": "a1dq23",
+          "statement": "Italian uses an auxiliary like \"do/does\" to form questions, as English does.",
+          "answer": false,
+          "explanation": "Italian has no do-support; the plain conjugated verb is enough."
+        },
+        {
+          "id": "a1dq24",
+          "statement": "Cosa and che cosa both mean \"what\".",
+          "answer": true,
+          "explanation": "They're interchangeable."
+        }
+      ]
     }
   ],
   "summary": [
