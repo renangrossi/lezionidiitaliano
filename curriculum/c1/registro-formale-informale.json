@@ -100,6 +100,284 @@
           "explanation": "A formal opening (Gentile Direttore) should be followed by consistently formal vocabulary and structure, not casual expressions."
         }
       ]
+    },
+    {
+      "id": "c1rf-fill2",
+      "type": "fill-blank",
+      "title": "More Register Practice",
+      "items": [
+        {
+          "id": "c1rf4",
+          "prompt": "___ Sig. Bianchi, Le scrivo per...",
+          "answers": [
+            [
+              "Gentile"
+            ]
+          ],
+          "explanation": "Gentile is the standard formal opening.",
+          "options": [
+            "Gentile",
+            "Ciao",
+            "Ehi"
+          ]
+        },
+        {
+          "id": "c1rf5",
+          "prompt": "Un ___ di persone ha partecipato all'evento. (informal \"a lot of\")",
+          "answers": [
+            [
+              "sacco"
+            ]
+          ],
+          "explanation": "Un sacco di is a colloquial, informal expression.",
+          "options": [
+            "sacco",
+            "numero",
+            "gruppo"
+          ]
+        },
+        {
+          "id": "c1rf6",
+          "prompt": "La ringrazio e Le porgo i miei ___ saluti. (formal closing word)",
+          "answers": [
+            [
+              "distinti",
+              "cordiali"
+            ]
+          ],
+          "explanation": "Distinti/cordiali saluti are standard formal closings.",
+          "options": [
+            "distinti",
+            "cari",
+            "tanti"
+          ]
+        },
+        {
+          "id": "c1rf7",
+          "prompt": "___, Anna! Come stai? (informal opening)",
+          "answers": [
+            [
+              "Ciao"
+            ]
+          ],
+          "explanation": "Ciao is the standard informal opening.",
+          "options": [
+            "Ciao",
+            "Gentile",
+            "Egregio"
+          ]
+        },
+        {
+          "id": "c1rf8",
+          "prompt": "La informiamo che la Sua richiesta ___ (essere) stata accolta.",
+          "answers": [
+            [
+              "è"
+            ]
+          ],
+          "explanation": "Formal passive, third person singular.",
+          "options": [
+            "è",
+            "sei",
+            "sono"
+          ]
+        },
+        {
+          "id": "c1rf9",
+          "prompt": "Ti volevo ___ (dire) che ho accettato il lavoro! (informal)",
+          "answers": [
+            [
+              "dire"
+            ]
+          ],
+          "explanation": "Dire is the plain, informal verb; comunicare/dichiarare are the formal equivalents.",
+          "options": [
+            "dire",
+            "comunicare",
+            "dichiarare"
+          ]
+        },
+        {
+          "id": "c1rf10",
+          "prompt": "___ ringraziarLa per la disponibilità. (formal, \"I would like to\")",
+          "answers": [
+            [
+              "Vorrei"
+            ]
+          ],
+          "explanation": "Vorrei is the polite, formal way to open a request.",
+          "options": [
+            "Vorrei",
+            "Voglio",
+            "Devo"
+          ]
+        },
+        {
+          "id": "c1rf11",
+          "prompt": "Un ___! (informal closing, \"a hug\")",
+          "answers": [
+            [
+              "abbraccio"
+            ]
+          ],
+          "explanation": "Un abbraccio is a warm, informal closing.",
+          "options": [
+            "abbraccio",
+            "saluto",
+            "distinti saluti"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1rf-mc2",
+      "type": "multiple-choice",
+      "title": "More Register Choices",
+      "items": [
+        {
+          "id": "c1rf12",
+          "prompt": "Which is the formal equivalent of \"iniziare\"?",
+          "options": [
+            "dare inizio a",
+            "cominciare",
+            "partire"
+          ],
+          "answerIndex": 0,
+          "explanation": "Dare inizio a is the more formal, written equivalent."
+        },
+        {
+          "id": "c1rf13",
+          "prompt": "Which opening fits a formal letter to someone whose name you don't know?",
+          "options": [
+            "Egregio Signore",
+            "Ciao",
+            "Ehi"
+          ],
+          "answerIndex": 0,
+          "explanation": "Egregio Signore is a standard formal opening."
+        },
+        {
+          "id": "c1rf14",
+          "prompt": "Which is more informal: \"un po'\" or \"leggermente\"?",
+          "options": [
+            "un po'",
+            "leggermente",
+            "neither, they're equally formal"
+          ],
+          "answerIndex": 0,
+          "explanation": "Un po' is the everyday, informal choice; leggermente is more formal."
+        },
+        {
+          "id": "c1rf15",
+          "prompt": "Which verb is the formal equivalent of \"dire\"?",
+          "options": [
+            "comunicare",
+            "parlare",
+            "chiacchierare"
+          ],
+          "answerIndex": 0,
+          "explanation": "Comunicare/dichiarare are the formal equivalents of dire."
+        },
+        {
+          "id": "c1rf16",
+          "prompt": "What marks informal written Italian, besides vocabulary?",
+          "options": [
+            "contractions and short sentences",
+            "longer, explicit sentences",
+            "exclusively formulaic phrases"
+          ],
+          "answerIndex": 0,
+          "explanation": "Informal writing favors contractions and shorter sentences."
+        },
+        {
+          "id": "c1rf17",
+          "prompt": "Which closing would be inconsistent in a formal email?",
+          "options": [
+            "Ciao ciao!",
+            "Cordiali saluti",
+            "Distinti saluti"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ciao ciao is strictly informal, inconsistent with a formal email."
+        },
+        {
+          "id": "c1rf18",
+          "prompt": "\"Effettuare una visita\" is the formal equivalent of...",
+          "options": [
+            "fare un giro",
+            "fare colazione",
+            "fare finta"
+          ],
+          "answerIndex": 0,
+          "explanation": "Effettuare una visita is the formal register version of fare un giro."
+        },
+        {
+          "id": "c1rf19",
+          "prompt": "What should you do if you start an email formally?",
+          "options": [
+            "keep the whole email formal, consistently",
+            "mix in informal phrases for warmth",
+            "switch to informal for the closing"
+          ],
+          "answerIndex": 0,
+          "explanation": "Consistency of register matters more than any single word."
+        }
+      ]
+    },
+    {
+      "id": "c1rf-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "c1rf20",
+          "statement": "Formal register avoids colloquial vocabulary.",
+          "answer": true,
+          "explanation": "Formal writing favors precise, non-colloquial vocabulary."
+        },
+        {
+          "id": "c1rf21",
+          "statement": "Tu and Lei are the only markers of formality in Italian.",
+          "answer": false,
+          "explanation": "Vocabulary, sentence structure, and set phrases also mark formality."
+        },
+        {
+          "id": "c1rf22",
+          "statement": "Cordiali saluti is an appropriate closing for a casual text to a friend.",
+          "answer": false,
+          "explanation": "It's a formal closing, inconsistent with a casual text."
+        },
+        {
+          "id": "c1rf23",
+          "statement": "Contractions and colloquial vocabulary are typical of informal writing.",
+          "answer": true,
+          "explanation": "These are hallmarks of informal register."
+        },
+        {
+          "id": "c1rf24",
+          "statement": "Mixing a formal opening with informal vocabulary throughout is considered good style.",
+          "answer": false,
+          "explanation": "Consistency of register matters — mixing them is inconsistent."
+        },
+        {
+          "id": "c1rf25",
+          "statement": "\"Numerose persone\" is more formal than \"un sacco di gente\".",
+          "answer": true,
+          "explanation": "Numerose persone is the formal-register equivalent."
+        },
+        {
+          "id": "c1rf26",
+          "statement": "Formal writing tends to use shorter, more fragmented sentences than informal writing.",
+          "answer": false,
+          "explanation": "Formal writing tends toward longer, more explicit sentences."
+        },
+        {
+          "id": "c1rf27",
+          "statement": "Set opening/closing formulas exist for both formal and informal correspondence.",
+          "answer": true,
+          "explanation": "Both registers have their own standard formulas."
+        }
+      ]
     }
   ],
   "summary": [

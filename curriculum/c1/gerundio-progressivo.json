@@ -115,6 +115,287 @@
           "explanation": "The gerund expresses means/method here."
         }
       ]
+    },
+    {
+      "id": "c1gp-fill2",
+      "type": "fill-blank",
+      "title": "More Gerund Practice",
+      "items": [
+        {
+          "id": "c1gp4",
+          "prompt": "___ (Dire) la verità, mi sento meglio.",
+          "answers": [
+            [
+              "Dicendo"
+            ]
+          ],
+          "explanation": "Dire's irregular gerund stem: dicendo.",
+          "options": [
+            "Dicendo",
+            "Dicando",
+            "Detto"
+          ]
+        },
+        {
+          "id": "c1gp5",
+          "prompt": "Loro ___ (stare - present) ___ (mangiare - gerund) quando ho chiamato.",
+          "answers": [
+            [
+              "stavano"
+            ],
+            [
+              "mangiando"
+            ]
+          ],
+          "explanation": "Progressive in a past context.",
+          "options": [
+            "stavano",
+            "stanno",
+            "mangiando",
+            "mangiare"
+          ]
+        },
+        {
+          "id": "c1gp6",
+          "prompt": "___ (Fare) attenzione, non ho fatto errori.",
+          "answers": [
+            [
+              "Facendo"
+            ]
+          ],
+          "explanation": "Fare's irregular gerund stem: facendo.",
+          "options": [
+            "Facendo",
+            "Farendo",
+            "Fatto"
+          ]
+        },
+        {
+          "id": "c1gp7",
+          "prompt": "Sto ___ (leggere) un romanzo molto interessante.",
+          "answers": [
+            [
+              "leggendo"
+            ]
+          ],
+          "explanation": "Regular -ere gerund: leggendo.",
+          "options": [
+            "leggendo",
+            "leggere",
+            "letto"
+          ]
+        },
+        {
+          "id": "c1gp8",
+          "prompt": "___ (Camminare) per il centro, ho incontrato un vecchio amico.",
+          "answers": [
+            [
+              "Camminando"
+            ]
+          ],
+          "explanation": "Regular -are gerund: camminando.",
+          "options": [
+            "Camminando",
+            "Camminendo",
+            "Camminato"
+          ]
+        },
+        {
+          "id": "c1gp9",
+          "prompt": "Non sto ___ (scherzare), dico sul serio.",
+          "answers": [
+            [
+              "scherzando"
+            ]
+          ],
+          "explanation": "Regular -are gerund: scherzando.",
+          "options": [
+            "scherzando",
+            "scherzare",
+            "scherzato"
+          ]
+        },
+        {
+          "id": "c1gp10",
+          "prompt": "___ (Uscire) di casa, ho dimenticato le chiavi.",
+          "answers": [
+            [
+              "Uscendo"
+            ]
+          ],
+          "explanation": "Regular -ire gerund: uscendo.",
+          "options": [
+            "Uscendo",
+            "Uscindo",
+            "Uscito"
+          ]
+        },
+        {
+          "id": "c1gp11",
+          "prompt": "Stavo ___ (dormire) quando è suonato il telefono.",
+          "answers": [
+            [
+              "dormendo"
+            ]
+          ],
+          "explanation": "Regular -ire gerund: dormendo.",
+          "options": [
+            "dormendo",
+            "dormire",
+            "dormito"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1gp-mc2",
+      "type": "multiple-choice",
+      "title": "More Gerund Choices",
+      "items": [
+        {
+          "id": "c1gp12",
+          "prompt": "Which is the gerund of \"fare\"?",
+          "options": [
+            "facendo",
+            "farando",
+            "fatto"
+          ],
+          "answerIndex": 0,
+          "explanation": "Fare's gerund is facendo, from the old stem fac-."
+        },
+        {
+          "id": "c1gp13",
+          "prompt": "Which is the gerund of \"dire\"?",
+          "options": [
+            "dicendo",
+            "direndo",
+            "detto"
+          ],
+          "answerIndex": 0,
+          "explanation": "Dire's gerund is dicendo, from the old stem dice-."
+        },
+        {
+          "id": "c1gp14",
+          "prompt": "\"Sto studiando\" emphasizes...",
+          "options": [
+            "an action happening right now",
+            "a habitual action",
+            "a future plan"
+          ],
+          "answerIndex": 0,
+          "explanation": "The progressive form emphasizes an action genuinely in progress."
+        },
+        {
+          "id": "c1gp15",
+          "prompt": "Where can pronouns go in the progressive form?",
+          "options": [
+            "before stare or attached to the gerund",
+            "only attached to the gerund",
+            "only before stare"
+          ],
+          "answerIndex": 0,
+          "explanation": "Both Lo sto leggendo and Sto leggendolo are correct."
+        },
+        {
+          "id": "c1gp16",
+          "prompt": "\"Ho imparato l'italiano guardando film\" — the gerund here expresses...",
+          "options": [
+            "means/method",
+            "a command",
+            "a question"
+          ],
+          "answerIndex": 0,
+          "explanation": "The standalone gerund expresses the method by which something was learned."
+        },
+        {
+          "id": "c1gp17",
+          "prompt": "Which is the correct gerund of \"bere\"?",
+          "options": [
+            "bevendo",
+            "berendo",
+            "bevuto"
+          ],
+          "answerIndex": 0,
+          "explanation": "Bere's gerund uses the old stem bev-: bevendo."
+        },
+        {
+          "id": "c1gp18",
+          "prompt": "A standalone gerund can express all of the following EXCEPT...",
+          "options": [
+            "a direct question",
+            "cause",
+            "a simultaneous action"
+          ],
+          "answerIndex": 0,
+          "explanation": "A gerund never forms a direct question."
+        },
+        {
+          "id": "c1gp19",
+          "prompt": "\"Sto leggendolo\" — where is the pronoun?",
+          "options": [
+            "attached to the gerund",
+            "before stare",
+            "after leggendo as a separate word"
+          ],
+          "answerIndex": 0,
+          "explanation": "Lo is attached directly to the end of leggendo."
+        }
+      ]
+    },
+    {
+      "id": "c1gp-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "c1gp20",
+          "statement": "Regular -are verbs form their gerund with -ando.",
+          "answer": true,
+          "explanation": "Parlare → parlando follows this regular pattern."
+        },
+        {
+          "id": "c1gp21",
+          "statement": "Stare + infinito forms the Italian progressive.",
+          "answer": false,
+          "explanation": "The progressive is stare + gerundio, not the infinitive."
+        },
+        {
+          "id": "c1gp22",
+          "statement": "Fare's gerund is built from the irregular stem fac-, matching its imperfetto.",
+          "answer": true,
+          "explanation": "Facendo mirrors facevo, both from the old stem facere."
+        },
+        {
+          "id": "c1gp23",
+          "statement": "A gerund can express cause without needing a connector word.",
+          "answer": true,
+          "explanation": "Studiando ogni giorno, ho imparato molto expresses cause with no connector."
+        },
+        {
+          "id": "c1gp24",
+          "statement": "Pronouns always attach to stare, never to the gerund, in the progressive.",
+          "answer": false,
+          "explanation": "They can go before stare or attach to the gerund, both correct."
+        },
+        {
+          "id": "c1gp25",
+          "statement": "The progressive form is more emphatic than the simple present for an action happening right now.",
+          "answer": true,
+          "explanation": "Sto leggendo is more emphatic than the plain present leggo."
+        },
+        {
+          "id": "c1gp26",
+          "statement": "Dire's gerund is dicendo, based on the old stem dice-.",
+          "answer": true,
+          "explanation": "This is the correct irregular gerund of dire."
+        },
+        {
+          "id": "c1gp27",
+          "statement": "The gerund never combines with object or reflexive pronouns.",
+          "answer": false,
+          "explanation": "Pronouns attach to the end of a standalone gerund."
+        }
+      ]
     }
   ],
   "summary": [
