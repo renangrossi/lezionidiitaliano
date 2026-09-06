@@ -120,6 +120,315 @@
           "explanation": "Se + congiuntivo trapassato, condizionale passato in the main clause."
         }
       ]
+    },
+    {
+      "id": "c1pt-fill2",
+      "type": "fill-blank",
+      "title": "More Third-Type Practice",
+      "items": [
+        {
+          "id": "c1pt4",
+          "prompt": "Se ___ (io - studiare) di più, ___ (passare) l'esame.",
+          "answers": [
+            [
+              "avessi studiato"
+            ],
+            [
+              "avrei passato"
+            ]
+          ],
+          "explanation": "Congiuntivo trapassato + condizionale passato.",
+          "options": [
+            "avessi studiato",
+            "studiavo",
+            "avrei passato",
+            "passavo"
+          ]
+        },
+        {
+          "id": "c1pt5",
+          "prompt": "Se non ___ (loro - arrivare) in ritardo, ___ (vedere) l'inizio del film.",
+          "answers": [
+            [
+              "fossero arrivati"
+            ],
+            [
+              "avrebbero visto"
+            ]
+          ],
+          "explanation": "Third type with essere in the se-clause.",
+          "options": [
+            "fossero arrivati",
+            "arrivavano",
+            "avrebbero visto",
+            "vedevano"
+          ]
+        },
+        {
+          "id": "c1pt6",
+          "prompt": "Se mi ___ (tu - chiedere) aiuto, te lo ___ (dare) volentieri.",
+          "answers": [
+            [
+              "avessi chiesto"
+            ],
+            [
+              "avrei dato"
+            ]
+          ],
+          "explanation": "Third type, both halves counterfactual.",
+          "options": [
+            "avessi chiesto",
+            "chiedevi",
+            "avrei dato",
+            "davo"
+          ]
+        },
+        {
+          "id": "c1pt7",
+          "prompt": "Se ___ (noi - sapere) prima, ___ (organizzare) tutto meglio.",
+          "answers": [
+            [
+              "avessimo saputo"
+            ],
+            [
+              "avremmo organizzato"
+            ]
+          ],
+          "explanation": "Third type, noi form.",
+          "options": [
+            "avessimo saputo",
+            "sapevamo",
+            "avremmo organizzato",
+            "organizzavamo"
+          ]
+        },
+        {
+          "id": "c1pt8",
+          "prompt": "Se non ___ (lei - perdere) il treno, ___ (arrivare) in orario.",
+          "answers": [
+            [
+              "avesse perso"
+            ],
+            [
+              "sarebbe arrivata"
+            ]
+          ],
+          "explanation": "Third type, essere in the main clause, agreeing with lei.",
+          "options": [
+            "avesse perso",
+            "perdeva",
+            "sarebbe arrivata",
+            "arrivava"
+          ]
+        },
+        {
+          "id": "c1pt9",
+          "prompt": "Se ___ (voi - venire) alla festa, vi ___ (divertire) sicuramente.",
+          "answers": [
+            [
+              "foste venuti"
+            ],
+            [
+              "sareste divertiti"
+            ]
+          ],
+          "explanation": "Third type, voi form.",
+          "options": [
+            "foste venuti",
+            "venivate",
+            "sareste divertiti",
+            "divertivate"
+          ]
+        },
+        {
+          "id": "c1pt10",
+          "prompt": "Se ___ (io - accettare) quel lavoro, ora ___ (vivere) a Milano.",
+          "answers": [
+            [
+              "avessi accettato"
+            ],
+            [
+              "vivrei"
+            ]
+          ],
+          "explanation": "Mixed hypothetical: past condition, present consequence.",
+          "options": [
+            "avessi accettato",
+            "accettavo",
+            "vivrei",
+            "avrei vissuto"
+          ]
+        },
+        {
+          "id": "c1pt11",
+          "prompt": "Se ___ (tu - ascoltare) i miei consigli, non ___ (fare) quell'errore.",
+          "answers": [
+            [
+              "avessi ascoltato"
+            ],
+            [
+              "avresti fatto"
+            ]
+          ],
+          "explanation": "Third type, both halves counterfactual.",
+          "options": [
+            "avessi ascoltato",
+            "ascoltavi",
+            "avresti fatto",
+            "facevi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1pt-mc2",
+      "type": "multiple-choice",
+      "title": "More Third-Type Choices",
+      "items": [
+        {
+          "id": "c1pt12",
+          "prompt": "Which mood/tense goes in the se-clause of the third type?",
+          "options": [
+            "congiuntivo trapassato",
+            "condizionale passato",
+            "congiuntivo imperfetto"
+          ],
+          "answerIndex": 0,
+          "explanation": "The se-clause always needs the congiuntivo trapassato in the third type."
+        },
+        {
+          "id": "c1pt13",
+          "prompt": "Which mood/tense goes in the main clause of the third type?",
+          "options": [
+            "condizionale passato",
+            "congiuntivo trapassato",
+            "futuro semplice"
+          ],
+          "answerIndex": 0,
+          "explanation": "The main clause needs the condizionale passato."
+        },
+        {
+          "id": "c1pt14",
+          "prompt": "\"Se avessi saputo, sarei venuto\" implies...",
+          "options": [
+            "I didn't know, and I didn't come.",
+            "I knew, and I came.",
+            "I will know and I will come."
+          ],
+          "answerIndex": 0,
+          "explanation": "The third type describes a counterfactual past."
+        },
+        {
+          "id": "c1pt15",
+          "prompt": "A mixed hypothetical pairs a past condition with which kind of consequence?",
+          "options": [
+            "a present consequence",
+            "a past consequence",
+            "a future consequence"
+          ],
+          "answerIndex": 0,
+          "explanation": "The consequence is felt now, so it uses the condizionale presente."
+        },
+        {
+          "id": "c1pt16",
+          "prompt": "Which sentence is a correct mixed hypothetical?",
+          "options": [
+            "Se avessi accettato quel lavoro, ora vivrei a Milano.",
+            "Se accetterei quel lavoro, vivrei a Milano.",
+            "Se ho accettato quel lavoro, vivo a Milano."
+          ],
+          "answerIndex": 0,
+          "explanation": "Past condition (congiuntivo trapassato) + present consequence (condizionale presente)."
+        },
+        {
+          "id": "c1pt17",
+          "prompt": "The third type describes a condition that is...",
+          "options": [
+            "counterfactual, in the past",
+            "real and likely",
+            "possible but unlikely, in the present"
+          ],
+          "answerIndex": 0,
+          "explanation": "The third type is specifically about the unreal past."
+        },
+        {
+          "id": "c1pt18",
+          "prompt": "Which is the correct condizionale passato of \"venire\", noi form?",
+          "options": [
+            "saremmo venuti",
+            "avremmo venuto",
+            "venivamo"
+          ],
+          "answerIndex": 0,
+          "explanation": "Venire takes essere, so the condizionale passato is saremmo venuti."
+        },
+        {
+          "id": "c1pt19",
+          "prompt": "\"Avrei accettato l'offerta se me l'avessero fatta prima\" — the order of clauses...",
+          "options": [
+            "can be flipped without changing meaning",
+            "must stay se-clause first",
+            "must stay main clause first"
+          ],
+          "answerIndex": 0,
+          "explanation": "The main clause and se-clause can appear in either order."
+        }
+      ]
+    },
+    {
+      "id": "c1pt-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "c1pt20",
+          "statement": "The third type talks about a condition and consequence that both did not happen.",
+          "answer": true,
+          "explanation": "Both halves describe a counterfactual past."
+        },
+        {
+          "id": "c1pt21",
+          "statement": "The se-clause of the third type can use the conditional instead of the congiuntivo trapassato.",
+          "answer": false,
+          "explanation": "The se-clause always needs the congiuntivo trapassato, never the conditional."
+        },
+        {
+          "id": "c1pt22",
+          "statement": "A mixed hypothetical uses condizionale presente in the main clause for a present-day consequence.",
+          "answer": true,
+          "explanation": "This is exactly the mixed hypothetical pattern."
+        },
+        {
+          "id": "c1pt23",
+          "statement": "The third type is used for real, likely conditions.",
+          "answer": false,
+          "explanation": "That's the first type; the third type is for the unreal past."
+        },
+        {
+          "id": "c1pt24",
+          "statement": "Condizionale passato is built from avrei/sarei + past participle.",
+          "answer": true,
+          "explanation": "This is exactly how the condizionale passato is formed."
+        },
+        {
+          "id": "c1pt25",
+          "statement": "The se-clause and main clause can appear in either order without changing the meaning.",
+          "answer": true,
+          "explanation": "Word order between the two clauses is flexible."
+        },
+        {
+          "id": "c1pt26",
+          "statement": "The third type never mixes with a present consequence.",
+          "answer": false,
+          "explanation": "Mixed hypotheticals do exactly that, pairing a past condition with a present consequence."
+        },
+        {
+          "id": "c1pt27",
+          "statement": "\"Se avrei saputo\" is a correct way to start a third-type sentence.",
+          "answer": false,
+          "explanation": "The se-clause needs the congiuntivo trapassato, never the conditional."
+        }
+      ]
     }
   ],
   "summary": [
