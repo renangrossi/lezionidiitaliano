@@ -46,6 +46,20 @@ LESSONS = [
              "items": [
                 {"id": "b2tp3", "prompt": "\"When I woke up, everyone had already left.\"", "options": ["Tutti sono già partiti.", "Tutti erano già partiti.", "Tutti partivano già."], "answerIndex": 1, "explanation": "The leaving happened before the waking up — trapassato prossimo."},
              ]},
+            {"id": "b2tp-fill2", "type": "fill-blank", "title": "More Trapassato Practice",
+             "items": [
+                {"id": "b2tp4", "prompt": "Quando siamo arrivati al cinema, il film ___ (già - iniziare).", "answers": [["era già iniziato"]], "explanation": "The film starting happened before the arrival — trapassato prossimo.", "options": ["era già iniziato", "è già iniziato", "iniziava già"]},
+                {"id": "b2tp5", "prompt": "Loro non ___ (mai - viaggiare) così lontano prima di allora.", "answers": [["avevano mai viaggiato"]], "explanation": "Trapassato prossimo for an action already true before that point.", "options": ["avevano mai viaggiato", "hanno mai viaggiato", "viaggiavano mai"]},
+             ]},
+            {"id": "b2tp-mc2", "type": "multiple-choice", "title": "More Trapassato Choices",
+             "items": [
+                {"id": "b2tp6", "prompt": "\"Avevo già mangiato quando sei arrivato\" means...", "options": ["I had already eaten when you arrived.", "I ate when you arrived.", "I was eating when you arrived."], "answerIndex": 0, "explanation": "Trapassato prossimo marks the eating as complete before the arrival."},
+                {"id": "b2tp7", "prompt": "Which auxiliary tense forms the trapassato prossimo?", "options": ["imperfetto of avere/essere", "presente of avere/essere", "futuro of avere/essere"], "answerIndex": 0, "explanation": "The auxiliary is in the imperfetto, unlike the passato prossimo's present."},
+             ]},
+            {"id": "b2tp-tf", "type": "true-false", "title": "True or False?",
+             "items": [
+                {"id": "b2tp8", "statement": "The trapassato prossimo follows the same auxiliary-choice rules as the passato prossimo.", "answer": True, "explanation": "Only the auxiliary's own tense changes — which verbs take essere vs. avere stays the same."},
+             ]},
         ],
         "summary": [
             "Trapassato prossimo = imperfetto of avere/essere + past participle.",
@@ -96,6 +110,18 @@ LESSONS = [
              "items": [
                 {"id": "b2cp4", "prompt": "\"I think it's raining.\"", "options": ["Penso che piove.", "Penso che piova.", "Penso piova."], "answerIndex": 1, "explanation": "Penso che always triggers the subjunctive."},
              ]},
+            {"id": "b2cp-fill2", "type": "fill-blank", "title": "More Subjunctive Practice",
+             "items": [
+                {"id": "b2cp5", "prompt": "È importante che loro ___ (fare) attenzione.", "answers": [["facciano"]], "explanation": "Fare's irregular subjunctive stem: facciano.", "options": ["facciano", "fanno", "facessero"]},
+             ]},
+            {"id": "b2cp-mc2", "type": "multiple-choice", "title": "More Subjunctive Choices",
+             "items": [
+                {"id": "b2cp6", "prompt": "Which pronoun is often needed with the congiuntivo presente for clarity?", "options": ["the subject pronoun, since io/tu/lui-lei share one form", "the object pronoun", "no pronoun is ever needed"], "answerIndex": 0, "explanation": "Io, tu and lui/lei share an identical ending, so the pronoun helps disambiguate."},
+             ]},
+            {"id": "b2cp-tf", "type": "true-false", "title": "True or False?",
+             "items": [
+                {"id": "b2cp7", "statement": "The congiuntivo presente is formed from the io form of the present indicative.", "answer": True, "explanation": "Drop the -o from the io form and add the subjunctive endings."},
+             ]},
         ],
         "summary": [
             "Congiuntivo presente: -are verbs → -i/-i/-i/-iamo/-iate/-ino; -ere/-ire verbs → -a/-a/-a/-iamo/-iate/-ano.",
@@ -144,6 +170,20 @@ LESSONS = [
              "items": [
                 {"id": "b2cu3", "prompt": "Which verb requires the indicative, not the subjunctive?", "options": ["Dubito che...", "So che...", "Ho paura che..."], "answerIndex": 1, "explanation": "So che presents a fact, so it takes the indicative."},
              ]},
+            {"id": "b2cu-fill2", "type": "fill-blank", "title": "More Subjunctive Trigger Practice",
+             "items": [
+                {"id": "b2cu4", "prompt": "Sono contento che tu ___ (essere) qui.", "answers": [["sia"]], "explanation": "Emotion (sono contento che) triggers the subjunctive.", "options": ["sia", "sei", "fossi"]},
+                {"id": "b2cu5", "prompt": "È vero che loro ___ (vivere) a Roma.", "answers": [["vivono"]], "explanation": "È vero che presents a fact — indicative.", "options": ["vivono", "vivano", "vivessero"]},
+             ]},
+            {"id": "b2cu-mc2", "type": "multiple-choice", "title": "More Trigger Choices",
+             "items": [
+                {"id": "b2cu6", "prompt": "Which category of verb triggers the subjunctive?", "options": ["certainty", "emotion", "established fact"], "answerIndex": 1, "explanation": "Emotion verbs like sono felice che trigger the subjunctive."},
+                {"id": "b2cu7", "prompt": "\"Non sono sicuro che sia vero\" uses the subjunctive because...", "options": ["sono sicuro che is negated, expressing doubt", "sicuro always takes the subjunctive", "vero requires it"], "answerIndex": 0, "explanation": "Negating a certainty verb flips it to expressing doubt, which triggers the subjunctive."},
+             ]},
+            {"id": "b2cu-tf", "type": "true-false", "title": "True or False?",
+             "items": [
+                {"id": "b2cu8", "statement": "Same-subject clauses prefer di + infinitive over che + subjunctive.", "answer": True, "explanation": "Spero di partire is preferred over spero che io parta."},
+             ]},
         ],
         "summary": [
             "Opinion, doubt, emotion and will/necessity trigger the subjunctive; certainty (sapere che, è vero che) takes the indicative.",
@@ -190,6 +230,20 @@ LESSONS = [
             {"id": "b2ci-mc", "type": "multiple-choice", "title": "Choose the Correct Tense",
              "items": [
                 {"id": "b2ci3", "prompt": "\"I wanted you to understand\" — Volevo che tu ___", "options": ["capisca", "capissi", "capivi"], "answerIndex": 1, "explanation": "Past main clause → imperfect subjunctive."},
+             ]},
+            {"id": "b2ci-fill2", "type": "fill-blank", "title": "More Imperfect Subjunctive Practice",
+             "items": [
+                {"id": "b2ci4", "prompt": "Credevo che tu ___ (sapere) la risposta.", "answers": [["sapessi"]], "explanation": "Regular congiuntivo imperfetto of sapere: sapessi.", "options": ["sapessi", "sappia", "sapevi"]},
+                {"id": "b2ci5", "prompt": "Volevamo che loro ___ (arrivare) prima.", "answers": [["arrivassero"]], "explanation": "Regular congiuntivo imperfetto of arrivare: arrivassero.", "options": ["arrivassero", "arrivino", "arrivavano"]},
+             ]},
+            {"id": "b2ci-mc2", "type": "multiple-choice", "title": "More Imperfect Subjunctive Choices",
+             "items": [
+                {"id": "b2ci6", "prompt": "Which is essere's io form in the congiuntivo imperfetto?", "options": ["fossi", "sia", "ero"], "answerIndex": 0, "explanation": "Essere's imperfect subjunctive is fossi, fossi, fosse..."},
+                {"id": "b2ci7", "prompt": "A past-tense main clause requires which subjunctive tense in the subordinate clause?", "options": ["congiuntivo imperfetto", "congiuntivo presente", "congiuntivo futuro"], "answerIndex": 0, "explanation": "The sequence-of-tenses rule shifts the subjunctive back to the imperfetto."},
+             ]},
+            {"id": "b2ci-tf", "type": "true-false", "title": "True or False?",
+             "items": [
+                {"id": "b2ci8", "statement": "Only essere has a genuinely irregular stem in the congiuntivo imperfetto.", "answer": True, "explanation": "Almost every other verb follows the regular -assi/-essi pattern."},
              ]},
         ],
         "summary": [
@@ -242,6 +296,19 @@ LESSONS = [
              "items": [
                 {"id": "b2pi4", "incorrect": "Se avrei tempo, verrei con te.", "answer": ["Se avessi tempo, verrei con te."], "explanation": "The se-clause of the second type needs the imperfect subjunctive, not the conditional."},
              ]},
+            {"id": "b2pi-fill2", "type": "fill-blank", "title": "More Hypothetical Practice",
+             "items": [
+                {"id": "b2pi5", "prompt": "Se ___ (tu - fare) più esercizio, ti sentiresti meglio.", "answers": [["facessi"]], "explanation": "Second type: se + congiuntivo imperfetto.", "options": ["facessi", "fai", "faresti"]},
+             ]},
+            {"id": "b2pi-mc2", "type": "multiple-choice", "title": "More Hypothetical Choices",
+             "items": [
+                {"id": "b2pi6", "prompt": "Which type describes a real, likely condition?", "options": ["first type", "second type", "third type"], "answerIndex": 0, "explanation": "The first type uses se + presente indicativo for real/likely conditions."},
+                {"id": "b2pi7", "prompt": "\"Se fossi in te, non lo farei\" is an example of...", "options": ["the second type", "the first type", "reported speech"], "answerIndex": 0, "explanation": "It's a contrary-to-fact present condition, the second type."},
+             ]},
+            {"id": "b2pi-tf", "type": "true-false", "title": "True or False?",
+             "items": [
+                {"id": "b2pi8", "statement": "The conditional can appear in the se-clause of the second type.", "answer": False, "explanation": "The conditional only goes in the main clause; the se-clause needs the congiuntivo imperfetto."},
+             ]},
         ],
         "summary": [
             "First type (real/likely): se + presente indicativo, presente/futuro.",
@@ -287,6 +354,20 @@ LESSONS = [
             {"id": "b2di-mc", "type": "multiple-choice", "title": "Choose the Correct Reported Form",
              "items": [
                 {"id": "b2di3", "prompt": "Direct: \"Vengo domani.\" Reported (ha detto che...):", "options": ["sarebbe venuto il giorno dopo", "viene domani", "veniva domani"], "answerIndex": 0, "explanation": "Futuro shifts to the conditional, and domani shifts to il giorno dopo."},
+             ]},
+            {"id": "b2di-fill2", "type": "fill-blank", "title": "More Reported Speech Practice",
+             "items": [
+                {"id": "b2di4", "prompt": "Ha detto: \"Non posso venire.\" → Ha detto che non ___ (potere) venire.", "answers": [["poteva"]], "explanation": "Presente → imperfetto after a past reporting verb.", "options": ["poteva", "può", "potesse"]},
+                {"id": "b2di5", "prompt": "Mi ha chiesto: \"Dove abiti?\" → Mi ha chiesto dove ___ (io - abitare).", "answers": [["abitavo"]], "explanation": "Presente → imperfetto in the reported question.", "options": ["abitavo", "abito", "abiterei"]},
+             ]},
+            {"id": "b2di-mc2", "type": "multiple-choice", "title": "More Reported Speech Choices",
+             "items": [
+                {"id": "b2di6", "prompt": "Direct: \"Ieri ho visto Marco.\" Reported (ha detto che...):", "options": ["il giorno prima aveva visto Marco", "ieri ha visto Marco", "il giorno prima vedeva Marco"], "answerIndex": 0, "explanation": "Passato prossimo → trapassato prossimo, and ieri → il giorno prima."},
+                {"id": "b2di7", "prompt": "Which time expression replaces \"oggi\" in reported speech?", "options": ["quel giorno", "il giorno dopo", "adesso"], "answerIndex": 0, "explanation": "Oggi shifts to quel giorno when the perspective changes."},
+             ]},
+            {"id": "b2di-tf", "type": "true-false", "title": "True or False?",
+             "items": [
+                {"id": "b2di8", "statement": "A reported imperative becomes di + infinitive.", "answer": True, "explanation": "\"Chiudi la porta!\" becomes mi ha detto di chiudere la porta."},
              ]},
         ],
         "summary": [
@@ -335,6 +416,19 @@ LESSONS = [
              "items": [
                 {"id": "b2fp3", "prompt": "\"The results will be published tomorrow.\"", "options": ["I risultati pubblicheranno domani.", "I risultati saranno pubblicati domani.", "I risultati sono pubblicare domani."], "answerIndex": 1, "explanation": "Future passive: sarà/saranno + past participle."},
              ]},
+            {"id": "b2fp-fill2", "type": "fill-blank", "title": "More Passive Practice",
+             "items": [
+                {"id": "b2fp4", "prompt": "Le lettere ___ (spedire) ogni venerdì.", "answers": [["sono spedite"]], "explanation": "Present passive: essere + participle, agreeing with the plural feminine subject.", "options": ["sono spedite", "spediscono", "hanno spedito"]},
+             ]},
+            {"id": "b2fp-mc2", "type": "multiple-choice", "title": "More Passive Choices",
+             "items": [
+                {"id": "b2fp5", "prompt": "Which word introduces the agent in a passive sentence?", "options": ["da", "di", "per"], "answerIndex": 0, "explanation": "The agent is introduced with da."},
+                {"id": "b2fp6", "prompt": "Which auxiliary can replace essere in simple tenses for a formal register?", "options": ["venire", "stare", "avere"], "answerIndex": 0, "explanation": "Venire is a common literary alternative to essere in simple tenses."},
+             ]},
+            {"id": "b2fp-tf", "type": "true-false", "title": "True or False?",
+             "items": [
+                {"id": "b2fp7", "statement": "Venire can replace essere as a passive auxiliary in compound tenses too.", "answer": False, "explanation": "Venire only works in simple tenses, never in compound ones."},
+             ]},
         ],
         "summary": [
             "Passive voice: essere (in any tense) + past participle, agreeing with the subject.",
@@ -381,6 +475,20 @@ LESSONS = [
             {"id": "b2pr-mc", "type": "multiple-choice", "title": "Choose the Correct Pronoun",
              "items": [
                 {"id": "b2pr3", "prompt": "\"The house I was born in\"", "options": ["La casa che sono nato.", "La casa in cui sono nato.", "La casa cui sono nato."], "answerIndex": 1, "explanation": "The preposition in must be kept, followed by cui."},
+             ]},
+            {"id": "b2pr-fill2", "type": "fill-blank", "title": "More Che or Cui?",
+             "items": [
+                {"id": "b2pr4", "prompt": "L'uomo con ___ lavoro è molto gentile.", "answers": [["cui"]], "explanation": "After the preposition con → cui.", "options": ["cui", "che", "il quale"]},
+                {"id": "b2pr5", "prompt": "Lo scrittore ___ romanzo ho letto è famoso.", "answers": [["il cui"]], "explanation": "Il cui = whose, agreeing with the noun possessed (romanzo, masculine).", "options": ["il cui", "cui il", "che"]},
+             ]},
+            {"id": "b2pr-mc2", "type": "multiple-choice", "title": "More Relative Pronoun Choices",
+             "items": [
+                {"id": "b2pr6", "prompt": "Which relative pronoun is invariable and covers subject/direct object?", "options": ["che", "cui", "il quale"], "answerIndex": 0, "explanation": "Che is the all-purpose, invariable choice for subject and direct object."},
+                {"id": "b2pr7", "prompt": "\"Il paese in cui sono nato\" — cui follows...", "options": ["a preposition", "no preposition", "an article"], "answerIndex": 0, "explanation": "Cui is used directly after a preposition, here in."},
+             ]},
+            {"id": "b2pr-tf", "type": "true-false", "title": "True or False?",
+             "items": [
+                {"id": "b2pr8", "statement": "Che can be used directly after a preposition, just like cui.", "answer": False, "explanation": "After a preposition, che is replaced by cui — che never follows a preposition."},
              ]},
         ],
         "summary": [
@@ -430,6 +538,19 @@ LESSONS = [
             {"id": "b2vp-mc", "type": "multiple-choice", "title": "Choose the Correct Preposition",
              "items": [
                 {"id": "b2vp4", "prompt": "\"I need to talk to you.\"", "options": ["Ho bisogno a parlarti.", "Ho bisogno di parlarti.", "Ho bisogno parlarti."], "answerIndex": 1, "explanation": "Avere bisogno takes di before an infinitive."},
+             ]},
+            {"id": "b2vp-fill2", "type": "fill-blank", "title": "More Preposition Practice",
+             "items": [
+                {"id": "b2vp5", "prompt": "Ho dimenticato ___ chiudere la porta.", "answers": [["di"]], "explanation": "Dimenticare takes di.", "options": ["di", "a", "(nothing)"]},
+             ]},
+            {"id": "b2vp-mc2", "type": "multiple-choice", "title": "More Preposition Choices",
+             "items": [
+                {"id": "b2vp6", "prompt": "Which preposition does \"continuare\" take before an infinitive?", "options": ["a", "di", "(none)"], "answerIndex": 0, "explanation": "Continuare a is one of the common + a verbs."},
+                {"id": "b2vp7", "prompt": "Which verb takes no preposition before an infinitive?", "options": ["preferire", "cercare", "imparare"], "answerIndex": 0, "explanation": "Preferire, like the modal verbs, takes a bare infinitive."},
+             ]},
+            {"id": "b2vp-tf", "type": "true-false", "title": "True or False?",
+             "items": [
+                {"id": "b2vp8", "statement": "Once a verb's required preposition is established, it's never optional or interchangeable.", "answer": True, "explanation": "Each verb's pattern is fixed and must be learned alongside its meaning."},
              ]},
         ],
         "summary": [

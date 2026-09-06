@@ -119,6 +119,85 @@
           "explanation": "The preposition in must be kept, followed by cui."
         }
       ]
+    },
+    {
+      "id": "b2pr-fill2",
+      "type": "fill-blank",
+      "title": "More Che or Cui?",
+      "items": [
+        {
+          "id": "b2pr4",
+          "prompt": "L'uomo con ___ lavoro è molto gentile.",
+          "answers": [
+            [
+              "cui"
+            ]
+          ],
+          "explanation": "After the preposition con → cui.",
+          "options": [
+            "cui",
+            "che",
+            "il quale"
+          ]
+        },
+        {
+          "id": "b2pr5",
+          "prompt": "Lo scrittore ___ romanzo ho letto è famoso.",
+          "answers": [
+            [
+              "il cui"
+            ]
+          ],
+          "explanation": "Il cui = whose, agreeing with the noun possessed (romanzo, masculine).",
+          "options": [
+            "il cui",
+            "cui il",
+            "che"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2pr-mc2",
+      "type": "multiple-choice",
+      "title": "More Relative Pronoun Choices",
+      "items": [
+        {
+          "id": "b2pr6",
+          "prompt": "Which relative pronoun is invariable and covers subject/direct object?",
+          "options": [
+            "che",
+            "cui",
+            "il quale"
+          ],
+          "answerIndex": 0,
+          "explanation": "Che is the all-purpose, invariable choice for subject and direct object."
+        },
+        {
+          "id": "b2pr7",
+          "prompt": "\"Il paese in cui sono nato\" — cui follows...",
+          "options": [
+            "a preposition",
+            "no preposition",
+            "an article"
+          ],
+          "answerIndex": 0,
+          "explanation": "Cui is used directly after a preposition, here in."
+        }
+      ]
+    },
+    {
+      "id": "b2pr-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "b2pr8",
+          "statement": "Che can be used directly after a preposition, just like cui.",
+          "answer": false,
+          "explanation": "After a preposition, che is replaced by cui — che never follows a preposition."
+        }
+      ]
     }
   ],
   "summary": [

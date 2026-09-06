@@ -124,6 +124,85 @@
           "explanation": "So che presents a fact, so it takes the indicative."
         }
       ]
+    },
+    {
+      "id": "b2cu-fill2",
+      "type": "fill-blank",
+      "title": "More Subjunctive Trigger Practice",
+      "items": [
+        {
+          "id": "b2cu4",
+          "prompt": "Sono contento che tu ___ (essere) qui.",
+          "answers": [
+            [
+              "sia"
+            ]
+          ],
+          "explanation": "Emotion (sono contento che) triggers the subjunctive.",
+          "options": [
+            "sia",
+            "sei",
+            "fossi"
+          ]
+        },
+        {
+          "id": "b2cu5",
+          "prompt": "È vero che loro ___ (vivere) a Roma.",
+          "answers": [
+            [
+              "vivono"
+            ]
+          ],
+          "explanation": "È vero che presents a fact — indicative.",
+          "options": [
+            "vivono",
+            "vivano",
+            "vivessero"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2cu-mc2",
+      "type": "multiple-choice",
+      "title": "More Trigger Choices",
+      "items": [
+        {
+          "id": "b2cu6",
+          "prompt": "Which category of verb triggers the subjunctive?",
+          "options": [
+            "certainty",
+            "emotion",
+            "established fact"
+          ],
+          "answerIndex": 1,
+          "explanation": "Emotion verbs like sono felice che trigger the subjunctive."
+        },
+        {
+          "id": "b2cu7",
+          "prompt": "\"Non sono sicuro che sia vero\" uses the subjunctive because...",
+          "options": [
+            "sono sicuro che is negated, expressing doubt",
+            "sicuro always takes the subjunctive",
+            "vero requires it"
+          ],
+          "answerIndex": 0,
+          "explanation": "Negating a certainty verb flips it to expressing doubt, which triggers the subjunctive."
+        }
+      ]
+    },
+    {
+      "id": "b2cu-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "b2cu8",
+          "statement": "Same-subject clauses prefer di + infinitive over che + subjunctive.",
+          "answer": true,
+          "explanation": "Spero di partire is preferred over spero che io parta."
+        }
+      ]
     }
   ],
   "summary": [
