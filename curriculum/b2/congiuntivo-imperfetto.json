@@ -116,6 +116,85 @@
           "explanation": "Past main clause → imperfect subjunctive."
         }
       ]
+    },
+    {
+      "id": "b2ci-fill2",
+      "type": "fill-blank",
+      "title": "More Imperfect Subjunctive Practice",
+      "items": [
+        {
+          "id": "b2ci4",
+          "prompt": "Credevo che tu ___ (sapere) la risposta.",
+          "answers": [
+            [
+              "sapessi"
+            ]
+          ],
+          "explanation": "Regular congiuntivo imperfetto of sapere: sapessi.",
+          "options": [
+            "sapessi",
+            "sappia",
+            "sapevi"
+          ]
+        },
+        {
+          "id": "b2ci5",
+          "prompt": "Volevamo che loro ___ (arrivare) prima.",
+          "answers": [
+            [
+              "arrivassero"
+            ]
+          ],
+          "explanation": "Regular congiuntivo imperfetto of arrivare: arrivassero.",
+          "options": [
+            "arrivassero",
+            "arrivino",
+            "arrivavano"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2ci-mc2",
+      "type": "multiple-choice",
+      "title": "More Imperfect Subjunctive Choices",
+      "items": [
+        {
+          "id": "b2ci6",
+          "prompt": "Which is essere's io form in the congiuntivo imperfetto?",
+          "options": [
+            "fossi",
+            "sia",
+            "ero"
+          ],
+          "answerIndex": 0,
+          "explanation": "Essere's imperfect subjunctive is fossi, fossi, fosse..."
+        },
+        {
+          "id": "b2ci7",
+          "prompt": "A past-tense main clause requires which subjunctive tense in the subordinate clause?",
+          "options": [
+            "congiuntivo imperfetto",
+            "congiuntivo presente",
+            "congiuntivo futuro"
+          ],
+          "answerIndex": 0,
+          "explanation": "The sequence-of-tenses rule shifts the subjunctive back to the imperfetto."
+        }
+      ]
+    },
+    {
+      "id": "b2ci-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "b2ci8",
+          "statement": "Only essere has a genuinely irregular stem in the congiuntivo imperfetto.",
+          "answer": true,
+          "explanation": "Almost every other verb follows the regular -assi/-essi pattern."
+        }
+      ]
     }
   ],
   "summary": [

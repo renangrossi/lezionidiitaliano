@@ -112,6 +112,85 @@
           "explanation": "The leaving happened before the waking up — trapassato prossimo."
         }
       ]
+    },
+    {
+      "id": "b2tp-fill2",
+      "type": "fill-blank",
+      "title": "More Trapassato Practice",
+      "items": [
+        {
+          "id": "b2tp4",
+          "prompt": "Quando siamo arrivati al cinema, il film ___ (già - iniziare).",
+          "answers": [
+            [
+              "era già iniziato"
+            ]
+          ],
+          "explanation": "The film starting happened before the arrival — trapassato prossimo.",
+          "options": [
+            "era già iniziato",
+            "è già iniziato",
+            "iniziava già"
+          ]
+        },
+        {
+          "id": "b2tp5",
+          "prompt": "Loro non ___ (mai - viaggiare) così lontano prima di allora.",
+          "answers": [
+            [
+              "avevano mai viaggiato"
+            ]
+          ],
+          "explanation": "Trapassato prossimo for an action already true before that point.",
+          "options": [
+            "avevano mai viaggiato",
+            "hanno mai viaggiato",
+            "viaggiavano mai"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2tp-mc2",
+      "type": "multiple-choice",
+      "title": "More Trapassato Choices",
+      "items": [
+        {
+          "id": "b2tp6",
+          "prompt": "\"Avevo già mangiato quando sei arrivato\" means...",
+          "options": [
+            "I had already eaten when you arrived.",
+            "I ate when you arrived.",
+            "I was eating when you arrived."
+          ],
+          "answerIndex": 0,
+          "explanation": "Trapassato prossimo marks the eating as complete before the arrival."
+        },
+        {
+          "id": "b2tp7",
+          "prompt": "Which auxiliary tense forms the trapassato prossimo?",
+          "options": [
+            "imperfetto of avere/essere",
+            "presente of avere/essere",
+            "futuro of avere/essere"
+          ],
+          "answerIndex": 0,
+          "explanation": "The auxiliary is in the imperfetto, unlike the passato prossimo's present."
+        }
+      ]
+    },
+    {
+      "id": "b2tp-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "b2tp8",
+          "statement": "The trapassato prossimo follows the same auxiliary-choice rules as the passato prossimo.",
+          "answer": true,
+          "explanation": "Only the auxiliary's own tense changes — which verbs take essere vs. avere stays the same."
+        }
+      ]
     }
   ],
   "summary": [

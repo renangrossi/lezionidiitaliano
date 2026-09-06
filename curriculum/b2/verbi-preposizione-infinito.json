@@ -139,6 +139,70 @@
           "explanation": "Avere bisogno takes di before an infinitive."
         }
       ]
+    },
+    {
+      "id": "b2vp-fill2",
+      "type": "fill-blank",
+      "title": "More Preposition Practice",
+      "items": [
+        {
+          "id": "b2vp5",
+          "prompt": "Ho dimenticato ___ chiudere la porta.",
+          "answers": [
+            [
+              "di"
+            ]
+          ],
+          "explanation": "Dimenticare takes di.",
+          "options": [
+            "di",
+            "a",
+            "(nothing)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2vp-mc2",
+      "type": "multiple-choice",
+      "title": "More Preposition Choices",
+      "items": [
+        {
+          "id": "b2vp6",
+          "prompt": "Which preposition does \"continuare\" take before an infinitive?",
+          "options": [
+            "a",
+            "di",
+            "(none)"
+          ],
+          "answerIndex": 0,
+          "explanation": "Continuare a is one of the common + a verbs."
+        },
+        {
+          "id": "b2vp7",
+          "prompt": "Which verb takes no preposition before an infinitive?",
+          "options": [
+            "preferire",
+            "cercare",
+            "imparare"
+          ],
+          "answerIndex": 0,
+          "explanation": "Preferire, like the modal verbs, takes a bare infinitive."
+        }
+      ]
+    },
+    {
+      "id": "b2vp-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "b2vp8",
+          "statement": "Once a verb's required preposition is established, it's never optional or interchangeable.",
+          "answer": true,
+          "explanation": "Each verb's pattern is fixed and must be learned alongside its meaning."
+        }
+      ]
     }
   ],
   "summary": [

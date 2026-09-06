@@ -140,6 +140,59 @@
           "explanation": "Penso che always triggers the subjunctive."
         }
       ]
+    },
+    {
+      "id": "b2cp-fill2",
+      "type": "fill-blank",
+      "title": "More Subjunctive Practice",
+      "items": [
+        {
+          "id": "b2cp5",
+          "prompt": "È importante che loro ___ (fare) attenzione.",
+          "answers": [
+            [
+              "facciano"
+            ]
+          ],
+          "explanation": "Fare's irregular subjunctive stem: facciano.",
+          "options": [
+            "facciano",
+            "fanno",
+            "facessero"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2cp-mc2",
+      "type": "multiple-choice",
+      "title": "More Subjunctive Choices",
+      "items": [
+        {
+          "id": "b2cp6",
+          "prompt": "Which pronoun is often needed with the congiuntivo presente for clarity?",
+          "options": [
+            "the subject pronoun, since io/tu/lui-lei share one form",
+            "the object pronoun",
+            "no pronoun is ever needed"
+          ],
+          "answerIndex": 0,
+          "explanation": "Io, tu and lui/lei share an identical ending, so the pronoun helps disambiguate."
+        }
+      ]
+    },
+    {
+      "id": "b2cp-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "b2cp7",
+          "statement": "The congiuntivo presente is formed from the io form of the present indicative.",
+          "answer": true,
+          "explanation": "Drop the -o from the io form and add the subjunctive endings."
+        }
+      ]
     }
   ],
   "summary": [

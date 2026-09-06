@@ -120,6 +120,70 @@
           "explanation": "Future passive: sarà/saranno + past participle."
         }
       ]
+    },
+    {
+      "id": "b2fp-fill2",
+      "type": "fill-blank",
+      "title": "More Passive Practice",
+      "items": [
+        {
+          "id": "b2fp4",
+          "prompt": "Le lettere ___ (spedire) ogni venerdì.",
+          "answers": [
+            [
+              "sono spedite"
+            ]
+          ],
+          "explanation": "Present passive: essere + participle, agreeing with the plural feminine subject.",
+          "options": [
+            "sono spedite",
+            "spediscono",
+            "hanno spedito"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2fp-mc2",
+      "type": "multiple-choice",
+      "title": "More Passive Choices",
+      "items": [
+        {
+          "id": "b2fp5",
+          "prompt": "Which word introduces the agent in a passive sentence?",
+          "options": [
+            "da",
+            "di",
+            "per"
+          ],
+          "answerIndex": 0,
+          "explanation": "The agent is introduced with da."
+        },
+        {
+          "id": "b2fp6",
+          "prompt": "Which auxiliary can replace essere in simple tenses for a formal register?",
+          "options": [
+            "venire",
+            "stare",
+            "avere"
+          ],
+          "answerIndex": 0,
+          "explanation": "Venire is a common literary alternative to essere in simple tenses."
+        }
+      ]
+    },
+    {
+      "id": "b2fp-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "b2fp7",
+          "statement": "Venire can replace essere as a passive auxiliary in compound tenses too.",
+          "answer": false,
+          "explanation": "Venire only works in simple tenses, never in compound ones."
+        }
+      ]
     }
   ],
   "summary": [

@@ -112,6 +112,85 @@
           "explanation": "Futuro shifts to the conditional, and domani shifts to il giorno dopo."
         }
       ]
+    },
+    {
+      "id": "b2di-fill2",
+      "type": "fill-blank",
+      "title": "More Reported Speech Practice",
+      "items": [
+        {
+          "id": "b2di4",
+          "prompt": "Ha detto: \"Non posso venire.\" → Ha detto che non ___ (potere) venire.",
+          "answers": [
+            [
+              "poteva"
+            ]
+          ],
+          "explanation": "Presente → imperfetto after a past reporting verb.",
+          "options": [
+            "poteva",
+            "può",
+            "potesse"
+          ]
+        },
+        {
+          "id": "b2di5",
+          "prompt": "Mi ha chiesto: \"Dove abiti?\" → Mi ha chiesto dove ___ (io - abitare).",
+          "answers": [
+            [
+              "abitavo"
+            ]
+          ],
+          "explanation": "Presente → imperfetto in the reported question.",
+          "options": [
+            "abitavo",
+            "abito",
+            "abiterei"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2di-mc2",
+      "type": "multiple-choice",
+      "title": "More Reported Speech Choices",
+      "items": [
+        {
+          "id": "b2di6",
+          "prompt": "Direct: \"Ieri ho visto Marco.\" Reported (ha detto che...):",
+          "options": [
+            "il giorno prima aveva visto Marco",
+            "ieri ha visto Marco",
+            "il giorno prima vedeva Marco"
+          ],
+          "answerIndex": 0,
+          "explanation": "Passato prossimo → trapassato prossimo, and ieri → il giorno prima."
+        },
+        {
+          "id": "b2di7",
+          "prompt": "Which time expression replaces \"oggi\" in reported speech?",
+          "options": [
+            "quel giorno",
+            "il giorno dopo",
+            "adesso"
+          ],
+          "answerIndex": 0,
+          "explanation": "Oggi shifts to quel giorno when the perspective changes."
+        }
+      ]
+    },
+    {
+      "id": "b2di-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "b2di8",
+          "statement": "A reported imperative becomes di + infinitive.",
+          "answer": true,
+          "explanation": "\"Chiudi la porta!\" becomes mi ha detto di chiudere la porta."
+        }
+      ]
     }
   ],
   "summary": [

@@ -134,6 +134,70 @@
           "explanation": "The se-clause of the second type needs the imperfect subjunctive, not the conditional."
         }
       ]
+    },
+    {
+      "id": "b2pi-fill2",
+      "type": "fill-blank",
+      "title": "More Hypothetical Practice",
+      "items": [
+        {
+          "id": "b2pi5",
+          "prompt": "Se ___ (tu - fare) più esercizio, ti sentiresti meglio.",
+          "answers": [
+            [
+              "facessi"
+            ]
+          ],
+          "explanation": "Second type: se + congiuntivo imperfetto.",
+          "options": [
+            "facessi",
+            "fai",
+            "faresti"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2pi-mc2",
+      "type": "multiple-choice",
+      "title": "More Hypothetical Choices",
+      "items": [
+        {
+          "id": "b2pi6",
+          "prompt": "Which type describes a real, likely condition?",
+          "options": [
+            "first type",
+            "second type",
+            "third type"
+          ],
+          "answerIndex": 0,
+          "explanation": "The first type uses se + presente indicativo for real/likely conditions."
+        },
+        {
+          "id": "b2pi7",
+          "prompt": "\"Se fossi in te, non lo farei\" is an example of...",
+          "options": [
+            "the second type",
+            "the first type",
+            "reported speech"
+          ],
+          "answerIndex": 0,
+          "explanation": "It's a contrary-to-fact present condition, the second type."
+        }
+      ]
+    },
+    {
+      "id": "b2pi-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "b2pi8",
+          "statement": "The conditional can appear in the se-clause of the second type.",
+          "answer": false,
+          "explanation": "The conditional only goes in the main clause; the se-clause needs the congiuntivo imperfetto."
+        }
+      ]
     }
   ],
   "summary": [
