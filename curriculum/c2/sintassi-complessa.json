@@ -104,6 +104,266 @@
           "explanation": "Fronting/clefting il coraggio sharpens the emphasis compared to the flat statement."
         }
       ]
+    },
+    {
+      "id": "c2sc-fill2",
+      "type": "fill-blank",
+      "title": "More Emphasis Structures",
+      "items": [
+        {
+          "id": "c2sc4",
+          "prompt": "___ arrivò la sua occasione.",
+          "answers": [
+            [
+              "Solo allora"
+            ]
+          ],
+          "explanation": "Solo allora fronts the adverb for emphasis.",
+          "options": [
+            "Solo allora",
+            "Allora solo",
+            "Poi"
+          ]
+        },
+        {
+          "id": "c2sc5",
+          "prompt": "Di lui non ___ (io - volere) più sentire parlare.",
+          "answers": [
+            [
+              "voglio"
+            ]
+          ],
+          "explanation": "Fronted object (di lui), io form of volere.",
+          "options": [
+            "voglio",
+            "vuoi",
+            "vogliono"
+          ]
+        },
+        {
+          "id": "c2sc6",
+          "prompt": "___ (Arrivare) il momento della verità.",
+          "answers": [
+            [
+              "È arrivato"
+            ]
+          ],
+          "explanation": "Subject postponed after the verb for drama.",
+          "options": [
+            "È arrivato",
+            "Arriva",
+            "Arrivò"
+          ]
+        },
+        {
+          "id": "c2sc7",
+          "prompt": "___ capii che avevo sbagliato tutto.",
+          "answers": [
+            [
+              "Fu allora che"
+            ]
+          ],
+          "explanation": "Cleft sentence spotlighting the moment of realization.",
+          "options": [
+            "Fu allora che",
+            "Allora che fu",
+            "Quando fu"
+          ]
+        },
+        {
+          "id": "c2sc8",
+          "prompt": "È ___ che ammiro di più in lui.",
+          "answers": [
+            [
+              "proprio il coraggio"
+            ]
+          ],
+          "explanation": "Cleft sentence fronting il coraggio for emphasis.",
+          "options": [
+            "proprio il coraggio",
+            "il coraggio proprio",
+            "coraggio proprio"
+          ]
+        },
+        {
+          "id": "c2sc9",
+          "prompt": "___ arrivò la notizia, tutti tacquero.",
+          "answers": [
+            [
+              "Non appena"
+            ]
+          ],
+          "explanation": "Non appena is the fixed \"as soon as\" expression.",
+          "options": [
+            "Non appena",
+            "Appena non",
+            "Solo se"
+          ]
+        },
+        {
+          "id": "c2sc10",
+          "prompt": "Di soldi non ne ___ (avere) mai avuti molti.",
+          "answers": [
+            [
+              "aveva"
+            ]
+          ],
+          "explanation": "Fronted topic (di soldi) + ne, imperfetto of avere.",
+          "options": [
+            "aveva",
+            "ha",
+            "ebbe"
+          ]
+        },
+        {
+          "id": "c2sc11",
+          "prompt": "___ questo il punto.",
+          "answers": [
+            [
+              "È proprio"
+            ]
+          ],
+          "explanation": "Cleft sentence emphasizing questo.",
+          "options": [
+            "È proprio",
+            "Proprio è",
+            "Sta"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2sc-mc2",
+      "type": "multiple-choice",
+      "title": "More Emphasis Choices",
+      "items": [
+        {
+          "id": "c2sc12",
+          "prompt": "Fronting an object or subordinate clause has what effect?",
+          "options": [
+            "it shifts emphasis onto it",
+            "it makes the sentence ungrammatical",
+            "it removes all emphasis"
+          ],
+          "answerIndex": 0,
+          "explanation": "Fronting pulls focus onto the fronted element."
+        },
+        {
+          "id": "c2sc13",
+          "prompt": "\"Fu allora che capii tutto\" is an example of...",
+          "options": [
+            "a cleft sentence",
+            "the passive voice",
+            "the subjunctive"
+          ],
+          "answerIndex": 0,
+          "explanation": "This is a classic cleft-sentence structure."
+        },
+        {
+          "id": "c2sc14",
+          "prompt": "Which register typically uses heavy subject-verb inversion?",
+          "options": [
+            "formal/literary narrative",
+            "texting",
+            "casual small talk"
+          ],
+          "answerIndex": 0,
+          "explanation": "Inversion for emphasis belongs to formal/literary style."
+        },
+        {
+          "id": "c2sc15",
+          "prompt": "\"Di questo non voglio parlare\" fronts which element?",
+          "options": [
+            "a prepositional phrase/topic",
+            "the subject",
+            "the verb"
+          ],
+          "answerIndex": 0,
+          "explanation": "Di questo, a prepositional phrase, is fronted for emphasis."
+        },
+        {
+          "id": "c2sc16",
+          "prompt": "In a cleft sentence like \"È il coraggio che ammiro\", is the subject pronoun io typically kept?",
+          "options": [
+            "no, it's dropped as usual",
+            "yes, always",
+            "only in writing"
+          ],
+          "answerIndex": 0,
+          "explanation": "The cleft structure itself provides emphasis, so io stays dropped."
+        },
+        {
+          "id": "c2sc17",
+          "prompt": "\"È arrivato il momento della verità\" postpones which element?",
+          "options": [
+            "the subject",
+            "the object",
+            "the adverb"
+          ],
+          "answerIndex": 0,
+          "explanation": "The subject, il momento, comes after the verb for drama."
+        },
+        {
+          "id": "c2sc18",
+          "prompt": "Overusing inversion in casual conversation tends to sound...",
+          "options": [
+            "stilted/overly literary",
+            "perfectly natural",
+            "more polite"
+          ],
+          "answerIndex": 0,
+          "explanation": "Constant inversion reads as unnaturally formal in everyday speech."
+        }
+      ]
+    },
+    {
+      "id": "c2sc-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "c2sc19",
+          "statement": "Standard word order in Italian is completely rigid, with no room for reordering.",
+          "answer": false,
+          "explanation": "Italian word order is flexible enough to reorder elements for emphasis."
+        },
+        {
+          "id": "c2sc20",
+          "statement": "Cleft sentences spotlight one specific element of the sentence.",
+          "answer": true,
+          "explanation": "That's exactly their function."
+        },
+        {
+          "id": "c2sc21",
+          "statement": "Heavy inversion is the everyday default in spoken Italian.",
+          "answer": false,
+          "explanation": "It's a formal/literary stylistic choice, not the everyday default."
+        },
+        {
+          "id": "c2sc22",
+          "statement": "\"Solo allora capii\" fronts an adverb for emphasis.",
+          "answer": true,
+          "explanation": "Solo allora is fronted to emphasize the timing."
+        },
+        {
+          "id": "c2sc23",
+          "statement": "Fronting an object always makes a sentence ungrammatical.",
+          "answer": false,
+          "explanation": "Fronting is a valid, grammatical stylistic device."
+        },
+        {
+          "id": "c2sc24",
+          "statement": "A cleft sentence typically uses è... che to isolate one element.",
+          "answer": true,
+          "explanation": "This is the standard cleft-sentence pattern."
+        },
+        {
+          "id": "c2sc25",
+          "statement": "Reordering for emphasis is a stylistic tool used deliberately by fluent writers.",
+          "answer": true,
+          "explanation": "Fluent writers use word order deliberately for effect."
+        }
+      ]
     }
   ],
   "summary": [
