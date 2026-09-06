@@ -143,6 +143,277 @@
           "explanation": "One o'clock is the only hour that uses the singular è."
         }
       ]
+    },
+    {
+      "id": "a1no-fill2",
+      "type": "fill-blank",
+      "title": "More Numbers, Time and Dates",
+      "items": [
+        {
+          "id": "a1no5",
+          "prompt": "17 in Italian is ___.",
+          "answers": [
+            [
+              "diciassette"
+            ]
+          ],
+          "explanation": "Numbers 1–19 are irregular and simply memorized.",
+          "options": [
+            "diciassette",
+            "diciotto",
+            "diciannove"
+          ]
+        },
+        {
+          "id": "a1no6",
+          "prompt": "31 in Italian is ___.",
+          "answers": [
+            [
+              "trentuno"
+            ]
+          ],
+          "explanation": "Trenta loses its final vowel before uno: trentuno.",
+          "options": [
+            "trentuno",
+            "trenta-uno",
+            "trentauno"
+          ]
+        },
+        {
+          "id": "a1no7",
+          "prompt": "___ le sette di sera.",
+          "answers": [
+            [
+              "Sono"
+            ]
+          ],
+          "explanation": "All hours except one o'clock use the plural sono.",
+          "options": [
+            "Sono",
+            "È",
+            "Ho"
+          ]
+        },
+        {
+          "id": "a1no8",
+          "prompt": "Sono le due e ___.",
+          "answers": [
+            [
+              "mezza"
+            ]
+          ],
+          "explanation": "Mezza means \"half past\".",
+          "options": [
+            "mezza",
+            "quarto",
+            "meno"
+          ]
+        },
+        {
+          "id": "a1no9",
+          "prompt": "Sono le cinque meno un ___.",
+          "answers": [
+            [
+              "quarto"
+            ]
+          ],
+          "explanation": "Meno un quarto means \"a quarter to\".",
+          "options": [
+            "quarto",
+            "mezzo",
+            "meno"
+          ]
+        },
+        {
+          "id": "a1no10",
+          "prompt": "Oggi è il ___ febbraio. (the 2nd)",
+          "answers": [
+            [
+              "due"
+            ]
+          ],
+          "explanation": "Every day except the first uses the cardinal number.",
+          "options": [
+            "due",
+            "secondo",
+            "seconda"
+          ]
+        },
+        {
+          "id": "a1no11",
+          "prompt": "48 in Italian is ___.",
+          "answers": [
+            [
+              "quarantotto"
+            ]
+          ],
+          "explanation": "Quaranta loses its final vowel before otto: quarantotto.",
+          "options": [
+            "quarantotto",
+            "quaranta-otto",
+            "quarantaotto"
+          ]
+        },
+        {
+          "id": "a1no12",
+          "prompt": "Il mio compleanno è il ___ dicembre. (the 15th)",
+          "answers": [
+            [
+              "quindici"
+            ]
+          ],
+          "explanation": "The 15th uses the plain cardinal number, quindici.",
+          "options": [
+            "quindici",
+            "quindicesimo",
+            "quindice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1no-mc2",
+      "type": "multiple-choice",
+      "title": "More Number and Time Choices",
+      "items": [
+        {
+          "id": "a1no13",
+          "prompt": "How do you say 21 in Italian?",
+          "options": [
+            "ventuno",
+            "venti e uno",
+            "ventiuno"
+          ],
+          "answerIndex": 0,
+          "explanation": "Venti loses its final vowel before uno: ventuno."
+        },
+        {
+          "id": "a1no14",
+          "prompt": "How do you say 88 in Italian?",
+          "options": [
+            "ottantotto",
+            "ottanta-otto",
+            "ottantaotto"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ottanta loses its final vowel before otto: ottantotto."
+        },
+        {
+          "id": "a1no15",
+          "prompt": "\"Sono le quattro\" means...",
+          "options": [
+            "It's four o'clock.",
+            "It's four days.",
+            "There are four."
+          ],
+          "answerIndex": 0,
+          "explanation": "Sono le + a number tells the time."
+        },
+        {
+          "id": "a1no16",
+          "prompt": "How do you ask \"what time is it?\"",
+          "options": [
+            "Che ora è?",
+            "Che ore è?",
+            "Quale ora?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Che ora è? (or che ore sono?) is the standard way to ask the time."
+        },
+        {
+          "id": "a1no17",
+          "prompt": "How do you say \"the third of May\"?",
+          "options": [
+            "il terzo maggio",
+            "il tre maggio",
+            "il tré maggio"
+          ],
+          "answerIndex": 1,
+          "explanation": "Only the first of the month uses an ordinal; every other day uses the cardinal number."
+        },
+        {
+          "id": "a1no18",
+          "prompt": "How do you say \"a quarter past six\"?",
+          "options": [
+            "Sono le sei e un quarto.",
+            "Sono le sei meno un quarto.",
+            "È le sei e un quarto."
+          ],
+          "answerIndex": 0,
+          "explanation": "E un quarto means \"and a quarter\", i.e. quarter past."
+        },
+        {
+          "id": "a1no19",
+          "prompt": "What does \"mezzogiorno\" mean?",
+          "options": [
+            "midnight",
+            "noon",
+            "midday nap"
+          ],
+          "answerIndex": 1,
+          "explanation": "Mezzogiorno means noon; mezzanotte means midnight."
+        },
+        {
+          "id": "a1no20",
+          "prompt": "How do you say \"I'm fifty years old\"?",
+          "options": [
+            "Sono cinquant'anni.",
+            "Ho cinquant'anni.",
+            "Ho cinquanta anno."
+          ],
+          "answerIndex": 1,
+          "explanation": "Age uses avere, and anni stays plural even after eliding cinquanta to cinquant'."
+        }
+      ]
+    },
+    {
+      "id": "a1no-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "a1no21",
+          "statement": "Numbers 1 through 19 in Italian are irregular and must be memorized.",
+          "answer": true,
+          "explanation": "Unlike the tens, 1–19 don't follow a predictable pattern."
+        },
+        {
+          "id": "a1no22",
+          "statement": "From 20 onward, Italian numbers combine tens and units in a regular pattern.",
+          "answer": true,
+          "explanation": "Tens + units combine regularly, with elision before -uno/-otto."
+        },
+        {
+          "id": "a1no23",
+          "statement": "Tens keep their final vowel before -uno and -otto.",
+          "answer": false,
+          "explanation": "Tens drop their final vowel before -uno and -otto: ventuno, not venti-uno."
+        },
+        {
+          "id": "a1no24",
+          "statement": "Every hour uses \"sono le...\" except one o'clock, which uses \"è l'una\".",
+          "answer": true,
+          "explanation": "L'una is the only singular hour."
+        },
+        {
+          "id": "a1no25",
+          "statement": "The days of the week and months are capitalized in Italian, like in English.",
+          "answer": false,
+          "explanation": "Italian keeps days and months lowercase."
+        },
+        {
+          "id": "a1no26",
+          "statement": "Only the first day of the month uses an ordinal number (il primo).",
+          "answer": true,
+          "explanation": "Every other day uses the plain cardinal number."
+        },
+        {
+          "id": "a1no27",
+          "statement": "\"Mezzanotte\" means noon.",
+          "answer": false,
+          "explanation": "Mezzanotte means midnight; mezzogiorno means noon."
+        }
+      ]
     }
   ],
   "summary": [

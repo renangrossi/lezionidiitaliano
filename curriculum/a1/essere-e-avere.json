@@ -194,6 +194,266 @@
           "explanation": "Io always takes ho, never ha (which is the lui/lei form)."
         }
       ]
+    },
+    {
+      "id": "a1ea-fill2",
+      "type": "fill-blank",
+      "title": "More Essere and Avere",
+      "items": [
+        {
+          "id": "a1ea9",
+          "prompt": "Voi ___ pronti?",
+          "answers": [
+            [
+              "siete"
+            ]
+          ],
+          "explanation": "Voi + essere = siete.",
+          "options": [
+            "siete",
+            "siamo",
+            "sono"
+          ]
+        },
+        {
+          "id": "a1ea10",
+          "prompt": "Lui ___ due fratelli.",
+          "answers": [
+            [
+              "ha"
+            ]
+          ],
+          "explanation": "Lui + avere (possession) = ha.",
+          "options": [
+            "ha",
+            "hai",
+            "hanno"
+          ]
+        },
+        {
+          "id": "a1ea11",
+          "prompt": "Io ___ freddo, chiudi la finestra!",
+          "answers": [
+            [
+              "ho"
+            ]
+          ],
+          "explanation": "Avere freddo — to be cold — needs avere: ho.",
+          "options": [
+            "ho",
+            "sono",
+            "hai"
+          ]
+        },
+        {
+          "id": "a1ea12",
+          "prompt": "Loro ___ sempre in ritardo.",
+          "answers": [
+            [
+              "sono"
+            ]
+          ],
+          "explanation": "Loro + essere (characteristic) = sono.",
+          "options": [
+            "sono",
+            "hanno",
+            "siamo"
+          ]
+        },
+        {
+          "id": "a1ea13",
+          "prompt": "Tu ___ ragione.",
+          "answers": [
+            [
+              "hai"
+            ]
+          ],
+          "explanation": "Avere ragione — to be right — needs avere: hai.",
+          "options": [
+            "hai",
+            "sei",
+            "ha"
+          ]
+        },
+        {
+          "id": "a1ea14",
+          "prompt": "Noi ___ stanchi oggi.",
+          "answers": [
+            [
+              "siamo"
+            ]
+          ],
+          "explanation": "Noi + essere (characteristic) = siamo.",
+          "options": [
+            "siamo",
+            "abbiamo",
+            "sono"
+          ]
+        },
+        {
+          "id": "a1ea15",
+          "prompt": "Lei ___ paura dei ragni.",
+          "answers": [
+            [
+              "ha"
+            ]
+          ],
+          "explanation": "Avere paura — to be afraid — needs avere: ha.",
+          "options": [
+            "ha",
+            "è",
+            "hai"
+          ]
+        },
+        {
+          "id": "a1ea16",
+          "prompt": "Io ___ di Palermo.",
+          "answers": [
+            [
+              "sono"
+            ]
+          ],
+          "explanation": "Origin uses essere: io + essere = sono.",
+          "options": [
+            "sono",
+            "ho",
+            "sei"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1ea-mc2",
+      "type": "multiple-choice",
+      "title": "Fixed Expressions with Avere",
+      "items": [
+        {
+          "id": "a1ea17",
+          "prompt": "\"Ho fretta\" means...",
+          "options": [
+            "I have a fret.",
+            "I'm in a hurry.",
+            "I'm hungry."
+          ],
+          "answerIndex": 1,
+          "explanation": "Avere fretta is the fixed expression for \"to be in a hurry\"."
+        },
+        {
+          "id": "a1ea18",
+          "prompt": "\"Ha torto\" means...",
+          "options": [
+            "He/she is wrong.",
+            "He/she has a twist.",
+            "He/she is right."
+          ],
+          "answerIndex": 0,
+          "explanation": "Avere torto means \"to be wrong\", the opposite of avere ragione."
+        },
+        {
+          "id": "a1ea19",
+          "prompt": "How do you say \"we need a hotel\"?",
+          "options": [
+            "Siamo bisogno di un hotel.",
+            "Abbiamo bisogno di un hotel.",
+            "Abbiamo bisogno un hotel."
+          ],
+          "answerIndex": 1,
+          "explanation": "Avere bisogno di is the fixed expression for \"to need\"."
+        },
+        {
+          "id": "a1ea20",
+          "prompt": "Which is correct for \"they are cold\"?",
+          "options": [
+            "Sono freddi.",
+            "Hanno freddo.",
+            "Sono freddo."
+          ],
+          "answerIndex": 1,
+          "explanation": "Avere freddo is the fixed expression Italian uses for feeling cold."
+        },
+        {
+          "id": "a1ea21",
+          "prompt": "\"Siete pronti?\" is addressed to...",
+          "options": [
+            "tu",
+            "voi",
+            "Lei"
+          ],
+          "answerIndex": 1,
+          "explanation": "Siete is the voi form of essere."
+        },
+        {
+          "id": "a1ea22",
+          "prompt": "Which verb form matches \"noi\" for avere?",
+          "options": [
+            "abbiamo",
+            "abbiate",
+            "aviamo"
+          ],
+          "answerIndex": 0,
+          "explanation": "Noi + avere = abbiamo."
+        },
+        {
+          "id": "a1ea23",
+          "prompt": "\"Sei simpatico\" uses essere because it expresses...",
+          "options": [
+            "possession",
+            "a characteristic",
+            "age"
+          ],
+          "answerIndex": 1,
+          "explanation": "Describing a personal quality uses essere, not avere."
+        }
+      ]
+    },
+    {
+      "id": "a1ea-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "a1ea24",
+          "statement": "Avere is used to express someone's age in Italian.",
+          "answer": true,
+          "explanation": "Age always uses avere, e.g. ho vent'anni."
+        },
+        {
+          "id": "a1ea25",
+          "statement": "Essere is used for physical states like hunger and thirst.",
+          "answer": false,
+          "explanation": "Avere is used for these fixed expressions: avere fame, avere sete."
+        },
+        {
+          "id": "a1ea26",
+          "statement": "The io form of avere is ho.",
+          "answer": true,
+          "explanation": "Io ho is the first-person singular of avere."
+        },
+        {
+          "id": "a1ea27",
+          "statement": "The tu form of essere is sei.",
+          "answer": true,
+          "explanation": "Tu sei is the second-person singular of essere."
+        },
+        {
+          "id": "a1ea28",
+          "statement": "Avere ragione means \"to be thirsty\".",
+          "answer": false,
+          "explanation": "Avere ragione means \"to be right\"; avere sete means \"to be thirsty\"."
+        },
+        {
+          "id": "a1ea29",
+          "statement": "Noi abbiamo and noi siamo are both irregular present-tense forms.",
+          "answer": true,
+          "explanation": "Both essere and avere are fully irregular in the present tense."
+        },
+        {
+          "id": "a1ea30",
+          "statement": "Loro sono and loro hanno share the same verb ending.",
+          "answer": false,
+          "explanation": "Sono and hanno are each their own irregular form — they don't share an ending pattern."
+        }
+      ]
     }
   ],
   "summary": [

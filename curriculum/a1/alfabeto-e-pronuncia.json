@@ -133,6 +133,360 @@
           "explanation": "The h and i in these combinations are silent spelling signals, not pronounced letters of their own."
         }
       ]
+    },
+    {
+      "id": "a1ap-mc2",
+      "type": "multiple-choice",
+      "title": "Which Sound? Part 2",
+      "items": [
+        {
+          "id": "a1ap5",
+          "prompt": "How is the \"g\" in \"gelato\" pronounced?",
+          "options": [
+            "Hard, like \"g\" in \"go\"",
+            "Soft, like \"j\" in \"jet\"",
+            "Silent"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ge/gi is always the soft \"j\" sound."
+        },
+        {
+          "id": "a1ap6",
+          "prompt": "How is the \"sc\" in \"scuola\" pronounced?",
+          "options": [
+            "\"sh\" sound",
+            "\"sk\" sound",
+            "Silent"
+          ],
+          "answerIndex": 1,
+          "explanation": "Before a/o/u, sc is the hard \"sk\" sound; only before e/i is it \"sh\"."
+        },
+        {
+          "id": "a1ap7",
+          "prompt": "Which word has the soft \"ch\" sound (like English \"ch\" in cheese)?",
+          "options": [
+            "casa",
+            "cena",
+            "chiesa"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ce/ci is soft; chiesa keeps a hard \"k\" thanks to the h."
+        },
+        {
+          "id": "a1ap8",
+          "prompt": "How is \"gli\" in \"famiglia\" pronounced?",
+          "options": [
+            "\"g\"+\"l\"+\"i\" separately",
+            "\"ly\" as in million",
+            "hard \"g\" only"
+          ],
+          "answerIndex": 1,
+          "explanation": "Gli is always a single \"ly\" sound."
+        },
+        {
+          "id": "a1ap9",
+          "prompt": "Which word keeps the hard \"g\" sound before \"i\"?",
+          "options": [
+            "ghiaccio",
+            "giorno",
+            "gente"
+          ],
+          "answerIndex": 0,
+          "explanation": "The h in ghi keeps the hard \"g\" sound before i."
+        },
+        {
+          "id": "a1ap10",
+          "prompt": "Which pair of words are genuinely different because of a double consonant?",
+          "options": [
+            "sono / sonno",
+            "casa / casa",
+            "pane / pane"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sono (I am) and sonno (sleep) are different words; the double n must be held longer."
+        },
+        {
+          "id": "a1ap11",
+          "prompt": "How is \"qu\" pronounced in \"quattro\"?",
+          "options": [
+            "\"kw\" as in queen",
+            "\"k\" only, u silent",
+            "\"kv\""
+          ],
+          "answerIndex": 0,
+          "explanation": "Qu in Italian is pronounced \"kw\", same as in English \"queen\"."
+        },
+        {
+          "id": "a1ap12",
+          "prompt": "Which word has the soft \"j\" sound?",
+          "options": [
+            "gatto",
+            "giorno",
+            "gonna"
+          ],
+          "answerIndex": 1,
+          "explanation": "Gi before a vowel is the soft \"j\" sound; gatto and gonna keep the hard g."
+        },
+        {
+          "id": "a1ap13",
+          "prompt": "How is \"z\" typically pronounced in \"pizza\"?",
+          "options": [
+            "\"ts\" sound",
+            "\"z\" as in zoo, always",
+            "Silent"
+          ],
+          "answerIndex": 0,
+          "explanation": "Italian z is most often pronounced \"ts\", as in pizza."
+        },
+        {
+          "id": "a1ap14",
+          "prompt": "Which combination produces the \"sh\" sound?",
+          "options": [
+            "sc + a/o/u",
+            "sc + e/i",
+            "sch"
+          ],
+          "answerIndex": 1,
+          "explanation": "Sc before e/i is the \"sh\" sound; before a/o/u it's \"sk\"."
+        }
+      ]
+    },
+    {
+      "id": "a1ap-fill",
+      "type": "fill-blank",
+      "title": "Complete the Spelling",
+      "instructions": "Fill in the letter or letters that produce the described sound.",
+      "items": [
+        {
+          "id": "a1ap15",
+          "prompt": "The word for \"who\" is written ___i (needs the hard \"k\" sound before i).",
+          "answers": [
+            [
+              "ch"
+            ]
+          ],
+          "explanation": "Adding h keeps the hard \"k\" sound before i: chi.",
+          "options": [
+            "ch",
+            "c",
+            "sc"
+          ]
+        },
+        {
+          "id": "a1ap16",
+          "prompt": "\"Spaghetti\" keeps its hard \"g\" sound thanks to the letter ___ before \"etti\".",
+          "answers": [
+            [
+              "h"
+            ]
+          ],
+          "explanation": "The h in ghe/ghi keeps the hard \"g\" sound before e/i.",
+          "options": [
+            "h",
+            "i",
+            "e"
+          ]
+        },
+        {
+          "id": "a1ap17",
+          "prompt": "\"Giorno\" keeps its soft \"j\" sound thanks to the silent letter ___ before \"orno\".",
+          "answers": [
+            [
+              "i"
+            ]
+          ],
+          "explanation": "The silent i in gio/gia/giu keeps the soft \"j\" sound before a/o/u.",
+          "options": [
+            "i",
+            "h",
+            "e"
+          ]
+        },
+        {
+          "id": "a1ap18",
+          "prompt": "The bathroom word \"bagno\" contains the combination ___, pronounced \"ny\".",
+          "answers": [
+            [
+              "gn"
+            ]
+          ],
+          "explanation": "Gn is always pronounced \"ny\", as in canyon.",
+          "options": [
+            "gn",
+            "ng",
+            "ni"
+          ]
+        },
+        {
+          "id": "a1ap19",
+          "prompt": "\"Family\" in Italian, famiglia, contains the combination ___, pronounced \"ly\".",
+          "answers": [
+            [
+              "gli"
+            ]
+          ],
+          "explanation": "Gli is always the \"ly\" sound.",
+          "options": [
+            "gli",
+            "gl",
+            "li"
+          ]
+        },
+        {
+          "id": "a1ap20",
+          "prompt": "\"Fish\", pesce, uses ___ before e for the \"sh\" sound.",
+          "answers": [
+            [
+              "sc"
+            ]
+          ],
+          "explanation": "Sc before e/i is the \"sh\" sound.",
+          "options": [
+            "sc",
+            "sch",
+            "s"
+          ]
+        },
+        {
+          "id": "a1ap21",
+          "prompt": "\"School\", scuola, uses sc before ___ for the hard \"sk\" sound.",
+          "answers": [
+            [
+              "u"
+            ]
+          ],
+          "explanation": "Sc before a/o/u is the hard \"sk\" sound.",
+          "options": [
+            "u",
+            "e",
+            "i"
+          ]
+        },
+        {
+          "id": "a1ap22",
+          "prompt": "\"Sleep\", sonno, is spelled with a double ___, held longer than in sono (I am).",
+          "answers": [
+            [
+              "n"
+            ]
+          ],
+          "explanation": "The double n changes the meaning entirely.",
+          "options": [
+            "n",
+            "m",
+            "s"
+          ]
+        },
+        {
+          "id": "a1ap23",
+          "prompt": "\"Quanto\" (how much) starts with the combination ___, pronounced \"kw\".",
+          "answers": [
+            [
+              "qu"
+            ]
+          ],
+          "explanation": "Qu is always pronounced \"kw\" in Italian, same as English \"queen\".",
+          "options": [
+            "qu",
+            "cu",
+            "qv"
+          ]
+        },
+        {
+          "id": "a1ap24",
+          "prompt": "\"Zio\" (uncle) starts with the letter ___, usually pronounced \"ts\".",
+          "answers": [
+            [
+              "z"
+            ]
+          ],
+          "explanation": "Italian z is most often pronounced \"ts\".",
+          "options": [
+            "z",
+            "s",
+            "ts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1ap-tf",
+      "type": "true-false",
+      "title": "True or False?",
+      "items": [
+        {
+          "id": "a1ap25",
+          "statement": "Ge and gi are always pronounced with a hard \"g\" sound.",
+          "answer": false,
+          "explanation": "Ge/gi are the soft \"j\" sound; ghe/ghi keep the hard sound."
+        },
+        {
+          "id": "a1ap26",
+          "statement": "Adding an h after c or g keeps the hard sound before e or i.",
+          "answer": true,
+          "explanation": "Che/chi and ghe/ghi keep the hard \"k\"/\"g\" sounds."
+        },
+        {
+          "id": "a1ap27",
+          "statement": "Sc before a, o or u is pronounced \"sh\".",
+          "answer": false,
+          "explanation": "Sc before a/o/u is \"sk\"; \"sh\" is only before e/i."
+        },
+        {
+          "id": "a1ap28",
+          "statement": "Double consonants in Italian are pronounced exactly like single consonants.",
+          "answer": false,
+          "explanation": "Double consonants are held noticeably longer and can change the word's meaning."
+        },
+        {
+          "id": "a1ap29",
+          "statement": "Gn is pronounced as two separate sounds, \"g\" then \"n\".",
+          "answer": false,
+          "explanation": "Gn is always a single \"ny\" sound."
+        },
+        {
+          "id": "a1ap30",
+          "statement": "Gli is pronounced \"ly\", as in the English word \"million\".",
+          "answer": true,
+          "explanation": "Gli is always the \"ly\" sound."
+        },
+        {
+          "id": "a1ap31",
+          "statement": "Every Italian vowel is pronounced clearly, with no reduction like English \"the\" becoming \"thuh\".",
+          "answer": true,
+          "explanation": "Italian vowels are always pronounced fully and clearly."
+        },
+        {
+          "id": "a1ap32",
+          "statement": "The Italian alphabet includes the letters j, k, w, x and y as native letters.",
+          "answer": false,
+          "explanation": "These only appear in loanwords like jeans or whisky, not native Italian words."
+        },
+        {
+          "id": "a1ap33",
+          "statement": "Qu is always pronounced \"kw\", the same as in English \"queen\".",
+          "answer": true,
+          "explanation": "Qu keeps the \"kw\" sound in Italian, just as in English."
+        },
+        {
+          "id": "a1ap34",
+          "statement": "Z is always silent in Italian.",
+          "answer": false,
+          "explanation": "Z is usually pronounced \"ts\", as in pizza, never silent."
+        },
+        {
+          "id": "a1ap35",
+          "statement": "Ci before a vowel (as in ciao) is the soft \"ch\" sound.",
+          "answer": true,
+          "explanation": "Ci before a vowel keeps the soft \"ch\" sound."
+        },
+        {
+          "id": "a1ap36",
+          "statement": "Ca, co and cu are all pronounced with the soft \"ch\" sound.",
+          "answer": false,
+          "explanation": "Ca/co/cu are the hard \"k\" sound; only ce/ci are soft."
+        }
+      ]
     }
   ],
   "summary": [
