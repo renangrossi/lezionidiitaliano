@@ -284,7 +284,34 @@
     <button type="button" class="back-to-top back-to-top--with-dict" data-back-to-top aria-label="Torna su">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
     </button>
-    
+    <button type="button" class="ai-teacher-toggle" data-ai-teacher-toggle aria-label="Chiedi all'Insegnante IA" aria-expanded="false" aria-haspopup="dialog">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 10-10-5L2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"/><path d="M22 10v6"/></svg>
+        <span class="ai-teacher-toggle__label">Prof IA</span>
+    </button>
+    <div class="ai-teacher-panel" data-ai-teacher-panel hidden role="dialog" aria-label="Chat con l'Insegnante IA di Italiano" aria-modal="false">
+        <div class="ai-teacher-panel__bar">
+            <div class="ai-teacher-panel__brand">
+                <svg class="ai-teacher-panel__brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 10-10-5L2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"/><path d="M22 10v6"/></svg>
+                <div>
+                    <strong>Insegnante IA di Italiano</strong>
+                    <span>Chiedi di grammatica, vocabolario o esercizi</span>
+                </div>
+            </div>
+            <button type="button" class="ai-teacher-panel__close" data-ai-teacher-close aria-label="Chiudi l'Insegnante IA"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="M6 6l12 12"/></svg></button>
+        </div>
+        <div class="ai-teacher-panel__messages" data-ai-teacher-messages role="log" aria-live="polite">
+            <div class="ai-teacher-msg ai-teacher-msg--bot">
+                <p>Ciao! Posso aiutarti con l'italiano. Chiedimi di grammatica, parole o esercizi.<br>Esempio: <em>&laquo;Spiegami il passato prossimo&raquo;</em> oppure <em>&laquo;Dammi un esercizio sul congiuntivo.&raquo;</em></p>
+            </div>
+        </div>
+        <form class="ai-teacher-panel__form" data-ai-teacher-form>
+            <label for="ai-teacher-input" class="visually-hidden">La tua domanda</label>
+            <textarea id="ai-teacher-input" data-ai-teacher-input rows="1" maxlength="600" placeholder="Scrivi la tua domanda&hellip;" required></textarea>
+            <button type="submit" class="ai-teacher-panel__send" data-ai-teacher-send aria-label="Invia domanda"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg></button>
+        </form>
+        <p class="ai-teacher-panel__hint" data-ai-teacher-hint>Le risposte provengono da un modello di IA e possono talvolta sbagliare &mdash; confronta sempre con il materiale della lezione. Nulla di ciò che scrivi viene salvato quando chiudi questa finestra.</p>
+    </div>
+    <script src="../assets/js/ai-teacher.js" data-ai-endpoint="https://ai-teacher-it.englishclasses.workers.dev"></script>
     <script src="../assets/js/main.js"></script>
     <script src="../assets/js/search.js"></script>
     <script src="../assets/js/dict-widget.js"></script>

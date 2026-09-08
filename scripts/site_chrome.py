@@ -66,7 +66,7 @@ AI_TEACHER_WORKER_URL = "https://ai-teacher-it.englishclasses.workers.dev"
 # pulsante ora porterebbe a una chat che non risponde mai — imposta su
 # True una volta che worker/ è distribuito con il tuo URL reale, poi
 # ricostruisci il sito.
-AI_TEACHER_ENABLED = False
+AI_TEACHER_ENABLED = True
 
 
 def nav_levels_html(rel, active_level_code):
