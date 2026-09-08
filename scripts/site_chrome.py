@@ -4,8 +4,10 @@ on the Italian course. This is the sister module to the English course's
 scripts/site_chrome.py, adapted in four structural ways beyond the
 obvious rebrand:
 
-  1. No AI Teacher panel/button — omitted sitewide (needs a Cloudflare
-     Worker + API key the Italian project doesn't have yet).
+  1. AI Teacher panel/button — gated behind AI_TEACHER_ENABLED (see
+     below), same pattern as course-spanish. Stays False until
+     worker/ is actually deployed to a real Cloudflare Worker; see
+     worker/README.md.
   2. No Pre-A1 level — this course ships six levels, A1 through C2.
   3. EVERY page on this site (not just generated lesson pages) is built
      through this module, including the homepage and every standalone
@@ -50,6 +52,22 @@ STARS_ROW_GOLD = f'<div class="stars-row stars-row--gold" aria-hidden="true">{ST
 CHECK_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>'
 ARROW_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>'
 
+# Endpoint del Worker dell'Insegnante IA. worker/wrangler.toml chiama il
+# Worker "ai-teacher-it"; se lo distribuisci sullo stesso account
+# Cloudflare dei corsi di inglese/latino/greco/spagnolo (sottodominio
+# "englishclasses"), l'URL sotto è già quello corretto. Se usi un
+# account o sottodominio diverso, sostituiscilo con l'URL reale
+# stampato da `wrangler deploy` (vedi worker/README.md, passo 6) e
+# ricostruisci il sito.
+AI_TEACHER_WORKER_URL = "https://ai-teacher-it.englishclasses.workers.dev"
+
+# Il pulsante/pannello dell'Insegnante IA viene generato solo se questo
+# è True. Il Worker non è ancora distribuito, quindi mostrare il
+# pulsante ora porterebbe a una chat che non risponde mai — imposta su
+# True una volta che worker/ è distribuito con il tuo URL reale, poi
+# ricostruisci il sito.
+AI_TEACHER_ENABLED = False
+
 
 def nav_levels_html(rel, active_level_code):
     items = []
@@ -87,6 +105,7 @@ def head(rel, title, description, extra_css=None):
 <link rel="stylesheet" href="{rel}assets/css/components.css">
 <link rel="stylesheet" href="{rel}assets/css/layout.css">
 <link rel="stylesheet" href="{rel}assets/css/dark-mode.css">
+<link rel="stylesheet" href="{rel}assets/css/ai-teacher.css">
 <link rel="stylesheet" href="{rel}assets/css/search.css">{extra}
 <script>
 (function(){{try{{var t=localStorage.getItem('theme');if(!t){{t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}}document.documentElement.setAttribute('data-theme',t);}}catch(e){{}}}})();
@@ -170,6 +189,34 @@ def header(rel, active_level_code, breadcrumb_html=None, active_top=None):
 
 def footer(rel, extra_scripts=None):
     extra = "".join(f'<script src="{rel}assets/js/{s}"></script>' for s in (extra_scripts or []))
+    ai_teacher_widget = f"""<button type="button" class="ai-teacher-toggle" data-ai-teacher-toggle aria-label="Chiedi all'Insegnante IA" aria-expanded="false" aria-haspopup="dialog">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 10-10-5L2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"/><path d="M22 10v6"/></svg>
+        <span class="ai-teacher-toggle__label">Prof IA</span>
+    </button>
+    <div class="ai-teacher-panel" data-ai-teacher-panel hidden role="dialog" aria-label="Chat con l'Insegnante IA di Italiano" aria-modal="false">
+        <div class="ai-teacher-panel__bar">
+            <div class="ai-teacher-panel__brand">
+                <svg class="ai-teacher-panel__brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 10-10-5L2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"/><path d="M22 10v6"/></svg>
+                <div>
+                    <strong>Insegnante IA di Italiano</strong>
+                    <span>Chiedi di grammatica, vocabolario o esercizi</span>
+                </div>
+            </div>
+            <button type="button" class="ai-teacher-panel__close" data-ai-teacher-close aria-label="Chiudi l'Insegnante IA"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="M6 6l12 12"/></svg></button>
+        </div>
+        <div class="ai-teacher-panel__messages" data-ai-teacher-messages role="log" aria-live="polite">
+            <div class="ai-teacher-msg ai-teacher-msg--bot">
+                <p>Ciao! Posso aiutarti con l'italiano. Chiedimi di grammatica, parole o esercizi.<br>Esempio: <em>&laquo;Spiegami il passato prossimo&raquo;</em> oppure <em>&laquo;Dammi un esercizio sul congiuntivo.&raquo;</em></p>
+            </div>
+        </div>
+        <form class="ai-teacher-panel__form" data-ai-teacher-form>
+            <label for="ai-teacher-input" class="visually-hidden">La tua domanda</label>
+            <textarea id="ai-teacher-input" data-ai-teacher-input rows="1" maxlength="600" placeholder="Scrivi la tua domanda&hellip;" required></textarea>
+            <button type="submit" class="ai-teacher-panel__send" data-ai-teacher-send aria-label="Invia domanda"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg></button>
+        </form>
+        <p class="ai-teacher-panel__hint" data-ai-teacher-hint>Le risposte provengono da un modello di IA e possono talvolta sbagliare &mdash; confronta sempre con il materiale della lezione. Nulla di ciò che scrivi viene salvato quando chiudi questa finestra.</p>
+    </div>
+    <script src="{rel}assets/js/ai-teacher.js" data-ai-endpoint="{AI_TEACHER_WORKER_URL}"></script>""" if AI_TEACHER_ENABLED else ""
     return f"""<button type="button" class="dict-widget-toggle" data-dict-widget-toggle aria-label="Apri il dizionario rapido" aria-expanded="false" aria-haspopup="dialog">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg>
     </button>
@@ -235,6 +282,7 @@ def footer(rel, extra_scripts=None):
     <button type="button" class="back-to-top back-to-top--with-dict" data-back-to-top aria-label="Torna su">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
     </button>
+    {ai_teacher_widget}
     <script src="{rel}assets/js/main.js"></script>
     <script src="{rel}assets/js/search.js"></script>
     <script src="{rel}assets/js/dict-widget.js"></script>

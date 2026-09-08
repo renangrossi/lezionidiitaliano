@@ -1,0 +1,456 @@
+{
+  "levels": [
+    {
+      "code": "A1",
+      "name": "Principiante",
+      "url": "levels/a1.html"
+    },
+    {
+      "code": "A2",
+      "name": "Elementare",
+      "url": "levels/a2.html"
+    },
+    {
+      "code": "B1",
+      "name": "Intermedio",
+      "url": "levels/b1.html"
+    },
+    {
+      "code": "B2",
+      "name": "Intermedio Superiore",
+      "url": "levels/b2.html"
+    },
+    {
+      "code": "C1",
+      "name": "Avanzato",
+      "url": "levels/c1.html"
+    },
+    {
+      "code": "C2",
+      "name": "Padronanza",
+      "url": "levels/c2.html"
+    }
+  ],
+  "resources": [
+    {
+      "level": "A1",
+      "title": "Aggettivi e Accordo",
+      "url": "levels/a1/aggettivi-e-accordo.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "L'Alfabeto e la Pronuncia",
+      "url": "levels/a1/alfabeto-e-pronuncia.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "C'è e Ci Sono",
+      "url": "levels/a1/ce-ci-sono.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Domande e Parole Interrogative",
+      "url": "levels/a1/domande.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Essere e Avere",
+      "url": "levels/a1/essere-e-avere.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Genere degli Articoli e dei Sostantivi",
+      "url": "levels/a1/genere-e-articoli.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Numeri, Ora e Data",
+      "url": "levels/a1/numeri-ora-e-data.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Preposizioni Semplici",
+      "url": "levels/a1/preposizioni-semplici.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Presente Indicativo dei Verbi Regolari",
+      "url": "levels/a1/presente-verbi-regolari.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Pronomi Personali Soggetto",
+      "url": "levels/a1/pronomi-soggetto.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Saluti e Presentazioni",
+      "url": "levels/a1/saluti-e-presentazioni.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A1",
+      "title": "Mettiti alla Prova A1 (ripasso completo)",
+      "url": "levels/a1/test-yourself.html",
+      "type": "test"
+    },
+    {
+      "level": "A1",
+      "title": "I Primi Verbi Irregolari: Andare, Fare, Volere",
+      "url": "levels/a1/verbi-irregolari-comuni.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Aggettivi e Pronomi Possessivi",
+      "url": "levels/a2/aggettivi-pronomi-possessivi.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Espressioni di Tempo e Avverbi di Frequenza",
+      "url": "levels/a2/avverbi-di-frequenza.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "I Comparativi",
+      "url": "levels/a2/comparativi.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Passato Prossimo con Avere",
+      "url": "levels/a2/passato-prossimo-avere.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Passato Prossimo con Essere",
+      "url": "levels/a2/passato-prossimo-essere.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Preposizioni Articolate",
+      "url": "levels/a2/preposizioni-articolate.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Pronomi Diretti",
+      "url": "levels/a2/pronomi-diretti.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Mettiti alla Prova A2 (ripasso completo)",
+      "url": "levels/a2/test-yourself.html",
+      "type": "test"
+    },
+    {
+      "level": "A2",
+      "title": "Altri Verbi Irregolari al Presente",
+      "url": "levels/a2/verbi-irregolari-presente.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "I Verbi Modali: Dovere, Potere, Volere",
+      "url": "levels/a2/verbi-modali.html",
+      "type": "lesson"
+    },
+    {
+      "level": "A2",
+      "title": "Verbi Riflessivi",
+      "url": "levels/a2/verbi-riflessivi.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Ci e Ne",
+      "url": "levels/b1/ci-e-ne.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Il Condizionale Presente",
+      "url": "levels/b1/condizionale-presente.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Il Futuro Semplice",
+      "url": "levels/b1/futuro-semplice.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "L'Imperativo Formale",
+      "url": "levels/b1/imperativo-formale.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "L'Imperativo Informale",
+      "url": "levels/b1/imperativo-informale.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Imperfetto vs. Passato Prossimo",
+      "url": "levels/b1/imperfetto-vs-passato-prossimo.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "L'Imperfetto",
+      "url": "levels/b1/imperfetto.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Pronomi Combinati",
+      "url": "levels/b1/pronomi-combinati.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Pronomi Indiretti",
+      "url": "levels/b1/pronomi-indiretti.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "I Superlativi",
+      "url": "levels/b1/superlativi.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B1",
+      "title": "Mettiti alla Prova B1 (ripasso completo)",
+      "url": "levels/b1/test-yourself.html",
+      "type": "test"
+    },
+    {
+      "level": "B2",
+      "title": "Il Congiuntivo Imperfetto",
+      "url": "levels/b2/congiuntivo-imperfetto.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B2",
+      "title": "Il Congiuntivo Presente: Formazione",
+      "url": "levels/b2/congiuntivo-presente.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B2",
+      "title": "Il Congiuntivo dopo Opinione, Dubbio ed Emozione",
+      "url": "levels/b2/congiuntivo-uso.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B2",
+      "title": "Il Discorso Indiretto",
+      "url": "levels/b2/discorso-indiretto.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B2",
+      "title": "La Forma Passiva",
+      "url": "levels/b2/forma-passiva.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B2",
+      "title": "Il Periodo Ipotetico (I e II tipo)",
+      "url": "levels/b2/periodo-ipotetico.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B2",
+      "title": "I Pronomi Relativi",
+      "url": "levels/b2/pronomi-relativi.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B2",
+      "title": "Mettiti alla Prova B2 (ripasso completo)",
+      "url": "levels/b2/test-yourself.html",
+      "type": "test"
+    },
+    {
+      "level": "B2",
+      "title": "Il Trapassato Prossimo",
+      "url": "levels/b2/trapassato-prossimo.html",
+      "type": "lesson"
+    },
+    {
+      "level": "B2",
+      "title": "Verbi Seguiti da Preposizione + Infinito",
+      "url": "levels/b2/verbi-preposizione-infinito.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C1",
+      "title": "Ci e Ne Avanzati con l'Imperativo e l'Infinito",
+      "url": "levels/c1/ci-ne-avanzato.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C1",
+      "title": "Il Congiuntivo Trapassato e la Concordanza dei Tempi",
+      "url": "levels/c1/congiuntivo-trapassato.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C1",
+      "title": "Connettivi Testuali Avanzati",
+      "url": "levels/c1/connettivi-testuali.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C1",
+      "title": "Il Gerundio e la Forma Progressiva",
+      "url": "levels/c1/gerundio-progressivo.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C1",
+      "title": "Il Periodo Ipotetico di Terzo Tipo",
+      "url": "levels/c1/periodo-ipotetico-terzo-tipo.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C1",
+      "title": "Registro Formale e Informale nella Scrittura",
+      "url": "levels/c1/registro-formale-informale.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C1",
+      "title": "Sfumature del Congiuntivo",
+      "url": "levels/c1/sfumature-congiuntivo.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C1",
+      "title": "Mettiti alla Prova C1 (ripasso completo)",
+      "url": "levels/c1/test-yourself.html",
+      "type": "test"
+    },
+    {
+      "level": "C1",
+      "title": "Verbi Pronominali",
+      "url": "levels/c1/verbi-pronominali.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C2",
+      "title": "Coesione Testuale Avanzata: Anafora ed Ellissi",
+      "url": "levels/c2/coesione-testuale.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C2",
+      "title": "Modalità e Attenuazione",
+      "url": "levels/c2/modalita-attenuazione.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C2",
+      "title": "Registro Letterario e Forme Arcaiche",
+      "url": "levels/c2/registro-letterario.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C2",
+      "title": "Sfumature Lessicali e Collocazioni",
+      "url": "levels/c2/sfumature-lessicali.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C2",
+      "title": "Sintassi Complessa e Inversione",
+      "url": "levels/c2/sintassi-complessa.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C2",
+      "title": "L'Arte della Sintesi: Riassumere e Argomentare",
+      "url": "levels/c2/sintesi-argomentazione.html",
+      "type": "lesson"
+    },
+    {
+      "level": "C2",
+      "title": "Mettiti alla Prova C2 (ripasso completo)",
+      "url": "levels/c2/test-yourself.html",
+      "type": "test"
+    },
+    {
+      "level": "C2",
+      "title": "Italiano Regionale e Varietà",
+      "url": "levels/c2/varieta-regionale.html",
+      "type": "lesson"
+    },
+    {
+      "level": null,
+      "title": "Esercizi di Pratica",
+      "url": "exercises.html",
+      "type": "page"
+    },
+    {
+      "level": null,
+      "title": "Dizionario e Riferimenti",
+      "url": "dictionary.html",
+      "type": "page"
+    },
+    {
+      "level": null,
+      "title": "Test di Livello",
+      "url": "placement-test.html",
+      "type": "page"
+    },
+    {
+      "level": null,
+      "title": "Esami Simulati",
+      "url": "simulated-exams.html",
+      "type": "page"
+    },
+    {
+      "level": null,
+      "title": "Extra",
+      "url": "extras.html",
+      "type": "page"
+    },
+    {
+      "level": null,
+      "title": "Verbi Irregolari",
+      "url": "irregular-verbs.html",
+      "type": "page"
+    },
+    {
+      "level": null,
+      "title": "Ripasso di Oggi",
+      "url": "today-review.html",
+      "type": "page"
+    },
+    {
+      "level": null,
+      "title": "I Miei Progressi",
+      "url": "progress.html",
+      "type": "page"
+    }
+  ]
+}
